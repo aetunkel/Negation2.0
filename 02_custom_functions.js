@@ -4,8 +4,13 @@
 *
 *
 */
-const coin = _.sample(["head", "tail"]); // You can determine global (random) parameters here
-// Declare your variables here
+$(document).keypress(
+  function(event){
+    if (event.which == '13') {
+      event.preventDefault();
+    }
+});
+
 
 shuffle = function (o) { //v1.0
   for (var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
@@ -159,18 +164,6 @@ const time_limit = function(data, next) {
     }, 5000));
     next();
 };
-
-// compares the chosen answer to the value of `option1`
-check_response = function(data, next) {
-    $('input[name=answer]').on('change', function(e) {
-        if (e.target.value === data.correct) {
-            alert('Your answer is correct! Yey!');
-        } else {
-            alert('Sorry, this answer is incorrect :( The correct answer was ' + data.correct);
-        }
-        next();
-    })
-}
 
 // Declare your hooks here
 

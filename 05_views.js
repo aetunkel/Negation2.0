@@ -50,7 +50,7 @@ const instructions = babeViews.view_generator("instructions",{
     title: 'Game Instructions',
     text:  ` You will be helping a partner choose between two objects by typing a message into a textbox. <br /><br />
             A <strong style="color:blue;"> blue square</strong> will indicate the object you should discuss. <br /><br />
-            Your partner will use your message to select between the same two objects, which may be in a different order.
+            Your messages will be used in another HIT where your partner will to use them to select between the same two objects, which may be in a different order.
            <br /><br />
 
            Please stay on topic. Random responses will result in rejected Hits. <br /> <br /></div>` ,
@@ -61,7 +61,7 @@ const images = babeViews.view_generator("images",{
   trials: 1,
   name: "images",
   title: "Game Instructions",
-  text: `These are images you will see in this experiment. Some may appear more than others.
+  text: `These are objects about which you will communicate in this experiment. Some may appear more than others.
   <div style='width: 1000px; margin: auto; text-align: center'>
       <div class="row">
         <div class="column"><img src='img/1.jpg' width="150" height="140"></img></div>

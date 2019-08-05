@@ -33,20 +33,23 @@
   .column2 {
       float: left;
       margin-top: 0px;
-      width: 48%;           /* change this to denote how many are in a row*/
-      padding: 5px;
+      width: 50%;           /* change this to denote how many are in a row*/
+      padding: 0px;
     }
 
   .image {
-    width: 300px;
-    height: 300px;
-    float: left;
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-right: 50px;
   }
 
   .target {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-style: solid;
     border-width: medium;
     border-color: blue;
+    margin-left: 100px;
+    margin-right: 50px;
   }
