@@ -50,7 +50,8 @@ const instructions = babeViews.view_generator("instructions",{
     title: 'Game Instructions',
     text:  ` You will be helping a partner choose between two objects by typing a message into a textbox. <br /><br />
             A <strong style="color:blue;"> blue square</strong> will indicate the object you should discuss. <br /><br />
-            Your messages will be used in another HIT where your partner will to use them to select between the same two objects, which may be in a different order.
+            Your messages will be used in another HIT where your partner will to use them to select between the same two objects <br /><br />
+            These objects may be on different sides of the screen, but will always be in the same order from start to finish. 
            <br /><br />
 
            Please stay on topic. Random responses will result in rejected Hits. <br /> <br /></div>` ,
