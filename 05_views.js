@@ -52,10 +52,11 @@ const instructions = babeViews.view_generator("instructions",{
             A <strong style="color:blue;"> blue square</strong> will indicate the object you should discuss. <br /><br />
             In another HIT, your partner will use your messages to select between the same two objects.
             These objects may be on different sides of the screen, but will always be in the same order from start to finish.
-           <br /><br /><br />
+           <br /><br />
+           We will start with a short practice round. <br /><br /><br />
 
            <i> Please stay on topic. Random responses will result in rejected Hits. <i> <br /> <br /></div>` ,
-    buttonText: 'Next'
+    buttonText: 'Go to Practice'
 });
 
 const images = babeViews.view_generator("images",{
@@ -65,11 +66,11 @@ const images = babeViews.view_generator("images",{
   text: `These are objects about which you will communicate in this experiment. Some may appear more than others.
   <div style='width: 1000px; margin: auto; text-align: center'>
       <div class="row">
-        <div class="column"><img src='img/1.jpg' width="150" height="140"></img></div>
         <div class="column"><img src='img/A.jpg' width="150" height="140"></img></div>
         <div class="column"><img src='img/2.jpg' width="150" height="140"></img></div>
         <div class="column"><img src='img/B.jpg' width="150" height="140"></img></div>
         <div class="column"><img src='img/3.jpg' width="150" height="140"></img></div>
+        <div class="column"><img src='img/1.jpg' width="100" height="140"></img></div>
         <div class="column"><img src='img/C.jpg' width="150" height="140"></img></div>
         <div class="column"><img src='img/4.jpg' width="150" height="140"></img></div>
         <div class="column"><img src='img/D.jpg' width="150" height="140"></img></div>
@@ -89,7 +90,19 @@ const images = babeViews.view_generator("images",{
         <div class="column"><img src='img/K.jpg' width="150" height="140"></img></div>
         <div class="column"><img src='img/12.jpg' width="150" height="140"></img></div>
         <div class="column"><img src='img/L.jpg' width="150" height="140"></img></div>
+        <div class="column"><img src='img/practiceDistractor1.jpg' width="150" height="140"></img></div>
+        <div class="column"><img src='img/practiceTarget1.jpg' width="150" height="140"></img></div>
+        <div class="column"><img src='img/practiceDistractor2.jpg' width="150" height="140"></img></div>
+        <div class="column"><img src='img/practiceTarget2.jpg' width="150" height="140"></img></div>
     </div></div>`,
+    buttonText: 'Begin Practice'
+});
+
+const endPractice = babeViews.view_generator("endPractice",{
+    trials: 1,
+    name: 'endPractice',
+    title: '',
+    text:  `Now we will begin the game.` ,
     buttonText: 'Begin'
 });
 

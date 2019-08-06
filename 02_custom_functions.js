@@ -44,6 +44,8 @@ for(i=0; i<knownArray1.length; i++){
   }
 };
 
+var practice1 = ["<img src = 'img/practiceTarget1.jpg' class='target'>", "<img src='img/practiceDistractor1.jpg' class='image'>"];
+var practice2 = ["<img src='img/practiceDistractor2.jpg' class='image'>", "<img src ='img/practiceTarget2.jpg' class='target'>"];
 
 // control
 var trial1 = [knownArrayShuffle[0], knownArrayShuffle[1]];
@@ -59,14 +61,14 @@ var trial4 = [knownArrayShuffle[6], knownArrayShuffle[7]];
 shuffle(trial4);
 
 // experimental
-var trial5 = [knownArrayShuffle[0], knownArrayShuffle[5]];
+var trial5 = [knownArrayShuffle[8], knownArrayShuffle[7]];
 shuffle(trial5);
-var trial6 = [knownArrayShuffle[0], knownArrayShuffle[7]];
+var trial6 = [knownArrayShuffle[8], knownArrayShuffle[9]];
 shuffle(trial6);
-var trial7 = [knownArrayShuffle[0], knownArrayShuffle[9]];
+var trial7 = [knownArrayShuffle[8], knownArrayShuffle[11]];
 shuffle(trial7);
-knownArrayShuffle[0] = "<img src='img/"+ knownArray1[0] + ".jpg' class='image'>";
-var trial8 = [knownArrayShuffle[6], knownArrayShuffle[0]];
+knownArrayShuffle[8] = "<img src='img/"+ knownArray1[8] + ".jpg' class='image'>";
+var trial8 = [knownArrayShuffle[10], knownArrayShuffle[8]];
 shuffle(trial8);
 
 
@@ -110,14 +112,14 @@ var trial12 = [unkArrayShuffle[6], unkArrayShuffle[7]];
 shuffle(trial12);
 
 // experimental
-var trial13 = [unkArrayShuffle[0], unkArrayShuffle[5]];
+var trial13 = [unkArrayShuffle[8], unkArrayShuffle[7]];
 shuffle(trial13)
-var trial14 = [unkArrayShuffle[0], unkArrayShuffle[7]]
+var trial14 = [unkArrayShuffle[8], unkArrayShuffle[9]]
 shuffle(trial14)
-var trial15 = [unkArrayShuffle[0], unkArrayShuffle[9]]
+var trial15 = [unkArrayShuffle[8], unkArrayShuffle[11]]
 shuffle(trial15)
-unkArrayShuffle[0] = "<img src='img/"+ unkArray1[0] + ".jpg' class='image'>";
-var trial16 = [unkArrayShuffle[6], unkArrayShuffle[0]];
+unkArrayShuffle[8] = "<img src='img/"+ unkArray1[8] + ".jpg' class='image'>";
+var trial16 = [unkArrayShuffle[10], unkArrayShuffle[8]];
 shuffle(trial16);
 
 

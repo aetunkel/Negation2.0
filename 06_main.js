@@ -19,6 +19,7 @@ $("document").ready(function() {
             instructions,
             images,
             forced_choice_2A,
+            endPractice,
             trial,
             post_test,
             thanks,
