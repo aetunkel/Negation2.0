@@ -48,14 +48,15 @@ const instructions = babeViews.view_generator("instructions",{
     trials: 1,
     name: 'instrucions',
     title: 'Game Instructions',
-    text:  ` You will be helping a partner choose between two objects by typing a message into a textbox. <br /><br />
-            A <strong style="color:blue;"> blue square</strong> will indicate the object you should discuss. <br /><br />
-            In another HIT, your partner will use your messages to select between the same two objects.
-            These objects may be on different sides of the screen, but will always be in the same order from start to finish.
-           <br /><br />
-           We will start with a short practice round. <br /><br /><br />
+    text:  `On each round of the game, you will see two objects. The <b>target object</b> will have a <strong style="color:blue;"> blue box </strong> around it.
 
-           <i> Please stay on topic. Random responses will result in rejected Hits. <i> <br /> <br /></div>` ,
+    <br /><br />
+    Your goal is to type a message into the textbox bellow the objects that will help a future Turker correctly select the <b>target object</b>. Note: The objects objects may be in different locations on the Turker's screen, so messages like "left" or "right" will not be effective.
+
+    <br /><br />
+    We will start with a short practice round. <br /><br />
+
+    <i> Please stay on topic. Random responses will result in rejected Hits. <i> <br /> <br /></div>` ,
     buttonText: 'Go to Practice'
 });
 
@@ -66,34 +67,34 @@ const images = babeViews.view_generator("images",{
   text: `These are objects about which you will communicate in this experiment. Some may appear more than others.
   <div style='width: 1000px; margin: auto; text-align: center'>
       <div class="row">
-        <div class="column"><img src='img/A.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/2.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/B.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/3.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/1.jpg' width="100" height="140"></img></div>
-        <div class="column"><img src='img/C.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/4.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/D.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/5.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/E.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/6.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/F.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/7.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/G.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/8.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/H.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/9.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/I.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/10.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/J.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/11.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/K.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/12.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/L.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/practiceDistractor1.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/practiceTarget1.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/practiceDistractor2.jpg' width="150" height="140"></img></div>
-        <div class="column"><img src='img/practiceTarget2.jpg' width="150" height="140"></img></div>
+        <div class="column"><img src='img/A.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/2.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/B.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/3.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/1.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/C.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/4.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/D.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/5.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/E.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/6.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/F.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/7.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/G.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/8.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/H.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/9.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/I.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/10.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/J.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/11.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/K.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/12.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/L.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/practiceDistractor1.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/practiceTarget1.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/practiceDistractor2.jpg' width="130" height="130"></img></div>
+        <div class="column"><img src='img/practiceTarget2.jpg' width="130" height="130"></img></div>
     </div></div>`,
     buttonText: 'Begin Practice'
 });
