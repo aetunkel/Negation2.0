@@ -262,17 +262,18 @@ trialnum = 5;
 allStim = [];
 
 
+for(i=0; i<8; i++){
+    leftpic = allUnk[i][0];
+    rightpic = allUnk[i][1];
+     allStim.push({preamble: "<table align = 'center'><tr><td height = 200>" + leftpic + "</td><td width = 150></td><td height = 200>" + rightpic + "</td></tr></table>"});
+   };
+
   for(i=0; i<8; i++){
     leftpic = allKnown[i][0];
     rightpic = allKnown[i][1];
     allStim.push({preamble: "<table align = 'center'><tr><td height = 200>" + leftpic + "</td><td width = 150></td><td height = 200>" + rightpic + "</td></tr></table>"});
    };
 
-    for(i=0; i<8; i++){
-    leftpic = allUnk[i][0];
-    rightpic = allUnk[i][1];
-     allStim.push({preamble: "<table align = 'center'><tr><td height = 200>" + leftpic + "</td><td width = 150></td><td height = 200>" + rightpic + "</td></tr></table>"});
-   };
 
 
 
@@ -287,6 +288,7 @@ var test = {
         jsPsych.setProgressBar(trialnum/21);
     	}
 	};
+
 
 
 

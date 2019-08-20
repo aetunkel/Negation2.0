@@ -1,8 +1,8 @@
 {
  "_cosubSpecVersion": 2,
- "Url": "https://callab.uchicago.edu/experiments/negation-js/similar1.html",
+ "Url": "https://callab.uchicago.edu/experiments/negation/unkFirst.html",
  "Title": "Communication Game",
- "Description": "Communication",
+ "Description": "describe images to a partner",
  "Keywords": "communication",
  "Batch": true,
  "FrameHeight": 600,
