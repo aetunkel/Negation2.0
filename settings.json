@@ -1,0 +1,30 @@
+{
+ "_cosubSpecVersion": 2,
+ "Url": "https://callab.uchicago.edu/experiments/negation-js/similar1.html",
+ "Title": "Communication Game",
+ "Description": "Communication",
+ "Keywords": "communication",
+ "Batch": true,
+ "FrameHeight": 600,
+ "AssignmentDuration": "60 minutes",
+ "AutoApprovalDelay": "5 minutes",
+ "Reward": "0.5",
+ "QualificationRequirements": [
+  {
+   "Name": "Worker_Locale",
+   "Comparator": "EqualTo",
+   "LocaleValues": [
+    {
+     "Country": "US"
+    }
+   ]
+  },
+  {
+   "Name": "Worker_PercentAssignmentsApproved",
+   "Comparator": "GreaterThanOrEqualTo",
+   "IntegerValues": [
+    95
+   ]
+  }
+ ]
+}
