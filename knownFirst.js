@@ -262,17 +262,18 @@ trialnum = 5;
 allStim = [];
 
 
+for(i=0; i<8; i++){
+    leftpic = allUnk[i][0];
+    rightpic = allUnk[i][1];
+     allStim.push({preamble: "<table align = 'center'><tr><td height = 200>" + leftpic + "</td><td width = 150></td><td height = 200>" + rightpic + "</td></tr></table>"});
+   };
+
   for(i=0; i<8; i++){
     leftpic = allKnown[i][0];
     rightpic = allKnown[i][1];
     allStim.push({preamble: "<table align = 'center'><tr><td height = 200>" + leftpic + "</td><td width = 150></td><td height = 200>" + rightpic + "</td></tr></table>"});
    };
 
-    for(i=0; i<8; i++){
-    leftpic = allUnk[i][0];
-    rightpic = allUnk[i][1];
-     allStim.push({preamble: "<table align = 'center'><tr><td height = 200>" + leftpic + "</td><td width = 150></td><td height = 200>" + rightpic + "</td></tr></table>"});
-   };
 
 
 
@@ -280,13 +281,13 @@ var test = {
 	    type: 'survey-text',
       preamble: jsPsych.timelineVariable('preamble'),
       questions: [{prompt:"Type a message to your partner:", required: true}],
-      response_ends_trial: true,
 	    post_trial_gap: 100,
 	  on_finish: function(){
 	    trialnum = trialnum + 1;
         jsPsych.setProgressBar(trialnum/21);
     	}
 	};
+
 
 
 
@@ -320,8 +321,7 @@ var test = {
 				var responses = jsPsych.data.get().filter({trial_type: 'survey-text'}).csv();
                 data= {
                     responses : responses,
-                    rt : reactionTime,
-                    question_order: order,
+                    trial_info : allStim,
                     };
 
 				turk.submit(data);

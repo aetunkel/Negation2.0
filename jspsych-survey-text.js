@@ -143,7 +143,7 @@ jsPsych.plugins['survey-text'] = (function() {
     // backup in case autofocus doesn't work
     display_element.querySelector('#input-'+question_order[0]).focus();
 
-    display_element.querySelector('#jspsych-survey-text-form').addEventListener('submit', function(e) {
+    display_element.querySelector('#jspsych-survey-text-form').addEventListener('submit', function(e) { // this is not what fixes submitting
       e.preventDefault();
       // measure response time
       var endTime = performance.now();
@@ -164,11 +164,16 @@ jsPsych.plugins['survey-text'] = (function() {
         obje[name] = val;
         Object.assign(question_data, obje);
       }
+
+      console.log(question_data);
+      
       // save data
       var trialdata = {
         "rt": response_time,
         "responses": JSON.stringify(question_data)
       };
+
+      console.log(trialdata);
 
       display_element.innerHTML = '';
 

@@ -1,0 +1,64 @@
+{
+ "AssignmentId": "3R2PKQ87NXXKY5NFV85I5HR14PRMI2",
+ "WorkerId": "34c01b0de7319d3f75ce2c5a44042470",
+ "HITId": "3I7KR83SNA2TBWWFG0HNOR4DQG89KW",
+ "AssignmentStatus": "Submitted",
+ "AutoApprovalTime": "2019-08-20T19:13:58.000Z",
+ "AcceptTime": "2019-08-20T19:08:40.000Z",
+ "SubmitTime": "2019-08-20T19:08:58.000Z",
+ "answers": {
+  "data": {
+   "responses": "\"rt\",\"responses\",\"trial_type\",\"trial_index\",\"time_elapsed\",\"internal_node_id\"\r\n\"1426.0599999688566\",\"{\"\"Q0\"\":\"\"dd\"\"}\",\"survey-text\",\"3\",\"5765\",\"0.0-3.0\"\r\n\"1485.6650000438094\",\"{\"\"Q0\"\":\"\"q\"\"}\",\"survey-text\",\"4\",\"7356\",\"0.0-4.0\"\r\n\"758.3600000361912\",\"{\"\"Q0\"\":\"\"q\"\"}\",\"survey-text\",\"5\",\"8220\",\"0.0-5.0-0.0\"\r\n\"455.27499995660037\",\"{\"\"Q0\"\":\"\"q\"\"}\",\"survey-text\",\"6\",\"8784\",\"0.0-5.0-0.1\"\r\n\"404.2399999452755\",\"{\"\"Q0\"\":\"\"q\"\"}\",\"survey-text\",\"7\",\"9291\",\"0.0-5.0-0.2\"\r\n\"394.61999997729436\",\"{\"\"Q0\"\":\"\"q\"\"}\",\"survey-text\",\"8\",\"9792\",\"0.0-5.0-0.3\"\r\n\"385.6150000356138\",\"{\"\"Q0\"\":\"\"q\"\"}\",\"survey-text\",\"9\",\"10283\",\"0.0-5.0-0.4\"\r\n\"387.2099999571219\",\"{\"\"Q0\"\":\"\"q\"\"}\",\"survey-text\",\"10\",\"10775\",\"0.0-5.0-0.5\"\r\n\"345.16500000609085\",\"{\"\"Q0\"\":\"\"q\"\"}\",\"survey-text\",\"11\",\"11223\",\"0.0-5.0-0.6\"\r\n\"701.0299999965355\",\"{\"\"Q0\"\":\"\"q\"\"}\",\"survey-text\",\"12\",\"12032\",\"0.0-5.0-0.7\"\r\n\"753.8649999769405\",\"{\"\"Q0\"\":\"\"q\"\"}\",\"survey-text\",\"13\",\"12889\",\"0.0-5.0-0.8\"\r\n\"444.1450000158511\",\"{\"\"Q0\"\":\"\"q\"\"}\",\"survey-text\",\"14\",\"13437\",\"0.0-5.0-0.9\"\r\n\"411.179999995511\",\"{\"\"Q0\"\":\"\"q\"\"}\",\"survey-text\",\"15\",\"13952\",\"0.0-5.0-0.10\"\r\n\"380.9900000342168\",\"{\"\"Q0\"\":\"\"q\"\"}\",\"survey-text\",\"16\",\"14436\",\"0.0-5.0-0.11\"\r\n\"834.9250000319444\",\"{\"\"Q0\"\":\"\"q\"\"}\",\"survey-text\",\"17\",\"15376\",\"0.0-5.0-0.12\"\r\n\"434.95500000426546\",\"{\"\"Q0\"\":\"\"q\"\"}\",\"survey-text\",\"18\",\"15916\",\"0.0-5.0-0.13\"\r\n\"386.83500001206994\",\"{\"\"Q0\"\":\"\"q\"\"}\",\"survey-text\",\"19\",\"16408\",\"0.0-5.0-0.14\"\r\n\"371.770000027027\",\"{\"\"Q0\"\":\"\"q\"\"}\",\"survey-text\",\"20\",\"16884\",\"0.0-5.0-0.15\"\r\n",
+   "trial_info": [
+    {
+     "preamble": "<table align = 'center'><tr><td height = 200><img src='img/8.jpg' class='image'></td><td width = 150></td><td height = 200><img src='img/7.jpg' class='target'></td></tr></table>"
+    },
+    {
+     "preamble": "<table align = 'center'><tr><td height = 200><img src='img/5.jpg' class='target'></td><td width = 150></td><td height = 200><img src='img/3.jpg' class='image'></td></tr></table>"
+    },
+    {
+     "preamble": "<table align = 'center'><tr><td height = 200><img src='img/2.jpg' class='image'></td><td width = 150></td><td height = 200><img src='img/11.jpg' class='target'></td></tr></table>"
+    },
+    {
+     "preamble": "<table align = 'center'><tr><td height = 200><img src='img/12.jpg' class='image'></td><td width = 150></td><td height = 200><img src='img/1.jpg' class='target'></td></tr></table>"
+    },
+    {
+     "preamble": "<table align = 'center'><tr><td height = 200><img src='img/10.jpg' class='target'></td><td width = 150></td><td height = 200><img src='img/12.jpg' class='image'></td></tr></table>"
+    },
+    {
+     "preamble": "<table align = 'center'><tr><td height = 200><img src='img/4.jpg' class='image'></td><td width = 150></td><td height = 200><img src='img/10.jpg' class='target'></td></tr></table>"
+    },
+    {
+     "preamble": "<table align = 'center'><tr><td height = 200><img src='img/10.jpg' class='target'></td><td width = 150></td><td height = 200><img src='img/6.jpg' class='image'></td></tr></table>"
+    },
+    {
+     "preamble": "<table align = 'center'><tr><td height = 200><img src='img/9.jpg' class='target'></td><td width = 150></td><td height = 200><img src='img/10.jpg' class='image'></td></tr></table>"
+    },
+    {
+     "preamble": "<table align = 'center'><tr><td height = 200><img src='img/J.jpg' class='target'></td><td width = 150></td><td height = 200><img src='img/K.jpg' class='image'></td></tr></table>"
+    },
+    {
+     "preamble": "<table align = 'center'><tr><td height = 200><img src='img/F.jpg' class='target'></td><td width = 150></td><td height = 200><img src='img/B.jpg' class='image'></td></tr></table>"
+    },
+    {
+     "preamble": "<table align = 'center'><tr><td height = 200><img src='img/I.jpg' class='image'></td><td width = 150></td><td height = 200><img src='img/C.jpg' class='target'></td></tr></table>"
+    },
+    {
+     "preamble": "<table align = 'center'><tr><td height = 200><img src='img/H.jpg' class='image'></td><td width = 150></td><td height = 200><img src='img/A.jpg' class='target'></td></tr></table>"
+    },
+    {
+     "preamble": "<table align = 'center'><tr><td height = 200><img src='img/L.jpg' class='target'></td><td width = 150></td><td height = 200><img src='img/H.jpg' class='image'></td></tr></table>"
+    },
+    {
+     "preamble": "<table align = 'center'><tr><td height = 200><img src='img/G.jpg' class='image'></td><td width = 150></td><td height = 200><img src='img/L.jpg' class='target'></td></tr></table>"
+    },
+    {
+     "preamble": "<table align = 'center'><tr><td height = 200><img src='img/D.jpg' class='image'></td><td width = 150></td><td height = 200><img src='img/L.jpg' class='target'></td></tr></table>"
+    },
+    {
+     "preamble": "<table align = 'center'><tr><td height = 200><img src='img/E.jpg' class='target'></td><td width = 150></td><td height = 200><img src='img/L.jpg' class='image'></td></tr></table>"
+    }
+   ]
+  }
+ }
+}

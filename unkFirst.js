@@ -281,7 +281,6 @@ var test = {
 	    type: 'survey-text',
       preamble: jsPsych.timelineVariable('preamble'),
       questions: [{prompt:"Type a message to your partner:", required: true}],
-      response_ends_trial: true,
 	    post_trial_gap: 100,
 	  on_finish: function(){
 	    trialnum = trialnum + 1;
@@ -322,8 +321,7 @@ var test = {
 				var responses = jsPsych.data.get().filter({trial_type: 'survey-text'}).csv();
                 data= {
                     responses : responses,
-                    rt : reactionTime,
-                    question_order: order,
+                    trial_info : allStim,
                     };
 
 				turk.submit(data);
