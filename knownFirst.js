@@ -153,6 +153,37 @@ var check_consent = function(elem) {
   return false;
 };
 
+// generate table
+var pic1 = "/experiments/negation/img/A.jpg";
+var pic2 = "/experiments/negation/img/1.jpg";
+var pic3 = "/experiments/negation/img/B.jpg";
+var pic4 = "/experiments/negation/img/2.jpg";
+var pic5 = "/experiments/negation/img/C.jpg";
+var pic6 = "/experiments/negation/img/3.jpg";
+var pic7 = "/experiments/negation/img/D.jpg";
+var pic8 = "/experiments/negation/img/4.jpg";
+var pic9 = "/experiments/negation/img/E.jpg";
+var pic10 = "/experiments/negation/img/5.jpg";
+var pic11 = "/experiments/negation/img/F.jpg";
+var pic12 = "/experiments/negation/img/6.jpg";
+var pic13 = "/experiments/negation/img/6.jpg";
+var pic14 = "/experiments/negation/img/7.jpg";
+var pic15 = "/experiments/negation/img/H.jpg";
+var pic16 = "/experiments/negation/img/8.jpg";
+var pic17 = "/experiments/negation/img/I.jpg";
+var pic18 = "/experiments/negation/img/9.jpg";
+var pic19 = "/experiments/negation/img/J.jpg";
+var pic20 = "/experiments/negation/img/10.jpg";
+var pic21 = "/experiments/negation/img/K.jpg";
+var pic22 = "/experiments/negation/img/11.jpg";
+var pic23 = "/experiments/negation/img/L.jpg";
+var pic24 = "/experiments/negation/img/12.jpg";
+var pic25 = "/experiments/negation/img/practiceDistractor1.jpg";
+var pic26 = "/experiments/negation/img/practiceTarget1.jpg";
+var pic27 = "/experiments/negation/img/practiceDistractor2.jpg";
+var pic28 = "/experiments/negation/img/practiceTarget2.jpg";
+
+
 // Create timeline
 var timeline = [];
 
@@ -160,15 +191,12 @@ var timeline = [];
 var welcome = {
 	type:'external-html',
   	url: "external_page.html",
-    class: consent,
   	cont_btn: "start",
   	check_fn: check_consent,
 	on_finish: function(){
 		jsPsych.setProgressBar(1/21);
 	}
 };
-
-welcomeElement.style.
 
 timeline.push(welcome)
 
@@ -194,34 +222,38 @@ var images = {
      type: "html-keyboard-response",
      stimulus: "<p>These are objects about which you will communicate in this experiment. Some may appear more than others. </p>" +
                 "<p>Press any key to begin the practice </p>" +
-              "<table align = center><tr><td><img src='img/A.jpg' height ='130'>" + //1
-              "<td><img src='img/1.jpg' height ='130'></td>" + //2
-              "<td><img src='img/B.jpg' height ='130'></td>" + //3
-              "<td><img src='img/2.jpg' height ='130'></td>" + //4
-              "<td><img src='img/C.jpg' height ='130'></td>" + //5
-              "<td><img src='img/3.jpg' height ='130'></td>" + //6
-              "<td><img src='img/D.jpg' height ='130'></td></tr>" + //7
-              "<tr><td><img src='img/4.jpg' height ='130'></td>" + //8
-              "<td><img src='img/E.jpg' height ='130'></td>" + //9
-              "<td><img src='img/5.jpg' height ='130'></td>" + //10
-              "<td><img src='img/F.jpg' height ='130'></td>" + //11
-              "<td><img src='img/6.jpg' height ='130'></td>" + //12
-              "<td><img src='img/G.jpg' height ='130'></td>" + //13
-              "<td><img src='img/7.jpg' height ='130'></td></tr>" + //14
-              "<tr><td><img src='img/H.jpg' height ='130'></td>" + //15
-              "<td><img src='img/8.jpg' height ='130'></td>" + // 16
-              "<td><img src='img/I.jpg' height ='130'></td>" + //17
-              "<td><img src='img/9.jpg' height ='130'></td>" + //18
-              "<td><img src='img/J.jpg' height ='130'></td>" + //19
-              "<td><img src='img/10.jpg' height ='130'></td>" + //20
-              "<td><img src='img/K.jpg' height ='130'></td></tr>" + //21
-              "<tr><td><img src='img/11.jpg' height ='130'></td>" + //22
-              "<td><img src='img/L.jpg' height ='130'></td>" + // 23
-              "<td><img src='img/12.jpg' height ='130'></td>" + //24
-              "<td><img src='img/practiceDistractor1.jpg' height ='130'></td>" + //25
-              "<td><img src='img/practiceTarget1.jpg' height ='130'></td>" + //26
-              "<td><img src='img/practiceDistractor2.jpg' height ='130'></td>" + //27
-              "<td><img src='img/practiceTarget2.jpg' height ='130'></td></tr>",  //28
+              "<table align = center><tr>" + 
+                "<td><img src='" + pic1 + "' height ='130'></td>" + 
+                "<td><img src='" + pic2 + "' height ='130'></td>" +
+                "<td><img src='" + pic3 + "' height ='130'></td>" +
+                "<td><img src='" + pic4 + "' height ='130'></td>" + 
+                "<td><img src='" + pic5 + "' height ='130'></td>" + 
+                "<td><img src='" + pic6 + "' height ='130'></td>" + 
+                "<td><img src='" + pic7 + "' height ='130'></td></tr>" + 
+              "<tr>" + 
+                "<td><img src='" + pic8 + "' height ='130'></td>" + 
+                "<td><img src='" + pic9 + "' height ='130'></td>" +
+                "<td><img src='" + pic10 + "' height ='130'></td>" +
+                "<td><img src='" + pic11 + "' height ='130'></td>" + 
+                "<td><img src='" + pic12 + "' height ='130'></td>" + 
+                "<td><img src='" + pic13 + "' height ='130'></td>" + 
+                "<td><img src='" + pic14 + "' height ='130'></td></tr>" + 
+              "<tr>" +
+                "<td><img src='" + pic15 + "' height ='130'></td>" + 
+                "<td><img src='" + pic16 + "' height ='130'></td>" +
+                "<td><img src='" + pic17 + "' height ='130'></td>" +
+                "<td><img src='" + pic18 + "' height ='130'></td>" + 
+                "<td><img src='" + pic19 + "' height ='130'></td>" + 
+                "<td><img src='" + pic20 + "' height ='130'></td>" + 
+                "<td><img src='" + pic21 + "' height ='130'></td></tr>" + 
+              "<tr>" + 
+                "<td><img src='" + pic22 + "' height ='130'></td>" + 
+                "<td><img src='" + pic23 + "' height ='130'></td>" +
+                "<td><img src='" + pic24 + "' height ='130'></td>" +
+                "<td><img src='" + pic25 + "' height ='130'></td>" + 
+                "<td><img src='" + pic26 + "' height ='130'></td>" + 
+                "<td><img src='" + pic27 + "' height ='130'></td>" + 
+                "<td><img src='" + pic28 + "' height ='130'></td></tr>",  
      post_trial_gap: 200,
      on_finish: function(){
         jsPsych.setProgressBar(3/21);
@@ -273,13 +305,14 @@ unkStim = [];
     allStim.push({preamble: "<table align = 'center'><tr><td height = 200>" + leftpic + "</td><td width = 150></td><td height = 200>" + rightpic + "</td></tr></table>"});
    };
 
-
 for(i=0; i<8; i++){
     leftpic = allUnk[i][0];
     rightpic = allUnk[i][1];
     unkStim.push([leftpic, rightpic]);
      allStim.push({preamble: "<table align = 'center'><tr><td height = 200>" + leftpic + "</td><td width = 150></td><td height = 200>" + rightpic + "</td></tr></table>"});
    };
+
+
 
 
 stimulusList = [];
@@ -297,7 +330,6 @@ var test = {
       preamble: jsPsych.timelineVariable('preamble'),
       questions: [{prompt:"Type a message to your partner:", required: true}],
 	    post_trial_gap: 100,
-      align: center,
 	  on_finish: function(){
 	    trialnum = trialnum + 1;
         jsPsych.setProgressBar(trialnum/21);
