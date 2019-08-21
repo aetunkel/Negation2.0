@@ -263,13 +263,6 @@ allStim = [];
 knownStim = [];
 unkStim = [];
 
-  for(i=0; i<8; i++){
-    leftpic = allKnown[i][0];
-    rightpic = allKnown[i][1];
-    knownStim.push([leftpic, rightpic]);
-    allStim.push({preamble: "<table align = 'center'><tr><td height = 200>" + leftpic + "</td><td width = 150></td><td height = 200>" + rightpic + "</td></tr></table>"});
-   };
-
 
 for(i=0; i<8; i++){
     leftpic = allUnk[i][0];
@@ -279,12 +272,20 @@ for(i=0; i<8; i++){
    };
 
 
+  for(i=0; i<8; i++){
+    leftpic = allKnown[i][0];
+    rightpic = allKnown[i][1];
+    knownStim.push([leftpic, rightpic]);
+    allStim.push({preamble: "<table align = 'center'><tr><td height = 200>" + leftpic + "</td><td width = 150></td><td height = 200>" + rightpic + "</td></tr></table>"});
+   };
+
+
 stimulusList = [];
 
   stimulusList.push(practice1);
   stimulusList.push(practice2);
-  stimulusList.push(knownStim);
   stimulusList.push(unkStim);
+  stimulusList.push(knownStim);
 
 
 
@@ -292,7 +293,7 @@ stimulusList = [];
 var test = {
 	    type: 'survey-text',
       preamble: jsPsych.timelineVariable('preamble'),
-      questions: [{prompt:"Type a message to your partner:", required: true}],
+      questions: [<br><br>{prompt:"Type a message to your partner:", required: true}],
 	    post_trial_gap: 100,
 	  on_finish: function(){
 	    trialnum = trialnum + 1;

@@ -160,12 +160,15 @@ var timeline = [];
 var welcome = {
 	type:'external-html',
   	url: "external_page.html",
+    class: consent,
   	cont_btn: "start",
   	check_fn: check_consent,
 	on_finish: function(){
 		jsPsych.setProgressBar(1/21);
 	}
 };
+
+welcomeElement.style.
 
 timeline.push(welcome)
 
@@ -294,6 +297,7 @@ var test = {
       preamble: jsPsych.timelineVariable('preamble'),
       questions: [{prompt:"Type a message to your partner:", required: true}],
 	    post_trial_gap: 100,
+      align: center,
 	  on_finish: function(){
 	    trialnum = trialnum + 1;
         jsPsych.setProgressBar(trialnum/21);
