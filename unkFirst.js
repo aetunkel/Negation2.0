@@ -228,7 +228,7 @@ var images = {
 timeline.push(images);
 
 
-  var practice1 = {
+  var practice1test = {
     type: 'survey-text',
     preamble: "<p>This is a practice round. Remember to tell your partner which object is in the<strong style='color:blue;'> blue square</strong>. </p>" +
               "<tr><td>" + practice1[0] + "</td><td>" + practice1[1] + "</td></tr>",
@@ -241,9 +241,9 @@ timeline.push(images);
 
 };
 
-timeline.push(practice1);
+timeline.push(practice1test);
 
-var practice2 = {
+var practice2test = {
   type: 'survey-text',
   preamble: "<p>This is a practice round. Remember to tell your partner which object is in the<strong style='color:blue;'> blue square</strong>. </p>" +
             "<tr><td>" + practice2[0] + "</td><td>" + practice2[1] + "</td></tr>",
@@ -255,24 +255,36 @@ var practice2 = {
   }
 };
 
-timeline.push(practice2);
+timeline.push(practice2test);
 
 trialnum = 5;
 
 allStim = [];
+knownStim = [];
+unkStim = [];
+
+  for(i=0; i<8; i++){
+    leftpic = allKnown[i][0];
+    rightpic = allKnown[i][1];
+    knownStim.push([leftpic, rightpic]);
+    allStim.push({preamble: "<table align = 'center'><tr><td height = 200>" + leftpic + "</td><td width = 150></td><td height = 200>" + rightpic + "</td></tr></table>"});
+   };
 
 
 for(i=0; i<8; i++){
     leftpic = allUnk[i][0];
     rightpic = allUnk[i][1];
+    unkStim.push([leftpic, rightpic]);
      allStim.push({preamble: "<table align = 'center'><tr><td height = 200>" + leftpic + "</td><td width = 150></td><td height = 200>" + rightpic + "</td></tr></table>"});
    };
 
-  for(i=0; i<8; i++){
-    leftpic = allKnown[i][0];
-    rightpic = allKnown[i][1];
-    allStim.push({preamble: "<table align = 'center'><tr><td height = 200>" + leftpic + "</td><td width = 150></td><td height = 200>" + rightpic + "</td></tr></table>"});
-   };
+
+stimulusList = [];
+
+  stimulusList.push(practice1);
+  stimulusList.push(practice2);
+  stimulusList.push(knownStim);
+  stimulusList.push(unkStim);
 
 
 
@@ -321,7 +333,7 @@ var test = {
 				var responses = jsPsych.data.get().filter({trial_type: 'survey-text'}).csv();
                 data= {
                     responses : responses,
-                    trial_info : allStim,
+                    trial_info : stimulusList,
                     };
 
 				turk.submit(data);
