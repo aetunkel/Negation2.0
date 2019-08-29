@@ -82,4 +82,3 @@ raw_data <- map_df(files, read_file) %>%
   mutate(id = factor(id, labels = 1:length(unique(id))))
 
 write_csv(raw_data, here("data/pilot.csv"))
-```
