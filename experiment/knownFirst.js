@@ -202,13 +202,17 @@ timeline.push(welcome)
 
 var instructions = {
      type: "html-keyboard-response",
-     stimulus: "<p>On each round of this game, you will see two objects. The <b>target object</b> will have a <strong style='color:blue;'> blue box </strong> around it.</p>" +
+     stimulus: "<br /><br /><br /><br />" +
+               "On each round of this game, you will see two objects. The <b>target object</b> will have a <strong style='color:blue;'> blue box </strong> around it." +
                "<br /><br />" +
-               "Your goal is to type a message into the textbox below the objects that will help a future Turker correctly select the <b>target object</b>. </p>" +
+               "Your goal is to type a message into the textbox below the objects that will help a future Turker correctly select the <b>target object</b>." +
                "<br /><br />" +
-               "<i>Note: The objects objects may be in different locations on the Turker's screen, so messages like 'left' or 'right' will not be effective. <br /><br />" +
-               "Please stay on topic. Random responses will result in rejected Hits. </i></p>" +
+               "The <b> target object </b> may be on a different side of the Turker's screen, so messages like 'left' or 'right' will not be effective." +
                "<br /><br />" +
+               "<b>However, the rounds of the game will be in the same order, so the Turker will know what you have said earlier in the game.</b>" +
+               "<br /><br /><br /><br /><br /><br />" +
+               "Please stay on topic. Random responses will result in rejected Hits." +
+               "<br /><br /><br /><br /><br /><br />" +
                "We will start with a short practice round. <b>Press any key to continue. </b>",
      post_trial_gap: 200,
      on_finish: function(){
