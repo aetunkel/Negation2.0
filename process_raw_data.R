@@ -1,3 +1,7 @@
+library(readr)
+library(knitr)
+library(purrr)
+library(tibble)
 library(tidyverse)
 library(here)
 library(jsonlite)
@@ -5,7 +9,7 @@ library(jsonlite)
 dirs <- c("raw_data")
 
 files <- map(here("raw_data/"), ~list.files(.x, pattern = ".json", 
-                               full.names = T, recursive = T)) %>%
+                                            full.names = T, recursive = T)) %>%
   unlist()
 
 read_file <- function(file) {
@@ -61,16 +65,16 @@ read_file <- function(file) {
     ungroup() %>%
     mutate(trial = trial + nrow(practice))
   
-    if(str_detect(file, "unknown-first")) {
-      tidy_test <- test %>%
-        mutate(type = as.character(factor(type, 
-                                          labels = c("unknown", "known"))))
-    } else {
-      tidy_test <- test %>%
-        mutate(type = as.character(factor(type, 
-                                          labels = c("known", "unknown"))))
-    }
-         
+  if(str_detect(file, "unknown-first")) {
+    tidy_test <- test %>%
+      mutate(type = as.character(factor(type, 
+                                        labels = c("unknown", "known"))))
+  } else {
+    tidy_test <- test %>%
+      mutate(type = as.character(factor(type, 
+                                        labels = c("known", "unknown"))))
+  }
+  
   responses %>%
     left_join(bind_rows(practice, tidy_test), by = "trial") %>%
     mutate(id = id)

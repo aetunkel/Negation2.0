@@ -1,0 +1,721 @@
+rt,response,time_elapsed,trial,distractor,target,type,id
+5824.105000006966,pigeon,956517,1,practiceDistractor1,practiceTarget1,practice,33
+4078.9199999999255,airplane,960698,2,practiceDistractor2,practiceTarget2,practice,33
+3571.8099999940023,ring,964374,3,K,F,known,33
+2985.5500000412576,apple,967462,4,G,A,known,33
+2791.4150000433438,tree,970356,5,C,J,known,33
+3415.55499995593,chair,973874,6,B,E,known,33
+2066.304999985732,car,976044,7,B,I,known,33
+2452.609999978449,car,978600,8,L,I,known,33
+2035.2999999886379,car,980738,9,H,I,known,33
+3014.4800000125542,pen,983856,10,I,D,known,33
+22310.29499997385,letter Y,1006270,11,3,4,unknown,33
+8457.965000008699,plastic container,1014830,12,11,2,unknown,33
+15300.919999950565,cushion,1030235,13,9,7,unknown,33
+36822.67500000307,aspirator,1067159,14,5,10,unknown,33
+3483.665000007022,top,1070745,15,5,12,unknown,33
+3407.8650000155903,top,1074255,16,6,12,unknown,33
+3406.8050000350922,top,1077765,17,8,12,unknown,33
+4933.675000036601,trophy,1082801,18,12,1,unknown,33
+5045.894999988377,me,54633,1,practiceDistractor1,practiceTarget1,practice,7
+2122.495000017807,me,56872,2,practiceDistractor2,practiceTarget2,practice,7
+3363.4999999776483,im it,60357,3,B,I,known,7
+2647.944999858737,yep me,63125,4,G,C,known,7
+3946.070000063628,hi pick me,67189,5,E,J,known,7
+3567.8899998310953,pick me,70877,6,A,K,known,7
+2200.7699999958277,pick me,73196,7,A,D,known,7
+1965.3849999886006,im it,75316,8,H,D,known,7
+3458.749999990687,pick me,78909,9,F,D,known,7
+1932.4300000444055,im it,80957,10,D,L,known,7
+2331.389999948442,pick me,83404,11,1,6,unknown,7
+2740.3299999423325,select me,86269,12,11,3,unknown,7
+2431.0500000137836,click on me,88817,13,12,10,unknown,7
+5376.964999828488,hi pick me,94315,14,4,7,unknown,7
+2637.140000006184,im the one,97093,15,4,2,unknown,7
+2303.5649999510497,me,99509,16,8,2,unknown,7
+2365.5799999833107,pick me,101989,17,9,2,unknown,7
+1998.0750000104308,click on me,104103,18,2,5,unknown,7
+10158.209999994142,bird,113239,1,practiceDistractor1,practiceTarget1,practice,40
+8795.750000004773,airplane,122140,2,practiceDistractor2,practiceTarget2,practice,40
+5799.899999998161,tree,128046,3,A,J,known,40
+4295.264999993378,cat,132446,4,G,B,known,40
+5299.075000002631,shoe,137852,5,L,C,known,40
+4472.93499999796,car,142429,6,F,I,known,40
+5461.79500001017,pen,147997,7,F,D,known,40
+5596.695000000182,pen,153697,8,H,D,known,40
+9652.610000004643,pen,163455,9,E,D,known,40
+10230.839999989257,butterfly,173790,10,D,K,known,40
+20214.18999999878,weird shaped vase,194110,11,7,1,unknown,40
+17773.83999999438,plastic thing,211991,12,12,6,unknown,40
+22189.27000000258,looks like a broken object,234286,13,10,8,unknown,40
+18505.899999989197,weird shaped dark sphere,252897,14,9,11,unknown,40
+24574.03499999782,glass orby object,277576,15,9,2,unknown,40
+8128.624999997555,glass orby object,285810,16,3,2,unknown,40
+9227.999999988242,glass orby object,295143,17,5,2,unknown,40
+11648.280000008526,spiky object,306896,18,2,4,unknown,40
+6827.00499999919,pigeon,46638,1,practiceDistractor1,practiceTarget1,practice,26
+3708.214999991469,plane,50452,2,practiceDistractor2,practiceTarget2,practice,26
+1696.8250000209082,cat,52253,3,L,B,known,26
+2365.669999999227,chair,54727,4,F,E,known,26
+2290.2649999887217,dice,57123,5,I,H,known,26
+3540.8599999791477,butterfly,60768,6,C,K,known,26
+2585.380000004079,tree,63457,7,C,J,known,26
+3058.359999995446,tree,66618,8,G,J,known,26
+3357.479999976931,christmas tree,70083,9,A,J,known,26
+3125.9250000002794,pen,73312,10,J,D,known,26
+3595.045000023674,cactus,77013,11,3,4,unknown,26
+12260.945000016363,flying saucer,89377,12,6,12,unknown,26
+14059.594999998808,marbled sculpture,103541,13,1,7,unknown,26
+11327.384999982314,sculpture that looks like broken ceramic pieces,114972,14,2,8,unknown,26
+13540.515000000596,sculpture that looks like asterisk,128618,15,2,11,unknown,26
+22551.164999982575,sculpture that looks like asterisk,151276,16,5,11,unknown,26
+2029.8149999871384,sculpture that looks like asterisk,153413,17,9,11,unknown,26
+18515.010000002803,looks like short plunger but with enclosed rubber thing,172032,18,11,10,unknown,26
+6885.275000007823,pigeon,37887,1,practiceDistractor1,practiceTarget1,practice,16
+5915.255000116304,plane,43906,2,practiceDistractor2,practiceTarget2,practice,16
+4720.195000059903,shoe,48730,3,A,C,known,16
+3019.0850000362843,pen,51854,4,F,D,known,16
+3134.4250000547618,dice,55092,5,E,H,known,16
+1933.2799999974668,cat,57128,6,K,B,known,16
+2660.640000132844,tree,59892,7,K,J,known,16
+2555.5449998937547,tree,62552,8,I,J,known,16
+2036.8850000668317,tree,64692,9,L,J,known,16
+2750.8050000760704,fork,67546,10,J,G,known,16
+11692.105000140145,chew toy,79342,11,9,5,unknown,16
+9443.62000003457,squeeze ball,88892,12,4,10,unknown,16
+14442.700000014156,smooth sculpture,103438,13,3,1,unknown,16
+23388.8900000602,plastic thing with loops,126930,14,2,6,unknown,16
+49284.46500003338,3d render of d electron orbitals,176318,15,2,11,unknown,16
+14144.39499983564,3d render of d electron orbitals,190566,16,8,11,unknown,16
+3421.34500015527,3d render of d electron orbitals,194092,17,7,11,unknown,16
+8490.320000099018,upside down top,202686,18,11,12,unknown,16
+3118,bird,23325,1,practiceDistractor1,practiceTarget1,practice,36
+2894,plane,26338,2,practiceDistractor2,practiceTarget2,practice,36
+2112,cat,28554,3,A,B,known,36
+2288,dice,30951,4,F,H,known,36
+2155,flower,33231,5,D,L,known,36
+3559,butterfly,36919,6,I,K,known,36
+1746,chair,38790,7,I,E,known,36
+2246,chair,41151,8,G,E,known,36
+1545,chair,42815,9,J,E,known,36
+1450,shoe,44389,10,E,C,known,36
+4519,black thing,49022,11,4,11,unknown,36
+5068,has cylinders,54209,12,5,12,unknown,36
+4084,bubbly thing,58413,13,3,2,unknown,36
+7644,the darker one,66173,14,7,6,unknown,36
+7951,it looks like a plumbus,74257,15,7,9,unknown,36
+2634,plumbus,77016,16,8,9,unknown,36
+2371,plumbus,79512,17,1,9,unknown,36
+7437,air squeezer,87079,18,9,10,unknown,36
+5395.58000001125,Bird,37381,1,practiceDistractor1,practiceTarget1,practice,6
+3420.0549999950454,plane,40904,2,practiceDistractor2,practiceTarget2,practice,6
+3961.665000009816,Cat,44970,3,A,B,known,6
+3094.9499999987893,Car,48168,4,E,I,known,6
+4867.384999990463,Flower,53138,5,G,L,known,6
+3355.909999983851,DIce,56600,6,F,H,known,6
+3808.7950000190176,Shoe,60512,7,F,C,known,6
+2960.495000006631,shoe,63578,8,K,C,known,6
+2726.269999984652,shoe,66408,9,J,C,known,6
+2718.405000050552,pen,69232,10,C,D,known,6
+7511.255000019446,filter,76848,11,10,3,unknown,6
+4448.310000007041,sandal,81406,12,12,7,unknown,6
+5526.160000008531,binkie,87038,13,2,9,unknown,6
+6365.754999977071,alien x,93510,14,1,11,unknown,6
+4943.0799999972805,bottle clamper,98560,15,1,6,unknown,6
+5641.215000010561,bottle clamper,104307,16,5,6,unknown,6
+3754.885000002105,bottle clamper,108166,17,4,6,unknown,6
+5821.310000028461,jedi mask,114091,18,6,8,unknown,6
+6895.915000000969,Pigeon,573555,1,practiceDistractor1,practiceTarget1,practice,14
+2845.579999993788,Plane,576507,2,practiceDistractor2,practiceTarget2,practice,14
+1463.1449999941979,Car,578074,3,H,I,known,14
+2095.5200000025798,Chair,580274,4,L,E,known,14
+2856.8099999974947,Butterfly,583234,5,J,K,known,14
+1236.9550000003073,Cat,584578,6,G,B,known,14
+1943.605000000447,Shoe,586627,7,G,C,known,14
+1972.6450000016484,Shoe,588706,8,D,C,known,14
+1757.7600000003586,Shoe,590570,9,F,C,known,14
+1918.4949999980163,Apple,592594,10,C,A,known,14
+23934.75000000035,Toy,616634,11,12,11,unknown,14
+14151.45499999926,Weight,630891,12,8,5,unknown,14
+13071.485000000452,Pump,644067,13,2,10,unknown,14
+7173.479999997653,Toy,651348,14,9,4,unknown,14
+49604.40500000538,Component,701059,15,9,6,unknown,14
+4723.6849999971455,Component,705891,16,7,6,unknown,14
+2527.589999997872,Component,708523,17,1,6,unknown,14
+19486.85999999731,Foam,728115,18,6,3,unknown,14
+7360.505000004196,bird,76712,1,practiceDistractor1,practiceTarget1,practice,38
+8096.835000003921,plane,84917,2,practiceDistractor2,practiceTarget2,practice,38
+5368.919999993523,shoe,90393,3,I,C,known,38
+5961.155000011786,butterfly,96460,4,E,K,known,38
+4876.680000001215,dice,101443,5,L,H,known,38
+3389.9399999936577,apple,104947,6,J,A,known,38
+3915.2949999988778,ring,108970,7,J,F,known,38
+4021.9550000038,ring,113097,8,G,F,known,38
+3495.215000002645,ring,116696,9,D,F,known,38
+4087.550000011106,cat,120888,10,F,B,known,38
+12019.714999987627,fish decoration,133012,11,2,1,unknown,38
+29693.35499999579,8 sided figure,162810,12,8,11,unknown,38
+41323.729999989155,toy with switch,204242,13,12,6,unknown,38
+45294.58999999042,shape with 56 prongs,249641,14,4,5,unknown,38
+25434.370000002673,4 waved shape,275180,15,4,3,unknown,38
+5660.644999996293,4 waved shape,280947,16,9,3,unknown,38
+5393.405000009807,4 waved shape,286447,17,10,3,unknown,38
+84284.25499999139,long piece with loop on top,370837,18,3,7,unknown,38
+7445.089999999254,bird,61722,1,practiceDistractor1,practiceTarget1,practice,5
+1946.390000000065,plane,63772,2,practiceDistractor2,practiceTarget2,practice,5
+1829.6999999993204,cat,65708,3,F,B,known,5
+1957.6200000001409,fork,67771,4,I,G,known,5
+1376.0050000000774,chair,69252,5,K,E,known,5
+1654.5900000000838,die,71012,6,J,H,known,5
+1371.0150000006252,shoe,72486,7,J,C,known,5
+3039.8500000001077,shoe,75630,8,D,C,known,5
+1400.340000000142,shoe,77135,9,A,C,known,5
+1634.2100000001665,flower,78872,10,C,L,known,5
+3550.280000000377,toy,82527,11,10,11,unknown,5
+4808.489999999438,sculpture,87440,12,8,1,unknown,5
+4647.3050000004005,dog toy,92191,13,7,4,unknown,5
+4603.669999999518,clip,96898,14,5,6,unknown,5
+3583.144999999611,waves,100586,15,5,3,unknown,5
+1644.0500000007742,waves,102334,16,2,3,unknown,5
+1450.7599999997183,waves,103888,17,12,3,unknown,5
+4483.444999999847,bop it,108476,18,3,9,unknown,5
+11024.505000001227,animal,113975,1,practiceDistractor1,practiceTarget1,practice,39
+30195.120000003953,carries passengers,144279,2,practiceDistractor2,practiceTarget2,practice,39
+7699.864999995043,animal,152087,3,A,B,known,39
+10572.430000000168,gambling,162767,4,C,H,known,39
+26951.139999997395,furniture,189823,5,I,E,known,39
+75157.83000000374,pine,265088,6,F,J,known,39
+94610.64999999508,living,359807,7,F,L,known,39
+4509.765000002517,living,364426,8,D,L,known,39
+38110.96499999985,flora,402644,9,K,L,known,39
+17633.82499999716,eat,420386,10,L,G,known,39
+16327.04499999818,long,436818,11,12,5,unknown,39
+18612.825000003795,handle,455538,12,6,9,unknown,39
+10523.349999995844,layers,466171,13,11,3,unknown,39
+19225.485000002664,jar,485507,14,10,2,unknown,39
+68347.5449999969,flat,553963,15,10,7,unknown,39
+2157.2250000026543,flat,556227,16,8,7,unknown,39
+4085.4749999998603,flat,560420,17,1,7,unknown,39
+57028.25499999744,prickly,617556,18,7,4,unknown,39
+12348.64000000013,bird,778341,1,practiceDistractor1,practiceTarget1,practice,12
+2749.0550000001676,plane,781192,2,practiceDistractor2,practiceTarget2,practice,12
+2471.924999997951,ring,783767,3,I,F,known,12
+2820.189999998547,pen,786689,4,H,D,known,12
+2439.344999998808,chair,789230,5,B,E,known,12
+2271.5900000003166,apple,791603,6,J,A,known,12
+3177.6800000007497,fork,794883,7,J,G,known,12
+3032.790000001085,fork,798018,8,K,G,known,12
+2495.1299999994226,fork,800615,9,C,G,known,12
+5412.355000000331,flower,806130,10,G,L,known,12
+3741.569999998319,toy,809973,11,1,5,unknown,12
+7944.4949999997625,tool,818020,12,12,6,unknown,12
+2621.354999999283,toy,820743,13,8,11,unknown,12
+2291.659999998985,toy,823138,14,3,2,unknown,12
+2276.6350000019884,toy,825518,15,3,4,unknown,12
+2032.889999998617,toy,827654,16,7,4,unknown,12
+2162.8850000015227,toy,829919,17,9,4,unknown,12
+5679.719999999972,plung,835702,18,4,10,unknown,12
+15000.739999988582,it is a bird pigeon,68304,1,practiceDistractor1,practiceTarget1,practice,10
+15741.719999990892,it is a plane a big one,84152,2,practiceDistractor2,practiceTarget2,practice,10
+9659.694999980275,it is just a cat,93921,3,H,B,known,10
+4777.349999989383,a shoe,98807,4,A,C,known,10
+5404.310000012629,a sunflower,104319,5,K,L,known,10
+6372.280000010505,a white car,110799,6,G,I,known,10
+6280.25999997044,a chair,117187,7,G,E,known,10
+5746.080000011716,a wooden chair,123041,8,J,E,known,10
+4469.715000013821,a wooden chair,127618,9,F,E,known,10
+10631.059999985155,a pen not pencil,138357,10,E,D,known,10
+35153.2700000098,I do not what it is but it is symmetric has 9 edges,173617,11,9,11,unknown,10
+16989.31500001345,it is a vase but diagonal,190713,12,6,2,unknown,10
+27040.640000021085,like a dumbbell,217861,13,7,5,unknown,10
+20365.270000009332,looks like a microphone and you shake it,238333,14,8,10,unknown,10
+29271.375000011176,looks like a virus kind of Y shaped,267712,15,8,4,unknown,10
+7628.275000024587,Y shaped figure,275447,16,12,4,unknown,10
+11006.389999995008,Y shaped looks like a virus,286561,17,1,4,unknown,10
+10307.050000003073,looks like a glove but short,296975,18,4,3,unknown,10
+31625.949999899603,the one with legs and a beak,64936,1,practiceDistractor1,practiceTarget1,practice,30
+9013.599999947473,the one with wings that flies,74055,2,practiceDistractor2,practiceTarget2,practice,30
+5320.2600000659,the animal,79485,3,F,B,known,30
+5668.819999904372,you can eat it,85261,4,E,A,known,30
+6777.980000013486,you wear it on your feet,92146,5,H,C,known,30
+4261.805000016466,you eat with it,96515,6,J,G,known,30
+4275.989999994636,you can drive it,100898,7,J,I,known,30
+4750.785000040196,you can drive it,105756,8,K,I,known,30
+5470.060000079684,you can drive it,111333,9,D,I,known,30
+5755.065000033937,it is living,117195,10,I,L,known,30
+11698.334999964572,it has many dull spikes,129000,11,2,11,unknown,30
+10679.860000032932,a dog would chew it,139787,12,6,5,unknown,30
+9309.574999962933,it has multiple joints,149204,13,4,12,unknown,30
+9413.620000006631,there are multiple ridges,158721,14,7,3,unknown,30
+23551.81000009179,you can baste with it,182381,15,7,10,unknown,30
+5298.840000061318,you can baste with it,187784,16,1,10,unknown,30
+4763.294999953359,you can baste with it,192655,17,8,10,unknown,30
+12544.164999970235,it has multiple parts,205306,18,10,9,unknown,30
+25730.990000010934,This is a blue square,53804,1,practiceDistractor1,practiceTarget1,practice,37
+17790.77000002144,It is a blue square,71699,2,practiceDistractor2,practiceTarget2,practice,37
+6912.450000003446,It is a pen,78715,3,B,D,known,37
+8673.725000000559,It is an apple,87498,4,J,A,known,37
+6568.989999999758,It is a flower,94171,5,F,L,known,37
+10213.159999984782,It is six sided dice,104490,6,I,H,known,37
+6204.069999977946,It is a chair,110802,7,I,E,known,37
+6512.694999983069,It is a chair,117419,8,C,E,known,37
+7280.315000039991,It is a chair,124803,9,K,E,known,37
+5596.295000053942,It is a fork,130507,10,E,G,known,37
+25326.70999999391,It is a roller with something through it,155940,11,7,9,unknown,37
+18640.51500003552,It is a plastic object that can be attached to things,174684,12,10,6,unknown,37
+28257.609999971464,It is a prickly object with three rounded limbs,203045,13,1,4,unknown,37
+21209.614999999758,It is a plastic or rubber object with many sides,224358,14,12,11,unknown,37
+32577.379999973346,It is a long object with three soft points on each end,257039,15,12,5,unknown,37
+22820.299999963026,It is a long objects with three rounded ends,279967,16,8,5,unknown,37
+17984.95000001276,It is a rubber dog toy,298055,17,2,5,unknown,37
+12526.430000027176,It is a folded over chefs hat,310689,18,5,3,unknown,37
+24654,pigeon,75154,1,practiceDistractor1,practiceTarget1,practice,21
+8984,plane,84245,2,practiceDistractor2,practiceTarget2,practice,21
+5510,tree,89862,3,E,J,known,21
+10057,minivan,100026,4,F,I,known,21
+22596,sunflower,122729,5,G,L,known,21
+10867,sitting cat,133701,6,A,B,known,21
+29535,die with 6 dots,163345,7,A,H,known,21
+9245,die with 6 dots,172696,8,C,H,known,21
+13276,die with 6 dots,186076,9,D,H,known,21
+11618,butterfly,197799,10,H,K,known,21
+30225,toy with rod going through the top,228133,11,11,9,unknown,21
+25612,6 pronged weight,253851,12,8,5,unknown,21
+18048,squeeze bulb,272006,13,7,10,unknown,21
+35746,plastic toy made of wider cyclinder and smaller cylinder on top,307859,14,3,2,unknown,21
+28786,object that looks like an award trophy with egg shaped hole in middle,336750,15,3,1,unknown,21
+6829,object that looks like an award trophy with egg shaped hole in middle,343686,16,12,1,unknown,21
+12179,object that looks like an award trophy with egg shaped hole in middle,355970,17,6,1,unknown,21
+36470,3 pronged toy that looks like a playing jack with teeth,392545,18,1,4,unknown,21
+7138.730000006035,bird,67219,1,practiceDistractor1,practiceTarget1,practice,31
+2475.734999869019,plane,69813,2,practiceDistractor2,practiceTarget2,practice,31
+2286.1200000625104,pen,72214,3,C,D,known,31
+2166.979999979958,apple,74512,4,H,A,known,31
+2242.860000114888,cat,76897,5,F,B,known,31
+3162.169999908656,butterfly,80175,6,I,K,known,31
+2751.7349999397993,dandelion,83045,7,I,L,known,31
+2792.780000017956,dandelion,85956,8,E,L,known,31
+2731.5050000324845,sunflower,88802,9,G,L,known,31
+1897.1900001633912,tree,90818,10,L,J,known,31
+4699.280000058934,shower head,95648,11,8,12,unknown,31
+11192.509999964386,snowboard,106996,12,2,7,unknown,31
+11039.090000092983,knob,118151,13,10,9,unknown,31
+3348.439999856055,art,121613,14,11,1,unknown,31
+3325.2000000793487,glacier,125057,15,11,3,unknown,31
+2765.275000128895,glacier,127949,16,4,3,unknown,31
+5388.595000142232,glacier,133453,17,6,3,unknown,31
+3854.3249999638647,weight,137424,18,3,5,unknown,31
+6741.330000004382,bird,65927,1,practiceDistractor1,practiceTarget1,practice,11
+3522.2199999989243,plane,69551,2,practiceDistractor2,practiceTarget2,practice,11
+8199.870000004012,moth,77854,3,F,K,known,11
+3113.375000000815,chair,81069,4,D,E,known,11
+4269.424999998591,fork,85441,5,C,G,known,11
+3076.280000001134,tree,88620,6,L,J,known,11
+1886.7649999956484,car,90609,7,L,I,known,11
+1585.4600000020582,car,92296,8,A,I,known,11
+1314.3750000017462,car,93712,9,B,I,known,11
+3621.9899999996414,dice,97437,10,I,H,known,11
+3723.2999999978347,hat,101262,11,5,3,unknown,11
+4705.88499999576,toy,106070,12,12,9,unknown,11
+3641.8400000038673,statue,109814,13,10,1,unknown,11
+5591.9750000030035,plastic,115510,14,11,6,unknown,11
+4159.834999998566,chew toy,119772,15,11,4,unknown,11
+26506.665000000794,chew toy,146381,16,2,4,unknown,11
+3600.5499999955646,chew toy,150084,17,7,4,unknown,11
+3494.780000000901,toy,153681,18,4,8,unknown,11
+8359.469999999419,bird,20571,1,practiceDistractor1,practiceTarget1,practice,29
+4064.7700000008626,plane,24740,2,practiceDistractor2,practiceTarget2,practice,29
+11078.075000001263,button,35924,3,7,12,known,29
+4314.454999999725,hat,40344,4,6,3,known,29
+4803.0650000000605,a game,45253,5,1,11,known,29
+11382.055000001856,something to hold flowers in,56741,6,8,2,known,29
+7809.925000001385,something used to cook food,64657,7,8,9,known,29
+5660.905000000639,something used to cook food,70422,8,5,9,known,29
+7942.60999999824,something used to cook food,78470,9,10,9,known,29
+6039.974999999686,a dog toy,84616,10,9,4,known,29
+3401.929999999993,a dice,88123,11,E,H,unknown,29
+3249.120000000403,a ring,91476,12,B,F,unknown,29
+2510.0800000000163,a pen,94091,13,L,D,unknown,29
+7174.834999997984,something you eat with,101376,14,C,G,unknown,29
+2707.559999998921,a tree,104191,15,C,J,unknown,29
+2281.4149999976507,tree,106577,16,A,J,unknown,29
+2005.635000001348,tree,108686,17,I,J,unknown,29
+3629.1049999999814,butterfly,112423,18,J,K,unknown,29
+9086.970000062138,A bird that is often in cities,175342,1,practiceDistractor1,practiceTarget1,practice,20
+18652.780000003986,A large metal flying machine,194098,2,practiceDistractor2,practiceTarget2,practice,20
+31564.814999932423,abstract desert looking structure,225766,3,2,7,known,20
+13654.95999995619,It looks like a air pump with a handle,239524,4,9,6,known,20
+26923.214999958873,A sculpture that looks like a weight with jacks on the end,266550,5,1,5,known,20
+24712.309999973513,A 3d puzzle looking type of structure with blunt ends,291366,6,8,11,known,20
+23315.650000004098,Looks like a fan sculpture,314785,7,8,3,known,20
+7316.20500003919,A fan shaped sculpture,322205,8,4,3,known,20
+10091.104999999516,It looks like a stack of papers falling,332398,9,10,3,known,20
+6775.365000008605,Kind of like a top,339276,10,3,12,known,20
+16307.204999960959,A hairy animal that meows,355686,11,L,B,unknown,20
+4791.365000070073,something you sit on,360580,12,G,E,unknown,20
+11223.259999998845,it starts out as a catterpillar,371906,13,J,K,unknown,20
+13473.084999946877,you wear it on your feet to go outside,385481,14,F,C,unknown,20
+11806.45499995444,a writing utensil that has ink,397392,15,F,D,unknown,20
+8878.32499993965,a writing object with ink inside,406373,16,A,D,unknown,20
+9273.410000023432,a writing utensil with ink,415750,17,H,D,unknown,20
+13815.715000033379,a small machine we drive in,429668,18,D,I,unknown,20
+8045.429999998305,bird,30981,1,practiceDistractor1,practiceTarget1,practice,19
+2143.0549999931827,plane,33226,2,practiceDistractor2,practiceTarget2,practice,19
+8198.299999989104,tool,41530,3,2,6,known,19
+4337.124999961816,weights,45970,4,3,5,known,19
+13879.825000010896,tampon,59985,5,12,7,known,19
+3320.164999982808,rattle,63409,6,8,10,known,19
+2825.5000000353903,dark,66337,7,8,11,known,19
+2977.545000030659,notspike,69417,8,4,11,known,19
+4585.54500003811,ball,74105,9,1,11,known,19
+6528.4499999834225,rattle,80736,10,11,9,known,19
+1689.3200000049546,tree,82529,11,D,J,unknown,19
+1417.8500000271015,car,84048,12,A,I,unknown,19
+1737.7550000092015,fork,85888,13,K,G,unknown,19
+1577.5499999872409,shoe,87568,14,E,C,unknown,19
+1808.1399999791756,flower,89480,15,E,L,unknown,19
+1825.0150000094436,flower,91408,16,H,L,unknown,19
+1905.1999999792315,flower,93416,17,B,L,unknown,19
+1745.7849999773316,ring,95265,18,L,F,unknown,19
+7379.895000020042,bird,34415,1,practiceDistractor1,practiceTarget1,practice,3
+4129.420000012033,airplane,38649,2,practiceDistractor2,practiceTarget2,practice,3
+10439.359999960288,chef hat,49191,3,1,3,known,3
+29624.580000003334,gobstopper,78919,4,2,8,known,3
+5698.815000010654,loop,84721,5,5,7,known,3
+87051.86000000685,gobstobber,171884,6,10,11,known,3
+3875.5200000014156,cactus,175862,7,10,4,known,3
+4024.9300000141375,cactus,179990,8,12,4,known,3
+3720.369999995455,cactus,183814,9,6,4,known,3
+10644.394999952056,plunge,194551,10,4,9,known,3
+2959.919999993872,pen,197616,11,K,D,unknown,3
+1550.8000000263564,tree,199270,12,I,J,unknown,3
+4049.330000008922,dice,203422,13,A,H,unknown,3
+5075.725000002421,sunflower,208601,14,G,L,unknown,3
+3725.655000016559,dress shoe,212430,15,G,C,unknown,3
+5357.785000000149,shoe,217892,16,B,C,unknown,3
+1903.374999994412,shoe,219898,17,E,C,unknown,3
+4126.6450000111945,ring,224128,18,C,F,unknown,3
+6376.040000002831,Pigeon,27610,1,practiceDistractor1,practiceTarget1,practice,4
+4953.600000008009,Airplane,32669,2,practiceDistractor2,practiceTarget2,practice,4
+4728.464999992866,Waves,37505,3,2,3,known,4
+6840.299999981653,Three Handles,44456,4,10,9,known,4
+5216.195000044536,Robot head,49778,5,1,8,known,4
+9534.325000015087,Top with cover,59418,6,11,12,known,4
+12417.98500000732,Bar Bell,71942,7,11,5,known,4
+5235.935000004247,Dark Bar Bell,77284,8,4,5,known,4
+3742.4750000354834,Dark Bar Bell,81131,9,6,5,known,4
+13059.890000033192,Narrow board with arch,94298,10,5,7,known,4
+4774.635000037961,Small black shoe,99182,11,I,C,unknown,4
+3296.539999952074,Butterfly,102584,12,A,K,unknown,4
+2047.4799999501556,Ring,104736,13,B,F,unknown,4
+1878.7100000190549,Dice,106721,14,L,H,unknown,4
+2751.589999999851,Pen,109581,15,L,D,unknown,4
+2221.109999984037,Pen,111907,16,G,D,unknown,4
+1889.9500000406988,Pen,113901,17,E,D,unknown,4
+3996.080000011716,Christmas Tree,118004,18,D,J,unknown,4
+6943.635000032373,pigeon,44027,1,practiceDistractor1,practiceTarget1,practice,17
+5317.070000048261,airplane,49447,2,practiceDistractor2,practiceTarget2,practice,17
+11561.205000034533,exploded white plastic,61111,3,9,8,known,17
+8951.220000046305,black cross blob,70166,4,7,11,known,17
+6893.634999985807,odd shaped weight,77163,5,10,5,known,17
+7892.545000009704,weird chefs hat,85159,6,1,3,known,17
+9799.094999965746,sideways plastic basket,95063,7,1,6,known,17
+7577.564999985043,sideways plastic basket,102745,8,2,6,known,17
+8095.209999999497,sideways plastic basket,110944,9,12,6,known,17
+14469.204999972135,white y shape cactus,125516,10,6,4,known,17
+4208.920000004582,sunflower,129829,11,A,L,unknown,17
+3151.3450000202283,die,133083,12,E,H,unknown,17
+3343.295000027865,pen,136530,13,J,D,unknown,17
+5407.465000054799,small hatchback car,142041,14,B,I,unknown,17
+10807.764999975916,ring big stone in middle,152953,15,B,F,unknown,17
+6692.029999976512,ring big stone in center,159750,16,G,F,unknown,17
+5538.569999975152,ring big stone in center,165391,17,C,F,unknown,17
+5955.579999950714,white butterfly,171451,18,F,K,unknown,17
+32588.45999999903,It is something that sits on a power line sometime and also can fly,252194,1,practiceDistractor1,practiceTarget1,practice,32
+48264.21500000107,It is something that people travel on It is called an airplane,300565,2,practiceDistractor2,practiceTarget2,practice,32
+51506.264999999956,It is something that looks like it blows air out the side of it not sure about the name of it,352177,3,5,6,known,32
+65846.84500000003,It is something that people grab and when they are working out sometimes but i dont know the name,418135,4,7,11,known,32
+39054.57500000007,It looks like a hat of some sort but i dont know the name,457299,5,4,8,known,32
+25436.71999999968,It looks like a plunger but i could be wrong,482843,6,9,10,known,32
+40081.1350000003,The top of it kinda looks like a ufo but i dont really know the name of it,523032,7,9,12,known,32
+29019.565000000526,The top kinda looks like a ufo but i dont know the name of it,552160,8,2,12,known,32
+25043.730000001146,The top kinda looks like a ufo but i dont know the name of it,577310,9,3,12,known,32
+35440.64000000071,It looks like a door weight or some type of weight someone would use,612860,10,12,1,known,32
+33447.79999999993,It is a dice that you roll when you playing game like crapsyatzeeetc,646418,11,F,H,unknown,32
+10557.715000000782,It is a cat,657081,12,K,B,unknown,32
+14450.850000001024,It is a pen that you can write with,671641,13,I,D,unknown,32
+18859.360000000335,It is a fork that you can eat with,690608,14,J,G,unknown,32
+27498.394999998738,It is a chair that you can sit down in it looks like from a dining table,718213,15,J,E,unknown,32
+18163.370000000228,It is a chair that you can sit in,736485,16,C,E,unknown,32
+12853.454999998561,It is a chair to sit in,749444,17,A,E,unknown,32
+10165.755000000005,It is a flower,759715,18,E,L,unknown,32
+4140.554999990854,bird,34464,1,practiceDistractor1,practiceTarget1,practice,28
+6062.854999996489,plane,40636,2,practiceDistractor2,practiceTarget2,practice,28
+4983.614999990095,sucker,45729,3,7,10,known,28
+10985.140000004321,round sculpture,56823,4,3,1,known,28
+4566.774999999325,white ball,61498,5,11,8,known,28
+11727.399999988847,handle,73333,6,12,9,known,28
+5457.735000003595,black plane,78894,7,12,5,known,28
+4187.615000002552,black plane,83191,8,4,5,known,28
+178000.94999998691,black plane,261303,9,6,5,known,28
+6157.64499999932,glass ball,267573,10,5,2,known,28
+3220.3449999942677,shoe,270897,11,J,C,unknown,28
+3666.4699999964796,butterfly,274671,12,L,K,unknown,28
+2800.8299999928568,ring,277577,13,E,F,unknown,28
+4199.139999996987,dice,281883,14,I,H,unknown,28
+3115.0699999998324,cat,285107,15,I,B,unknown,28
+2600.1950000063516,cat,287816,16,A,B,unknown,28
+3061.7399999900954,cat,290984,17,D,B,unknown,28
+3422.9099999938626,fork,294513,18,B,G,unknown,28
+8443.610000000263,The object has wings,58311,1,practiceDistractor1,practiceTarget1,practice,15
+10100.744999999733,The object flies through the air,68517,2,practiceDistractor2,practiceTarget2,practice,15
+10407.44000000086,The object is symmetrical and dark grey,79034,3,3,5,known,15
+20489.424999999756,The object is two round shapes coming out of each other and clear plastic looking,99631,4,12,2,known,15
+12885.824999999386,The object is symmetrical and is only one color,112626,5,8,11,known,15
+23044.73999999938,The object is smooth,135781,6,4,1,known,15
+16213.635000000068,The object has a circle,152107,7,4,7,known,15
+29816.160000000324,The object is flat with a circle coming up off of it,182031,8,6,7,known,15
+6787.834999999148,The object is flat with a circle coming up off of it,188926,9,9,7,known,15
+7805.875,The object is round coming off of a stick,196842,10,7,10,known,15
+4585.495000001189,The object has four legs,201538,11,F,E,unknown,15
+5487.315000000293,The object is a fruit,207131,12,C,A,unknown,15
+5564.705000000657,The object grows in fields,212803,13,H,L,unknown,15
+4730.704999999929,The object is used to eat with,217641,14,K,G,unknown,15
+24070.700000000215,the object is a furry animal,241820,15,K,B,unknown,15
+4973.679999999149,the object is a furry animal,246903,16,J,B,unknown,15
+4115.535000000818,the object is a furry animal,251126,17,D,B,unknown,15
+6603.110000000044,The object is something you can transport yourself in,257840,18,B,I,unknown,15
+8438.00999992527,bird,84947,1,practiceDistractor1,practiceTarget1,practice,34
+6541.599999880418,plane,91591,2,practiceDistractor2,practiceTarget2,practice,34
+2975.4500000271946,ring,94670,3,I,F,known,34
+5129.625000059605,butterfly,99903,4,H,K,known,34
+3168.980000074953,cat,103175,5,J,B,known,34
+3365.860000019893,chair,106642,6,L,E,known,34
+3005.8999999891967,pen,109751,7,L,D,known,34
+3819.3500000052154,pen,113673,8,C,D,known,34
+2915.009999880567,pen,116690,9,G,D,known,34
+2995.9950000047684,apple,119790,10,D,A,known,34
+35101.58999986015,the simpler shaped object,154995,11,8,7,unknown,34
+14450.704999966547,black,169548,12,3,10,unknown,34
+8895.870000123978,holes,178546,13,9,6,unknown,34
+9288.835000013933,closer to being round,187943,14,1,11,unknown,34
+5279.795000096783,spiky,193325,15,1,4,unknown,34
+4202.559999888763,spiky,197630,16,2,4,unknown,34
+2992.48499982059,spiky,200726,17,5,4,unknown,34
+10797.939999960363,not spiky,211626,18,4,12,unknown,34
+11484.730000000127,its a pigeon,53283,1,practiceDistractor1,practiceTarget1,practice,8
+5668.189999999871,plane,59067,2,practiceDistractor2,practiceTarget2,practice,8
+5267.789999999877,dress shoe,64452,3,A,C,known,8
+5100.235000000335,chair,69669,4,F,E,known,8
+5441.295000000086,SUV,75225,5,J,I,known,8
+6130.17500000025,black pen,81477,6,L,D,known,8
+3603.350000000326,cat,85189,7,L,B,known,8
+3589.4699999998847,cat,88890,8,K,B,known,8
+4383.190000000002,cat,93386,9,G,B,known,8
+4603.149999999921,die,98101,10,B,H,known,8
+14823.774999999834,not sure what this is,113037,11,11,7,unknown,8
+7172.139999999665,unsure,120397,12,9,4,unknown,8
+9417.549999999668,some sort of sculpture,129923,13,8,1,unknown,8
+7947.334999999846,looks like a top,137983,14,10,12,unknown,8
+5719.685000000027,unsure,143817,15,10,6,unknown,8
+6542.150000000227,unsure,150474,16,2,6,unknown,8
+4440.794999999984,unsure,155041,17,5,6,unknown,8
+4889.090000000113,unsure,160042,18,6,3,unknown,8
+6312.864999999874,bird,893601,1,practiceDistractor1,practiceTarget1,practice,13
+3173.2999999949243,airplane,896877,2,practiceDistractor2,practiceTarget2,practice,13
+4507.439999986673,drums,901489,3,11,12,known,13
+11366.320000000997,plastic clear oval thing,912957,4,5,2,known,13
+9921.889999997802,black and white rose object,922981,5,6,8,known,13
+4991.559999994934,sandal,928077,6,9,7,known,13
+5131.834999992861,weird rock shape,933314,7,9,3,known,13
+3585.959999996703,weird rock shape,937002,8,1,3,known,13
+3721.8299999949522,weird rock shape,940826,9,4,3,known,13
+6171.974999990198,black plunger thing,947100,10,3,10,known,13
+3819.000000003143,flower,951022,11,C,L,unknown,13
+2821.8550000019604,tree,953947,12,E,J,unknown,13
+2723.809999995865,fork,956773,13,K,G,unknown,13
+2812.6000000047497,dice,959689,14,F,H,unknown,13
+1865.3449999983422,car,961657,15,F,I,unknown,13
+1600.9999999951106,car,963360,16,D,I,unknown,13
+1306.0300000070129,car,964768,17,A,I,unknown,13
+1600.0250000070082,cat,966470,18,I,B,unknown,13
+11830.430000000197,Bird,72650,1,practiceDistractor1,practiceTarget1,practice,2
+7458.795000000013,Aeroplane,80218,2,practiceDistractor2,practiceTarget2,practice,2
+17369.82999999987,Gift,97700,3,9,1,known,2
+25601.244999999835,sleeper,123409,4,6,7,known,2
+6054.550000000061,Steel,129570,5,8,5,known,2
+7432.534999999916,Round,137120,6,10,12,known,2
+3603.570000000007,Gift,140834,7,10,3,known,2
+5004.490000000049,Gift,145946,8,4,3,known,2
+4876.584999999963,Gift,150929,9,2,3,known,2
+7880.975000000035,Pipe,158925,10,3,11,known,2
+11322.104999999952,Butterfly,170365,11,I,K,unknown,2
+6043.660000000033,Sunflower,176520,12,C,L,unknown,2
+4355.3749999998545,Apple,180980,13,J,A,unknown,2
+3121.084999999992,Chair,184212,14,G,E,unknown,2
+4417.750000000058,Tie,188738,15,G,H,unknown,2
+2298.1400000001304,Tie,191146,16,F,H,unknown,2
+3334.1949999999197,Tie,194588,17,D,H,unknown,2
+2601.795000000042,Cat,197296,18,H,B,unknown,2
+13444.275000001653,Pigeon,446326,1,practiceDistractor1,practiceTarget1,practice,35
+3147.019999996701,plane,449576,2,practiceDistractor2,practiceTarget2,practice,35
+16968.704999999318,maxi pad,466648,3,6,7,known,35
+13591.009999996459,plunger looking thing,480344,4,2,10,known,35
+12904.129999995348,cup with handle,493352,5,11,9,known,35
+8696.4799999987,goldfish art,502152,6,4,1,known,35
+12840.750000003027,ufo stick,515096,7,4,12,known,35
+5618.860000002314,ufo stick,520824,8,3,12,known,35
+5295.8199999993085,ufo top,526224,9,5,12,known,35
+6008.685000000638,smashed ball,532336,10,12,8,known,35
+2191.9999999953434,car,534632,11,L,I,unknown,35
+2537.5000000058208,fork,537272,12,H,G,unknown,35
+2864.02000000095,ring,540240,13,E,F,unknown,35
+2041.590000000666,cat,542385,14,J,B,unknown,35
+2116.9650000011316,pen,544608,15,J,D,unknown,35
+2128.8950000016484,pen,546840,16,A,D,unknown,35
+2409.7099999998463,pen,549352,17,C,D,unknown,35
+3832.60000000149,butterfly,553288,18,D,K,unknown,35
+15080,Pigeon,86724,1,practiceDistractor1,practiceTarget1,practice,23
+4841,Airplane,91670,2,practiceDistractor2,practiceTarget2,practice,23
+22233,Plastic object that looks like a rubber duck laying on its side,114009,3,5,2,known,23
+61479,The object looks like a bell with a telephone looking thing at its base,175595,4,7,9,known,23
+22472,The object looks like a duck or swan without a head,198173,5,4,3,known,23
+22933,The object looks like a UFO with a cymbal on top of it,221212,6,1,12,known,23
+43372,The object is symmetrical  and looks like it is made up of barrels,264690,7,1,11,known,23
+31148,The object is symmetrical and geometric like a crystal,295944,8,10,11,known,23
+54567,The object is geometric similar to a pet toy ball and instead of being round it has cylindrical protrusions,350618,9,8,11,known,23
+40389,The object has a vent that looks like a target and two open sections at its side,391113,10,11,6,known,23
+8104,a ring,399324,11,A,F,unknown,23
+10959,a white phen with black cap at its end,410389,12,H,D,unknown,23
+13012,a white cat with patches,423507,13,G,B,unknown,23
+4993,a butterfly,428606,14,E,K,unknown,23
+14128,a car with a black strick along its doors,442839,15,E,I,unknown,23
+43767,A small four door car with a rubber looking bumber,486710,16,C,I,unknown,23
+15693,A small grey car with a striped bumber on the doors,502507,17,L,I,unknown,23
+10044,A scrawny tree,512658,18,I,J,unknown,23
+6225.025000050664,pigeon,2064523,1,practiceDistractor1,practiceTarget1,practice,22
+4089.7950001526624,airplane,2068719,2,practiceDistractor2,practiceTarget2,practice,22
+10881.640000035986,light colored one,2079712,3,10,9,known,22
+6124.220000114292,black one,2085944,4,12,6,known,22
+6895.405000075698,translucent dark one,2092955,5,3,2,known,22
+4906.405000016093,one with spines,2097986,6,5,4,known,22
+12201.095000142232,spherical,2110308,7,5,11,known,22
+5280.844999942929,sphere again,2115712,8,7,11,known,22
+6799.799999920651,solid color sphere,2122619,9,8,11,known,22
+4868.065000046045,tall one,2127595,10,11,1,known,22
+3826.5100000426173,kitty cat,2131534,11,D,B,unknown,22
+2078.3649999648333,tree,2133720,12,C,J,unknown,22
+2545.68999982439,ring,2136394,13,K,F,unknown,22
+4864.070000126958,fork,2141365,14,E,G,unknown,22
+5797.590000089258,flower,2147291,15,E,L,unknown,22
+1597.4500000011176,flower,2148995,16,H,L,unknown,22
+29861.990000121295,flower,2178975,17,I,L,unknown,22
+1857.3900000192225,apple,2180942,18,L,A,unknown,22
+7018.530000001192,Onion,338890,1,practiceDistractor1,practiceTarget1,practice,25
+5376.924999989569,Airplane,344374,2,practiceDistractor2,practiceTarget2,practice,25
+6569.684999994934,Pump,351054,3,6,10,known,25
+11369.524999987334,Ribbon,362529,4,7,8,known,25
+5168.989999976475,Jar,367805,5,2,1,known,25
+7392.07499998156,Cactus,375306,6,4,9,known,25
+7388.489999982994,Tool,382801,7,4,5,known,25
+6843.8050000113435,Wrapping,389754,8,11,5,known,25
+4100.540000014007,Tool,393958,9,3,5,known,25
+8332.055000006221,Lid,402397,10,5,12,known,25
+5419.794999994338,Flower,407930,11,L,F,unknown,25
+6357.194999989588,Dice,414394,12,H,G,unknown,25
+4040.4750000452623,Shoes,418539,13,C,K,unknown,25
+3850.15499999281,Car,422494,14,I,J,unknown,25
+3358.089999994263,Cat,425961,15,I,B,unknown,25
+4281.039999972563,Apple,430346,16,A,B,unknown,25
+3956.5899999579415,Pen,434409,17,D,B,unknown,25
+6253.205000015441,Cat,440770,18,B,E,unknown,25
+10109.24999997951,fly,59158,1,practiceDistractor1,practiceTarget1,practice,1
+8409.849999996368,stringed,67678,2,practiceDistractor2,practiceTarget2,practice,1
+32621.24499998754,handle two bowls on crossbar,100408,3,5,9,known,1
+23881.890000018757,spins like a,124397,4,11,12,known,1
+34013.764999981504,long and flat with arm in the middle upward,158516,5,1,7,known,1
+9559.91000001086,like a cactus,168184,6,2,4,known,1
+12351.49500000989,like scalloped potatoes,180640,7,2,3,known,1
+25036.390000022948,like stacked cookies fallen over,205783,8,8,3,known,1
+14060.980000009295,Pringles on their side,219950,9,10,3,known,1
+30735.494999971706,black plastic holes on one end,250794,10,3,6,known,1
+9751.19999999879,black footwear,260650,11,H,C,unknown,1
+6091.639999998733,feline,266847,12,I,B,unknown,1
+11624.294999986887,type of plant,278581,13,F,L,unknown,1
+9200.040000025183,write with it,287884,14,E,D,unknown,1
+11450.475000019651,eat fresh or make a pie,299440,15,E,A,unknown,1
+6281.094999983907,pie fruit,305826,16,G,A,unknown,1
+19926.745000004303,William Tell shot it with an arrow,325858,17,J,A,unknown,1
+18094.66500004055,delicate flying insect,344057,18,A,K,unknown,1
+12231.425000121817,pidgeon,52929,1,practiceDistractor1,practiceTarget1,practice,18
+9830.949999857694,Plane,62865,2,practiceDistractor2,practiceTarget2,practice,18
+113446.8450001441,binky on a rail,176414,3,11,9,known,18
+15640.035000164062,pronged dumbbell,192158,4,7,5,known,18
+9440.419999882579,Vase,201701,5,3,2,known,18
+24984.240000136197,fan casing,226789,6,4,6,known,18
+19903.5000000149,futuristic cymbal,246797,7,4,12,known,18
+14336.27499989234,futuristic cymbal,261236,8,1,12,known,18
+7792.609999887645,futuristic cymbal,269132,9,10,12,known,18
+58639.449999900535,abstract ornament,327875,10,12,8,known,18
+3936.5250000264496,fork,331915,11,F,G,unknown,18
+3440.605000127107,apple,335459,12,H,A,unknown,18
+3129.285000031814,car,338691,13,K,I,unknown,18
+6384.495000122115,tree,345179,14,L,J,unknown,18
+4632.480000145733,shoe,349915,15,L,C,unknown,18
+4056.824999861419,shoe,354075,16,D,C,unknown,18
+2460.5149999260902,shoe,356639,17,B,C,unknown,18
+2344.7849999647588,chair,359087,18,C,E,unknown,18
+5990,bird,21982,1,practiceDistractor1,practiceTarget1,practice,27
+4372,plane,26464,2,practiceDistractor2,practiceTarget2,practice,27
+6648,plunger,33222,3,12,10,known,27
+5303,art,38634,4,11,1,known,27
+4939,toy,43682,5,7,9,known,27
+4643,glass,48435,6,4,2,known,27
+43285,feather,91828,7,4,3,known,27
+4782,feather,96719,8,6,3,known,27
+5946,art,102775,9,8,3,known,27
+6189,dog toy,109073,10,3,5,known,27
+3330,shoe,112512,11,G,C,unknown,27
+7336,butterfly,119956,12,B,K,unknown,27
+3632,chair,123696,13,I,E,unknown,27
+2782,die,126587,14,F,H,unknown,27
+2583,tree,129280,15,F,J,unknown,27
+2387.9999999999854,tree,131777,16,A,J,unknown,27
+2580,tree,134466,17,D,J,unknown,27
+8321.99999999997,flower,142897,18,J,L,unknown,27
+5112.870000069961,pigeon,45528,1,practiceDistractor1,practiceTarget1,practice,9
+2696.8249999918044,plane,48336,2,practiceDistractor2,practiceTarget2,practice,9
+14090.284999925643,black hose like connector,62535,3,2,11,known,9
+15446.32999994792,white and black plastic wadded up like paper,78090,4,5,8,known,9
+19508.559999987483,wood shoe with wood coming up in middle,97705,5,7,9,known,9
+11284.620000049472,toy top,109098,6,4,12,known,9
+6525.344999972731,plastic white cloud,115731,7,4,3,known,9
+9659.769999794662,plastic whistle body,125499,8,6,3,known,9
+7129.725000122562,plastic white cloud,132736,9,1,3,known,9
+12471.239999867976,black bulb on plastic handle,145315,10,3,10,known,9
+3579.979999922216,ink pen,149003,11,K,D,unknown,9
+11681.95499991998,Gerbera daisy flower,160792,12,F,L,unknown,9
+4049.7449999675155,wood chair,164949,13,A,E,unknown,9
+2722.81499998644,meow,167779,14,H,B,unknown,9
+2356.6950000822544,tree,170245,15,H,J,unknown,9
+2362.2149999719113,tree,172714,16,C,J,unknown,9
+1739.9599999189377,tree,174561,17,G,J,unknown,9
+1951.05000003241,car,176620,18,J,I,unknown,9
+14131.70500000706,choose pigeon,58310,1,practiceDistractor1,practiceTarget1,practice,24
+10851.275000022724,choose plane,69266,2,practiceDistractor2,practiceTarget2,practice,24
+95954.46999999695,choose the object that looks like a pointy ball,165329,3,9,11,known,24
+44669.66999997385,choose the object that could be an avantgarde bench,210105,4,1,5,known,24
+12791.674999985844,choose the object that appears hollow,223002,5,6,2,known,24
+11870.59499998577,choose object that looks like a cactus,234977,6,3,4,known,24
+13720.054999983404,choose the object that looks like a top,248804,7,3,12,known,24
+9602.305000007618,choose the object that looks like a top,258510,8,10,12,known,24
+9025.025000039022,choose the object that looks like a top,267642,9,8,12,known,24
+33754.89000004018,choose the longer object,301502,10,12,7,known,24
+4299.935000017285,choose the tree,305905,11,L,J,unknown,24
+5078.640000021551,choose the butterfly,311087,12,E,K,unknown,24
+4216.190000006463,choose the apple,315409,13,I,A,unknown,24
+3923.7300000386313,choose the pen,319438,14,C,D,unknown,24
+4045.635000045877,choose the ring,323587,15,C,F,unknown,24
+4645.529999979772,choose the ring,328337,16,G,F,unknown,24
+2937.6399999600835,choose the ring,331378,17,H,F,unknown,24
+2876.5649999841116,choose the cat,334359,18,F,B,unknown,24
