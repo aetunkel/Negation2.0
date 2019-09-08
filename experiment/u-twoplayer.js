@@ -310,7 +310,7 @@ var giveExample1 = {
     type: 'html-keyboard-response',
     stimulus: '<center><b>This the Director screen.</b> The Matcher\'s screen will not have the <strong style="color:blue";> blue box </strong>.</center><br /><br />' +
               "<tr><td>" + practice1[0] + "</td><td>" + practice1[1] + "</td></tr><br /><br />" +
-              '<center> Previous messages sent for this pair include: </center><br /><br />'+
+              '<center> Other Directors have sent: </center><br /><br />'+
               'pigeon <br /><br />' + // 1
               'bird <br /><br />' + // 2
               'not the onion <br /><br />' + //3
@@ -329,7 +329,7 @@ var giveExample2 = {
     type: 'html-keyboard-response',
     stimulus: '<center><b>This the Director screen.</b> The Matcher\'s screen will not have the <strong style="color:blue";> blue box </strong>.</center><br /><br />' +
               "<tr><td><img src='" + pic8 + "' class='image'></td><td><img src='" + pic2 + "' class ='target'></td></tr><br /><br />" +
-              '<center> Previous messages sent for this pair include: </center><br /><br />'+
+              '<center> Other Directors have sent: </center><br /><br />'+
               'weird shaped vase <br /><br />' + // 1
               'smooth sculpture <br /><br />' + // 2
               'fish decoration <br /><br />' + //3
