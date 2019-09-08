@@ -194,7 +194,7 @@ var welcome = {
   	cont_btn: "start",
   	check_fn: check_consent,
 	on_finish: function(){
-		jsPsych.setProgressBar(1/23);
+		jsPsych.setProgressBar(1/28);
 	}
 };
 
@@ -203,20 +203,20 @@ timeline.push(welcome)
 var instructions = {
      type: "html-keyboard-response",
      stimulus: "<br /><br /><br /><br />" +
-               "On each round of this game, you will see two objects. The <b>target object</b> will have a <strong style='color:blue;'> blue box </strong> around it." +
+               "This is a communication game between you and a partner. You will be assigned to one of two roles: the <strong style='color:maroon;'> Director </strong> or the <strong style='color:teal;'> Matcher</strong>." +
                "<br /><br />" +
-               "Your goal is to type a message into the textbox below the objects that will help a future Turker correctly select the <b>target object</b>." +
+               'You will both see the same two objects, not necessarily in the same order.' + 
                "<br /><br />" +
-               "The <b> target object </b> may be on a different side of the Turker's screen, so messages like 'left' or 'right' will not be effective." +
+               "The <strong style='color:maroon;'> Director's </strong> goal is to type a message into the textbox below the objects that will help the <strong style='color:teal;'> Matcher </strong> pick the <b> target object</b>." +
                "<br /><br />" +
-               "<b>However, the rounds of the game will be in the same order, so the Turker will know what you have said earlier in the game.</b>" +
+               "The <strong style='color:maroon;'>Director's </strong> screen will show the <b>target object</b> in a <strong style='color:blue;'> blue box</strong>." +
+               "<br /><br />" +
+               "The <strong style='color:teal;'> Matcher's </strong> goal is to correctly choose between the two objects, using the <strong style='color:maroon;'> Director's </strong> message." +
                "<br /><br /><br /><br /><br /><br />" +
-               "Please stay on topic. Random responses will result in rejected Hits." +
-               "<br /><br /><br /><br /><br /><br />" +
-               "We will start with a short practice round. <b>Press any key to continue. </b>",
+               "<center><b>Press any key to continue. </b></center>",
      post_trial_gap: 200,
      on_finish: function(){
-        jsPsych.setProgressBar(2/23);
+        jsPsych.setProgressBar(2/28);
     }
 };
 
@@ -260,18 +260,57 @@ var images = {
                 "<br /><br /><p><b>Press any key to continue.</b></p>" ,
      post_trial_gap: 200,
      on_finish: function(){
-        jsPsych.setProgressBar(3/23);
+        jsPsych.setProgressBar(3/28);
     }
 };
 
 timeline.push(images);
 
+var nameInput = {
+  type: 'survey-text',
+  preamble: 'First, we need to match you to a partner!',
+  questions: [{prompt: 'Type the name you want to use:', required: true}],
+  response_ends_trial: true,
+  on_finish: function(){
+        jsPsych.setProgressBar(4/28);
+    }
+};
+
+timeline.push(nameInput);
+
+var partnerMatching =  {
+    type: 'html-keyboard-response',
+    stimulus: 'Matching you to another player and assigning roles...',
+    choices: jsPsych.NO_KEYS,
+    trial_duration: 4000,
+    on_finish: function(){
+        jsPsych.setProgressBar(5/28);
+    }
+ };
+
+ timeline.push(partnerMatching);
+
+ var partnerReveal = {
+  type: 'html-keyboard-response',
+  stimulus: 'You have been matched with <b> alex</b>! <br /><br />' + 
+            'You will be the <b> Director</b>.<br /><br />' + 
+            'alex will be the <b> Matcher</b>. <br /><br />' + 
+            '<br /><br />' + 
+            '<b> We will begin with some examples and practice rounds.</b>',
+  choices: jsPsych.NO_KEYS,
+  trial_duration: 6000,
+  on_finish: function(){
+        jsPsych.setProgressBar(6/28);
+    }
+ };
+
+timeline.push(partnerReveal);
+
 var giveExample1 = {
     type: 'html-keyboard-response',
-    stimulus: '<center><b>This is what your screen will look like.</b></center><br /><br />' +
+    stimulus: '<center><b>This the Director screen.</b> The Matcher\'s screen will not have the <strong style="color:blue";> blue box </strong>.</center><br /><br />' +
               "<tr><td>" + practice1[0] + "</td><td>" + practice1[1] + "</td></tr><br /><br />" +
-              '<center>You will need to communicate with your partner in order to have them choose the <b> target image </b> in the <strong style="color:blue";> blue box </strong>.</center><br /><br />' + 
-              '<center> Acceptable messages for this pair include: </center><br /><br />'+
+              '<center> Previous messages sent for this pair include: </center><br /><br />'+
               'pigeon <br /><br />' + // 1
               'bird <br /><br />' + // 2
               'not the onion <br /><br />' + //3
@@ -280,7 +319,7 @@ var giveExample1 = {
               '<center><b> Press any key to continue. </b></center>', //5
     post_trial_gap: 200,
     on_finish: function(){
-      jsPsych.setProgressBar(4/23);
+      jsPsych.setProgressBar(7/28);
     }
 };
 
@@ -288,19 +327,18 @@ timeline.push(giveExample1);
 
 var giveExample2 = {
     type: 'html-keyboard-response',
-    stimulus: '<center><b>This is what your screen will look like.</b></center><br /><br />' +
+    stimulus: '<center><b>This the Director screen.</b> The Matcher\'s screen will not have the <strong style="color:blue";> blue box </strong>.</center><br /><br />' +
               "<tr><td><img src='" + pic8 + "' class='image'></td><td><img src='" + pic2 + "' class ='target'></td></tr><br /><br />" +
-              '<center>You will need to communicate with your partner in order to have them choose the <b> target image </b> in the <strong style="color:blue";> blue box </strong>.</center><br /><br />' + 
-              '<center> Acceptable messages for this pair include: </center><br /><br />'+
+              '<center> Previous messages sent for this pair include: </center><br /><br />'+
               'weird shaped vase <br /><br />' + // 1
               'smooth sculpture <br /><br />' + // 2
               'fish decoration <br /><br />' + //3
               'not spiky <br /><br />' + //4
-              'art <br /><br /><br />' +
+              'same as before <br /><br /><br />' +
               '<center><b> Press any key to continue. </b></center>', //5
     post_trial_gap: 200,
     on_finish: function(){
-      jsPsych.setProgressBar(5/23);
+      jsPsych.setProgressBar(8/28);
     }
 };
 
@@ -309,17 +347,15 @@ timeline.push(giveExample2);
 
 
 
-
-
   var practice1test = {
     type: 'survey-text',
-    preamble: "<p>This is a practice round. Remember to tell your partner which object is in the<strong style='color:blue;'> blue square</strong>. </p>" +
+    preamble: "<p>This is a practice round. Remember to tell the Matcher which object is in the<strong style='color:blue;'> blue square</strong>. </p>" +
               "<tr><td>" + practice1[0] + "</td><td>" + practice1[1] + "</td></tr>",
     questions: [{prompt:"<p>Type a message to your partner:</p>", required: true}],
     post_trial_gap: 100,
     response_ends_trial: true,
     on_finish: function(){
-        jsPsych.setProgressBar(6/23);
+        jsPsych.setProgressBar(9/28);
     }
 
 };
@@ -328,19 +364,45 @@ timeline.push(practice1test);
 
 var practice2test = {
   type: 'survey-text',
-  preamble: "<p>This is a practice round. Remember to tell your partner which object is in the<strong style='color:blue;'> blue square</strong>. </p>" +
+  preamble: "<p>This is a practice round. Remember to tell the Matcher which object is in the<strong style='color:blue;'> blue square</strong>. </p>" +
             "<tr><td>" + practice2[0] + "</td><td>" + practice2[1] + "</td></tr>",
   questions: [{prompt:"<p>Type a message to your partner:</p>", required: true}],
   post_trial_gap: 100,
   response_ends_trial: true,
   on_finish: function(){
-      jsPsych.setProgressBar(7/23)
+      jsPsych.setProgressBar(10/28)
   }
 };
 
 timeline.push(practice2test);
 
-trialnum = 7;
+var waiting = {
+  type: 'html-keyboard-response',
+  stimulus: 'Waiting...',
+  choices: jsPsych.NO_KEYS,
+  trial_duration: 5000,
+  on_finish: function(){
+        jsPsych.setProgressBar(11/28);
+    }
+  };
+
+timeline.push(waiting);
+
+var begin = {
+  type: 'html-keyboard-response',
+  stimulus: '<b>Press any key to begin.</b>',
+  post_trial_gap: 200,
+  on_finish: function(){
+        jsPsych.setProgressBar(12/28);
+    }
+  };
+
+timeline.push(begin);
+
+
+
+
+trialnum = 12;
 
 allStim = [];
 knownStim = [];
@@ -376,28 +438,36 @@ stimulusList = [];
 var test = {
 	    type: 'survey-text',
       preamble: jsPsych.timelineVariable('preamble'),
-      questions: [{prompt:"Type a message to your partner:", required: true}],
+      questions: [{prompt:"Type a message to the Matcher:", required: true}],
 	    post_trial_gap: 100,
 	  on_finish: function(){
 	    trialnum = trialnum + 1;
-        jsPsych.setProgressBar(trialnum/23);
+        jsPsych.setProgressBar(trialnum/28);
     	}
 	};
 
 var fixation = 
   {
     type: 'html-keyboard-response',
-    stimulus: 'Your partner is currently selecting...',
+    stimulus: 'alex is currently selecting...',
     choices: jsPsych.NO_KEYS,
     trial_duration: function(){
    return jsPsych.randomization.sampleWithReplacement([750, 1000, 1250, 1500, 1750, 2000, 2500, 3000], 1)[0];},
  };
 
+ var correctness = 
+ 	{ 
+ 		type: 'html-keyboard-response',
+ 		stimulus: '<center>alex got it right! <br /> <br />' + '<b> Press any key to continue. </b></center>',
+ 		post_trial_gap: 200,
+
+ 	};
+
 
 
 
 	var test_procedure = {
-	  timeline: [test, fixation],
+	  timeline: [test, fixation, correctness],
 	  timeline_variables: allStim
 	};
 
