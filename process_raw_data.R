@@ -2,6 +2,7 @@ library(readr)
 library(knitr)
 library(purrr)
 library(tibble)
+library(tidyr)
 library(tidyverse)
 library(here)
 library(jsonlite)
@@ -85,4 +86,4 @@ raw_data <- map_df(files, read_file) %>%
   ungroup() %>%
   mutate(id = factor(id, labels = 1:length(unique(id))))
 
-write_csv(raw_data, here("data/pilot.csv"))
+write_csv(raw_data, here("data/pilot3.csv"))
