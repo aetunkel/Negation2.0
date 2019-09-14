@@ -166,7 +166,7 @@ var pic9 = "/experiments/negation/img/E.jpg";
 var pic10 = "/experiments/negation/img/5.jpg";
 var pic11 = "/experiments/negation/img/F.jpg";
 var pic12 = "/experiments/negation/img/6.jpg";
-var pic13 = "/experiments/negation/img/6.jpg";
+var pic13 = "/experiments/negation/img/G.jpg";
 var pic14 = "/experiments/negation/img/7.jpg";
 var pic15 = "/experiments/negation/img/H.jpg";
 var pic16 = "/experiments/negation/img/8.jpg";
@@ -178,6 +178,7 @@ var pic21 = "/experiments/negation/img/K.jpg";
 var pic22 = "/experiments/negation/img/11.jpg";
 var pic23 = "/experiments/negation/img/L.jpg";
 var pic24 = "/experiments/negation/img/12.jpg";
+
 var pic25 = "/experiments/negation/img/practiceDistractor1.jpg";
 var pic26 = "/experiments/negation/img/practiceTarget1.jpg";
 var pic27 = "/experiments/negation/img/practiceDistractor2.jpg";
@@ -189,13 +190,13 @@ var timeline = [];
 
 // Welcome screen
 var welcome = {
-	type:'external-html',
-  	url: "external_page.html",
-  	cont_btn: "start",
-  	check_fn: check_consent,
-	on_finish: function(){
-		jsPsych.setProgressBar(1/28);
-	}
+  type:'external-html',
+    url: "external_page.html",
+    cont_btn: "start",
+    check_fn: check_consent,
+  on_finish: function(){
+    jsPsych.setProgressBar(1/31);
+  }
 };
 
 timeline.push(welcome)
@@ -216,7 +217,7 @@ var instructions = {
                "<center><b>Press any key to continue. </b></center>",
      post_trial_gap: 200,
      on_finish: function(){
-        jsPsych.setProgressBar(2/28);
+        jsPsych.setProgressBar(2/31);
     }
 };
 
@@ -256,23 +257,89 @@ var images = {
                 "<td><img src='" + pic25 + "' height ='130'></td>" +
                 "<td><img src='" + pic26 + "' height ='130'></td>" +
                 "<td><img src='" + pic27 + "' height ='130'></td>" +
-                "<td><img src='" + pic28 + "' height ='130'></td></tr>" + 
-                "<br /><br /><p><b>Press any key to continue.</b></p>" ,
-     post_trial_gap: 200,
+                "<td><img src='" + pic28 + "' height ='130'></td></tr>",
+     choices: jsPsych.NO_KEYS,
+     trial_duration: 10000,
      on_finish: function(){
-        jsPsych.setProgressBar(3/28);
+        jsPsych.setProgressBar(3/31);
     }
 };
 
 timeline.push(images);
 
+var giveExample1 = {
+    type: 'survey-text',
+    preamble: '<center><b>This the <strong style="color:maroon;">Director</strong> screen.</center></b><br /><br />' +
+              "The <strong style='color:maroon;'>Director's</strong> goal is to send a message to the <strong style='color:teal;'>Matcher</strong> so they choose the target object.<br /><br />" + 
+              "<tr><td>" + practice1[0] + "</td><td>" + practice1[1] + "</td></tr><br /><br /><br /><br />" +
+              "Try it out! Type <i><b>bird</b></i> into the textbox and press continue.<br /><br />", //5
+    questions: [{prompt:"<p>Type a message to the Matcher:</p>", required: true}],
+    response_ends_trial: true,
+    on_finish: function(){
+      jsPsych.setProgressBar(4/31);
+    }
+};
+
+timeline.push(giveExample1);
+
+var matcherExample1 = {
+    type: 'html-button-response',
+    stimulus: '<center><b>This the <strong style="color:teal;">Matcher</strong> screen.</center></b><br /><br />' +
+              "The <strong style='color:teal;'>Matcher's</strong> goal is to use the <strong style='color:maroon;'>Director's</strong> message to choose the target object.<br /><br /><br />" + 
+              '<strong style="color:red;">The Director said: <i> bird </i></strong><br /> <br />' + 
+              '<center>Which is the <b> target object</b>?</center><br /> <br />',
+    choices: ['<center><img src="' + pic25 + '" class="image"></center>', '<center><img src="' + pic26 + '" class="image"></center>'],
+  response_ends_trial: true,
+  on_finish: function(){
+    jsPsych.setProgressBar(5/31)
+  }  
+};
+
+timeline.push(matcherExample1);
+
+var giveExample2 = {
+    type: 'survey-text',
+    preamble: '<center><b>Here is another <strong style="color:maroon;">Director</strong> example.</center></b><br /><br />' +
+              "<tr><td><img src='" + pic8 + "' class='image'></td><td><img src='" + pic2 + "' class ='target'></td></tr><br /><br />" +
+              'Type <i><b>art</b></i> into the textbox and press continue. </center><br /><br />' +
+              '&nbsp&nbsp&nbsp <i> Other Directors have sent: </i> <br /><br />' + 
+              '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp weird shaped vase<br />' + 
+              '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp smooth sculpture<br />' + 
+              '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp not spiky <br />'+
+              '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp fish decoration<br /><br />' , 
+    questions: [{prompt: "<p>Type a message to the Matcher:</p>", required: true}],
+    response_ends_trial: true,
+    on_finish: function(){
+      jsPsych.setProgressBar(6/31);
+    }
+};
+
+timeline.push(giveExample2);
+
+
+var matcherExample2 = {
+    type: 'html-button-response',
+    stimulus: '<center><b>This the <strong style="color:teal;">Matcher</strong> screen.</center></b><br /><br />' +
+              "The <strong style='color:teal;'>Matcher's</strong> goal is to use the <strong style='color:maroon;'>Director's</strong> message to choose the target object.<br /><br /><br />" + 
+              '<strong style="color:red;">The Director said: <i> art </i></strong><br /> <br />' + 
+              '<center>Which is the <b> target object</b>?</center><br /> <br />',
+    choices: ['<center><img src="' + pic8 + '" class="image"></center>', '<center><img src="' + pic2 + '" class="image"></center>'],
+  response_ends_trial: true,
+  on_finish: function(){
+    jsPsych.setProgressBar(7/31)
+  }  
+};
+
+timeline.push(matcherExample2);
+
+
 var nameInput = {
   type: 'survey-text',
-  preamble: 'First, we need to match you to a partner!',
+  preamble: 'Great! Now that you have an idea of how to play, we will match you to a partner!',
   questions: [{prompt: 'Type the name you want to use:', required: true}],
   response_ends_trial: true,
   on_finish: function(){
-        jsPsych.setProgressBar(4/28);
+        jsPsych.setProgressBar(8/31);
     }
 };
 
@@ -284,7 +351,7 @@ var partnerMatching =  {
     choices: jsPsych.NO_KEYS,
     trial_duration: 4000,
     on_finish: function(){
-        jsPsych.setProgressBar(5/28);
+        jsPsych.setProgressBar(9/31);
     }
  };
 
@@ -293,56 +360,18 @@ var partnerMatching =  {
  var partnerReveal = {
   type: 'html-keyboard-response',
   stimulus: 'You have been matched with <b> alex</b>! <br /><br />' + 
-            'You will be the <b> Director</b>.<br /><br />' + 
-            'alex will be the <b> Matcher</b>. <br /><br />' + 
+            'You will be the <strong style="color:maroon;"> Director</strong>.<br /><br />' + 
+            'alex will be the <strong style="color:teal;"> Matcher</strong>. <br /><br />' + 
             '<br /><br />' + 
-            '<b> We will begin with some examples and practice rounds.</b>',
+            '<b> We will begin with a short practice round.</b>',
   choices: jsPsych.NO_KEYS,
-  trial_duration: 6000,
+  trial_duration: 4000,
   on_finish: function(){
-        jsPsych.setProgressBar(6/28);
+        jsPsych.setProgressBar(10/31);
     }
  };
 
 timeline.push(partnerReveal);
-
-var giveExample1 = {
-    type: 'html-keyboard-response',
-    stimulus: '<center><b>This the Director screen.</b> The Matcher\'s screen will not have the <strong style="color:blue";> blue box </strong>.</center><br /><br />' +
-              "<tr><td>" + practice1[0] + "</td><td>" + practice1[1] + "</td></tr><br /><br />" +
-              '<center> Other Directors have sent: </center><br /><br />'+
-              'pigeon <br /><br />' + // 1
-              'bird <br /><br />' + // 2
-              'not the onion <br /><br />' + //3
-              'the one with the legs and beak <br /><br />' + //4
-              'a bird that is often in cities <br /><br /><br />' +
-              '<center><b> Press any key to continue. </b></center>', //5
-    post_trial_gap: 200,
-    on_finish: function(){
-      jsPsych.setProgressBar(7/28);
-    }
-};
-
-timeline.push(giveExample1);
-
-var giveExample2 = {
-    type: 'html-keyboard-response',
-    stimulus: '<center><b>This the Director screen.</b> The Matcher\'s screen will not have the <strong style="color:blue";> blue box </strong>.</center><br /><br />' +
-              "<tr><td><img src='" + pic8 + "' class='image'></td><td><img src='" + pic2 + "' class ='target'></td></tr><br /><br />" +
-              '<center> Other Directors have sent: </center><br /><br />'+
-              'weird shaped vase <br /><br />' + // 1
-              'smooth sculpture <br /><br />' + // 2
-              'fish decoration <br /><br />' + //3
-              'not spiky <br /><br />' + //4
-              'same as before <br /><br /><br />' +
-              '<center><b> Press any key to continue. </b></center>', //5
-    post_trial_gap: 200,
-    on_finish: function(){
-      jsPsych.setProgressBar(8/28);
-    }
-};
-
-timeline.push(giveExample2);
 
 
 
@@ -355,12 +384,28 @@ timeline.push(giveExample2);
     post_trial_gap: 100,
     response_ends_trial: true,
     on_finish: function(){
-        jsPsych.setProgressBar(9/28);
+        jsPsych.setProgressBar(11/31);
     }
 
 };
 
 timeline.push(practice1test);
+
+var practice1wait = 
+  {
+    type: 'html-keyboard-response',
+    stimulus: 'alex is currently selecting...',
+    choices: jsPsych.NO_KEYS,
+    trial_duration: function(){
+   return jsPsych.randomization.sampleWithReplacement([750, 1000, 1250, 1500, 1750, 2000, 2500, 3000], 1)[0];},
+  on_finish: function() {
+    jsPsych.setProgressBar(12/31);
+  }
+ };
+
+ timeline.push(practice1wait);
+
+
 
 var practice2test = {
   type: 'survey-text',
@@ -370,30 +415,33 @@ var practice2test = {
   post_trial_gap: 100,
   response_ends_trial: true,
   on_finish: function(){
-      jsPsych.setProgressBar(10/28)
+      jsPsych.setProgressBar(13/31)
   }
 };
 
 timeline.push(practice2test);
 
-var waiting = {
-  type: 'html-keyboard-response',
-  stimulus: 'Waiting...',
-  choices: jsPsych.NO_KEYS,
-  trial_duration: 5000,
-  on_finish: function(){
-        jsPsych.setProgressBar(11/28);
-    }
-  };
+var practice2wait = 
+  {
+    type: 'html-keyboard-response',
+    stimulus: 'alex is currently selecting...',
+    choices: jsPsych.NO_KEYS,
+    trial_duration: function(){
+   return jsPsych.randomization.sampleWithReplacement([750, 1000, 1250, 1500, 1750, 2000, 2500, 3000], 1)[0];},
+  on_finish: function() {
+    jsPsych.setProgressBar(14/31);
+  }
+ };
 
-timeline.push(waiting);
+ timeline.push(practice2wait);
+
 
 var begin = {
   type: 'html-keyboard-response',
-  stimulus: '<b>Press any key to begin.</b>',
+  stimulus: '<b>Press any key to begin the game.</b>',
   post_trial_gap: 200,
   on_finish: function(){
-        jsPsych.setProgressBar(12/28);
+        jsPsych.setProgressBar(15/31);
     }
   };
 
@@ -402,13 +450,14 @@ timeline.push(begin);
 
 
 
-trialnum = 12;
+trialnum = 15;
 
 allStim = [];
 knownStim = [];
 unkStim = [];
 
-for(i=0; i<8; i++){
+
+  for(i=0; i<8; i++){
     leftpic = allKnown[i][0];
     rightpic = allKnown[i][1];
     knownStim.push([leftpic, rightpic]);
@@ -421,9 +470,6 @@ for(i=0; i<8; i++){
     unkStim.push([leftpic, rightpic]);
      allStim.push({preamble: "<table align = 'center'><tr><td height = 200>" + leftpic + "</td><td width = 150></td><td height = 200>" + rightpic + "</td></tr></table>"});
    };
-
-  
-
 
 
 
@@ -438,15 +484,15 @@ stimulusList = [];
 
 
 var test = {
-	    type: 'survey-text',
+      type: 'survey-text',
       preamble: jsPsych.timelineVariable('preamble'),
       questions: [{prompt:"Type a message to the Matcher:", required: true}],
-	    post_trial_gap: 100,
-	  on_finish: function(){
-	    trialnum = trialnum + 1;
-        jsPsych.setProgressBar(trialnum/28);
-    	}
-	};
+      post_trial_gap: 100,
+    on_finish: function(){
+      trialnum = trialnum + 1;
+        jsPsych.setProgressBar(trialnum/31);
+      }
+  };
 
 var fixation = 
   {
@@ -457,51 +503,51 @@ var fixation =
    return jsPsych.randomization.sampleWithReplacement([750, 1000, 1250, 1500, 1750, 2000, 2500, 3000], 1)[0];},
  };
 
- var correctness = 
- 	{ 
- 		type: 'html-keyboard-response',
- 		stimulus: '<center>alex got it right! <br /> <br />' + '<b> Press any key to continue. </b></center>',
- 		post_trial_gap: 200,
+ // var correctness = 
+ //  { 
+ //    type: 'html-keyboard-response',
+ //    stimulus: '<center>alex got it right! <br /> <br />' + '<b> Press any key to continue. </b></center>',
+ //    post_trial_gap: 200,
 
- 	};
-
-
+ //  };
 
 
-	var test_procedure = {
-	  timeline: [test, fixation, correctness],
-	  timeline_variables: allStim
-	};
 
-	timeline.push(test_procedure);
 
-	var endtest = {
-		type: 'html-keyboard-response',
-		stimulus: "<p>This is the end of the study. Thank you for participating! Please press any key to end the experiment.</p>",
-		on_finish: function(){
+  var test_procedure = {
+    timeline: [test, fixation],
+    timeline_variables: allStim
+  };
+
+  timeline.push(test_procedure);
+
+  var endtest = {
+    type: 'html-keyboard-response',
+    stimulus: "<p>This is the end of the study. Thank you for participating! Please press any key to end the experiment.</p>",
+    on_finish: function(){
         jsPsych.setProgressBar(1);
-    	}
-	};
+      }
+  };
 
-	timeline.push(endtest);
+  timeline.push(endtest);
 
-	//Preview mode
-	var preview = jsPsych.turk.turkInfo().previewMode;
+  //Preview mode
+  var preview = jsPsych.turk.turkInfo().previewMode;
 
 
-	if(preview == false){
-		jsPsych.init({
-			timeline:timeline,
-			show_progress_bar: true,
-			auto_update_progress_bar: false,
-			on_finish: function(){
-				var responses = jsPsych.data.get().filter({trial_type: 'survey-text'}).csv();
+  if(preview == false){
+    jsPsych.init({
+      timeline:timeline,
+      show_progress_bar: true,
+      auto_update_progress_bar: false,
+      on_finish: function(){
+        var responses = jsPsych.data.get().filter({trial_type: 'survey-text'}).csv();
                 data= {
                     responses : responses,
                     trial_info : stimulusList,
                     };
 
-				turk.submit(data);
-		}
-	});
+        turk.submit(data);
+    }
+  });
 };
