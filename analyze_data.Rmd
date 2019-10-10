@@ -1,5 +1,5 @@
 ---
-title: "Negation in Refernece"
+title: "Negation in Reference"
 author: "Alex Tunkel and Dan Yurovsky"
 date: '`r Sys.Date()`'
 output: 
@@ -12,7 +12,6 @@ output:
 ---
 
 ```{r load-libraries, message=FALSE, warning=FALSE, show = F}
-library(tidyverse)
 library(forcats)
 library(knitr)
 library(tidyboot)
@@ -22,7 +21,8 @@ library(ggthemes)
 library(lme4)
 library(lmerTest)
 library(broom)
-
+library(broom.mixed)
+library(tidyverse)
 opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, 
                error = FALSE, cache = TRUE, tidy = FALSE)
 
@@ -30,11 +30,11 @@ opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE,
 theme_set(theme_classic(base_size = 16))
 ```
 
-```{r load_data}
+```{r load_data, eval = F}
 data <- read_csv(here("data/pilot3.csv")) 
 ```
 
-```{r munge_data}
+```{r munge_data, eval = F}
 false_alarms <- c("nothing", "not sure", "something that you smell not eat",
                   "Another form of art")
 
@@ -53,11 +53,20 @@ test_data <- data %>%
          negation = if_else(response %in% false_alarms,
                             FALSE, negation))
 
+write_csv(test_data, here("data/test_data.csv"))
+```
 
+read hand-coded data
+```{r load_coded_data, eval = T}
+test_data <- read_csv(here("data/test_data_coded.csv")) 
+```
+
+```{r}
 mean_data <- test_data %>% 
   group_by(type, switch, id) %>%
   summarise(negation = mean(negation)) %>%
-  tidyboot_mean(negation)
+  tidyboot_mean(negation) %>%
+  mutate(empirical_stat = empirical_stat)
 ```
 
 ```{r plot_negation}
@@ -72,7 +81,7 @@ lm <- glmer(negation ~  switch + type + (1|id),
             family = "binomial", data = test_data)
 
 tidy(lm) %>%
-  filter(group == "fixed") %>%
+  filter(effect == "fixed") %>%
   select(-group, - std.error) %>%
   kable()
 ```
