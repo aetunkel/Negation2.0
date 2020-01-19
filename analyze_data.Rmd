@@ -1,0 +1,87 @@
+---
+title: "Negation in Reference"
+author: "Alex Tunkel and Dan Yurovsky"
+date: '`r Sys.Date()`'
+output: 
+  html_document:
+    toc: false
+    number_sections: false
+    theme: lumen
+    toc_float: false
+    code_folding: hide
+---
+
+```{r load-libraries, message=FALSE, warning=FALSE, show = F}
+library(forcats)
+library(knitr)
+library(tidyboot)
+library(stringr)
+library(here)
+library(ggthemes)
+library(lme4)
+library(lmerTest)
+library(broom)
+library(broom.mixed)
+library(tidyverse)
+opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, 
+               error = FALSE, cache = TRUE, tidy = FALSE)
+
+
+theme_set(theme_classic(base_size = 16))
+```
+
+```{r load_data, eval = F}
+data <- read_csv(here("data/pilot3.csv")) 
+```
+
+```{r munge_data, eval = F}
+false_alarms <- c("nothing", "not sure", "something that you smell not eat",
+                  "Another form of art")
+
+test_data <- data %>%
+  filter(type != "practice") %>%
+  arrange(id, trial) %>%
+  group_by(id, target) %>%
+  mutate(occurrence = 1:n()) %>%
+  group_by(id) %>%
+  mutate(switch = lag(occurrence == 3),
+         switch = if_else(is.na(switch), FALSE, switch),
+         switch = factor(switch, levels = c(FALSE, TRUE), 
+                         labels = c("standard", "switch"))) %>%
+  ungroup() %>%
+  mutate(negation = str_detect(response, "not"),
+         negation = if_else(response %in% false_alarms,
+                            FALSE, negation))
+
+write_csv(test_data, here("data/test_data.csv"))
+```
+
+read hand-coded data
+```{r load_coded_data, eval = T}
+test_data <- read_csv(here("data/test_data_coded.csv")) 
+```
+
+```{r}
+mean_data <- test_data %>% 
+  group_by(type, switch, id) %>%
+  summarise(negation = mean(negation)) %>%
+  tidyboot_mean(negation) %>%
+  mutate(empirical_stat = empirical_stat)
+```
+
+```{r plot_negation}
+ggplot(mean_data, aes(x = type, y = empirical_stat, color = switch)) + 
+  geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper), 
+                  position = position_dodge(.5)) + 
+  scale_color_ptol()
+```
+
+```{r models}
+lm <- glmer(negation ~  switch + type + (1|id), 
+            family = "binomial", data = test_data)
+
+tidy(lm) %>%
+  filter(effect == "fixed") %>%
+  select(-group, - std.error) %>%
+  kable()
+```

@@ -1,0 +1,641 @@
+rt,response,time_elapsed,trial,distractor,target,type,id,occurrence,switch,negation
+12216.804999989100,vented and has handles,168866,3,11,6,unknown,1,1,standard,FALSE
+10487.510000006300,stick attatched,180969,4,2,10,unknown,1,1,standard,FALSE
+8737.095000004050,shiny and hard,191816,5,3,1,unknown,1,1,standard,FALSE
+13410.965000002800,has a plunger look,206338,6,12,9,unknown,1,1,standard,FALSE
+7132.174999991550,multicolored,214334,7,12,7,unknown,1,1,standard,FALSE
+15001.875000001700,long with a fold in the middle,230449,8,8,7,unknown,1,2,standard,FALSE
+10176.825000002300,rounded edges,241740,9,5,7,unknown,1,3,standard,FALSE
+5326.824999996460,prickly,247927,10,7,4,unknown,1,1,switch,FALSE
+5332.154999996420,used to eat,255124,11,K,G,known,1,1,standard,FALSE
+4397.705000010320,you wear,261633,12,L,C,known,1,1,standard,FALSE
+3737.7899999992200,you sit in,266483,13,J,E,known,1,1,standard,FALSE
+3621.710000006720,you eat,272720,14,D,A,known,1,1,standard,FALSE
+5422.469999990430,you drive,279006,15,D,I,known,1,1,standard,FALSE
+5199.3750000110600,you drive,286317,16,F,I,known,1,2,standard,FALSE
+8168.615000002320,put on seatbelt,295869,17,H,I,known,1,3,standard,FALSE
+8422.950000007400,purs,306401,18,I,B,known,1,1,switch,FALSE
+4099,air pump,69248,3,6,10,unknown,2,1,standard,FALSE
+5217,spiky thing,77579,4,2,3,unknown,2,1,standard,FALSE
+9395,art on a plac,88832,5,5,1,unknown,2,1,standard,FALSE
+4311,spiky thing,95002,6,12,4,unknown,2,1,standard,FALSE
+5392,wooden thing,102248,7,12,7,unknown,2,1,standard,FALSE
+2866,wood thing,105969,8,9,7,unknown,2,2,standard,FALSE
+3462,wood thing,110537,9,11,7,unknown,2,3,standard,FALSE
+4900,junk,118042,10,7,8,unknown,2,1,switch,FALSE
+2713,apple,122112,11,K,A,known,2,1,standard,FALSE
+2048,ring,125018,12,G,F,known,2,1,standard,FALSE
+2128,flower,129258,13,J,L,known,2,1,standard,FALSE
+3077,dice,134196,14,D,H,known,2,1,standard,FALSE
+1788,shoe,137842,15,D,C,known,2,1,standard,FALSE
+1949,shoe,140898,16,I,C,known,2,2,standard,FALSE
+1513,shoe,143520,17,B,C,known,2,3,standard,FALSE
+2060,chair,148688,18,C,E,known,2,1,switch,FALSE
+4005.0000000009900,pen,164952,3,F,D,known,3,1,standard,FALSE
+9506.999999999590,butterfly,177080,4,H,K,known,3,1,standard,FALSE
+61825.00000000070,flower,241512,5,J,L,known,3,1,standard,FALSE
+4810.999999999710,apple,248450,6,B,A,known,3,1,standard,FALSE
+101772.99999999900,chair,352869,7,B,E,known,3,1,standard,FALSE
+3837.000000001340,chair,358085,8,I,E,known,3,2,standard,FALSE
+5991,chair,365206,9,C,E,known,3,3,standard,FALSE
+5612.000000000930,fork,372710,10,E,G,known,3,1,switch,FALSE
+5153.000000000290,pin,379231,11,4,10,unknown,3,1,standard,FALSE
+7733.000000000180,cap,387822,12,8,6,unknown,3,1,standard,FALSE
+20869.000000000600,art,411791,13,11,7,unknown,3,1,standard,FALSE
+10244.999999999000,sclupture,423408,14,2,1,unknown,3,1,standard,FALSE
+2854.9999999995300,art,427400,15,2,3,unknown,3,1,standard,FALSE
+2152.000000000060,art,430441,16,12,3,unknown,3,2,standard,FALSE
+3447.0000000001200,art,436361,17,9,3,unknown,3,3,standard,FALSE
+28579.99999999990,art,467049,18,3,5,unknown,3,1,switch,FALSE
+4645,you eat with it,154864,3,H,G,known,4,1,standard,FALSE
+6730,you write with it,164697,4,E,D,known,4,1,standard,FALSE
+4405,it flies,171207,5,J,K,known,4,1,standard,FALSE
+5833,you put it on foot,177895,6,F,C,known,4,1,standard,FALSE
+6309,it comes from the ground,185557,7,F,L,known,4,1,standard,FALSE
+6025,it smells good,192686,8,I,L,known,4,2,standard,FALSE
+5810,it is round,199599,9,B,L,known,4,3,standard,FALSE
+4947,you eat it,205900,10,L,A,known,4,1,switch,FALSE
+5477,its smaller,212481,11,5,6,unknown,4,1,standard,FALSE
+7883,x shaped,221218,12,12,11,unknown,4,1,standard,FALSE
+15197,looks like bread,238269,13,9,3,unknown,4,1,standard,FALSE
+7330,odd shaped item,246453,14,8,7,unknown,4,1,standard,FALSE
+12331,looks like a tool for the toilet,261887,15,8,10,unknown,4,1,standard,FALSE
+5761,it is round,269504,16,4,10,unknown,4,2,standard,FALSE
+5058,it has a stick,277164,17,2,10,unknown,4,3,standard,FALSE
+6606,very oddly shaped,285124,18,10,1,unknown,4,1,switch,FALSE
+2946.5049999998900,waves,99480,3,10,3,unknown,5,1,standard,FALSE
+2633.2949999923600,round,105221,4,4,2,unknown,5,1,standard,FALSE
+3902.795000001790,bop it,110483,5,5,9,unknown,5,1,standard,FALSE
+4147.020000003980,intricate,117741,6,12,8,unknown,5,1,standard,FALSE
+5284.319999991570,maxi pad,123884,7,12,7,unknown,5,1,standard,FALSE
+3107.6600000087600,wings,128848,8,11,7,unknown,5,2,standard,FALSE
+5297.189999997500,wings,135753,9,1,7,unknown,5,3,standard,FALSE
+5888.389999992800,circles,142995,10,7,6,unknown,5,1,switch,FALSE
+1460.57500000461,ring,145315,11,C,F,known,5,1,standard,FALSE
+1492.9550000088100,cat,147666,12,A,B,known,5,1,standard,FALSE
+2408.035000000380,die,153186,13,I,H,known,5,1,standard,FALSE
+1507.995000007210,fork,156053,14,E,G,known,5,1,standard,FALSE
+1826.4999999955800,tree,160491,15,E,J,known,5,1,standard,FALSE
+1592.290000000500,tree,165188,16,K,J,known,5,2,standard,FALSE
+1937.2799999982800,tree,168733,17,L,J,known,5,3,standard,FALSE
+1914.6100000070900,pen,171502,18,J,D,known,5,1,switch,FALSE
+16392.095000000100,black and white,164463,3,11,8,unknown,6,1,standard,FALSE
+6964.400000000750,longer one,172786,4,6,5,unknown,6,1,standard,FALSE
+17886.51500000020,like a cymbal,193282,5,9,12,unknown,6,1,standard,FALSE
+14144.96999999940,not the Y shaped one,210036,6,4,2,unknown,6,1,standard,TRUE
+17603.699999999700,one with a stick,229500,7,4,10,unknown,6,1,standard,FALSE
+20953.45499999980,not the trophy,252564,8,1,10,unknown,6,2,standard,TRUE
+9109.66499999995,the darker one,262534,9,3,10,unknown,6,3,standard,FALSE
+14067.785000000200,the lighter one,279208,10,10,7,unknown,6,1,switch,FALSE
+5402.839999999740,apple,285718,11,K,A,known,6,1,standard,FALSE
+4149.954999999840,chair,292978,12,L,E,known,6,1,standard,FALSE
+3621.4900000004600,pen,298460,13,G,D,known,6,1,standard,FALSE
+2948.9250000005700,cat,302270,14,J,B,known,6,1,standard,FALSE
+4768.235000000450,ring,308648,15,J,F,known,6,1,standard,FALSE
+9265.204999999670,goes on finger,319272,16,C,F,known,6,2,standard,FALSE
+5702.80500000075,not the car,326836,17,I,F,known,6,3,standard,TRUE
+7302.094999999970,die,336002,18,F,H,known,6,1,switch,FALSE
+11578.67499999700,suction tool,340677,3,5,10,unknown,7,1,standard,FALSE
+11477.069999964400,dog toy,354014,4,1,4,unknown,7,1,standard,FALSE
+10315.230000007400,white object,366935,5,11,3,unknown,7,1,standard,FALSE
+12473.73000002700,ufo shaped object,381021,6,8,12,unknown,7,1,standard,FALSE
+22284.950000001100,plastic object with vent,405164,7,8,6,unknown,7,1,standard,FALSE
+6932.380000012930,plastic object with vent,413958,8,9,6,unknown,7,2,standard,FALSE
+5486.350000021050,plastic object with vent,421559,9,2,6,unknown,7,3,standard,FALSE
+12469.975000014500,folded object,435642,10,6,7,unknown,7,1,switch,FALSE
+3579.150000005030,cat,441833,11,D,B,known,7,1,standard,FALSE
+2702.5099999737000,flower,446646,12,H,L,known,7,1,standard,FALSE
+2455.7600000407500,shoe,451712,13,J,C,known,7,1,standard,FALSE
+2591.054999968040,ring,457413,14,E,F,known,7,1,standard,FALSE
+2907.565000001340,butterfly,463430,15,E,K,known,7,1,standard,FALSE
+3032.2049999958800,butterfly,467823,16,I,K,known,7,2,standard,FALSE
+4219.184999994470,butterfly,473153,17,A,K,known,7,3,standard,FALSE
+2195.7949999487000,fork,477959,18,K,G,known,7,1,switch,FALSE
+2474,tree,94145,3,C,J,known,8,1,standard,FALSE
+2134,flower,97156,4,G,L,known,8,1,standard,FALSE
+1965,fruit,100000,5,F,A,known,8,1,standard,FALSE
+3026,insect,104674,6,H,K,known,8,1,standard,FALSE
+3254,chair,109320,7,H,E,known,8,1,standard,FALSE
+3659,chair,115607,8,B,E,known,8,2,standard,FALSE
+1623,chair,118349,9,D,E,known,8,3,standard,FALSE
+1852,car,121827,10,E,I,known,8,1,switch,FALSE
+6643,hexagon shaped item,131601,11,10,11,unknown,8,1,standard,FALSE
+6760,weird art thing that is tall,140504,12,5,1,unknown,8,1,standard,FALSE
+9043,object that ISNT spikey,151175,13,4,9,unknown,8,1,standard,TRUE
+10374,blown glass art,163170,14,8,2,unknown,8,1,standard,FALSE
+9117,it looks like waves and is all white,173915,15,8,3,unknown,8,1,standard,FALSE
+6372,all white looks like waves,181659,16,7,3,unknown,8,2,standard,FALSE
+3875,all white looks like waves,187406,17,6,3,unknown,8,3,standard,FALSE
+9821,it looks like cymbols,198351,18,3,12,unknown,8,1,switch,FALSE
+6899.490000010700,long,86489,3,8,7,unknown,9,1,standard,FALSE
+5736.464999994500,white,93598,4,11,9,unknown,9,1,standard,FALSE
+3198.740000021640,silver,99903,5,5,12,unknown,9,1,standard,FALSE
+5574.834999977610,black,108584,6,2,6,unknown,9,1,standard,FALSE
+11542.96500000060,spikes,121758,7,2,4,unknown,9,1,standard,FALSE
+3197.0000000146700,spikes,127081,8,3,4,unknown,9,2,standard,FALSE
+2467.514999996640,spikes,132690,9,1,4,unknown,9,3,standard,FALSE
+4290.945000015200,not spikes,138627,10,4,10,unknown,9,1,switch,TRUE
+2508.319999993550,ring,142244,11,D,F,known,9,1,standard,FALSE
+2351.2700000137600,cat,146483,12,K,B,known,9,1,standard,FALSE
+1930.6700000015600,tree,150286,13,H,J,known,9,1,standard,FALSE
+2348.200000007640,chair,154393,14,G,E,known,9,1,standard,FALSE
+2648.5000000102400,apple,157906,15,G,A,known,9,1,standard,FALSE
+1686.6600000066700,apple,160702,16,I,A,known,9,2,standard,FALSE
+1385.6099999975400,apple,163204,17,L,A,known,9,3,standard,FALSE
+2357.5650000129800,shoe,166455,18,A,C,known,9,1,switch,FALSE
+2593.930000002730,ring,667344,3,L,F,known,10,1,standard,FALSE
+2399.0199999971100,chair,670619,4,D,E,known,10,1,standard,FALSE
+1837.6699999935200,dice,673576,5,J,H,known,10,1,standard,FALSE
+6971.765000009330,butterfly,681928,6,A,K,known,10,1,standard,FALSE
+1628.1350000063000,fork,684432,7,A,G,known,10,1,standard,FALSE
+2433.0800000025200,fork,687984,8,C,G,known,10,2,standard,FALSE
+2832.4350000039000,fork,692185,9,I,G,known,10,3,standard,FALSE
+1857.7400000067400,cat,697161,10,G,B,known,10,1,switch,FALSE
+5785.814999995640,tool,704816,11,5,12,unknown,10,1,standard,FALSE
+6689.904999992000,long,713376,12,6,7,unknown,10,1,standard,FALSE
+3629.9899999867200,star,717882,13,2,11,unknown,10,1,standard,FALSE
+2475.8849999925600,long,722979,14,8,9,unknown,10,1,standard,FALSE
+9028.729999990900,y shaped,733377,15,8,4,unknown,10,1,standard,FALSE
+2668.409999998400,y shaped,736913,16,10,4,unknown,10,2,standard,FALSE
+6191.444999989470,y shaped,744233,17,1,4,unknown,10,3,standard,FALSE
+2883.7599999969800,crown,749758,18,4,3,unknown,10,1,switch,FALSE
+3390.8250000004000,pen,107994,3,K,D,known,11,1,standard,FALSE
+2741.8849999994600,shoe,111840,4,B,C,known,11,1,standard,FALSE
+3080.00500000162,flower,116525,5,A,L,known,11,1,standard,FALSE
+1897.240000000240,tree,121527,6,E,J,known,11,1,standard,FALSE
+2947.599999999510,fork,126078,7,E,G,known,11,1,standard,FALSE
+2854.9100000000300,fork,130288,8,H,G,known,11,2,standard,FALSE
+2842.96999999971,fork,134486,9,F,G,known,11,3,standard,FALSE
+1776.8849999993100,car,138367,10,G,I,known,11,1,switch,FALSE
+6617.315000001340,ice thing,146839,11,10,3,unknown,11,1,standard,FALSE
+24899.745000000600,longer plastic toy,174843,12,12,9,unknown,11,1,standard,FALSE
+13349.2700000006,dumbbell,190798,13,11,5,unknown,11,1,standard,FALSE
+16657.825000000200,folded cross,208311,14,8,7,unknown,11,1,standard,FALSE
+6238.105000000390,vase,216154,15,8,2,unknown,11,1,standard,FALSE
+2093.9300000009000,vase,220102,16,4,2,unknown,11,2,standard,FALSE
+1852.1799999998500,vase,224058,17,6,2,unknown,11,3,standard,FALSE
+3229.274999999700,trophy,228643,18,2,1,unknown,11,1,switch,FALSE
+7526.56000002753,rounder bulby one,134793,3,11,2,unknown,12,1,standard,FALSE
+8796.039999986530,NOT the pump,146698,4,10,6,unknown,12,1,standard,TRUE
+5153.46000000136,pointer object,153710,5,8,5,unknown,12,1,standard,FALSE
+4417.170000029730,the spikey one,159054,6,7,4,unknown,12,1,standard,FALSE
+16651.36999997780,the one with the triangle on top,178348,7,7,1,unknown,12,1,standard,FALSE
+11826.754999987300,the one with the triangle on top,192033,8,9,1,unknown,12,2,standard,FALSE
+5669.659999955910,the one with the triangle on top,199312,9,12,1,unknown,12,3,standard,FALSE
+5963.120000029450,NOT the one you just clicked,206880,10,1,3,unknown,12,1,switch,TRUE
+3845.180000003890,butterfly,213833,11,A,K,known,12,1,standard,FALSE
+4024.3200000259100,pen,219472,12,C,D,known,12,1,standard,FALSE
+6152.074999990870,chair,227232,13,H,E,known,12,1,standard,FALSE
+4296.710000024180,tree,233385,14,L,J,known,12,1,standard,FALSE
+2506.475000001960,cat,237249,15,L,B,known,12,1,standard,FALSE
+2499.759999976960,cat,241361,16,I,B,known,12,2,standard,FALSE
+5850.294999952890,cat,249324,17,G,B,known,12,3,standard,FALSE
+5358.970000001140,ring,256540,18,B,F,known,12,1,switch,FALSE
+4232.249999884520,butterfly,183708,3,E,K,known,13,1,standard,FALSE
+2399.1650003008500,tree,188213,4,F,J,known,13,1,standard,FALSE
+1990.5850002542100,cat,191558,5,C,B,known,13,1,standard,FALSE
+2921.700000297280,pen,196333,6,L,D,known,13,1,standard,FALSE
+1610.4000001214400,fork,199297,7,L,G,known,13,1,standard,FALSE
+2445.3300000168400,fork,203096,8,I,G,known,13,2,standard,FALSE
+1529.7249997966000,fork,206232,9,H,G,known,13,3,standard,FALSE
+1891.764999832960,apple,210728,10,G,A,known,13,1,switch,FALSE
+9271.59499982372,iceberg,223104,11,5,3,unknown,13,1,standard,FALSE
+10553.94500028340,drum symbal,235512,12,6,12,unknown,13,1,standard,FALSE
+11610.969999805100,goldfish sculpture,248728,13,9,1,unknown,13,1,standard,FALSE
+9994.21999976039,loop thing,259576,14,8,7,unknown,13,1,standard,FALSE
+11259.71999997270,black shape,272440,15,8,11,unknown,13,1,standard,FALSE
+10495.949999894900,black shape with 4 bumps,286044,16,2,11,unknown,13,2,standard,FALSE
+4264.144999906420,black shape with 4 bumps,291912,17,10,11,unknown,13,3,standard,FALSE
+19366.665000096000,spiky 3 pronged object,312632,18,11,4,unknown,13,1,switch,FALSE
+4184.999999590220,art,159441,3,11,5,unknown,14,1,standard,FALSE
+6848.999999463560,toy,168165,4,7,10,unknown,14,1,standard,FALSE
+9481.000000610950,holder,180755,5,1,6,unknown,14,1,standard,FALSE
+5463.999999687080,toy,187341,6,2,12,unknown,14,1,standard,FALSE
+4887.999999336900,cap,193337,7,2,3,unknown,14,1,standard,FALSE
+2782.000000588600,cap,198231,8,8,3,unknown,14,2,standard,FALSE
+2627.0000003278300,cap,202342,9,9,3,unknown,14,3,standard,FALSE
+4394.000000320380,toy,207600,10,3,4,unknown,14,1,switch,FALSE
+4331.000000238420,dice,212795,11,K,H,known,14,1,standard,FALSE
+2737.999999895690,pen,216902,12,A,D,known,14,1,standard,FALSE
+3129.9999998882400,fork,221896,13,I,G,known,14,1,standard,FALSE
+3092.000000178810,shoe,226602,14,L,C,known,14,1,standard,FALSE
+2269.999999552970,cat,231986,15,L,B,known,14,1,standard,FALSE
+7226.9999999553000,animal,240572,16,F,B,known,14,2,standard,FALSE
+3720.9999999031400,animal,247417,17,J,B,known,14,3,standard,FALSE
+3109.0000001713600,chair,252654,18,B,E,known,14,1,switch,FALSE
+2077.864999999290,flower,304229,3,B,L,known,15,1,standard,FALSE
+6179.744999994,butterfly,312515,4,F,K,known,15,1,standard,FALSE
+1671.2049999987400,aooke,316041,5,C,A,known,15,1,standard,FALSE
+2191.1400000026300,tree,321337,6,D,J,known,15,1,standard,FALSE
+1441.4600000018300,car,324639,7,D,I,known,15,1,standard,FALSE
+1065.3549999988200,car,326561,8,E,I,known,15,2,standard,FALSE
+903.5900000017140,car,329323,9,H,I,known,15,3,standard,FALSE
+3587.614999996730,fork,334769,10,I,G,known,15,1,switch,FALSE
+5627.82999999763,container,341503,11,7,2,unknown,15,1,standard,FALSE
+4479.7099999996100,holes,349089,12,4,11,unknown,15,1,standard,FALSE
+9415.825000003680,weights,359861,13,3,5,unknown,15,1,standard,FALSE
+3232.625000004190,pump,365701,14,1,10,unknown,15,1,standard,FALSE
+7941.270000002990,two piece,375503,15,1,9,unknown,15,1,standard,FALSE
+2492.565000000470,two piece,379101,16,12,9,unknown,15,2,standard,FALSE
+3037.804999999940,two piece,383993,17,8,9,unknown,15,3,standard,FALSE
+7245.455000003860,one piece,392843,18,9,6,unknown,15,1,switch,FALSE
+3110.8199999434900,shoe,184513,3,L,C,known,16,1,standard,FALSE
+2620.065000024620,fork,188745,4,A,G,known,16,1,standard,FALSE
+2064.894999959510,pen,192419,5,H,D,known,16,1,standard,FALSE
+3080.2200000034600,butterfly,197609,6,J,K,known,16,1,standard,FALSE
+2275.3800000064100,car,201239,7,J,I,known,16,1,standard,FALSE
+2291.055000037890,car,206639,8,E,I,known,16,2,standard,FALSE
+1655.7949999114500,car,209400,9,B,I,known,16,3,standard,FALSE
+2751.604999997650,ring,213509,10,I,F,known,16,1,switch,FALSE
+17411.044999957100,not sure,233024,11,6,10,unknown,16,1,standard,FALSE
+8194.124999921770,shoe,243074,12,5,7,unknown,16,1,standard,FALSE
+4045.8749999525000,ball,248475,13,3,11,unknown,16,1,standard,FALSE
+7613.6549999937400,instrument,258195,14,12,9,unknown,16,1,standard,FALSE
+4438.205000013110,cactus,265739,15,12,4,unknown,16,1,standard,FALSE
+3842.479999992070,cactus,271695,16,2,4,unknown,16,2,standard,FALSE
+3919.3949999753400,cactus,278220,17,1,4,unknown,16,3,standard,FALSE
+5339.9699999718,mirrors,285165,18,4,8,unknown,16,1,switch,FALSE
+6327.785000001310,butterfly,157491,3,E,K,known,17,1,standard,FALSE
+5280.754999999770,tree,165379,4,I,J,known,17,1,standard,FALSE
+44672.41500000090,sunflower,211662,5,H,L,known,17,1,standard,FALSE
+10398.629999996000,cat,223171,6,F,B,known,17,1,standard,FALSE
+9856.729999999520,fruit,235115,7,F,A,known,17,1,standard,FALSE
+18118.069999996800,fruit,254092,8,D,A,known,17,2,standard,FALSE
+5065.904999995840,apple,260268,9,C,A,known,17,3,standard,FALSE
+4643.875000001570,fork,266774,10,A,G,known,17,1,switch,FALSE
+7791.839999998050,slipper,277677,11,9,7,unknown,17,1,standard,FALSE
+4314.720000002130,wood,282851,12,1,5,unknown,17,1,standard,FALSE
+8997.105000002190,thread,294957,13,12,10,unknown,17,1,standard,FALSE
+7979.534999998580,wood,305050,14,4,11,unknown,17,1,standard,FALSE
+6115.784999994500,plastic,312788,15,4,6,unknown,17,1,standard,FALSE
+10208.344999999100,headphones,324355,16,3,6,unknown,17,2,standard,FALSE
+7471.770000003740,headphones,332692,17,8,6,unknown,17,3,standard,FALSE
+8943.440000002740,bottle,343206,18,6,2,unknown,17,1,switch,FALSE
+18883.48499999980,dark puzzle,138439,3,4,11,unknown,18,1,standard,FALSE
+66263.82500000000,plastic,207311,4,12,9,unknown,18,1,standard,FALSE
+11883.83000000020,fan cover,220799,5,10,6,unknown,18,1,standard,FALSE
+10403.600000000100,chef hat,232807,6,2,3,unknown,18,1,standard,FALSE
+16855.8250000001,folded piece,251767,7,2,7,unknown,18,1,standard,FALSE
+10959.345000000200,folded piece,264583,8,8,7,unknown,18,2,standard,FALSE
+8941.330000000130,folded piece,274879,9,1,7,unknown,18,3,standard,FALSE
+10349.499999999800,not the folded piece,288335,10,7,5,unknown,18,1,switch,TRUE
+5423.310000000110,butterfly,295615,11,I,K,known,18,1,standard,FALSE
+3396.555000000230,fork,300367,12,H,G,known,18,1,standard,FALSE
+6912.994999999700,pen,308638,13,B,D,known,18,1,standard,FALSE
+6016.849999999980,shoe,317262,14,F,C,known,18,1,standard,FALSE
+8510.780000000030,apple,327879,15,F,A,known,18,1,standard,FALSE
+3475.5,apple,333959,16,L,A,known,18,2,standard,FALSE
+3846.895000000140,apple,340911,17,J,A,known,18,3,standard,FALSE
+3332.625,chair,346847,18,A,E,known,18,1,switch,FALSE
+11034.91000001670,Y shaped spongy stuff,113841,3,7,4,unknown,19,1,standard,FALSE
+21578.324999980400,rolling pin with round appendices,136777,4,11,9,unknown,19,1,standard,FALSE
+8264.569999999370,flower,145898,5,12,8,unknown,19,1,standard,FALSE
+5276.069999992620,pump,152530,6,2,10,unknown,19,1,standard,FALSE
+11440.704999986300,plastic holed device,165075,7,2,6,unknown,19,1,standard,FALSE
+7944.719999999510,plastic holed device,175123,8,5,6,unknown,19,2,standard,FALSE
+7217.590000014750,plastic holed device,184947,9,3,6,unknown,19,3,standard,FALSE
+5559.154999995370,art,191363,10,6,1,unknown,19,1,switch,FALSE
+3886.479999986480,shoe,197356,11,F,C,known,19,1,standard,FALSE
+3412.240000005110,car,202124,12,K,I,known,19,1,standard,FALSE
+3084.919999993870,chair,206564,13,J,E,known,19,1,standard,FALSE
+3629.719999997180,cat,213300,14,H,B,known,19,1,standard,FALSE
+3469.505000015490,flower,218125,15,H,L,known,19,1,standard,FALSE
+3697.4999999802100,flower,223428,16,G,L,known,19,2,standard,FALSE
+3161.6400000057200,flower,228453,17,A,L,known,19,3,standard,FALSE
+3818.7550000147900,pen,233629,18,L,D,known,19,1,switch,FALSE
+2415.580000000770,car,113605,3,A,I,known,20,1,standard,FALSE
+2431.2250000075400,tree,116897,4,K,J,known,20,1,standard,FALSE
+1923.1599999766300,fork,119929,5,F,G,known,20,1,standard,FALSE
+2067.6600000006100,dice,123110,6,L,H,known,20,1,standard,FALSE
+2199.419999989910,shoe,128420,7,L,C,known,20,1,standard,FALSE
+1735.54999998305,shoe,131763,8,E,C,known,20,2,standard,FALSE
+1770.8649999985900,shoe,135640,9,D,C,known,20,3,standard,FALSE
+1515.354999981360,cat,138269,10,C,B,known,20,1,switch,FALSE
+5644.094999996010,rubber,145274,11,6,11,unknown,20,1,standard,FALSE
+7527.094999997640,thin,155910,12,2,9,unknown,20,1,standard,FALSE
+3605.844999983670,feather,161123,13,7,3,unknown,20,1,standard,FALSE
+3496.7600000090900,cymbal,166479,14,1,12,unknown,20,1,standard,FALSE
+4870.479999983220,plunger,173214,15,1,10,unknown,20,1,standard,FALSE
+2354.699999996230,plunger,176430,16,8,10,unknown,20,2,standard,FALSE
+2438.5350000229700,plunger,180978,17,5,10,unknown,20,3,standard,FALSE
+2514.295000000860,spiky,184351,18,10,4,unknown,20,1,switch,FALSE
+1709.320000023580,cat,142241,3,H,B,known,21,1,standard,FALSE
+1829.9849999602900,pen,144961,4,F,D,known,21,1,standard,FALSE
+1777.170000015760,tree,148613,5,G,J,known,21,1,standard,FALSE
+1512.9750000778600,car,150993,6,A,I,known,21,1,standard,FALSE
+2005.115000065420,shoe,153864,7,A,C,known,21,1,standard,FALSE
+1579.1949999984400,shoe,157312,8,L,C,known,21,2,standard,FALSE
+1734.080000082030,shoe,160183,9,K,C,known,21,3,standard,FALSE
+1482.9349999781700,chair,164319,10,C,E,known,21,1,switch,FALSE
+1942.4850000068500,art,168391,11,7,4,unknown,21,1,standard,FALSE
+4312.275000032970,none,174596,12,5,11,unknown,21,1,standard,FALSE
+3471.8949999660300,cleaner,179180,13,1,10,unknown,21,1,standard,FALSE
+10627.34000000640,art,191701,14,2,9,unknown,21,1,standard,FALSE
+21262.489999993700,Monochrome,214090,15,2,8,unknown,21,1,standard,FALSE
+1780.1149999722800,Monochrome,217241,16,3,8,unknown,21,2,standard,FALSE
+1811.3299999386100,Monochrome,219928,17,6,8,unknown,21,3,standard,FALSE
+9133.739999961110,antenna,230423,18,8,12,unknown,21,1,switch,FALSE
+5224.064999998520,not spiky,102270,3,4,5,unknown,22,1,standard,TRUE
+17737.58000000090,rolling pin,121864,4,9,3,unknown,22,1,standard,FALSE
+6198.669999997950,hole,129418,5,11,1,unknown,22,1,standard,FALSE
+7814.839999999090,no handle,140337,6,10,8,unknown,22,1,standard,TRUE
+5207.745000003340,no handle,148652,7,10,2,unknown,22,1,standard,TRUE
+10978.189999998000,clear plastic,160735,8,7,2,unknown,22,2,standard,FALSE
+3841.4000000011600,clear plastic,166432,9,6,2,unknown,22,3,standard,FALSE
+11434.360000002900,saucer,179472,10,2,12,unknown,22,1,switch,FALSE
+3802.8099999974100,ring,184880,11,G,F,known,22,1,standard,FALSE
+2843.4050000032600,shoe,190329,12,H,C,known,22,1,standard,FALSE
+2801.4149999980900,chair,195735,13,L,E,known,22,1,standard,FALSE
+6122.289999999340,butterfly,203464,14,J,K,known,22,1,standard,FALSE
+3054.7399999995800,cat,208124,15,J,B,known,22,1,standard,FALSE
+2298.5850000004600,cat,211777,16,D,B,known,22,2,standard,FALSE
+2048.030000001750,cat,215180,17,A,B,known,22,3,standard,FALSE
+2612.8549999994000,car,220398,18,B,I,known,22,1,switch,FALSE
+6939.759999979290,ring,173091,3,B,F,known,23,1,standard,FALSE
+5086.020000046120,tree,180034,4,K,J,known,23,1,standard,FALSE
+5993.20499994792,Car,188634,5,G,I,known,23,1,standard,FALSE
+4548.464999999850,pen,196290,6,H,D,known,23,1,standard,FALSE
+4859.355000080540,apple,203754,7,H,A,known,23,1,standard,FALSE
+5921.039999928330,apple,210530,8,E,A,known,23,2,standard,FALSE
+6239.999999990690,apple,217874,9,C,A,known,23,3,standard,FALSE
+5138.615000061690,flower,224873,10,A,L,known,23,1,switch,FALSE
+12948.365000076600,broken,239426,11,4,8,unknown,23,1,standard,FALSE
+14489.665000001000,hug,256522,12,2,7,unknown,23,1,standard,FALSE
+29291.974999941900,hinge,286922,13,5,6,unknown,23,1,standard,FALSE
+11689.329999964700,instrument,300218,14,3,9,unknown,23,1,standard,FALSE
+5228.390000062060,art,306554,15,3,1,unknown,23,1,standard,FALSE
+5752.025000052530,art,313162,16,12,1,unknown,23,2,standard,FALSE
+8687.16000020504,art,322954,17,11,1,unknown,23,3,standard,FALSE
+13566.39499985610,syringe,338627,18,1,10,unknown,23,1,switch,FALSE
+23500.930000038400,rolling pin handle facing me,106064,3,5,9,unknown,24,1,standard,FALSE
+9333.559999999130,vertical art,116259,4,7,1,unknown,24,1,standard,FALSE
+8719.84999999404,spiky,125853,5,2,4,unknown,24,1,standard,FALSE
+16261.804999958300,sideways helmet,143224,6,11,6,unknown,24,1,standard,FALSE
+15316.229999996700,stick and ball,159401,7,11,10,unknown,24,1,standard,FALSE
+10222.415000025600,stick and ball,171236,8,8,10,unknown,24,2,standard,FALSE
+5212.8800000064100,stick and ball,178559,9,3,10,unknown,24,3,standard,FALSE
+10665.900000021800,symbols,190838,10,10,12,unknown,24,1,switch,FALSE
+3009.139999980110,cat,195458,11,A,B,known,24,1,standard,FALSE
+3348.550000053370,chair,200418,12,H,E,known,24,1,standard,FALSE
+4311.219999974130,car,206339,13,K,I,known,24,1,standard,FALSE
+2418.6350000090900,tree,209621,14,D,J,known,24,1,standard,FALSE
+2509.4699999899600,fork,212997,15,D,G,known,24,1,standard,FALSE
+2575.4699999815800,fork,218179,16,F,G,known,24,2,standard,FALSE
+3279.915000020990,fork,222319,17,C,G,known,24,3,standard,FALSE
+3027.9849999933500,flower,227477,18,G,L,known,24,1,switch,FALSE
+14023.584999988100,dark,278630,3,7,11,unknown,25,1,standard,FALSE
+10131.244999996900,small,290376,4,5,6,unknown,25,1,standard,FALSE
+7308.055000001330,crumpled,300292,5,9,8,unknown,25,1,standard,FALSE
+6038.060000020780,shiny,307690,6,4,2,unknown,25,1,standard,FALSE
+3694.1200000001100,art,312744,7,4,1,unknown,25,1,standard,FALSE
+6155.144999996990,art,319765,8,12,1,unknown,25,2,standard,FALSE
+4158.100000000560,art,325033,9,10,1,unknown,25,3,standard,FALSE
+6068.319999991220,white,332713,10,1,3,unknown,25,1,switch,FALSE
+4719.4650000019500,pen,338794,11,B,D,known,25,1,standard,FALSE
+3555.4749999719200,car,343460,12,J,I,known,25,1,standard,FALSE
+3521.070000017060,flower,350093,13,C,L,known,25,1,standard,FALSE
+3102.5599999993600,ring,354306,14,H,F,known,25,1,standard,FALSE
+17670.32500001370,chair,375086,15,H,E,known,25,1,standard,FALSE
+3795.3400000114900,chair,380993,16,K,E,known,25,2,standard,FALSE
+4245.009999984180,chair,386348,17,G,E,known,25,3,standard,FALSE
+4304.015000001530,fruit,393261,18,E,A,known,25,1,switch,FALSE
+2721.3449999690100,cat,902210,3,H,B,known,26,1,standard,FALSE
+9168.270000023770,ring,912740,4,A,F,known,26,1,standard,FALSE
+3180.1249999553000,fork,917780,5,C,G,known,26,1,standard,FALSE
+2855.779999983500,pen,921741,6,J,D,known,26,1,standard,FALSE
+5012.685000081550,sunflower,927861,7,J,L,known,26,1,standard,FALSE
+3439.5650000078600,sunflower,933906,8,K,L,known,26,2,standard,FALSE
+3911.850000033160,sunflower,938676,9,E,L,known,26,3,standard,FALSE
+1921.8549999641300,car,943206,10,L,I,known,26,1,switch,FALSE
+6736.1399999354000,cactus,951051,11,12,4,unknown,26,1,standard,FALSE
+6151.769999996760,plunger,958310,12,2,10,unknown,26,1,standard,FALSE
+5861.995000042950,slipper,965526,13,9,7,unknown,26,1,standard,FALSE
+6117.075000074690,Gear,972501,14,11,6,unknown,26,1,standard,FALSE
+9588.59499997925,Boomerang,983196,15,11,5,unknown,26,1,standard,FALSE
+5958.125000004660,Airplane,991761,16,8,5,unknown,26,2,standard,FALSE
+6610.444999998440,airplane,999240,17,1,5,unknown,26,3,standard,FALSE
+6203.289999975820,chef hat,1006552,18,5,3,unknown,26,1,switch,FALSE
+9362.040000036360,something that blows air,120813,3,9,10,unknown,27,1,standard,FALSE
+9703.579999506470,something that stands upright,131624,4,5,1,unknown,27,1,standard,FALSE
+5624.804999679330,something smooth,138104,5,4,2,unknown,27,1,standard,FALSE
+22565.954999998200,something that looks like a womans feminine product,163275,6,12,7,unknown,27,1,standard,FALSE
+15150.380000472100,something that looks like a metal flower,179282,7,12,8,unknown,27,1,standard,FALSE
+16665.97499884670,something that looks like a metal flower,197555,8,3,8,unknown,27,2,standard,FALSE
+15460.38000099360,something that looks like a metal flower,214622,9,11,8,unknown,27,3,standard,FALSE
+38041.96999967100,something that looks like it has two circles,254523,10,8,6,unknown,27,1,switch,FALSE
+9717.104999348520,something that you smell not eat,266846,11,A,L,known,27,1,standard,FALSE
+10055.850001052000,something that grows in the ground,278258,12,I,J,known,27,1,standard,FALSE
+5169.490000233050,something you eat with,284534,13,H,G,known,27,1,standard,FALSE
+7433.550000190740,something you wear on your finger,294073,14,B,F,known,27,1,standard,FALSE
+6180.844999849800,something you sit in,302861,15,B,E,known,27,1,standard,FALSE
+3781.5749999135700,something you sit in,309249,16,K,E,known,27,2,standard,FALSE
+4194.899998605250,something you sit in,315300,17,C,E,known,27,3,standard,FALSE
+4216.435000300410,something you write with,321123,18,E,D,known,27,1,switch,FALSE
+24801.985000000100,round with handle,155072,3,11,10,unknown,28,1,standard,FALSE
+12283.644999999500,3 pronged,169459,4,7,5,unknown,28,1,standard,FALSE
+24400.46000000070,3  pronged,195715,5,2,9,unknown,28,1,standard,FALSE
+8585.85999999923,crown,206158,6,1,3,unknown,28,1,standard,FALSE
+10405.349999999100,cymbals,218167,7,1,12,unknown,28,1,standard,FALSE
+14791.180000000200,cymbals,234813,8,4,12,unknown,28,2,standard,FALSE
+5776.825000000830,cymbals,241944,9,6,12,unknown,28,3,standard,FALSE
+8039.354999998960,not cymbals,253089,10,12,8,unknown,28,1,switch,TRUE
+4406.399999999850,fork,259600,11,H,G,known,28,1,standard,FALSE
+5934.175000000340,butterfly,266639,12,J,K,known,28,1,standard,FALSE
+4315.75500000146,shoe,272311,13,B,C,known,28,1,standard,FALSE
+4404.750000001510,pen,278072,14,A,D,known,28,1,standard,FALSE
+3904.849999998990,car,283082,15,A,I,known,28,1,standard,FALSE
+8704.07999999955,car,294390,16,L,I,known,28,2,standard,FALSE
+3607.6150000008100,car,300104,17,F,I,known,28,3,standard,FALSE
+4789.205000000950,chair,307998,18,I,E,known,28,1,switch,FALSE
+8976.989999995570,art,596158,3,3,5,unknown,29,1,standard,FALSE
+13539.35000000640,radio,612312,4,7,6,unknown,29,1,standard,FALSE
+5252.249999990450,ball,619423,5,1,11,unknown,29,1,standard,FALSE
+6894.939999998310,flower,627177,6,2,8,unknown,29,1,standard,FALSE
+5646.630000002920,spin,633935,7,2,12,unknown,29,1,standard,FALSE
+5231.735000008480,spin,640529,8,9,12,unknown,29,2,standard,FALSE
+4609.185000008440,spin,646497,9,10,12,unknown,29,3,standard,FALSE
+5845.724999991940,cactus,653704,10,12,4,unknown,29,1,switch,FALSE
+7681.0049999912700,flower,663498,11,K,L,known,29,1,standard,FALSE
+3461.1950000107800,ring,667818,12,I,F,known,29,1,standard,FALSE
+5102.075000002520,fork,673777,13,A,G,known,29,1,standard,FALSE
+4102.634999988370,dice,678994,14,C,H,known,29,1,standard,FALSE
+3989.365000015820,cat,684842,15,C,B,known,29,1,standard,FALSE
+2983.314999990400,cat,688681,16,E,B,known,29,2,standard,FALSE
+2437.7999999851500,cat,694229,17,J,B,known,29,3,standard,FALSE
+2709.199999982960,pen,698297,18,B,D,known,29,1,switch,FALSE
+11885.96999971200,stacked,134997,3,4,3,unknown,30,1,standard,FALSE
+3823.5949999652800,art,139686,4,10,1,unknown,30,1,standard,FALSE
+17125.184999778900,crumpled,158420,5,2,8,unknown,30,1,standard,FALSE
+11282.585000153600,barbell,170566,6,6,5,unknown,30,1,standard,FALSE
+8049.9999998137400,flapper,179975,7,6,12,unknown,30,1,standard,FALSE
+7920.98500020802,flapper,188759,8,7,12,unknown,30,2,standard,FALSE
+9053.94500028342,flapper,199927,9,11,12,unknown,30,3,standard,FALSE
+25928.874999750400,arms,226719,10,12,9,unknown,30,1,switch,FALSE
+4761.219999752940,apple,232340,11,K,A,known,30,1,standard,FALSE
+12135.435000062000,cat,247589,12,F,B,known,30,1,standard,FALSE
+4104.564999695870,fork,252807,13,I,G,known,30,1,standard,FALSE
+3062.6199999824200,tree,257479,14,C,J,known,30,1,standard,FALSE
+4231.3199997879600,dice,262567,15,C,H,known,30,1,standard,FALSE
+4057.7700003050300,dice,268487,16,L,H,known,30,2,standard,FALSE
+3815.2799997478700,dice,274418,17,D,H,known,30,3,standard,FALSE
+6437.39499989897,chair,283465,18,H,E,known,30,1,switch,FALSE
+3738.4650000021800,apple,123455,3,J,A,known,31,1,standard,FALSE
+3836.9850000017300,cat,129905,4,L,B,known,31,1,standard,FALSE
+3770.2249999856600,dice,136287,5,E,H,known,31,1,standard,FALSE
+3386.3649999839300,shoe,141034,6,F,C,known,31,1,standard,FALSE
+3442.190000001570,car,146585,7,F,I,known,31,1,standard,FALSE
+3870.2749999938500,car,153067,8,K,I,known,31,2,standard,FALSE
+3622.639999986860,car,158548,9,G,I,known,31,3,standard,FALSE
+3719.615000009070,pen,164131,10,I,D,known,31,1,switch,FALSE
+9513.194999977710,spiked y,174758,11,12,4,unknown,31,1,standard,FALSE
+8764.715000026630,pacifier,186631,12,2,9,unknown,31,1,standard,FALSE
+7413.230000005570,chef hat,196154,13,11,3,unknown,31,1,standard,FALSE
+22418.610000022500,squeeze,219432,14,5,10,unknown,31,1,standard,FALSE
+12661.530000012100,circular,232950,15,5,8,unknown,31,1,standard,FALSE
+8236.784999986410,circular,243809,16,7,8,unknown,31,2,standard,FALSE
+7267.259999993260,circular,251939,17,6,8,unknown,31,3,standard,FALSE
+13909.899999998700,art,267212,18,8,1,unknown,31,1,switch,FALSE
+4742.949999999840,fork,309533,3,F,G,known,32,1,standard,FALSE
+3680.480000002660,dice,316326,4,C,H,known,32,1,standard,FALSE
+4449.485000000980,butterfly,323387,5,B,K,known,32,1,standard,FALSE
+3203.3750000009300,tree,329700,6,L,J,known,32,1,standard,FALSE
+3348.7000000022800,pen,334413,7,L,D,known,32,1,standard,FALSE
+3002.3849999997800,pen,340525,8,E,D,known,32,2,standard,FALSE
+2740.69999999844,pen,344875,9,I,D,known,32,3,standard,FALSE
+2839.6800000009800,apple,349328,10,D,A,known,32,1,switch,FALSE
+21287.374999999900,pointy odd shaped structure,372475,11,9,8,unknown,32,1,standard,FALSE
+22958.449999998300,long flat object with loop,397298,12,3,7,unknown,32,1,standard,FALSE
+7668.525000000960,many sides,406353,13,1,11,unknown,32,1,standard,FALSE
+10536.220000001800,squeeze handle,419505,14,6,10,unknown,32,1,standard,FALSE
+16939.080000000100,two ended three prong object,438559,15,6,5,unknown,32,1,standard,FALSE
+10798.490000001000,two ended three prong object,450726,16,12,5,unknown,32,2,standard,FALSE
+19384.500000000100,two ended three prong object,473225,17,4,5,unknown,32,3,standard,FALSE
+5493.5349999977600,glass vase,479828,18,5,2,unknown,32,1,switch,FALSE
+23906.610000063700,nothing,144329,3,4,11,unknown,33,1,standard,FALSE
+12261.895000003300,yse,159219,4,7,5,unknown,33,1,standard,FALSE
+6713.430000003430,art,167828,5,12,1,unknown,33,1,standard,FALSE
+11935.320000047800,nothing,182470,6,8,2,unknown,33,1,standard,FALSE
+16916.59499995880,gun barrel,200282,7,8,6,unknown,33,1,standard,FALSE
+6059.940000064670,gun barrel,207732,8,3,6,unknown,33,2,standard,FALSE
+3837.1749999932900,gun barrel,213526,9,10,6,unknown,33,3,standard,FALSE
+14502.164999954400,dumbbell,228903,10,6,9,unknown,33,1,switch,FALSE
+16964.19000008610,black hairstreak,248505,11,L,K,known,33,1,standard,FALSE
+13188.889999990400,fork,263600,12,E,G,known,33,1,standard,FALSE
+15874.319999944400,ring,281334,13,D,F,known,33,1,standard,FALSE
+7091.119999997320,apple,289536,14,B,A,known,33,1,standard,FALSE
+18205.304999952200,leather,310882,15,B,C,known,33,1,standard,FALSE
+4309.705000021500,leather,317059,16,I,C,known,33,2,standard,FALSE
+2988.6749999132000,leather,322156,17,H,C,known,33,3,standard,FALSE
+16875.160000054200,white pine,340638,18,C,J,known,33,1,switch,FALSE
+8165.980000048880,shoe,200173,3,K,C,known,34,1,standard,FALSE
+6023.474999703470,fork,208801,4,F,G,known,34,1,standard,FALSE
+8274.000000208620,apple,219681,5,L,A,known,34,1,standard,FALSE
+8955.269999802110,chair,230740,6,I,E,known,34,1,standard,FALSE
+6261.919999495150,pen,238856,7,I,D,known,34,1,standard,FALSE
+6251.7450004816100,pen,248212,8,J,D,known,34,2,standard,FALSE
+6238.840000703930,pen,257556,9,H,D,known,34,3,standard,FALSE
+6996.999999508260,cat,266408,10,D,B,known,34,1,switch,FALSE
+9499.270000495020,tall,277012,11,7,1,unknown,34,1,standard,FALSE
+15938.954999670400,crunchy,295556,12,6,8,unknown,34,1,standard,FALSE
+10296.439999714500,long,307956,13,12,5,unknown,34,1,standard,FALSE
+23221.084999851900,ex,333032,14,2,11,unknown,34,1,standard,FALSE
+10942.43000075220,tea,347079,15,2,9,unknown,34,1,standard,FALSE
+7823.289999738340,tea,356507,16,3,9,unknown,34,2,standard,FALSE
+7776.420000009240,tea,366139,17,10,9,unknown,34,3,standard,FALSE
+11082.070000469700,y,378575,18,9,4,unknown,34,1,switch,FALSE
+39391.05000000020,cut up shapes that make a round object,191624,3,3,8,unknown,35,1,standard,FALSE
+25542.830000000300,black looks like a 3d  on top of x,218801,4,7,11,unknown,35,1,standard,FALSE
+24999.205000000100,lint roller with a bolt through it,246415,5,5,9,unknown,35,1,standard,FALSE
+11847.775000000200,dog toy in the shape of a Y,259135,6,2,4,unknown,35,1,standard,FALSE
+30666.999999999500,like a flying saucer with a huge satelite dish on top,291930,7,2,12,unknown,35,1,standard,FALSE
+37555.9099999991,the same flying saucer from before also kind of looks like a spinning top,332604,8,6,12,unknown,35,2,standard,FALSE
+19814.08500000000,still the same flying saucer spinning top,355537,9,10,12,unknown,35,3,standard,FALSE
+23278.27999999860,and abstract sculpture sort of looks like the Jesus fish facing down,380942,10,12,1,unknown,35,1,switch,FALSE
+5988.2300000008500,butterfly,390058,11,D,K,known,35,1,standard,FALSE
+3612.7049999995500,apple,394788,12,L,A,known,35,1,standard,FALSE
+12024.784999999600,dice 6 on top,409435,13,G,H,known,35,1,standard,FALSE
+12307.499999999000,ring with big stone,424878,14,I,F,known,35,1,standard,FALSE
+3923.4699999997400,cat,431427,15,I,B,known,35,1,standard,FALSE
+3005.6549999990400,cat,435817,16,E,B,known,35,2,standard,FALSE
+3151.765000000540,cat,441072,17,J,B,known,35,3,standard,FALSE
+3234.8349999992600,shoe,447422,18,B,C,known,35,1,switch,FALSE
+3255.6750000003400,butterfly,493590,3,L,K,known,36,1,standard,FALSE
+1646.3550000044100,cat,496599,4,D,B,known,36,1,standard,FALSE
+1786.6999999969300,car,499996,5,C,I,known,36,1,standard,FALSE
+1823.499999998600,ring,502932,6,E,F,known,36,1,standard,FALSE
+1890.3449999998000,fork,506184,7,E,G,known,36,1,standard,FALSE
+1446.220000005270,fork,508491,8,H,G,known,36,2,standard,FALSE
+1262.8050000057600,fork,511366,9,A,G,known,36,3,standard,FALSE
+2075.555000003080,tree,515055,10,G,J,known,36,1,switch,FALSE
+7015.309999995230,container,522934,11,12,2,unknown,36,1,standard,FALSE
+19992.734999999800,white and black object,543804,12,3,8,unknown,36,1,standard,FALSE
+7884.465000002760,vertical art,552807,13,5,1,unknown,36,1,standard,FALSE
+5048.985000001270,spiky toy,559220,14,9,4,unknown,36,1,standard,FALSE
+10509.930000000200,dark fat jack,570844,15,9,11,unknown,36,1,standard,FALSE
+3988.964999996820,dark fat jack,576197,16,10,11,unknown,36,2,standard,FALSE
+4614.824999996930,dark fat jack,582718,17,7,11,unknown,36,3,standard,FALSE
+22796.390000003200,object with concentric rings on it,606634,18,11,6,unknown,36,1,switch,FALSE
+6756.740000098940,has holes,95297,3,10,6,unknown,37,1,standard,FALSE
+9948.284999933090,spikes all over,107851,4,3,4,unknown,37,1,standard,FALSE
+8995.794999995270,ball shaped,117952,5,1,2,unknown,37,1,standard,FALSE
+4836.654999991880,ribbon,124394,6,9,8,unknown,37,1,standard,FALSE
+5475.23999994155,dog bone,132478,7,9,5,unknown,37,1,standard,FALSE
+3401.1550000868700,dog bone,137985,8,7,5,unknown,37,2,standard,FALSE
+5126.929999911230,dog bone,146217,9,11,5,unknown,37,3,standard,FALSE
+3387.999999918980,cymbals,150711,10,5,12,unknown,37,1,switch,FALSE
+2605.94499995932,car,154924,11,A,I,known,37,1,standard,FALSE
+2099.919999949630,cat,158637,12,K,B,known,37,1,standard,FALSE
+1667.0100000919800,tree,161661,13,H,J,known,37,1,standard,FALSE
+1871.4850000105800,chair,164388,14,G,E,known,37,1,standard,FALSE
+1562.5500000314800,shoe,167806,15,G,C,known,37,1,standard,FALSE
+1643.0800000671300,shoe,172564,16,F,C,known,37,2,standard,FALSE
+2815.94000000041,the shoe,177989,17,D,C,known,37,3,standard,FALSE
+2686.764999991280,flower,182301,18,C,L,known,37,1,switch,FALSE
+2380,fork,103806,3,L,G,known,38,1,standard,FALSE
+3812,chair with high back,109726,4,K,E,known,38,1,standard,FALSE
+2328,dice,113212,5,F,H,known,38,1,standard,FALSE
+1854,pen,115924,6,A,D,known,38,1,standard,FALSE
+1904,cat,118936,7,A,B,known,38,1,standard,FALSE
+1680,cat,122724,8,C,B,known,38,2,standard,FALSE
+2012,cat,126344,9,J,B,known,38,3,standard,FALSE
+2030,car,131482,10,B,I,known,38,1,switch,FALSE
+17016,weird shapped fan thing with the bullseye looking air duct,151120,11,11,6,unknown,38,1,standard,FALSE
+17130,weight shapped thing that looks like it has a bottle end and an arm throuigh it,170892,12,2,9,unknown,38,1,standard,FALSE
+5110,symbol looking thing,177112,13,10,12,unknown,38,1,standard,FALSE
+22134,looks like napkins folding over,200108,14,1,3,unknown,38,1,standard,FALSE
+11222,looks like a shattered vase,213188,15,1,8,unknown,38,1,standard,FALSE
+3672,shattered vase,218970,16,7,8,unknown,38,2,standard,FALSE
+3918,shattered vase,224006,17,5,8,unknown,38,3,standard,FALSE
+5738,three arm cactus thing,231104,18,8,4,unknown,38,1,switch,FALSE
+10340.700000000700,insect,117544,3,A,K,known,39,1,standard,FALSE
+5462.100000004280,utensil,126110,4,D,G,known,39,1,standard,FALSE
+9082.400000013880,chair,136548,5,F,E,known,39,1,standard,FALSE
+7706.700000009730,shoe,145108,6,H,C,known,39,1,standard,FALSE
+4062.3000000196000,animal,150276,7,H,B,known,39,1,standard,FALSE
+4801.099999982400,mammal,156681,8,I,B,known,39,2,standard,FALSE
+5334.100000007310,feline,163120,9,J,B,known,39,3,standard,FALSE
+5232.500000012810,flower,171460,10,B,L,known,39,1,switch,FALSE
+10751.000000018400,bullseye,183817,11,3,6,unknown,39,1,standard,FALSE
+24467.299999989300,many protrusions,210137,12,2,11,unknown,39,1,standard,FALSE
+6094.000000011870,spikey,217087,13,5,4,unknown,39,1,standard,FALSE
+8708.400000003170,ufo,227153,14,7,12,unknown,39,1,standard,FALSE
+8922.69999999553,black and white,237181,15,7,8,unknown,39,1,standard,FALSE
+5625.399999989900,black and white,245913,16,9,8,unknown,39,2,standard,FALSE
+5263.8999999908300,black and white,253782,17,1,8,unknown,39,3,standard,FALSE
+12115.699999994800,NOT black and white,269007,18,8,10,unknown,39,1,switch,TRUE
+7398.764999990820,flower,125749,3,I,L,known,40,1,standard,FALSE
+6917.499999981370,butterfly,133773,4,B,K,known,40,1,standard,FALSE
+4807.704999984710,apple,140686,5,H,A,known,40,1,standard,FALSE
+6830.995000025720,fork,149626,6,D,G,known,40,1,standard,FALSE
+3110.510000027720,tree,154595,7,D,J,known,40,1,standard,FALSE
+5195.310000039170,tree,161648,8,E,J,known,40,2,standard,FALSE
+3998.005000001290,tree,167752,9,C,J,known,40,3,standard,FALSE
+4582.800000032880,ring,175443,10,J,F,known,40,1,switch,FALSE
+28294.070000003600,rock,205845,11,2,8,unknown,40,1,standard,FALSE
+21300.95500004250,spinning top,228503,12,10,12,unknown,40,1,standard,FALSE
+16495.950000011400,spiky dog toy,246105,13,7,4,unknown,40,1,standard,FALSE
+5833.2550000050100,art,252793,14,6,1,unknown,40,1,standard,FALSE
+24820.03999996230,spiky dumbell,280720,15,6,5,unknown,40,1,standard,FALSE
+9890.35000000149,spiky dumbell,291965,16,3,5,unknown,40,2,standard,FALSE
+9257.110000005920,spiky dumbell,302330,17,9,5,unknown,40,3,standard,FALSE
+14730.655000021200,spiky rock,320170,18,5,11,unknown,40,1,switch,FALSE

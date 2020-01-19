@@ -12,3 +12,7 @@ kf2
 kf3
 
 .Rproj.user
+
+*_cache*
+*_files*
+raw_data/*

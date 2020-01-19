@@ -7,11 +7,11 @@ library(tidyverse)
 library(here)
 library(jsonlite)
 
-dirs <- c("raw_data")
-
-files <- map(here("raw_data/"), ~list.files(.x, pattern = ".json", 
+files <- map(here("raw_data/partner"), ~list.files(.x, pattern = ".json", 
                                             full.names = T, recursive = T)) %>%
   unlist()
+
+trial_types <- read_csv(here("trial_types.csv"))
 
 read_file <- function(file) {
   
@@ -28,7 +28,9 @@ read_file <- function(file) {
            responses = gsub("[^[:alnum:] ]", "", responses),
            responses = str_trim(responses)) %>%
     rename(response = responses) %>%
-    mutate(trial = trial_index - 2) %>%
+    slice(4:21) %>%
+    ungroup() %>%
+    mutate(trial = 1:n()) %>%
     select(-trial_index)
   
   trials <- raw_data$trial_info 
@@ -64,20 +66,24 @@ read_file <- function(file) {
     spread(kind, pic) %>%
     rename(distractor = image) %>%
     ungroup() %>%
-    mutate(trial = trial + nrow(practice))
+    mutate(trial = trial + nrow(practice)) %>%
+    select(-type) %>%
+    left_join(trial_types, by = c("target" = "image"))
   
-  if(str_detect(file, "unknown-first")) {
-    tidy_test <- test %>%
-      mutate(type = as.character(factor(type, 
-                                        labels = c("unknown", "known"))))
-  } else {
-    tidy_test <- test %>%
-      mutate(type = as.character(factor(type, 
-                                        labels = c("known", "unknown"))))
-  }
   
+  # 
+  # if(str_detect(file, "unknown-first")) {
+  #   tidy_test <- test %>%
+  #     mutate(type = as.character(factor(type, 
+  #                                       labels = c("unknown", "known"))))
+  # } else {
+  #   tidy_test <- test %>%
+  #     mutate(type = as.character(factor(type, 
+  #                                       labels = c("known", "unknown"))))
+  # }
+  # 
   responses %>%
-    left_join(bind_rows(practice, tidy_test), by = "trial") %>%
+    left_join(bind_rows(practice, test), by = "trial") %>%
     mutate(id = id)
   
 }
