@@ -325,7 +325,7 @@ var giveExample1 = {
     preamble: '<center><b>This the <strong style="color:maroon;">Director</strong> screen.</center></b><br /><br />' +
               "The <strong style='color:maroon;'>Director's</strong> goal is to send a message to the <strong style='color:teal;'>Matcher</strong> so they choose the target object.<br /><br />" +
               "<tr><td>" + practice1[0] + "</td><td>" + practice1[1] + "</td></tr><br /><br /><br /><br />" +
-              "Try it out! Type <i><b>bird</b></i> into the textbox and press continue.<br /><br />", 
+              "Try it out! Type <i><b>bird</b></i> into the textbox and press continue.<br /><br />",
     questions: [{prompt:"<p>Type a message to the Matcher:</p>", required: true}],
       on_finish: function(data){
       if(data.Q0 != "bird") {
