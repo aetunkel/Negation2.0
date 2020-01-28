@@ -250,7 +250,7 @@ var instructions = {
      stimulus: "<br /><br /><br /><br />" +
                "This is a communication game between you and a partner. You will be assigned to one of two roles: the <strong style='color:maroon;'> Director </strong> or the <strong style='color:teal;'> Matcher</strong>." +
                "<br /><br />" +
-               'You will both see the same two objects, not necessarily in the same order.' + 
+               'You will both see the same two objects, not necessarily in the same order.' +
                "<br /><br />" +
                "The <strong style='color:maroon;'> Director's </strong> goal is to type a message into the textbox below the objects that will help the <strong style='color:teal;'> Matcher </strong> pick the <b> target object</b>." +
                "<br /><br />" +
@@ -308,7 +308,7 @@ var images = {
                 "<td><img src='" + pic31 + "' height ='100'></td>" +
                 "<td><img src='" + pic32 + "' height ='100'></td>" +
                 "<td><img src='" + pic33 + "' height ='100'></td>" +
-                "<td><img src='" + pic34 + "' height ='100'></td>" + 
+                "<td><img src='" + pic34 + "' height ='100'></td>" +
                 "<td><img src='" + pic35 + "'height = '100'></td></tr>",
      choices: jsPsych.NO_KEYS,
      trial_duration: 10000,
@@ -322,14 +322,18 @@ timeline.push(images);
 var giveExample1 = {
     type: 'survey-text',
     preamble: '<center><b>This the <strong style="color:maroon;">Director</strong> screen.</center></b><br /><br />' +
-              "The <strong style='color:maroon;'>Director's</strong> goal is to send a message to the <strong style='color:teal;'>Matcher</strong> so they choose the target object.<br /><br />" + 
+              "The <strong style='color:maroon;'>Director's</strong> goal is to send a message to the <strong style='color:teal;'>Matcher</strong> so they choose the target object.<br /><br />" +
               "<tr><td>" + practice1[0] + "</td><td>" + practice1[1] + "</td></tr><br /><br /><br /><br />" +
               "Try it out! Type <i><b>bird</b></i> into the textbox and press continue.<br /><br />", //5
     questions: [{prompt:"<p>Type a message to the Matcher:</p>", required: true}],
-    response_ends_trial: true,
-    on_finish: function(){
-      jsPsych.setProgressBar(4/31);
+    on_finish: function(data){
+      if(data.Q0 != "bird") {
+        timeline.push(wrongAnswer)
+      } else {
+        response_ends_trial: true,
+      jsPsych.setProgressBar(4/31)
     }
+  }
 };
 
 timeline.push(giveExample1);
@@ -337,14 +341,14 @@ timeline.push(giveExample1);
 var matcherExample1 = {
     type: 'html-button-response',
     stimulus: '<center><b>This the <strong style="color:teal;">Matcher</strong> screen.</center></b><br /><br />' +
-              "The <strong style='color:teal;'>Matcher's</strong> goal is to use the <strong style='color:maroon;'>Director's</strong> message to choose the target object.<br /><br /><br />" + 
-              '<strong style="color:red;">The Director said: <i> bird </i></strong><br /> <br />' + 
+              "The <strong style='color:teal;'>Matcher's</strong> goal is to use the <strong style='color:maroon;'>Director's</strong> message to choose the target object.<br /><br /><br />" +
+              '<strong style="color:red;">The Director said: <i> bird </i></strong><br /> <br />' +
               '<center>Which is the <b> target object</b>?</center><br /> <br />',
     choices: ['<center><img src="' + pic25 + '" class="image"></center>', '<center><img src="' + pic26 + '" class="image"></center>'],
   response_ends_trial: true,
   on_finish: function(){
     jsPsych.setProgressBar(5/31)
-  }  
+  }
 };
 
 timeline.push(matcherExample1);
@@ -354,11 +358,11 @@ var giveExample2 = {
     preamble: '<center><b>Here is another <strong style="color:maroon;">Director</strong> example.</center></b><br /><br />' +
               "<tr><td><img src='" + pic29 + "' class='image'></td><td><img src='" + pic30 + "' class ='target'></td></tr><br /><br />" +
               'Type <i><b>art</b></i> into the textbox and press continue. </center><br /><br />' +
-              '&nbsp&nbsp&nbsp <i> Other Directors have sent: </i> <br /><br />' + 
-              '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp weird shaped vase<br />' + 
-              '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp smooth sculpture<br />' + 
+              '&nbsp&nbsp&nbsp <i> Other Directors have sent: </i> <br /><br />' +
+              '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp weird shaped vase<br />' +
+              '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp smooth sculpture<br />' +
               '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp not spiky <br />'+
-              '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp fish decoration<br /><br />' , 
+              '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp fish decoration<br /><br />' ,
     questions: [{prompt: "<p>Type a message to the Matcher:</p>", required: true}],
     response_ends_trial: true,
     on_finish: function(){
@@ -372,14 +376,14 @@ timeline.push(giveExample2);
 var matcherExample2 = {
     type: 'html-button-response',
     stimulus: '<center><b>This the <strong style="color:teal;">Matcher</strong> screen.</center></b><br /><br />' +
-              "The <strong style='color:teal;'>Matcher's</strong> goal is to use the <strong style='color:maroon;'>Director's</strong> message to choose the target object.<br /><br /><br />" + 
-              '<strong style="color:red;">The Director said: <i> art </i></strong><br /> <br />' + 
+              "The <strong style='color:teal;'>Matcher's</strong> goal is to use the <strong style='color:maroon;'>Director's</strong> message to choose the target object.<br /><br /><br />" +
+              '<strong style="color:red;">The Director said: <i> art </i></strong><br /> <br />' +
               '<center>Which is the <b> target object</b>?</center><br /> <br />',
     choices: ['<center><img src="' + pic29 + '" class="image"></center>', '<center><img src="' + pic30 + '" class="image"></center>'],
   response_ends_trial: true,
   on_finish: function(){
     jsPsych.setProgressBar(7/31)
-  }  
+  }
 };
 
 timeline.push(matcherExample2);
@@ -411,10 +415,10 @@ var partnerMatching =  {
 
  var partnerReveal = {
   type: 'html-keyboard-response',
-  stimulus: 'You have been matched with <b>' + matcher + '</b>! <br /><br />' + 
-            'You will be the <strong style="color:maroon;"> Director</strong>.<br /><br />' + 
-            matcher + ' is the <strong style="color:teal;"> Matcher</strong>. <br /><br />' + 
-            '<br /><br />' + 
+  stimulus: 'You have been matched with <b>' + matcher + '</b>! <br /><br />' +
+            'You will be the <strong style="color:maroon;"> Director</strong>.<br /><br />' +
+            matcher + ' is the <strong style="color:teal;"> Matcher</strong>. <br /><br />' +
+            '<br /><br />' +
             '<b> We will begin with a short practice round.</b>',
   choices: jsPsych.NO_KEYS,
   trial_duration: 4000,
@@ -443,7 +447,7 @@ timeline.push(partnerReveal);
 
 timeline.push(practice1test);
 
-var practice1wait = 
+var practice1wait =
   {
     type: 'html-keyboard-response',
     stimulus: matcher + ' is currently selecting...',
@@ -473,7 +477,7 @@ var practice2test = {
 
 timeline.push(practice2test);
 
-var practice2wait = 
+var practice2wait =
   {
     type: 'html-keyboard-response',
     stimulus: matcher + ' is currently selecting...',
@@ -546,7 +550,7 @@ var test = {
       }
   };
 
-var fixation = 
+var fixation =
   {
     type: 'html-keyboard-response',
     stimulus: matcher + 'is currently selecting...',
@@ -555,8 +559,8 @@ var fixation =
    return jsPsych.randomization.sampleWithReplacement([750, 1000, 1250, 1500, 1750, 2000, 2500, 3000], 1)[0];},
  };
 
- // var correctness = 
- //  { 
+ // var correctness =
+ //  {
  //    type: 'html-keyboard-response',
  //    stimulus: '<center>alex got it right! <br /> <br />' + '<b> Press any key to continue. </b></center>',
  //    post_trial_gap: 200,
