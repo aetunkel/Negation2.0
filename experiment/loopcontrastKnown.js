@@ -5,6 +5,7 @@ shuffle = function (o) { //v1.0
 
 // CREATE KNOWN TRIALS
 
+var practiceResponses = [];
 var allKnown = [];
 var knownArrayShuffle = [];
 
@@ -311,7 +312,7 @@ var images = {
                 "<td><img src='" + pic34 + "' height ='100'></td>" +
                 "<td><img src='" + pic35 + "'height = '100'></td></tr>",
      choices: jsPsych.NO_KEYS,
-     trial_duration: 5000,
+     trial_duration: 100,
      on_finish: function(){
         jsPsych.setProgressBar(3/31);
     }
@@ -320,23 +321,90 @@ var images = {
 timeline.push(images);
 
 
-var giveExample1 = {
+// var giveExample1 = {
+//     type: 'survey-text',
+//     preamble: '<center><b>This the <strong style="color:maroon;">Director</strong> screen.</center></b><br /><br />' +
+//               "The <strong style='color:maroon;'>Director's</strong> goal is to send a message to the <strong style='color:teal;'>Matcher</strong> so they choose the target object.<br /><br />" +
+//               "<tr><td>" + practice1[0] + "</td><td>" + practice1[1] + "</td></tr><br /><br /><br /><br />" +
+//               "Try it out! Type <i><b>bird</b></i> into the textbox and press continue.<br /><br />",
+//     questions: [{prompt:"<p>Type a message to the Matcher:</p>", required: true}],
+//       on_finish: function(){
+//         jsPsych.setProgressBar(4/31)
+//       }
+//     };
+
+// timeline.push(giveExample1);
+
+// var matcherExample1 = {
+//     type: 'html-button-response',
+//     stimulus: '<center><b>This the <strong style="color:teal;">Matcher</strong> screen.</center></b><br /><br />' +
+//               "The <strong style='color:teal;'>Matcher's</strong> goal is to use the <strong style='color:maroon;'>Director's</strong> message to choose the target object.<br /><br /><br />" +
+//               '<strong style="color:red;">The Director said: <i> bird </i></strong><br /> <br />' +
+//               '<center>Which is the <b> target object</b>?</center><br /> <br />',
+//     choices: ['<center><img src="' + pic25 + '" class="image"></center>', '<center><img src="' + pic26 + '" class="image"></center>'],
+//   response_ends_trial: true,
+//   on_finish: function(){
+//     jsPsych.setProgressBar(5/31)
+//   }
+// };
+
+// timeline.push(matcherExample1);
+
+// var giveExample2 = {
+//     type: 'survey-text',
+//     preamble: '<center><b>Here is another <strong style="color:maroon;">Director</strong> example.</center></b><br /><br />' +
+//               "<tr><td><img src='" + pic29 + "' class='image'></td><td><img src='" + pic30 + "' class ='target'></td></tr><br /><br />" +
+//               'Type <i><b>art</b></i> into the textbox and press continue. </center><br /><br />' +
+//               '&nbsp&nbsp&nbsp <i> Other Directors have sent: </i> <br /><br />' +
+//               '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp weird shaped vase<br />' +
+//               '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp smooth sculpture<br />' +
+//               '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp not spiky <br />'+
+//               '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp fish decoration<br /><br />' ,
+//     questions: [{prompt: "<p>Type a message to the Matcher:</p>", required: true}],
+//     on_finish: function(){
+//         jsPsych.setProgressBar(6/31)
+//       }
+//     };
+
+// timeline.push(giveExample2);
+
+
+
+
+
+/// new info start
+var trial1Response;
+
+var trial1 = {
     type: 'survey-text',
     preamble: '<center><b>This the <strong style="color:maroon;">Director</strong> screen.</center></b><br /><br />' +
               "The <strong style='color:maroon;'>Director's</strong> goal is to send a message to the <strong style='color:teal;'>Matcher</strong> so they choose the target object.<br /><br />" +
               "<tr><td>" + practice1[0] + "</td><td>" + practice1[1] + "</td></tr><br /><br /><br /><br />" +
               "Try it out! Type <i><b>bird</b></i> into the textbox and press continue.<br /><br />",
     questions: [{prompt:"<p>Type a message to the Matcher:</p>", required: true}],
+    data: {locator: 'lookup-code-0'},
       on_finish: function(data){
-      if(data.Q0 != "bird") {
-        alert("You did not type bird. Please be sure to pay attention.")
-     } else {
+        trial1Response = JSON.parse(data.responses).Q0;
         jsPsych.setProgressBar(4/31)
+      }
+    };  
+
+  var loop_node1 = {
+    timeline: [trial1],
+    loop_function: function(data){
+      if(trial1Response == "bird"){
+        return false;
+      } else {
+        return true;
       }
     }
   };
 
-timeline.push(giveExample1);
+var practice1 = {
+  timeline: [loop_node1]
+  };
+       
+timeline.push(practice1);
 
 var matcherExample1 = {
     type: 'html-button-response',
@@ -353,7 +421,8 @@ var matcherExample1 = {
 
 timeline.push(matcherExample1);
 
-var giveExample2 = {
+var trial2Response;
+var trial2 = {
     type: 'survey-text',
     preamble: '<center><b>Here is another <strong style="color:maroon;">Director</strong> example.</center></b><br /><br />' +
               "<tr><td><img src='" + pic29 + "' class='image'></td><td><img src='" + pic30 + "' class ='target'></td></tr><br /><br />" +
@@ -365,15 +434,27 @@ var giveExample2 = {
               '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp fish decoration<br /><br />' ,
     questions: [{prompt: "<p>Type a message to the Matcher:</p>", required: true}],
     on_finish: function(data){
-      if(data.Q0 != "art") {
-        alert("You did not type art. Please be sure to pay attention.")
-     } else {
-        jsPsych.setProgressBar(6/31)
+        trial2Response = JSON.parse(data.responses).Q0;
+        jsPsych.setProgressBar(4/31)
+      }
+    };
+
+  var loop_node2 = {
+    timeline: [trial2],
+    loop_function: function(data){
+      if(trial2Response == "art"){
+        return false;
+      } else {
+        return true;
       }
     }
   };
 
-timeline.push(giveExample2);
+var practice2 = {
+  timeline: [loop_node2]
+  };
+       
+timeline.push(practice2);
 
 
 var matcherExample2 = {
@@ -391,6 +472,7 @@ var matcherExample2 = {
 
 timeline.push(matcherExample2);
 
+// new info end
 
 var nameInput = {
   type: 'survey-text',
@@ -431,8 +513,6 @@ var partnerMatching =  {
  };
 
 timeline.push(partnerReveal);
-
-
 
 
   var practice1test = {
@@ -614,3 +694,4 @@ var fixation =
     }
   });
 };
+
