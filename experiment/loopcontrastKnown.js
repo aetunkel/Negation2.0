@@ -400,11 +400,11 @@ var trial1 = {
     }
   };
 
-var practice1 = {
+var practice1A = {
   timeline: [loop_node1]
   };
        
-timeline.push(practice1);
+timeline.push(practice1A);
 
 var matcherExample1 = {
     type: 'html-button-response',
@@ -450,11 +450,11 @@ var trial2 = {
     }
   };
 
-var practice2 = {
+var practice2A = {
   timeline: [loop_node2]
   };
        
-timeline.push(practice2);
+timeline.push(practice2A);
 
 
 var matcherExample2 = {
@@ -665,7 +665,7 @@ var fixation =
     stimulus: "<center><p>This is the end of the study. Thank you for participating! <br><br><br>" + 
     			"In this study, you were told that you were matched with a partner, but you were actually the only player.<br><br>" +
     			"Due to the nature of this study, we needed you to believe there was a live partner.<br><br>" + 
-          "If you would like your responses removed from our data, please contact us at callab.uchicago@gmail.com <br><br><br>" + 
+          "If you have any concerns or would like your responses to be excluded, please contact us at <a href='mailto:callab.uchicago@gmail.com'>callab.uchicago@gmail.com</a><br><br><br>" + 
     			"<b>Press any key to end the experiment.</b></p></center>",
     on_finish: function(){
         jsPsych.setProgressBar(1);
