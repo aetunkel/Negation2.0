@@ -236,7 +236,7 @@ var timeline = [];
 // Welcome screen
 var welcome = {
   type:'external-html',
-    url: "external_page.html",
+    url: "external_page_2.html",
     cont_btn: "start",
     check_fn: check_consent,
   on_finish: function(){
