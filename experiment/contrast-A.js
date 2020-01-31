@@ -312,7 +312,7 @@ var images = {
                 "<td><img src='" + pic34 + "' height ='100'></td>" +
                 "<td><img src='" + pic35 + "'height = '100'></td></tr>",
      choices: jsPsych.NO_KEYS,
-     trial_duration: 100,
+     trial_duration: 10000,
      on_finish: function(){
         jsPsych.setProgressBar(3/31);
     }
@@ -386,6 +386,9 @@ var trial1 = {
       on_finish: function(data){
         trial1Response = JSON.parse(data.responses).Q0;
         jsPsych.setProgressBar(4/31)
+        if(trial1Response != "bird"){
+        alert("Please submit the correct answer.");
+      }
       }
     };  
 
@@ -436,6 +439,9 @@ var trial2 = {
     on_finish: function(data){
         trial2Response = JSON.parse(data.responses).Q0;
         jsPsych.setProgressBar(4/31)
+        if(trial2Response != "art"){
+        alert("Please submit the correct answer.");
+      }
       }
     };
 
