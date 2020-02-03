@@ -1,4 +1,4 @@
-﻿type,image
+type,image
 known,A
 known,B
 known,C
@@ -11,6 +11,8 @@ known,I
 known,J
 known,K
 known,L
+known,M
+known,N
 unknown,1
 unknown,2
 unknown,3
@@ -23,3 +25,7 @@ unknown,9
 unknown,10
 unknown,11
 unknown,12
+unknown,13
+unknown,14
+unknown,15
+unknown,16
