@@ -567,8 +567,8 @@ stimulusList = [];
 
   stimulusList.push(practice1);
   stimulusList.push(practice2);
-  stimulusList.push(knownStim);
   stimulusList.push(unkStim);
+  stimulusList.push(knownStim);
 
 
 
