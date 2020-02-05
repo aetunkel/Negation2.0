@@ -7,9 +7,21 @@ library(tidyverse)
 library(here)
 library(jsonlite)
 
-files <- map(here("raw_data/partner"), ~list.files(.x, pattern = ".json", 
-                                            full.names = T, recursive = T)) %>%
+#E1
+files <- map(here("raw_data/Experiment1/partner"), 
+                  ~list.files(.x, pattern = ".json", 
+                              full.names = T, recursive = T)) %>%
   unlist()
+
+#E2
+files <- map(here("raw_data/Experiment2"), 
+             ~list.files(.x, pattern = ".json", 
+                         full.names = T, recursive = T)) %>%
+  unlist() %>%
+  enframe() %>%
+  filter(!str_detect(value, "hit-ids"),
+         !str_detect(value, "settings")) %>%
+  pull(value)
 
 trial_types <- read_csv(here("trial_types.csv"))
 
@@ -28,12 +40,23 @@ read_file <- function(file) {
            responses = gsub("[^[:alnum:] ]", "", responses),
            responses = str_trim(responses)) %>%
     rename(response = responses) %>%
-    slice(4:21) %>%
+    # Experiment 2
+    slice((n() - 17):n()) %>%
+    #Experiment 1
+    #slice(4:21) %>%
     ungroup() %>%
     mutate(trial = 1:n()) %>%
     select(-trial_index)
   
   trials <- raw_data$trial_info 
+  
+  # Experiment 2
+  if(str_detect(file,"contrastB")) {
+    tmp <- trials[3]
+    trials[3] <- trials[4]
+    trials[4] <- tmp
+  }
+  
   
   practice <- trials[1:2] %>%
     unlist() %>%
@@ -84,7 +107,8 @@ read_file <- function(file) {
   # 
   responses %>%
     left_join(bind_rows(practice, test), by = "trial") %>%
-    mutate(id = id)
+    mutate(id = id) %>%
+    mutate(file = file)
   
 }
 
@@ -92,4 +116,4 @@ raw_data <- map_df(files, read_file) %>%
   ungroup() %>%
   mutate(id = factor(id, labels = 1:length(unique(id))))
 
-write_csv(raw_data, here("data/pilot4.csv"))
+write_csv(raw_data, here("data/experiment2.csv"))

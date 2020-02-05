@@ -23,15 +23,19 @@ library(lmerTest)
 library(broom)
 library(broom.mixed)
 library(tidyverse)
+library(glue)
+library(ggthemes)
+
 opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, 
                error = FALSE, cache = TRUE, tidy = FALSE)
 
 
-theme_set(theme_classic(base_size = 16))
+theme_set(theme_few(base_size = 16))
 ```
 
 ```{r load_data, eval = F}
-data <- read_csv(here("data/pilot3.csv")) 
+#data <- read_csv(here("data/pilot3.csv")) 
+data <- read_csv(here("data/experiment2.csv")) 
 ```
 
 ```{r munge_data, eval = F}
@@ -53,34 +57,43 @@ test_data <- data %>%
          negation = if_else(response %in% false_alarms,
                             FALSE, negation))
 
-write_csv(test_data, here("data/test_data.csv"))
+write_csv(test_data, here("data/test_data_e2.csv"))
 ```
 
 read hand-coded data
 ```{r load_coded_data, eval = T}
-test_data <- read_csv(here("data/test_data_coded.csv")) 
+test_data_e1 <- read_csv(here("data/test_data_coded.csv")) %>%
+  mutate(experiment = "1")
+test_data_e2 <- read_csv(here("data/test_data_e2.csv")) %>%
+  mutate(experiment = "2")
+
+all_data <- bind_rows(test_data_e1, test_data_e2) %>%
+  mutate(id = as.character(glue("{experiment}_{id}")))
 ```
 
 ```{r}
-mean_data <- test_data %>% 
-  group_by(type, switch, id) %>%
+mean_data <- all_data %>% 
+  group_by(experiment, type, switch, id) %>%
   summarise(negation = mean(negation)) %>%
   tidyboot_mean(negation) %>%
   mutate(empirical_stat = empirical_stat)
 ```
 
 ```{r plot_negation}
-ggplot(mean_data, aes(x = type, y = empirical_stat, color = switch)) + 
+ggplot(mean_data, aes(x = switch, y = empirical_stat, color = experiment)) + 
+  facet_wrap(~ type) +
   geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper), 
                   position = position_dodge(.5)) + 
-  scale_color_ptol()
+  scale_color_ptol() + 
+  labs(y = "negation probability", x = "") + 
+  theme(legend.position = c(.2,.6), aspect.ratio = 1)
 ```
 
 ```{r models}
-lm <- glmer(negation ~  switch + type + (1|id), 
-            family = "binomial", data = test_data)
+model <- glmer(negation ~  switch * experiment + (1 |id) + (1|target), 
+            family = "binomial", data = all_data %>% filter(type == "unknown"))
 
-tidy(lm) %>%
+tidy(model) %>%
   filter(effect == "fixed") %>%
   select(-group, - std.error) %>%
   kable()
