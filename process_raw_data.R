@@ -116,4 +116,5 @@ raw_data <- map_df(files, read_file) %>%
   ungroup() %>%
   mutate(id = factor(id, labels = 1:length(unique(id))))
 
-write_csv(raw_data, here("data/experiment2.csv"))
+write_csv(raw_data, here("data/experiment3.csv"))
+
