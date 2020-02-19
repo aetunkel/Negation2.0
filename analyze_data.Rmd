@@ -64,7 +64,7 @@ read hand-coded data
 ```{r load_coded_data, eval = T}
 test_data_e1 <- read_csv(here("data/test_data_coded.csv")) %>%
   mutate(experiment = "1")
-test_data_e2 <- read_csv(here("data/test_data_e2.csv")) %>%
+test_data_e2 <- read_csv(here("data/test_data_e2_coded.csv")) %>%
   mutate(experiment = "2")
 
 all_data <- bind_rows(test_data_e1, test_data_e2) %>%
