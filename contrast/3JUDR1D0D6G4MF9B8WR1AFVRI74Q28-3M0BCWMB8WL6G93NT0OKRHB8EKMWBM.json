@@ -1,0 +1,93 @@
+{
+ "AssignmentId": "3M0BCWMB8WL6G93NT0OKRHB8EKMWBM",
+ "WorkerId": "c298a95c96c0ea455a971090f8039c20",
+ "HITId": "3JUDR1D0D6G4MF9B8WR1AFVRI74Q28",
+ "AssignmentStatus": "Approved",
+ "AutoApprovalTime": "2020-01-31T19:14:17.000Z",
+ "AcceptTime": "2020-01-31T18:37:48.000Z",
+ "SubmitTime": "2020-01-31T19:09:17.000Z",
+ "ApprovalTime": "2020-01-31T19:15:13.000Z",
+ "answers": {
+  "data": {
+   "responses": "\"rt\",\"responses\",\"locator\",\"trial_type\",\"trial_index\",\"time_elapsed\",\"internal_node_id\"\r\n\"10587.074999999255\",\"{\"\"Q0\"\":\"\"pigeon \"\"}\",\"lookup-code-0\",\"survey-text\",\"3\",\"1627605\",\"0.0-3.0-0.0-0.0\"\r\n\"6849.194999998901\",\"{\"\"Q0\"\":\"\"bird \"\"}\",\"lookup-code-0\",\"survey-text\",\"4\",\"1637931\",\"0.0-3.0-0.1-0.1\"\r\n\"3760.6550000018906\",\"{\"\"Q0\"\":\"\"bird\"\"}\",\"lookup-code-0\",\"survey-text\",\"5\",\"1642956\",\"0.0-3.0-0.2-0.2\"\r\n\"17873.920000001788\",\"{\"\"Q0\"\":\"\"art\"\"}\",\"\",\"survey-text\",\"7\",\"1664491\",\"0.0-5.0-0.0-0.0\"\r\n\"9007.525000001071\",\"{\"\"Q0\"\":\"\"SP\"\"}\",\"\",\"survey-text\",\"9\",\"1676259\",\"0.0-7.0\"\r\n\"4998.310000002617\",\"{\"\"Q0\"\":\"\"bird\"\"}\",\"\",\"survey-text\",\"12\",\"1689275\",\"0.0-10.0\"\r\n\"7168.445000002859\",\"{\"\"Q0\"\":\"\"plane\"\"}\",\"\",\"survey-text\",\"14\",\"1697562\",\"0.0-12.0\"\r\n\"3079.6549999976996\",\"{\"\"Q0\"\":\"\"mug\"\"}\",\"\",\"survey-text\",\"17\",\"1703952\",\"0.0-15.0-0.0\"\r\n\"12473.020000001416\",\"{\"\"Q0\"\":\"\"NOT fork\"\"}\",\"\",\"survey-text\",\"19\",\"1718542\",\"0.0-15.0-0.1\"\r\n\"12913.710000000661\",\"{\"\"Q0\"\":\"\"It's NOT cat\"\"}\",\"\",\"survey-text\",\"21\",\"1732819\",\"0.0-15.0-0.2\"\r\n\"2759.37500000163\",\"{\"\"Q0\"\":\"\"ring\"\"}\",\"\",\"survey-text\",\"23\",\"1736942\",\"0.0-15.0-0.3\"\r\n\"8395.455000001704\",\"{\"\"Q0\"\":\"\"dumbell like thing \"\"}\",\"\",\"survey-text\",\"25\",\"1746952\",\"0.0-15.0-0.4\"\r\n\"5091.840000001015\",\"{\"\"Q0\"\":\"\"tree\"\"}\",\"\",\"survey-text\",\"27\",\"1752911\",\"0.0-15.0-0.5\"\r\n\"2975.484999999171\",\"{\"\"Q0\"\":\"\"tree\"\"}\",\"\",\"survey-text\",\"29\",\"1757253\",\"0.0-15.0-0.6\"\r\n\"29512.220000000438\",\"{\"\"Q0\"\":\"\"donut like  white thing \"\"}\",\"\",\"survey-text\",\"31\",\"1789880\",\"0.0-15.0-0.7\"\r\n\"29419.855000000214\",\"{\"\"Q0\"\":\"\"spiky objects which are connected \"\"}\",\"\",\"survey-text\",\"33\",\"1820416\",\"0.0-15.0-0.8\"\r\n\"3987.37000000244\",\"{\"\"Q0\"\":\"\"butterfly \"\"}\",\"\",\"survey-text\",\"35\",\"1826019\",\"0.0-15.0-0.9\"\r\n\"11170.310000001453\",\"{\"\"Q0\"\":\"\"not pen \"\"}\",\"\",\"survey-text\",\"37\",\"1838557\",\"0.0-15.0-0.10\"\r\n\"2375.0749999999534\",\"{\"\"Q0\"\":\"\" car\"\"}\",\"\",\"survey-text\",\"39\",\"1843547\",\"0.0-15.0-0.11\"\r\n\"8037.165000001434\",\"{\"\"Q0\"\":\"\"not flower \"\"}\",\"\",\"survey-text\",\"41\",\"1853698\",\"0.0-15.0-0.12\"\r\n\"5277.805000001565\",\"{\"\"Q0\"\":\"\"not shoe \"\"}\",\"\",\"survey-text\",\"43\",\"1861592\",\"0.0-15.0-0.13\"\r\n\"6764.930000001099\",\"{\"\"Q0\"\":\"\"not chair \"\"}\",\"\",\"survey-text\",\"45\",\"1869223\",\"0.0-15.0-0.14\"\r\n\"4232.734999997774\",\"{\"\"Q0\"\":\"\"apple \"\"}\",\"\",\"survey-text\",\"47\",\"1874324\",\"0.0-15.0-0.15\"\r\n",
+   "trial_info": [
+    [
+     "<img src = 'img/practiceTarget1.jpg' class='target'>",
+     "<img src='img/practiceDistractor1.jpg' class='image'>"
+    ],
+    [
+     "<img src='img/practiceDistractor2.jpg' class='image'>",
+     "<img src ='img/practiceTarget2.jpg' class='target'>"
+    ],
+    [
+     [
+      "<img src='img/M.jpg' class='target'>",
+      "<img src='img/10.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/11.jpg' class='target'>",
+      "<img src='img/G.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/8.jpg' class='target'>",
+      "<img src='img/B.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/F.jpg' class='target'>",
+      "<img src='img/2.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/5.jpg' class='image'>",
+      "<img src='img/J.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/9.jpg' class='image'>",
+      "<img src='img/J.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/12.jpg' class='image'>",
+      "<img src='img/J.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/J.jpg' class='image'>",
+      "<img src='img/4.jpg' class='target'>"
+     ]
+    ],
+    [
+     [
+      "<img src='img/1.jpg' class='target'>",
+      "<img src='img/H.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/K.jpg' class='target'>",
+      "<img src='img/3.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/D.jpg' class='image'>",
+      "<img src='img/6.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/I.jpg' class='target'>",
+      "<img src='img/16.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/7.jpg' class='target'>",
+      "<img src='img/L.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/C.jpg' class='image'>",
+      "<img src='img/7.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/7.jpg' class='target'>",
+      "<img src='img/E.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/7.jpg' class='image'>",
+      "<img src='img/A.jpg' class='target'>"
+     ]
+    ]
+   ]
+  }
+ }
+}
