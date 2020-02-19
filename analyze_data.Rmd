@@ -35,7 +35,8 @@ theme_set(theme_few(base_size = 16))
 
 ```{r load_data, eval = F}
 #data <- read_csv(here("data/pilot3.csv")) 
-data <- read_csv(here("data/experiment2.csv")) 
+#data <- read_csv(here("data/experiment2.csv")) 
+data <- read_csv(here("data/experiment3.csv")) 
 ```
 
 ```{r munge_data, eval = F}
@@ -51,13 +52,14 @@ test_data <- data %>%
   mutate(switch = lag(occurrence == 3),
          switch = if_else(is.na(switch), FALSE, switch),
          switch = factor(switch, levels = c(FALSE, TRUE), 
-                         labels = c("standard", "switch"))) %>%
+                         labels = c("standard", "switch")),
+         response = if_else(is.na(response), "", response)) %>%
   ungroup() %>%
   mutate(negation = str_detect(response, "not"),
          negation = if_else(response %in% false_alarms,
                             FALSE, negation))
 
-write_csv(test_data, here("data/test_data_e2.csv"))
+write_csv(test_data, here("data/test_data_e3.csv"))
 ```
 
 read hand-coded data
@@ -66,12 +68,14 @@ test_data_e1 <- read_csv(here("data/test_data_coded.csv")) %>%
   mutate(experiment = "1")
 test_data_e2 <- read_csv(here("data/test_data_e2_coded.csv")) %>%
   mutate(experiment = "2")
+test_data_e3 <- read_csv(here("data/test_data_e3.csv")) %>%
+  mutate(experiment = "3")
 
-all_data <- bind_rows(test_data_e1, test_data_e2) %>%
+all_data <- bind_rows(test_data_e1, test_data_e2, test_data_e3) %>%
   mutate(id = as.character(glue("{experiment}_{id}")))
 ```
 
-```{r}
+```{r summarise_data}
 mean_data <- all_data %>% 
   group_by(experiment, type, switch, id) %>%
   summarise(negation = mean(negation)) %>%
@@ -89,9 +93,16 @@ ggplot(mean_data, aes(x = switch, y = empirical_stat, color = experiment)) +
   theme(legend.position = c(.2,.6), aspect.ratio = 1)
 ```
 
-```{r models}
+```{r models, eval = FALSE}
 model <- glmer(negation ~  switch * experiment + (1 |id) + (1|target), 
             family = "binomial", data = all_data %>% filter(type == "unknown"))
+
+model <- glmer(negation ~  switch * experiment + (1 |id) + (1|target), 
+            family = "binomial", data = all_data %>% filter(type == "known"))
+
+# 
+# model <- stan_glmer(negation ~  type *switch * experiment + (1 |id) + (1|target), 
+#             family = "binomial", data = all_data %>% mutate(negation = as.numeric(negation)))
 
 tidy(model) %>%
   filter(effect == "fixed") %>%

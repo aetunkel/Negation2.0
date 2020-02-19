@@ -8,13 +8,13 @@ library(here)
 library(jsonlite)
 
 #E1
-files <- map(here("raw_data/Experiment1/partner"), 
-                  ~list.files(.x, pattern = ".json", 
-                              full.names = T, recursive = T)) %>%
-  unlist()
+# files <- map(here("raw_data/Experiment1/partner"), 
+#                   ~list.files(.x, pattern = ".json", 
+#                               full.names = T, recursive = T)) %>%
+#   unlist()
 
-#E2
-files <- map(here("raw_data/Experiment2"), 
+#E2/3
+files <- map(here("raw_data/Experiment3"), 
              ~list.files(.x, pattern = ".json", 
                          full.names = T, recursive = T)) %>%
   unlist() %>%
