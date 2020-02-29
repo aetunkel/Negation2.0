@@ -1,0 +1,13 @@
+{
+ "_cosubSpecVersion": 2,
+ "Url": "https://callab.uchicago.edu/experiments/negation/study1Bunknown.html",
+ "Title": "test",
+ "Description": "test",
+ "Keywords": "test",
+ "Batch": true,
+ "FrameHeight": 700,
+ "AssignmentDuration": "1 day",
+ "AutoApprovalDelay": "1 day",
+ "Reward": "1",
+ "QualificationRequirements": []
+}

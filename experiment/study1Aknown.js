@@ -1,9 +1,12 @@
+// Study 1A - Known target & distractor first; Unknown target & distractor second
+
+
 shuffle = function (o) { //v1.0
   for (var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
   return o;
 }
 
-// CREATE KNOWN TRIALS
+// establish arrays
 
 var practiceResponses = [];
 var allKnown = [];
@@ -37,8 +40,6 @@ for(i=0; i<knownArray1.length; i++){
 var practice1 = ["<img src = 'img/practiceTarget1.jpg' class='target'>", "<img src='img/practiceDistractor1.jpg' class='image'>"];
 var practice2 = ["<img src='img/practiceDistractor2.jpg' class='image'>", "<img src ='img/practiceTarget2.jpg' class='target'>"];
 
-// CREATE UNKNOWN TRIALS
-
 var allUnk= [];
 var unkArrayShuffle = [];
 
@@ -70,76 +71,73 @@ for(i=0; i<unkArray1.length; i++){
 
 // known trials
 
-// control
-var trial1 = [knownArrayShuffle[0], unkArrayShuffle[1]];
+var trial1 = [knownArrayShuffle[0], knownArrayShuffle[1]];
 shuffle(trial1);
 allKnown.push(trial1);
 
-var trial2 = [knownArrayShuffle[1], unkArrayShuffle[0]];
+var trial2 = [knownArrayShuffle[2], knownArrayShuffle[3]];
 shuffle(trial2);
 allKnown.push(trial2);
 
-var trial3 = [knownArrayShuffle[3], unkArrayShuffle[2]];
+var trial3 = [knownArrayShuffle[4], knownArrayShuffle[5]];
 shuffle(trial3);
 allKnown.push(trial3);
 
-var trial4 = [knownArrayShuffle[2], unkArrayShuffle[3]];
+var trial4 = [knownArrayShuffle[6], knownArrayShuffle[7]];
 shuffle(trial4);
 allKnown.push(trial4);
 
 // experimental
-var trial5 = [knownArrayShuffle[4], unkArrayShuffle[5]];
+var trial5 = [knownArrayShuffle[8], knownArrayShuffle[7]];
 shuffle(trial5);
 allKnown.push(trial5);
 
-var trial6 = [knownArrayShuffle[4], unkArrayShuffle[7]];
+var trial6 = [knownArrayShuffle[8], knownArrayShuffle[9]];
 shuffle(trial6);
 allKnown.push(trial6);
 
-var trial7 = [knownArrayShuffle[4], unkArrayShuffle[9]];
+var trial7 = [knownArrayShuffle[8], knownArrayShuffle[11]];
 shuffle(trial7);
 allKnown.push(trial7);
 
-knownArrayShuffle[4] = "<img src='img/"+ knownArray1[4] + ".jpg' class='image'>";
-var trial8 = [unkArrayShuffle[4], knownArrayShuffle[4]];
+knownArrayShuffle[8] = "<img src='img/"+ knownArray1[8] + ".jpg' class='image'>";
+var trial8 = [knownArrayShuffle[10], knownArrayShuffle[8]];
 shuffle(trial8);
 allKnown.push(trial8);
 
 
 // unknown trials
-
-// control
-var trial9 = [unkArrayShuffle[6], knownArrayShuffle[5]];
+var trial9 = [unkArrayShuffle[0], unkArrayShuffle[1]];
 shuffle(trial9);
 allUnk.push(trial9);
 
-var trial10 = [unkArrayShuffle[11], knownArrayShuffle[6]];
+var trial10 = [unkArrayShuffle[2], unkArrayShuffle[3]];
 shuffle(trial10);
 allUnk.push(trial10);
 
-var trial11 = [unkArrayShuffle[8], knownArrayShuffle[7]];
+var trial11 = [unkArrayShuffle[4], unkArrayShuffle[5]];
 shuffle(trial11);
 allUnk.push(trial11);
 
-var trial12 = [unkArrayShuffle[13], knownArrayShuffle[8]];
+var trial12 = [unkArrayShuffle[6], unkArrayShuffle[7]];
 shuffle(trial12);
 allUnk.push(trial12);
 
 // experimental
-var trial13 = [unkArrayShuffle[10], knownArrayShuffle[9]];
+var trial13 = [unkArrayShuffle[8], unkArrayShuffle[7]];
 shuffle(trial13);
 allUnk.push(trial13);
 
-var trial14 = [unkArrayShuffle[10], knownArrayShuffle[11]]
+var trial14 = [unkArrayShuffle[8], unkArrayShuffle[9]]
 shuffle(trial14);
 allUnk.push(trial14);
 
-var trial15 = [unkArrayShuffle[10], knownArrayShuffle[13]]
+var trial15 = [unkArrayShuffle[8], unkArrayShuffle[11]]
 shuffle(trial15);
 allUnk.push(trial15);
 
-unkArrayShuffle[10] = "<img src='img/"+ unkArray1[10] + ".jpg' class='image'>";
-var trial16 = [knownArrayShuffle[10], unkArrayShuffle[10]];
+unkArrayShuffle[8] = "<img src='img/"+ unkArray1[8] + ".jpg' class='image'>";
+var trial16 = [unkArrayShuffle[10], unkArrayShuffle[8]];
 shuffle(trial16);
 allUnk.push(trial16);
 
@@ -319,55 +317,6 @@ var images = {
 };
 
 timeline.push(images);
-
-
-// var giveExample1 = {
-//     type: 'survey-text',
-//     preamble: '<center><b>This the <strong style="color:maroon;">Director</strong> screen.</center></b><br /><br />' +
-//               "The <strong style='color:maroon;'>Director's</strong> goal is to send a message to the <strong style='color:teal;'>Matcher</strong> so they choose the target object.<br /><br />" +
-//               "<tr><td>" + practice1[0] + "</td><td>" + practice1[1] + "</td></tr><br /><br /><br /><br />" +
-//               "Try it out! Type <i><b>bird</b></i> into the textbox and press continue.<br /><br />",
-//     questions: [{prompt:"<p>Type a message to the Matcher:</p>", required: true}],
-//       on_finish: function(){
-//         jsPsych.setProgressBar(4/31)
-//       }
-//     };
-
-// timeline.push(giveExample1);
-
-// var matcherExample1 = {
-//     type: 'html-button-response',
-//     stimulus: '<center><b>This the <strong style="color:teal;">Matcher</strong> screen.</center></b><br /><br />' +
-//               "The <strong style='color:teal;'>Matcher's</strong> goal is to use the <strong style='color:maroon;'>Director's</strong> message to choose the target object.<br /><br /><br />" +
-//               '<strong style="color:red;">The Director said: <i> bird </i></strong><br /> <br />' +
-//               '<center>Which is the <b> target object</b>?</center><br /> <br />',
-//     choices: ['<center><img src="' + pic25 + '" class="image"></center>', '<center><img src="' + pic26 + '" class="image"></center>'],
-//   response_ends_trial: true,
-//   on_finish: function(){
-//     jsPsych.setProgressBar(5/31)
-//   }
-// };
-
-// timeline.push(matcherExample1);
-
-// var giveExample2 = {
-//     type: 'survey-text',
-//     preamble: '<center><b>Here is another <strong style="color:maroon;">Director</strong> example.</center></b><br /><br />' +
-//               "<tr><td><img src='" + pic29 + "' class='image'></td><td><img src='" + pic30 + "' class ='target'></td></tr><br /><br />" +
-//               'Type <i><b>art</b></i> into the textbox and press continue. </center><br /><br />' +
-//               '&nbsp&nbsp&nbsp <i> Other Directors have sent: </i> <br /><br />' +
-//               '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp weird shaped vase<br />' +
-//               '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp smooth sculpture<br />' +
-//               '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp not spiky <br />'+
-//               '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp fish decoration<br /><br />' ,
-//     questions: [{prompt: "<p>Type a message to the Matcher:</p>", required: true}],
-//     on_finish: function(){
-//         jsPsych.setProgressBar(6/31)
-//       }
-//     };
-
-// timeline.push(giveExample2);
-
 
 
 

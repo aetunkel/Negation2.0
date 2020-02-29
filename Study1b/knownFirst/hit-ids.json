@@ -1,0 +1,27 @@
+{
+ "sandbox": [
+  {
+   "HIT": {
+    "HITId": "3KTCJ4SCVGQ6CFTNXZFAOYEYJCEM1C",
+    "HITTypeId": "3VQ3WJ3HVOL12CX4ZY6X0DOBNDHMIP",
+    "HITGroupId": "3FOA7RUSVQAA6XEFQ32FM8YDPFGPGT",
+    "CreationTime": "2020-02-29T04:25:38.000Z",
+    "Title": "test",
+    "Description": "test",
+    "Question": "<ExternalQuestion xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd\">\n  <ExternalURL>https://callab.uchicago.edu/experiments/negation/study1Bknown.html</ExternalURL>\n  <FrameHeight>700</FrameHeight>\n</ExternalQuestion>",
+    "Keywords": "test",
+    "HITStatus": "Assignable",
+    "MaxAssignments": 1,
+    "Reward": "1.00",
+    "AutoApprovalDelayInSeconds": 3600,
+    "Expiration": "2020-02-29T05:25:38.000Z",
+    "AssignmentDurationInSeconds": 3600,
+    "QualificationRequirements": [],
+    "HITReviewStatus": "NotReviewed",
+    "NumberOfAssignmentsPending": 0,
+    "NumberOfAssignmentsAvailable": 1,
+    "NumberOfAssignmentsCompleted": 0
+   }
+  }
+ ]
+}
