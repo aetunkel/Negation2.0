@@ -85,15 +85,15 @@ var trial4 = [unkArrayShuffle[6], unkArrayShuffle[7]];
 shuffle(trial4);
 allUnk.push(trial4);
 
-var trial5 = [unkArrayShuffle[8], unkArrayShuffle[7]];
+var trial5 = [unkArrayShuffle[8], unkArrayShuffle[9]];
 shuffle(trial5);
 allUnk.push(trial5);
 
-var trial6 = [unkArrayShuffle[8], unkArrayShuffle[9]]
+var trial6 = [unkArrayShuffle[8], unkArrayShuffle[11]]
 shuffle(trial6);
 allUnk.push(trial6);
 
-var trial7 = [unkArrayShuffle[8], unkArrayShuffle[11]]
+var trial7 = [unkArrayShuffle[8], unkArrayShuffle[13]]
 shuffle(trial7);
 allUnk.push(trial7);
 
@@ -120,15 +120,15 @@ var trial12 = [knownArrayShuffle[6], knownArrayShuffle[7]];
 shuffle(trial12);
 allKnown.push(trial12);
 
-var trial13 = [knownArrayShuffle[8], knownArrayShuffle[7]];
+var trial13 = [knownArrayShuffle[8], knownArrayShuffle[9]];
 shuffle(trial13);
 allKnown.push(trial13);
 
-var trial14 = [knownArrayShuffle[8], knownArrayShuffle[9]];
+var trial14 = [knownArrayShuffle[8], knownArrayShuffle[11]];
 shuffle(trial14);
 allKnown.push(trial14);
 
-var trial15 = [knownArrayShuffle[8], knownArrayShuffle[11]];
+var trial15 = [knownArrayShuffle[8], knownArrayShuffle[13]];
 shuffle(trial15);
 allKnown.push(trial15);
 
