@@ -1,0 +1,133 @@
+---
+title: "Preregistered pre-processing for E1"
+author: "Alex Tunkel and Dan Yurovsky"
+date: '`r Sys.Date()`'
+output: 
+  html_document:
+  toc: false
+number_sections: false
+theme: lumen
+toc_float: false
+code_folding: hide
+---
+
+```{r load-libraries,  message = FALSE, warn = FALSE}
+library(readr)
+library(knitr)
+library(purrr)
+library(tidyverse)
+library(here)
+library(jsonlite)
+```
+
+Load all raw files and file-types
+```{r get-files, message = FALSE, warn = FALSE}
+files <- list.files(here("raw_data/pre-reg1"), pattern = "*.json",
+                    full.names = T, recursive = T) %>%
+  enframe(name = NULL, value = "file") %>%
+  filter(!str_detect(file, "settings.json"), 
+         !str_detect(file, "hit-ids.json")) %>%
+  pull()
+
+trial_types <- read_csv(here("analysis/trial_types.csv"))
+```
+
+```{r read-file-func}
+read_file <- function(file) {
+  
+  json_out <- fromJSON(file)
+  worker_id <- json_out$WorkerId
+  
+  raw_data <- json_out$answers$data 
+  
+  # Pull trial responses out of data
+  responses <- raw_data$responses %>%
+    read_csv() %>%
+    select(-internal_node_id, -trial_type) %>%
+    rowwise() %>%
+    mutate(responses = str_split(responses, ":") %>% unlist() %>% last(),
+           responses = gsub("[^[:alnum:] ]", "", responses),
+           responses = str_trim(responses)) %>%
+    rename(response = responses) %>%
+    slice((n() - 17):n()) %>%
+    ungroup() %>%
+    mutate(trial = 1:n()) %>%
+    select(-trial_index)
+  
+  # Get trial informaiton
+  trials <- raw_data$trial_info 
+
+  # Get content of practice trials
+  practice <- trials[1:2] %>%
+    unlist() %>%
+    enframe() %>%
+    mutate(value = str_split(value, " class=")) %>%
+    rowwise() %>%
+    mutate(pic = value[1] %>% str_split("/") %>% unlist() %>% last(),
+           pic = gsub(".jpg'", "", pic),
+           type =  gsub("[^[:alnum:] ]", "", value[2])) %>%
+    select(-value, -name) %>%
+    mutate(trial = as.numeric(gsub("[^0-9]", "", pic))) %>%
+    spread(type, pic) %>%
+    mutate(type = "practice") %>%
+    rename(distractor = image)
+  
+  # Ge content of test trials
+  test <- trials[3:4] %>%
+    map(as_tibble) %>%
+    bind_rows(.id = "type") %>%
+    separate(V1, sep = " class=", into = c("pic_1", "kind_1")) %>%
+    separate(V2, sep = " class=", into = c("pic_2", "kind_2")) %>%
+    mutate(trial = 1:n()) %>%
+    gather(measure, value, pic_1, pic_2, kind_1, kind_2) %>%
+    separate(measure, into = c("measure", "image"), sep = "_") %>%
+    spread(measure, value) %>%
+    rowwise() %>%
+    mutate(pic = pic[1] %>% str_split("/") %>% unlist() %>% last(),
+           pic = gsub(".jpg'", "", pic),
+           kind =  gsub("[^[:alnum:] ]", "", kind)) %>%
+    select(-image) %>%
+    spread(kind, pic) %>%
+    rename(distractor = image) %>%
+    ungroup() %>%
+    mutate(trial = trial + nrow(practice)) %>%
+    select(-type) %>%
+    left_join(trial_types, by = c("target" = "image"))
+  
+  responses %>%
+    left_join(bind_rows(practice, test), by = "trial") %>%
+    mutate(id = worker_id) %>%
+    mutate(file = file)
+  
+}
+
+```
+
+Load in all files
+```{r read-files}
+raw_data <- map_df(files, read_file) %>%
+  mutate(order = if_else(str_detect(file, "unkFirst"), "unknown first", "known first"),
+         experiment = if_else(str_detect(file, "Study1a"), "1a", "1b")) %>%
+  select(experiment, order, id, trial, type, response, time_elapsed, target, distractor)
+```
+
+
+Detect "not" in responses to prepare for manual coding
+```{r pre-process}
+pre_processesd_data <- raw_data %>%
+  filter(type != "practice") %>%
+  arrange(id, trial) %>%
+  group_by(id, target) %>%
+  mutate(occurrence = 1:n()) %>%
+  group_by(id) %>%
+  mutate(switch = lag(occurrence == 3, default = FALSE),
+         switch = factor(switch, levels = c(FALSE, TRUE), 
+                         labels = c("standard", "switch")),
+         response = if_else(is.na(response), "", response)) %>%
+  ungroup() %>%
+  mutate(negation = str_detect(response, "not"))
+
+write_csv(pre_processesd_data, here("data/pre-reg1/pre_processed_data.csv"))
+```
+
+
