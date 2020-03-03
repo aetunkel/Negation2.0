@@ -114,7 +114,7 @@ raw_data <- map_df(files, read_file) %>%
 
 Detect "not" in responses to prepare for manual coding
 ```{r pre-process}
-pre_processesd_data <- raw_data %>%
+pre_processed_data <- raw_data %>%
   filter(type != "practice") %>%
   arrange(id, trial) %>%
   group_by(id, target) %>%
@@ -127,7 +127,12 @@ pre_processesd_data <- raw_data %>%
   ungroup() %>%
   mutate(negation = str_detect(response, "not"))
 
-write_csv(pre_processesd_data, here("data/pre-reg1/pre_processed_data.csv"))
+write_csv(pre_processed_data, here("data/pre-reg1/pre_processed_data.csv"))
+
+to_code_data <- pre_processesd_data %>%
+  select(experiment, id, trial, response, negation)
+
+write_csv(to_code_data, here("data/pre-reg1/to_code_data.csv"))
 ```
 
 
