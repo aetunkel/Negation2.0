@@ -1,13 +1,30 @@
 {
  "_cosubSpecVersion": 2,
  "Url": "https://callab.uchicago.edu/experiments/negation/study1Aknown.html",
- "Title": "Test Run 1",
- "Description": "Test",
- "Keywords": "1, a, knownfirst",
+ "Title": "Communication Game (5 mins)",
+ "Description": "view some objects and either describe to another turker or choose based on description",
+ "Keywords": "short, communication, game",
  "Batch": true,
  "FrameHeight": 700,
  "AssignmentDuration": "1 hour",
  "AutoApprovalDelay": "5 minutes",
  "Reward": "0.5",
- "QualificationRequirements": []
+ "QualificationRequirements": [
+  {
+   "Name": "Worker_Locale",
+   "Comparator": "EqualTo",
+   "LocaleValues": [
+    {
+     "Country": "US"
+    }
+   ]
+  },
+  {
+   "Name": "Worker_PercentAssignmentsApproved",
+   "Comparator": "GreaterThanOrEqualTo",
+   "IntegerValues": [
+    95
+   ]
+  }
+ ]
 }
