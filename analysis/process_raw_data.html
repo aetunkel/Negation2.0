@@ -11,7 +11,7 @@
 
 <meta name="author" content="Alex Tunkel and Dan Yurovsky" />
 
-<meta name="date" content="2020-03-03" />
+<meta name="date" content="2020-03-04" />
 
 <title>Preregistered pre-processing for E1</title>
 
@@ -365,7 +365,7 @@ summary {
 
 <h1 class="title toc-ignore">Preregistered pre-processing for E1</h1>
 <h4 class="author">Alex Tunkel and Dan Yurovsky</h4>
-<h4 class="date">2020-03-03</h4>
+<h4 class="date">2020-03-04</h4>
 
 </div>
 
@@ -458,7 +458,7 @@ trial_types &lt;- read_csv(here(&quot;analysis/trial_types.csv&quot;))</code></p
          experiment = if_else(str_detect(file, &quot;Study1a&quot;), &quot;1a&quot;, &quot;1b&quot;)) %&gt;%
   select(experiment, order, id, trial, type, response, time_elapsed, target, distractor)</code></pre>
 <p>Detect “not” in responses to prepare for manual coding</p>
-<pre class="r"><code>pre_processesd_data &lt;- raw_data %&gt;%
+<pre class="r"><code>pre_processed_data &lt;- raw_data %&gt;%
   filter(type != &quot;practice&quot;) %&gt;%
   arrange(id, trial) %&gt;%
   group_by(id, target) %&gt;%
@@ -471,7 +471,12 @@ trial_types &lt;- read_csv(here(&quot;analysis/trial_types.csv&quot;))</code></p
   ungroup() %&gt;%
   mutate(negation = str_detect(response, &quot;not&quot;))
 
-write_csv(pre_processesd_data, here(&quot;data/pre-reg1/pre_processed_data.csv&quot;))</code></pre>
+write_csv(pre_processed_data, here(&quot;data/pre-reg1/pre_processed_data.csv&quot;))
+
+to_code_data &lt;- pre_processed_data %&gt;%
+  select(experiment, id, trial, response, negation)
+
+write_csv(to_code_data, here(&quot;data/pre-reg1/to_code_data.csv&quot;))</code></pre>
 
 
 

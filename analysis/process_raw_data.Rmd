@@ -129,7 +129,7 @@ pre_processed_data <- raw_data %>%
 
 write_csv(pre_processed_data, here("data/pre-reg1/pre_processed_data.csv"))
 
-to_code_data <- pre_processesd_data %>%
+to_code_data <- pre_processed_data %>%
   select(experiment, id, trial, response, negation)
 
 write_csv(to_code_data, here("data/pre-reg1/to_code_data.csv"))
