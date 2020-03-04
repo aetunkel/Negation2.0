@@ -1,0 +1,93 @@
+{
+ "AssignmentId": "3QRYMNZ7FZ6GP1OQ1LOIVS43W2MTN1",
+ "WorkerId": "62d70007f3595931541449c3972aa4cc",
+ "HITId": "3SR6AEG6W5IHA73FIRB2A54V7P2YHH",
+ "AssignmentStatus": "Approved",
+ "AutoApprovalTime": "2020-03-03T23:18:15.000Z",
+ "AcceptTime": "2020-03-03T23:08:18.000Z",
+ "SubmitTime": "2020-03-03T23:13:15.000Z",
+ "ApprovalTime": "2020-03-03T23:19:13.000Z",
+ "answers": {
+  "data": {
+   "responses": "\"rt\",\"responses\",\"locator\",\"trial_type\",\"trial_index\",\"time_elapsed\",\"internal_node_id\"\r\n\"7689.209999982268\",\"{\"\"Q0\"\":\"\"bird\"\"}\",\"lookup-code-0\",\"survey-text\",\"3\",\"37144\",\"0.0-3.0-0.0-0.0\"\r\n\"16762.480000033975\",\"{\"\"Q0\"\":\"\"Statue shaped like a fish\"\"}\",\"\",\"survey-text\",\"5\",\"57200\",\"0.0-5.0-0.0-0.0\"\r\n\"6184.9799999035895\",\"{\"\"Q0\"\":\"\"art\"\"}\",\"\",\"survey-text\",\"6\",\"65132\",\"0.0-5.0-0.1-0.1\"\r\n\"7040.734999813139\",\"{\"\"Q0\"\":\"\"Nick\"\"}\",\"\",\"survey-text\",\"8\",\"73763\",\"0.0-7.0\"\r\n\"2692.079999949783\",\"{\"\"Q0\"\":\"\"bird\"\"}\",\"\",\"survey-text\",\"11\",\"84463\",\"0.0-10.0\"\r\n\"6518.724999856204\",\"{\"\"Q0\"\":\"\"Airplane\"\"}\",\"\",\"survey-text\",\"13\",\"93593\",\"0.0-12.0\"\r\n\"17690.50999986939\",\"{\"\"Q0\"\":\"\"Toy with a handle and two circular ends\"\"}\",\"\",\"survey-text\",\"16\",\"117150\",\"0.0-15.0-0.0\"\r\n\"10587.539999978617\",\"{\"\"Q0\"\":\"\"A statue that looks like a crystal wing\"\"}\",\"\",\"survey-text\",\"18\",\"128595\",\"0.0-15.0-0.1\"\r\n\"18032.070000190288\",\"{\"\"Q0\"\":\"\"A vase like object that is bigger at the bottom \"\"}\",\"\",\"survey-text\",\"20\",\"147732\",\"0.0-15.0-0.2\"\r\n\"11922.885000007227\",\"{\"\"Q0\"\":\"\"Each end looks as if its a stand\"\"}\",\"\",\"survey-text\",\"22\",\"161762\",\"0.0-15.0-0.3\"\r\n\"18691.51999987662\",\"{\"\"Q0\"\":\"\"A shiny type object with a weird circular type shape\"\"}\",\"\",\"survey-text\",\"24\",\"181814\",\"0.0-15.0-0.4\"\r\n\"10324.154999805614\",\"{\"\"Q0\"\":\"\"Shiny object with circular type shape\"\"}\",\"\",\"survey-text\",\"26\",\"194250\",\"0.0-15.0-0.5\"\r\n\"19233.714999863878\",\"{\"\"Q0\"\":\"\"Object looks like its being broken apart\"\"}\",\"\",\"survey-text\",\"28\",\"214590\",\"0.0-15.0-0.6\"\r\n\"6345.405000029132\",\"{\"\"Q0\"\":\"\"Looks like a spinning top\"\"}\",\"\",\"survey-text\",\"30\",\"221796\",\"0.0-15.0-0.7\"\r\n\"2937.099999981001\",\"{\"\"Q0\"\":\"\"Crab\"\"}\",\"\",\"survey-text\",\"32\",\"226341\",\"0.0-15.0-0.8\"\r\n\"1926.170000107959\",\"{\"\"Q0\"\":\"\"Cat\"\"}\",\"\",\"survey-text\",\"34\",\"231374\",\"0.0-15.0-0.9\"\r\n\"3882.8050000593066\",\"{\"\"Q0\"\":\"\"Cup\"\"}\",\"\",\"survey-text\",\"36\",\"237116\",\"0.0-15.0-0.10\"\r\n\"2174.610000103712\",\"{\"\"Q0\"\":\"\"Dice\"\"}\",\"\",\"survey-text\",\"38\",\"240901\",\"0.0-15.0-0.11\"\r\n\"2326.05000003241\",\"{\"\"Q0\"\":\"\"Tree\"\"}\",\"\",\"survey-text\",\"40\",\"245086\",\"0.0-15.0-0.12\"\r\n\"1717.9999998770654\",\"{\"\"Q0\"\":\"\"Tree\"\"}\",\"\",\"survey-text\",\"42\",\"248159\",\"0.0-15.0-0.13\"\r\n\"1630.390000063926\",\"{\"\"Q0\"\":\"\"Tree\"\"}\",\"\",\"survey-text\",\"44\",\"250898\",\"0.0-15.0-0.14\"\r\n\"1579.5449998695403\",\"{\"\"Q0\"\":\"\"Car\"\"}\",\"\",\"survey-text\",\"46\",\"253335\",\"0.0-15.0-0.15\"\r\n",
+   "trial_info": [
+    [
+     "<img src = 'img/practiceTarget1.jpg' class='target'>",
+     "<img src='img/practiceDistractor1.jpg' class='image'>"
+    ],
+    [
+     "<img src='img/practiceDistractor2.jpg' class='image'>",
+     "<img src ='img/practiceTarget2.jpg' class='target'>"
+    ],
+    [
+     [
+      "<img src='img/9.jpg' class='target'>",
+      "<img src='img/11.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/7.jpg' class='image'>",
+      "<img src='img/3.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/2.jpg' class='target'>",
+      "<img src='img/10.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/5.jpg' class='target'>",
+      "<img src='img/6.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/8.jpg' class='target'>",
+      "<img src='img/15.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/8.jpg' class='target'>",
+      "<img src='img/4.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/8.jpg' class='target'>",
+      "<img src='img/1.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/8.jpg' class='image'>",
+      "<img src='img/12.jpg' class='target'>"
+     ]
+    ],
+    [
+     [
+      "<img src='img/N.jpg' class='target'>",
+      "<img src='img/L.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/B.jpg' class='target'>",
+      "<img src='img/C.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/M.jpg' class='target'>",
+      "<img src='img/F.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/H.jpg' class='target'>",
+      "<img src='img/D.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/A.jpg' class='image'>",
+      "<img src='img/J.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/G.jpg' class='image'>",
+      "<img src='img/J.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/J.jpg' class='target'>",
+      "<img src='img/K.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/I.jpg' class='target'>",
+      "<img src='img/J.jpg' class='image'>"
+     ]
+    ]
+   ]
+  }
+ }
+}
