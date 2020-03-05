@@ -639,70 +639,6 @@ experiment,order,id,trial,type,response,time_elapsed,target,distractor,occurrenc
 1a,unknown first,34024b3bd076ffc4ab2f28b2915dbf22,16,known,pen,153945,D,H,2,standard,FALSE
 1a,unknown first,34024b3bd076ffc4ab2f28b2915dbf22,17,known,pen,157592,D,C,3,standard,FALSE
 1a,unknown first,34024b3bd076ffc4ab2f28b2915dbf22,18,known,cat,161130,B,D,1,switch,FALSE
-1a,known first,34c01b0de7319d3f75ce2c5a44042470,3,known,k1,39745,A,C,1,standard,NA
-1a,unknown first,34c01b0de7319d3f75ce2c5a44042470,3,unknown,u1,41497,15,11,1,standard,NA
-1b,known first,34c01b0de7319d3f75ce2c5a44042470,3,known,k1,47481,C,12,1,standard,NA
-1b,unknown first,34c01b0de7319d3f75ce2c5a44042470,3,unknown,3,35784,1,D,1,standard,NA
-1a,known first,34c01b0de7319d3f75ce2c5a44042470,4,known,k2,42116,D,G,1,standard,NA
-1a,unknown first,34c01b0de7319d3f75ce2c5a44042470,4,unknown,u2,44192,10,2,1,standard,NA
-1b,known first,34c01b0de7319d3f75ce2c5a44042470,4,unknown,u1,51554,6,H,1,standard,NA
-1b,unknown first,34c01b0de7319d3f75ce2c5a44042470,4,known,4,38196,L,12,1,standard,NA
-1a,known first,34c01b0de7319d3f75ce2c5a44042470,5,known,k3,46529,J,I,1,standard,NA
-1a,unknown first,34c01b0de7319d3f75ce2c5a44042470,5,unknown,u3,47169,7,6,1,standard,NA
-1b,known first,34c01b0de7319d3f75ce2c5a44042470,5,unknown,u2,55900,11,A,1,standard,NA
-1b,unknown first,34c01b0de7319d3f75ce2c5a44042470,5,unknown,5,41419,2,E,1,standard,NA
-1a,known first,34c01b0de7319d3f75ce2c5a44042470,6,known,k4,49651,E,B,1,standard,NA
-1a,unknown first,34c01b0de7319d3f75ce2c5a44042470,6,unknown,u4,49471,4,5,1,standard,NA
-1b,known first,34c01b0de7319d3f75ce2c5a44042470,6,known,k2,58661,I,8,1,standard,NA
-1b,unknown first,34c01b0de7319d3f75ce2c5a44042470,6,known,6,44951,F,9,1,standard,NA
-1a,known first,34c01b0de7319d3f75ce2c5a44042470,7,known,k5,52898,N,B,1,standard,NA
-1a,unknown first,34c01b0de7319d3f75ce2c5a44042470,7,unknown,u5,53614,1,5,2,standard,NA
-1b,known first,34c01b0de7319d3f75ce2c5a44042470,7,known,k3,62336,G,15,1,standard,NA
-1b,unknown first,34c01b0de7319d3f75ce2c5a44042470,7,unknown,7,47056,16,I,1,standard,NA
-1a,known first,34c01b0de7319d3f75ce2c5a44042470,8,known,k5,55151,N,L,2,standard,NA
-1a,unknown first,34c01b0de7319d3f75ce2c5a44042470,8,unknown,u5,56314,1,16,3,standard,NA
-1b,known first,34c01b0de7319d3f75ce2c5a44042470,8,known,k3,67009,G,7,2,switch,NA
-1b,unknown first,34c01b0de7319d3f75ce2c5a44042470,8,unknown,8,48476,16,B,2,standard,NA
-1a,known first,34c01b0de7319d3f75ce2c5a44042470,9,known,k5,58686,N,F,3,standard,NA
-1a,unknown first,34c01b0de7319d3f75ce2c5a44042470,9,unknown,u,58225,1,8,4,switch,NA
-1b,known first,34c01b0de7319d3f75ce2c5a44042470,9,known,k3,71025,G,2,3,standard,NA
-1b,unknown first,34c01b0de7319d3f75ce2c5a44042470,9,unknown,9,51548,16,M,3,switch,NA
-1a,known first,34c01b0de7319d3f75ce2c5a44042470,10,known,k6,61756,M,N,1,switch,NA
-1a,unknown first,34c01b0de7319d3f75ce2c5a44042470,10,unknown,u6,60679,12,1,1,standard,NA
-1b,known first,34c01b0de7319d3f75ce2c5a44042470,10,unknown,u3,77717,4,G,2,standard,NA
-1b,unknown first,34c01b0de7319d3f75ce2c5a44042470,10,known,10,54028,K,16,1,standard,NA
-1a,known first,34c01b0de7319d3f75ce2c5a44042470,11,unknown,u1,64891,1,2,5,standard,NA
-1a,unknown first,34c01b0de7319d3f75ce2c5a44042470,11,known,k1,65422,L,F,2,standard,NA
-1b,known first,34c01b0de7319d3f75ce2c5a44042470,11,unknown,u4,82329,10,M,2,standard,NA
-1b,unknown first,34c01b0de7319d3f75ce2c5a44042470,11,known,11,57883,N,8,4,standard,NA
-1a,known first,34c01b0de7319d3f75ce2c5a44042470,12,unknown,u2,68565,10,6,3,standard,NA
-1a,unknown first,34c01b0de7319d3f75ce2c5a44042470,12,known,k2,67676,D,A,2,switch,NA
-1b,known first,34c01b0de7319d3f75ce2c5a44042470,12,known,k4,87314,D,1,3,standard,NA
-1b,unknown first,34c01b0de7319d3f75ce2c5a44042470,12,unknown,12,60548,11,A,2,switch,NA
-1a,known first,34c01b0de7319d3f75ce2c5a44042470,13,unknown,u3,70838,7,4,2,standard,NA
-1a,unknown first,34c01b0de7319d3f75ce2c5a44042470,13,known,k3,69524,I,M,2,standard,NA
-1b,known first,34c01b0de7319d3f75ce2c5a44042470,13,unknown,u5,92436,5,E,1,standard,NA
-1b,unknown first,34c01b0de7319d3f75ce2c5a44042470,13,unknown,13,62476,3,H,1,standard,NA
-1a,known first,34c01b0de7319d3f75ce2c5a44042470,14,unknown,u4,73101,5,3,2,standard,NA
-1a,unknown first,34c01b0de7319d3f75ce2c5a44042470,14,known,k4,73010,H,C,1,standard,NA
-1b,known first,34c01b0de7319d3f75ce2c5a44042470,14,known,k5,97295,K,16,2,standard,NA
-1b,unknown first,34c01b0de7319d3f75ce2c5a44042470,14,known,14,65354,J,4,2,standard,NA
-1a,known first,34c01b0de7319d3f75ce2c5a44042470,15,unknown,u5,75863,16,3,4,standard,NA
-1a,unknown first,34c01b0de7319d3f75ce2c5a44042470,15,known,k5,75160,E,C,2,standard,NA
-1b,known first,34c01b0de7319d3f75ce2c5a44042470,15,unknown,u6,100495,9,J,1,standard,NA
-1b,unknown first,34c01b0de7319d3f75ce2c5a44042470,15,known,15,66937,G,5,4,standard,NA
-1a,known first,34c01b0de7319d3f75ce2c5a44042470,16,unknown,u5,79775,16,8,5,standard,NA
-1a,unknown first,34c01b0de7319d3f75ce2c5a44042470,16,known,k5,76870,E,K,3,standard,NA
-1b,known first,34c01b0de7319d3f75ce2c5a44042470,16,unknown,u6,103554,9,L,2,switch,NA
-1b,unknown first,34c01b0de7319d3f75ce2c5a44042470,16,known,16,68941,G,6,5,standard,NA
-1a,known first,34c01b0de7319d3f75ce2c5a44042470,17,unknown,u5,81917,16,11,6,standard,NA
-1a,unknown first,34c01b0de7319d3f75ce2c5a44042470,17,known,k5,79141,E,B,4,standard,NA
-1b,known first,34c01b0de7319d3f75ce2c5a44042470,17,unknown,u6,105616,9,N,3,standard,NA
-1b,unknown first,34c01b0de7319d3f75ce2c5a44042470,17,known,17,72770,G,7,6,switch,NA
-1a,known first,34c01b0de7319d3f75ce2c5a44042470,18,unknown,u6,83812,12,16,2,standard,NA
-1a,unknown first,34c01b0de7319d3f75ce2c5a44042470,18,known,k6,81601,J,E,3,standard,NA
-1b,known first,34c01b0de7319d3f75ce2c5a44042470,18,known,k6,108620,F,9,2,switch,NA
-1b,unknown first,34c01b0de7319d3f75ce2c5a44042470,18,unknown,18,76424,15,G,2,standard,NA
 1b,unknown first,34c4dcb1524ea5b747d5e3dd5a880af1,3,unknown,art,118595,8,B,1,standard,FALSE
 1b,unknown first,34c4dcb1524ea5b747d5e3dd5a880af1,4,known,flower,127477,L,2,1,standard,FALSE
 1b,unknown first,34c4dcb1524ea5b747d5e3dd5a880af1,5,unknown,art,132650,5,C,1,standard,FALSE
@@ -2031,22 +1967,6 @@ experiment,order,id,trial,type,response,time_elapsed,target,distractor,occurrenc
 1a,known first,9e38a29edc0baa1475c6c84a744ad5bd,16,unknown,pole object,630707,9,8,2,standard,FALSE
 1a,known first,9e38a29edc0baa1475c6c84a744ad5bd,17,unknown,pole object,635547,9,2,3,standard,FALSE
 1a,known first,9e38a29edc0baa1475c6c84a744ad5bd,18,unknown,long atenas,647371,4,9,1,switch,FALSE
-1b,unknown first,9e4035a3a4bffab933ea7601a9bcd7a4,3,unknown,art,313494,4,F,1,standard,NA
-1b,unknown first,9e4035a3a4bffab933ea7601a9bcd7a4,4,known,chair,325758,E,15,1,standard,NA
-1b,unknown first,9e4035a3a4bffab933ea7601a9bcd7a4,5,unknown,art,341217,9,A,1,standard,NA
-1b,unknown first,9e4035a3a4bffab933ea7601a9bcd7a4,6,known,spoon,351717,G,1,1,standard,NA
-1b,unknown first,9e4035a3a4bffab933ea7601a9bcd7a4,7,unknown,art,361682,10,D,1,standard,NA
-1b,unknown first,9e4035a3a4bffab933ea7601a9bcd7a4,8,unknown,art,369983,10,M,2,standard,NA
-1b,unknown first,9e4035a3a4bffab933ea7601a9bcd7a4,9,unknown,tube,381428,10,C,3,standard,NA
-1b,unknown first,9e4035a3a4bffab933ea7601a9bcd7a4,10,known,butterfly,400492,K,10,1,switch,NA
-1b,unknown first,9e4035a3a4bffab933ea7601a9bcd7a4,11,known,car,407757,I,12,1,standard,NA
-1b,unknown first,9e4035a3a4bffab933ea7601a9bcd7a4,12,unknown,art,419557,7,N,1,standard,NA
-1b,unknown first,9e4035a3a4bffab933ea7601a9bcd7a4,13,unknown,art,426532,3,H,1,standard,NA
-1b,unknown first,9e4035a3a4bffab933ea7601a9bcd7a4,14,known,tree,433878,J,8,1,standard,NA
-1b,unknown first,9e4035a3a4bffab933ea7601a9bcd7a4,15,known,cat,440591,B,16,1,standard,NA
-1b,unknown first,9e4035a3a4bffab933ea7601a9bcd7a4,16,known,cat,449401,B,11,2,standard,NA
-1b,unknown first,9e4035a3a4bffab933ea7601a9bcd7a4,17,known,art,457323,B,2,3,standard,NA
-1b,unknown first,9e4035a3a4bffab933ea7601a9bcd7a4,18,unknown,art,466423,6,B,1,switch,NA
 1a,unknown first,9e789255d3d60d26c05653b61b01cd26,3,unknown,6 pointed black object,142860,11,15,1,standard,FALSE
 1a,unknown first,9e789255d3d60d26c05653b61b01cd26,4,unknown,two spike like ball conjoined,157541,1,8,1,standard,FALSE
 1a,unknown first,9e789255d3d60d26c05653b61b01cd26,5,unknown,a white ceramic piece that looks like a indian chiefs hat,175386,3,10,1,standard,FALSE
@@ -2191,22 +2111,6 @@ experiment,order,id,trial,type,response,time_elapsed,target,distractor,occurrenc
 1a,unknown first,abaa79aec50cbfaf3b8c3e8f7ad31eb3,16,known,ring,557101,F,H,2,standard,FALSE
 1a,unknown first,abaa79aec50cbfaf3b8c3e8f7ad31eb3,17,known,ring,563641,F,K,3,standard,FALSE
 1a,unknown first,abaa79aec50cbfaf3b8c3e8f7ad31eb3,18,known,fork,570826,G,F,1,switch,FALSE
-1a,unknown first,ad3c545e7d57f01e2f12dbdccd327a36,3,unknown,bird,203682,10,6,1,standard,NA
-1a,unknown first,ad3c545e7d57f01e2f12dbdccd327a36,4,unknown,bird,213282,5,15,1,standard,NA
-1a,unknown first,ad3c545e7d57f01e2f12dbdccd327a36,5,unknown,hello,222083,2,8,1,standard,NA
-1a,unknown first,ad3c545e7d57f01e2f12dbdccd327a36,6,unknown,bird,228030,16,4,1,standard,NA
-1a,unknown first,ad3c545e7d57f01e2f12dbdccd327a36,7,unknown,hai,237513,7,1,1,standard,NA
-1a,unknown first,ad3c545e7d57f01e2f12dbdccd327a36,8,unknown,bird,243636,7,3,2,standard,NA
-1a,unknown first,ad3c545e7d57f01e2f12dbdccd327a36,9,unknown,bird,247366,7,9,3,standard,NA
-1a,unknown first,ad3c545e7d57f01e2f12dbdccd327a36,10,unknown,bird,251149,11,7,1,switch,NA
-1a,unknown first,ad3c545e7d57f01e2f12dbdccd327a36,11,known,tree,271067,J,F,1,standard,NA
-1a,unknown first,ad3c545e7d57f01e2f12dbdccd327a36,12,known,bird,287541,N,K,1,standard,NA
-1a,unknown first,ad3c545e7d57f01e2f12dbdccd327a36,13,known,paple,296847,E,A,1,standard,NA
-1a,unknown first,ad3c545e7d57f01e2f12dbdccd327a36,14,known,dice,316211,H,I,1,standard,NA
-1a,unknown first,ad3c545e7d57f01e2f12dbdccd327a36,15,known,pen,321465,D,G,1,standard,NA
-1a,unknown first,ad3c545e7d57f01e2f12dbdccd327a36,16,known,pen,351005,D,L,2,standard,NA
-1a,unknown first,ad3c545e7d57f01e2f12dbdccd327a36,17,known,pen,359292,D,M,3,standard,NA
-1a,unknown first,ad3c545e7d57f01e2f12dbdccd327a36,18,known,cat,364558,B,D,1,switch,NA
 1b,unknown first,ad5ea4a04ae4f7bc2cf3e401742b0b6f,3,unknown,chef hat,142555,3,A,1,standard,FALSE
 1b,unknown first,ad5ea4a04ae4f7bc2cf3e401742b0b6f,4,known,pen,146763,D,4,1,standard,FALSE
 1b,unknown first,ad5ea4a04ae4f7bc2cf3e401742b0b6f,5,unknown,not the car,167156,7,I,1,standard,TRUE
@@ -2383,22 +2287,6 @@ experiment,order,id,trial,type,response,time_elapsed,target,distractor,occurrenc
 1a,known first,bcd05b11a070ea0bf5e01c2065f4a1ce,16,unknown,donut with arms,1498704,4,15,2,standard,FALSE
 1a,known first,bcd05b11a070ea0bf5e01c2065f4a1ce,17,unknown,donut with arms,1505663,4,5,3,standard,FALSE
 1a,known first,bcd05b11a070ea0bf5e01c2065f4a1ce,18,unknown,almost rock like,1525407,3,4,1,switch,FALSE
-1a,known first,bea7c601a17af1948407e2fc0b7cb8f1,3,known,FOKE,209019,G,L,1,standard,NA
-1a,known first,bea7c601a17af1948407e2fc0b7cb8f1,4,known,CRAB,219439,N,D,1,standard,NA
-1a,known first,bea7c601a17af1948407e2fc0b7cb8f1,5,known,RING,226586,F,B,1,standard,NA
-1a,known first,bea7c601a17af1948407e2fc0b7cb8f1,6,known,APPLE,234759,A,E,1,standard,NA
-1a,known first,bea7c601a17af1948407e2fc0b7cb8f1,7,known,CAR,240335,I,M,1,standard,NA
-1a,known first,bea7c601a17af1948407e2fc0b7cb8f1,8,known,CAR,250034,I,K,2,standard,NA
-1a,known first,bea7c601a17af1948407e2fc0b7cb8f1,9,known,NOT MATCH,298135,I,C,3,standard,NA
-1a,known first,bea7c601a17af1948407e2fc0b7cb8f1,10,known,NOT MATCH,317700,J,I,1,switch,NA
-1a,known first,bea7c601a17af1948407e2fc0b7cb8f1,11,unknown,NOT MATCH,385480,5,12,1,standard,NA
-1a,known first,bea7c601a17af1948407e2fc0b7cb8f1,12,unknown,NOT MATCH,393422,6,16,1,standard,NA
-1a,known first,bea7c601a17af1948407e2fc0b7cb8f1,13,unknown,NOT MATCH,402137,11,10,1,standard,NA
-1a,known first,bea7c601a17af1948407e2fc0b7cb8f1,14,unknown,NOT MATCH,408273,3,7,1,standard,NA
-1a,known first,bea7c601a17af1948407e2fc0b7cb8f1,15,unknown,NOT MATCH,413119,4,1,1,standard,NA
-1a,known first,bea7c601a17af1948407e2fc0b7cb8f1,16,unknown,NOT MATCH,418632,4,8,2,standard,NA
-1a,known first,bea7c601a17af1948407e2fc0b7cb8f1,17,unknown,NOT MATCH,425199,4,2,3,standard,NA
-1a,known first,bea7c601a17af1948407e2fc0b7cb8f1,18,unknown,NOT MATCH,431282,9,4,1,switch,NA
 1a,unknown first,bfb0c2247edbff5b19d34669d872d406,3,unknown,pump,171171,10,16,1,standard,FALSE
 1a,unknown first,bfb0c2247edbff5b19d34669d872d406,4,unknown,grey utensil,181911,9,3,1,standard,FALSE
 1a,unknown first,bfb0c2247edbff5b19d34669d872d406,5,unknown,black vent,207277,6,7,1,standard,FALSE
@@ -2495,22 +2383,6 @@ experiment,order,id,trial,type,response,time_elapsed,target,distractor,occurrenc
 1a,known first,c582954bcc837c77e1791a2ccad316d7,16,unknown,metal,487970,15,9,2,standard,FALSE
 1a,known first,c582954bcc837c77e1791a2ccad316d7,17,unknown,metal,497098,15,4,3,standard,FALSE
 1a,known first,c582954bcc837c77e1791a2ccad316d7,18,unknown,bronze,532538,3,15,1,switch,FALSE
-1a,known first,c62e80733aeec413eaa6f4e85d0e3377,3,known,flower,114474,L,N,1,standard,NA
-1a,known first,c62e80733aeec413eaa6f4e85d0e3377,4,known,mug,123112,M,B,1,standard,NA
-1a,known first,c62e80733aeec413eaa6f4e85d0e3377,5,known,art,128024,J,H,1,standard,NA
-1a,known first,c62e80733aeec413eaa6f4e85d0e3377,6,known,shoe,134162,C,I,1,standard,NA
-1a,known first,c62e80733aeec413eaa6f4e85d0e3377,7,known,chir,138808,E,D,1,standard,NA
-1a,known first,c62e80733aeec413eaa6f4e85d0e3377,8,known,ary,156660,E,F,2,standard,NA
-1a,known first,c62e80733aeec413eaa6f4e85d0e3377,9,known,art,163482,E,A,3,standard,NA
-1a,known first,c62e80733aeec413eaa6f4e85d0e3377,10,known,bird,173900,K,E,1,switch,NA
-1a,known first,c62e80733aeec413eaa6f4e85d0e3377,11,unknown,art,179304,5,4,1,standard,NA
-1a,known first,c62e80733aeec413eaa6f4e85d0e3377,12,unknown,art,187798,15,1,1,standard,NA
-1a,known first,c62e80733aeec413eaa6f4e85d0e3377,13,unknown,art,194196,7,8,1,standard,NA
-1a,known first,c62e80733aeec413eaa6f4e85d0e3377,14,unknown,art,199266,3,16,1,standard,NA
-1a,known first,c62e80733aeec413eaa6f4e85d0e3377,15,unknown,art,205448,2,9,1,standard,NA
-1a,known first,c62e80733aeec413eaa6f4e85d0e3377,16,unknown,art,209728,2,10,2,standard,NA
-1a,known first,c62e80733aeec413eaa6f4e85d0e3377,17,unknown,art,215227,2,6,3,standard,NA
-1a,known first,c62e80733aeec413eaa6f4e85d0e3377,18,unknown,art,222908,11,2,1,switch,NA
 1a,known first,c7b2162346ee8260fe669162bf002413,3,known,crab,137647,N,M,1,standard,FALSE
 1a,known first,c7b2162346ee8260fe669162bf002413,4,known,dice,141399,H,E,1,standard,FALSE
 1a,known first,c7b2162346ee8260fe669162bf002413,5,known,cat,144848,B,G,1,standard,FALSE
@@ -3135,22 +3007,6 @@ experiment,order,id,trial,type,response,time_elapsed,target,distractor,occurrenc
 1b,unknown first,ea6cb39cbb2cece57d3842b7c4bb895a,16,known,shoe,193615,C,15,2,standard,FALSE
 1b,unknown first,ea6cb39cbb2cece57d3842b7c4bb895a,17,known,shoe,199750,C,12,3,standard,FALSE
 1b,unknown first,ea6cb39cbb2cece57d3842b7c4bb895a,18,unknown,not shoe,204636,2,C,1,switch,TRUE
-1a,known first,eb256161ef4787dce707e518c31ff805,3,known,gablr,489745,A,I,1,standard,NA
-1a,known first,eb256161ef4787dce707e518c31ff805,4,known,cup,499456,M,H,1,standard,NA
-1a,known first,eb256161ef4787dce707e518c31ff805,5,known,butterlfly,532257,K,L,1,standard,NA
-1a,known first,eb256161ef4787dce707e518c31ff805,6,known,juile,548289,E,F,1,standard,NA
-1a,known first,eb256161ef4787dce707e518c31ff805,7,known,pan,560445,D,G,1,standard,NA
-1a,known first,eb256161ef4787dce707e518c31ff805,8,known,pen,602155,D,C,2,standard,NA
-1a,known first,eb256161ef4787dce707e518c31ff805,9,known,pen,612352,D,J,3,standard,NA
-1a,known first,eb256161ef4787dce707e518c31ff805,10,known,can,629786,B,D,1,switch,NA
-1a,known first,eb256161ef4787dce707e518c31ff805,11,unknown,nice,644788,5,12,1,standard,NA
-1a,known first,eb256161ef4787dce707e518c31ff805,12,unknown,food,662626,4,1,1,standard,NA
-1a,known first,eb256161ef4787dce707e518c31ff805,13,unknown,bottel,684328,2,8,1,standard,NA
-1a,known first,eb256161ef4787dce707e518c31ff805,14,unknown,boot,696927,3,7,1,standard,NA
-1a,known first,eb256161ef4787dce707e518c31ff805,15,unknown,boot,711194,15,11,1,standard,NA
-1a,known first,eb256161ef4787dce707e518c31ff805,16,unknown,boot,719745,15,9,2,standard,NA
-1a,known first,eb256161ef4787dce707e518c31ff805,17,unknown,boot,727446,15,10,3,standard,NA
-1a,known first,eb256161ef4787dce707e518c31ff805,18,unknown,reded,744979,6,15,1,switch,NA
 1b,unknown first,f0b951aca81f5b0971ad5904ae2feef9,3,unknown,not cutlery,201460,12,G,1,standard,TRUE
 1b,unknown first,f0b951aca81f5b0971ad5904ae2feef9,4,known,fruit,207983,A,15,1,standard,FALSE
 1b,unknown first,f0b951aca81f5b0971ad5904ae2feef9,5,unknown,not tree,214270,8,J,1,standard,TRUE
