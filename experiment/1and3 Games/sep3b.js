@@ -79,78 +79,76 @@ for(i=0; i<unkArray1.length; i++){
   }
 };
 
+
 // block 1
-var trial1 = [knownArrayShuffle[0], unkArrayShuffle[1]];
+var trial1 = [unkArrayShuffle[5], unkArrayShuffle[6]];
 shuffle(trial1);
-allKnown.push(trial1);
+allUnk.push(trial1);
 
-var trial2 = [knownArrayShuffle[1], unkArrayShuffle[0]]; /// repeated trial
+var trial2 = [unkArrayShuffle[7], unkArrayShuffle[8]]; /// repeated trial
 shuffle(trial2);
-allKnown.push(trial2);
+allUnk.push(trial2);
 
-var trial3 = [knownArrayShuffle[3], unkArrayShuffle[0]]; /// repeated trial
+var trial3 = [unkArrayShuffle[9], unkArrayShuffle[8]]; /// repeated trial
 shuffle(trial3);
-allKnown.push(trial3);
+allUnk.push(trial3);
 
-var trial4 = [knownArrayShuffle[5], unkArrayShuffle[0]]; /// repeated trial
+var trial4 = [unkArrayShuffle[11], unkArrayShuffle[8]]; /// repeated trial
 shuffle(trial4);
-allKnown.push(trial4);
-
-
-var trial5 = [knownArrayShuffle[2], unkArrayShuffle[3]];
-shuffle(trial5);
-allKnown.push(trial5);
-
-var trial6 = [knownArrayShuffle[7], unkArrayShuffle[2]];
-shuffle(trial6);
-allKnown.push(trial6);
-
-var trial7 = [knownArrayShuffle[9], unkArrayShuffle[4]];
-shuffle(trial7);
-allKnown.push(trial7);
-
-unkArrayShuffle[0] = "<img src='img/"+ unkArray1[2] + ".jpg' class='image'>";
-var trial8 = [unkArrayShuffle[0], knownArrayShuffle[4]];
-shuffle(trial8);
-allKnown.push(trial8);
-
-
-// unknown trials
-
-// control
-var trial9 = [unkArrayShuffle[5], unkArrayShuffle[6]];
-shuffle(trial9);
-allUnk.push(trial9);
-
-var trial10 = [unkArrayShuffle[7], unkArrayShuffle[8]]; /// repeated trial
-shuffle(trial10);
-allUnk.push(trial10);
-
-var trial11 = [unkArrayShuffle[9], unkArrayShuffle[8]]; /// repeated trial
-shuffle(trial11);
-allUnk.push(trial11);
-
-var trial12 = [unkArrayShuffle[11], unkArrayShuffle[8]]; /// repeated trial
-shuffle(trial12);
-allUnk.push(trial12);
+allUnk.push(trial4);
 
 // experimental
-var trial13 = [unkArrayShuffle[10], unkArrayShuffle[13]];
-shuffle(trial13);
-allUnk.push(trial13);
+var trial5 = [unkArrayShuffle[10], unkArrayShuffle[13]];
+shuffle(trial5);
+allUnk.push(trial5);
 
-var trial14 = [unkArrayShuffle[12], unkArrayShuffle[15]]
-shuffle(trial14);
-allUnk.push(trial14);
+var trial6 = [unkArrayShuffle[12], unkArrayShuffle[15]]
+shuffle(trial6);
+allUnk.push(trial6);
 
-var trial15 = [unkArrayShuffle[14], unkArrayShuffle[17]]
-shuffle(trial15);
-allUnk.push(trial15);
+var trial7 = [unkArrayShuffle[14], unkArrayShuffle[17]]
+shuffle(trial7);
+allUnk.push(trial7);
 
 unkArrayShuffle[8] = "<img src='img/"+ unkArray1[8] + ".jpg' class='image'>";
-var trial16 = [unkArrayShuffle[16], unkArrayShuffle[8]];
+var trial8 = [unkArrayShuffle[16], unkArrayShuffle[8]];
+shuffle(trial8);
+allUnk.push(trial8); 
+
+// block 2
+var trial9 = [knownArrayShuffle[0], unkArrayShuffle[1]];
+shuffle(trial9);
+allKnown.push(trial9);
+
+var trial10 = [knownArrayShuffle[1], unkArrayShuffle[0]]; /// repeated trial
+shuffle(trial10);
+allKnown.push(trial10);
+
+var trial11 = [knownArrayShuffle[3], unkArrayShuffle[0]]; /// repeated trial
+shuffle(trial11);
+allKnown.push(trial11);
+
+var trial12 = [knownArrayShuffle[5], unkArrayShuffle[0]]; /// repeated trial
+shuffle(trial12);
+allKnown.push(trial12);
+
+
+var trial13 = [knownArrayShuffle[2], unkArrayShuffle[3]];
+shuffle(trial13);
+allKnown.push(trial13);
+
+var trial14 = [knownArrayShuffle[7], unkArrayShuffle[2]];
+shuffle(trial14);
+allKnown.push(trial14);
+
+var trial15 = [knownArrayShuffle[9], unkArrayShuffle[4]];
+shuffle(trial15);
+allKnown.push(trial15);
+
+unkArrayShuffle[0] = "<img src='img/"+ unkArray1[2] + ".jpg' class='image'>";
+var trial16 = [unkArrayShuffle[0], knownArrayShuffle[4]];
 shuffle(trial16);
-allUnk.push(trial16); 
+allKnown.push(trial16);
 
 // show slide function
 function showSlide(id) {
@@ -612,8 +610,8 @@ stimulusList = [];
 
   stimulusList.push(practice1);
   stimulusList.push(practice2);
-  stimulusList.push(knownStim);
   stimulusList.push(unkStim);
+  stimulusList.push(knownStim);
 
 
 

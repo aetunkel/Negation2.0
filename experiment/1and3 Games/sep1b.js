@@ -80,77 +80,75 @@ for(i=0; i<unkArray1.length; i++){
 };
 
 // block 1
-var trial1 = [knownArrayShuffle[0], unkArrayShuffle[1]];
+
+var trial1 = [unkArrayShuffle[7], unkArrayShuffle[8]];
 shuffle(trial1);
-allKnown.push(trial1);
+allUnk.push(trial1);
 
-var trial2 = [knownArrayShuffle[1], unkArrayShuffle[0]]; /// repeated trial
+var trial2 = [unkArrayShuffle[9], unkArrayShuffle[10]];
 shuffle(trial2);
-allKnown.push(trial2);
+allUnk.push(trial2);
 
-var trial3 = [knownArrayShuffle[3], unkArrayShuffle[0]]; /// repeated trial
+var trial3 = [unkArrayShuffle[11], unkArrayShuffle[12]];
 shuffle(trial3);
-allKnown.push(trial3);
+allUnk.push(trial3);
 
-var trial4 = [knownArrayShuffle[5], unkArrayShuffle[0]]; /// repeated trial
+var trial4 = [unkArrayShuffle[13], unkArrayShuffle[14]]; /// repeated trial
 shuffle(trial4);
-allKnown.push(trial4);
+allUnk.push(trial4);
 
-
-var trial5 = [knownArrayShuffle[2], unkArrayShuffle[3]];
+var trial5 = [unkArrayShuffle[15], unkArrayShuffle[16]];
 shuffle(trial5);
-allKnown.push(trial5);
+allUnk.push(trial5);
 
-var trial6 = [knownArrayShuffle[7], unkArrayShuffle[2]];
+var trial6 = [unkArrayShuffle[17], unkArrayShuffle[18]]
 shuffle(trial6);
-allKnown.push(trial6);
+allUnk.push(trial6);
 
-var trial7 = [knownArrayShuffle[9], unkArrayShuffle[4]];
+var trial7 = [unkArrayShuffle[19], unkArrayShuffle[20]]
 shuffle(trial7);
-allKnown.push(trial7);
+allUnk.push(trial7);
 
-unkArrayShuffle[0] = "<img src='img/"+ unkArray1[2] + ".jpg' class='image'>";
-var trial8 = [unkArrayShuffle[0], knownArrayShuffle[4]];
+unkArrayShuffle[14] = "<img src='img/"+ unkArray1[14] + ".jpg' class='image'>";
+var trial8 = [unkArrayShuffle[22], unkArrayShuffle[14]];
 shuffle(trial8);
-allKnown.push(trial8);
+allUnk.push(trial8);
 
-
-// unknown trials
-
-// control
-var trial9 = [unkArrayShuffle[5], unkArrayShuffle[6]];
+// block 2
+var trial9 = [knownArrayShuffle[1], unkArrayShuffle[0]];
 shuffle(trial9);
-allUnk.push(trial9);
+allKnown.push(trial9);
 
-var trial10 = [unkArrayShuffle[7], unkArrayShuffle[8]]; /// repeated trial
+var trial10 = [knownArrayShuffle[0], unkArrayShuffle[1]];
 shuffle(trial10);
-allUnk.push(trial10);
+allKnown.push(trial10);
 
-var trial11 = [unkArrayShuffle[9], unkArrayShuffle[8]]; /// repeated trial
+var trial11 = [knownArrayShuffle[2], unkArrayShuffle[3]];
 shuffle(trial11);
-allUnk.push(trial11);
+allKnown.push(trial11);
 
-var trial12 = [unkArrayShuffle[11], unkArrayShuffle[8]]; /// repeated trial
+var trial12 = [knownArrayShuffle[3], unkArrayShuffle[2]]; /// repeated trial
 shuffle(trial12);
-allUnk.push(trial12);
+allKnown.push(trial12);
 
-// experimental
-var trial13 = [unkArrayShuffle[10], unkArrayShuffle[13]];
+
+var trial13 = [knownArrayShuffle[5], unkArrayShuffle[4]];
 shuffle(trial13);
-allUnk.push(trial13);
+allKnown.push(trial13);
 
-var trial14 = [unkArrayShuffle[12], unkArrayShuffle[15]]
+var trial14 = [knownArrayShuffle[7], unkArrayShuffle[6]];
 shuffle(trial14);
-allUnk.push(trial14);
+allKnown.push(trial14);
 
-var trial15 = [unkArrayShuffle[14], unkArrayShuffle[17]]
+var trial15 = [knownArrayShuffle[4], unkArrayShuffle[5]];
 shuffle(trial15);
-allUnk.push(trial15);
+allKnown.push(trial15);
 
-unkArrayShuffle[8] = "<img src='img/"+ unkArray1[8] + ".jpg' class='image'>";
-var trial16 = [unkArrayShuffle[16], unkArrayShuffle[8]];
+unkArrayShuffle[2] = "<img src='img/"+ unkArray1[2] + ".jpg' class='image'>";
+var trial16 = [unkArrayShuffle[2], knownArrayShuffle[6]];
 shuffle(trial16);
-allUnk.push(trial16); 
+allKnown.push(trial16);
+
 
 // show slide function
 function showSlide(id) {
@@ -365,222 +363,222 @@ timeline.push(images);
 
 // var trial1Response;
 
-// var trial1 = {
-//     type: 'survey-text',
-//     preamble: '<center><b>This the <strong style="color:maroon;">Director</strong> screen.</center></b><br /><br />' +
-//               "The <strong style='color:maroon;'>Director's</strong> goal is to send a message to the <strong style='color:teal;'>Matcher</strong> so they choose the target object.<br /><br />" +
-//               "<tr><td>" + practice1[0] + "</td><td>" + practice1[1] + "</td></tr><br /><br /><br /><br />" +
-//               "Try it out! Type <i><b>bird</b></i> into the textbox and press continue.<br /><br />",
-//     questions: [{prompt:"<p>Type a message to the Matcher:</p>", required: true}],
-//     data: {locator: 'lookup-code-0'},
-//       on_finish: function(data){
-//         trial1Response = JSON.parse(data.responses).Q0;
-//         jsPsych.setProgressBar(4/31)
-//         if(trial1Response != "bird"){
-//         alert("Please submit the correct answer.");
-//       }
-//       }
-//     };  
+var trial1 = {
+    type: 'survey-text',
+    preamble: '<center><b>This the <strong style="color:maroon;">Director</strong> screen.</center></b><br /><br />' +
+              "The <strong style='color:maroon;'>Director's</strong> goal is to send a message to the <strong style='color:teal;'>Matcher</strong> so they choose the target object.<br /><br />" +
+              "<tr><td>" + practice1[0] + "</td><td>" + practice1[1] + "</td></tr><br /><br /><br /><br />" +
+              "Try it out! Type <i><b>bird</b></i> into the textbox and press continue.<br /><br />",
+    questions: [{prompt:"<p>Type a message to the Matcher:</p>", required: true}],
+    data: {locator: 'lookup-code-0'},
+      on_finish: function(data){
+        trial1Response = JSON.parse(data.responses).Q0;
+        jsPsych.setProgressBar(4/31)
+        if(trial1Response != "bird"){
+        alert("Please submit the correct answer.");
+      }
+      }
+    };  
 
-//   var loop_node1 = {
-//     timeline: [trial1],
-//     loop_function: function(data){
-//       if(trial1Response == "bird"){
-//         return false;
-//       } else {
-//         return true;
-//       }
-//     }
-//   };
+  var loop_node1 = {
+    timeline: [trial1],
+    loop_function: function(data){
+      if(trial1Response == "bird"){
+        return false;
+      } else {
+        return true;
+      }
+    }
+  };
 
-// var practice1A = {
-//   timeline: [loop_node1]
-//   };
+var practice1A = {
+  timeline: [loop_node1]
+  };
        
-// timeline.push(practice1A);
+timeline.push(practice1A);
 
-// var matcherExample1 = {
-//     type: 'html-button-response',
-//     stimulus: '<center><b>This the <strong style="color:teal;">Matcher</strong> screen.</center></b><br /><br />' +
-//               "The <strong style='color:teal;'>Matcher's</strong> goal is to use the <strong style='color:maroon;'>Director's</strong> message to choose the target object.<br /><br /><br />" +
-//               '<strong style="color:red;">The Director said: <i> bird </i></strong><br /> <br />' +
-//               '<center>Which is the <b> target object</b>?</center><br /> <br />',
-//     choices: ['<center><img src="' + pic25 + '" class="image"></center>', '<center><img src="' + pic26 + '" class="image"></center>'],
-//   response_ends_trial: true,
-//   on_finish: function(){
-//     jsPsych.setProgressBar(5/31)
-//   }
-// };
+var matcherExample1 = {
+    type: 'html-button-response',
+    stimulus: '<center><b>This the <strong style="color:teal;">Matcher</strong> screen.</center></b><br /><br />' +
+              "The <strong style='color:teal;'>Matcher's</strong> goal is to use the <strong style='color:maroon;'>Director's</strong> message to choose the target object.<br /><br /><br />" +
+              '<strong style="color:red;">The Director said: <i> bird </i></strong><br /> <br />' +
+              '<center>Which is the <b> target object</b>?</center><br /> <br />',
+    choices: ['<center><img src="' + pic25 + '" class="image"></center>', '<center><img src="' + pic26 + '" class="image"></center>'],
+  response_ends_trial: true,
+  on_finish: function(){
+    jsPsych.setProgressBar(5/31)
+  }
+};
 
-// timeline.push(matcherExample1);
+timeline.push(matcherExample1);
 
-// var trial2Response;
-// var trial2 = {
-//     type: 'survey-text',
-//     preamble: '<center><b>Here is another <strong style="color:maroon;">Director</strong> example.</center></b><br /><br />' +
-//               "<tr><td><img src='" + pic29 + "' class='image'></td><td><img src='" + pic30 + "' class ='target'></td></tr><br /><br />" +
-//               'Type <i><b>art</b></i> into the textbox and press continue. </center><br /><br />' +
-//               '&nbsp&nbsp&nbsp <i> Other Directors have sent: </i> <br /><br />' +
-//               '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp weird shaped vase<br />' +
-//               '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp smooth sculpture<br />' +
-//               '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp not spiky <br />'+
-//               '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp fish decoration<br /><br />' ,
-//     questions: [{prompt: "<p>Type a message to the Matcher:</p>", required: true}],
-//     on_finish: function(data){
-//         trial2Response = JSON.parse(data.responses).Q0;
-//         jsPsych.setProgressBar(4/31)
-//         if(trial2Response != "art"){
-//         alert("Please submit the correct answer.");
-//       }
-//       }
-//     };
+var trial2Response;
+var trial2 = {
+    type: 'survey-text',
+    preamble: '<center><b>Here is another <strong style="color:maroon;">Director</strong> example.</center></b><br /><br />' +
+              "<tr><td><img src='" + pic29 + "' class='image'></td><td><img src='" + pic30 + "' class ='target'></td></tr><br /><br />" +
+              'Type <i><b>art</b></i> into the textbox and press continue. </center><br /><br />' +
+              '&nbsp&nbsp&nbsp <i> Other Directors have sent: </i> <br /><br />' +
+              '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp weird shaped vase<br />' +
+              '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp smooth sculpture<br />' +
+              '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp not spiky <br />'+
+              '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp fish decoration<br /><br />' ,
+    questions: [{prompt: "<p>Type a message to the Matcher:</p>", required: true}],
+    on_finish: function(data){
+        trial2Response = JSON.parse(data.responses).Q0;
+        jsPsych.setProgressBar(4/31)
+        if(trial2Response != "art"){
+        alert("Please submit the correct answer.");
+      }
+      }
+    };
 
-//   var loop_node2 = {
-//     timeline: [trial2],
-//     loop_function: function(data){
-//       if(trial2Response == "art"){
-//         return false;
-//       } else {
-//         return true;
-//       }
-//     }
-//   };
+  var loop_node2 = {
+    timeline: [trial2],
+    loop_function: function(data){
+      if(trial2Response == "art"){
+        return false;
+      } else {
+        return true;
+      }
+    }
+  };
 
-// var practice2A = {
-//   timeline: [loop_node2]
-//   };
+var practice2A = {
+  timeline: [loop_node2]
+  };
        
-// timeline.push(practice2A);
+timeline.push(practice2A);
 
 
-// var matcherExample2 = {
-//     type: 'html-button-response',
-//     stimulus: '<center><b>This the <strong style="color:teal;">Matcher</strong> screen.</center></b><br /><br />' +
-//               "The <strong style='color:teal;'>Matcher's</strong> goal is to use the <strong style='color:maroon;'>Director's</strong> message to choose the target object.<br /><br /><br />" +
-//               '<strong style="color:red;">The Director said: <i> art </i></strong><br /> <br />' +
-//               '<center>Which is the <b> target object</b>?</center><br /> <br />',
-//     choices: ['<center><img src="' + pic29 + '" class="image"></center>', '<center><img src="' + pic30 + '" class="image"></center>'],
-//   response_ends_trial: true,
-//   on_finish: function(){
-//     jsPsych.setProgressBar(7/31)
-//   }
-// };
+var matcherExample2 = {
+    type: 'html-button-response',
+    stimulus: '<center><b>This the <strong style="color:teal;">Matcher</strong> screen.</center></b><br /><br />' +
+              "The <strong style='color:teal;'>Matcher's</strong> goal is to use the <strong style='color:maroon;'>Director's</strong> message to choose the target object.<br /><br /><br />" +
+              '<strong style="color:red;">The Director said: <i> art </i></strong><br /> <br />' +
+              '<center>Which is the <b> target object</b>?</center><br /> <br />',
+    choices: ['<center><img src="' + pic29 + '" class="image"></center>', '<center><img src="' + pic30 + '" class="image"></center>'],
+  response_ends_trial: true,
+  on_finish: function(){
+    jsPsych.setProgressBar(7/31)
+  }
+};
 
-// timeline.push(matcherExample2);
+timeline.push(matcherExample2);
 
-// // new info end
+// new info end
 
-// var nameInput = {
-//   type: 'survey-text',
-//   preamble: 'Great! Now that you have an idea of how to play, we will match you to a partner!',
-//   questions: [{prompt: 'Type the name you want to use:', required: true}],
-//   response_ends_trial: true,
-//   on_finish: function(){
-//         jsPsych.setProgressBar(8/31);
-//     }
-// };
+var nameInput = {
+  type: 'survey-text',
+  preamble: 'Great! Now that you have an idea of how to play, we will match you to a partner!',
+  questions: [{prompt: 'Type the name you want to use:', required: true}],
+  response_ends_trial: true,
+  on_finish: function(){
+        jsPsych.setProgressBar(8/31);
+    }
+};
 
-// timeline.push(nameInput);
+timeline.push(nameInput);
 
-// var partnerMatching =  {
-//     type: 'html-keyboard-response',
-//     stimulus: 'Matching you to another player and assigning roles...',
-//     choices: jsPsych.NO_KEYS,
-//     trial_duration: 4000,
-//     on_finish: function(){
-//         jsPsych.setProgressBar(9/31);
-//     }
-//  };
+var partnerMatching =  {
+    type: 'html-keyboard-response',
+    stimulus: 'Matching you to another player and assigning roles...',
+    choices: jsPsych.NO_KEYS,
+    trial_duration: 4000,
+    on_finish: function(){
+        jsPsych.setProgressBar(9/31);
+    }
+ };
 
-//  timeline.push(partnerMatching);
+ timeline.push(partnerMatching);
 
-//  var partnerReveal = {
-//   type: 'html-keyboard-response',
-//   stimulus: 'You have been matched with <b>' + matcher + '</b>! <br /><br />' +
-//             'You will be the <strong style="color:maroon;"> Director</strong>.<br /><br />' +
-//             matcher + ' is the <strong style="color:teal;"> Matcher</strong>. <br /><br />' +
-//             '<br /><br />' +
-//             '<b> We will begin with a short practice round.</b>',
-//   choices: jsPsych.NO_KEYS,
-//   trial_duration: 4000,
-//   on_finish: function(){
-//         jsPsych.setProgressBar(10/31);
-//     }
-//  };
+ var partnerReveal = {
+  type: 'html-keyboard-response',
+  stimulus: 'You have been matched with <b>' + matcher + '</b>! <br /><br />' +
+            'You will be the <strong style="color:maroon;"> Director</strong>.<br /><br />' +
+            matcher + ' is the <strong style="color:teal;"> Matcher</strong>. <br /><br />' +
+            '<br /><br />' +
+            '<b> We will begin with a short practice round.</b>',
+  choices: jsPsych.NO_KEYS,
+  trial_duration: 4000,
+  on_finish: function(){
+        jsPsych.setProgressBar(10/31);
+    }
+ };
 
-// timeline.push(partnerReveal);
-
-
-//   var practice1test = {
-//     type: 'survey-text',
-//     preamble: "<p>This is a practice round. Remember to tell the Matcher which object is in the<strong style='color:blue;'> blue square</strong>. </p>" +
-//               "<tr><td>" + practice1[0] + "</td><td>" + practice1[1] + "</td></tr>",
-//     questions: [{prompt:"<p>Type a message to your partner:</p>", required: true}],
-//     post_trial_gap: 100,
-//     response_ends_trial: true,
-//     on_finish: function(){
-//         jsPsych.setProgressBar(11/31);
-//     }
-
-// };
-
-// timeline.push(practice1test);
-
-// var practice1wait =
-//   {
-//     type: 'html-keyboard-response',
-//     stimulus: matcher + ' is currently selecting...',
-//     choices: jsPsych.NO_KEYS,
-//     trial_duration: function(){
-//    return jsPsych.randomization.sampleWithReplacement([750, 1000, 1250, 1500, 1750, 2000, 2500, 3000], 1)[0];},
-//   on_finish: function() {
-//     jsPsych.setProgressBar(12/31);
-//   }
-//  };
-
-//  timeline.push(practice1wait);
+timeline.push(partnerReveal);
 
 
+  var practice1test = {
+    type: 'survey-text',
+    preamble: "<p>This is a practice round. Remember to tell the Matcher which object is in the<strong style='color:blue;'> blue square</strong>. </p>" +
+              "<tr><td>" + practice1[0] + "</td><td>" + practice1[1] + "</td></tr>",
+    questions: [{prompt:"<p>Type a message to your partner:</p>", required: true}],
+    post_trial_gap: 100,
+    response_ends_trial: true,
+    on_finish: function(){
+        jsPsych.setProgressBar(11/31);
+    }
 
-// var practice2test = {
-//   type: 'survey-text',
-//   preamble: "<p>This is a practice round. Remember to tell the Matcher which object is in the<strong style='color:blue;'> blue square</strong>. </p>" +
-//             "<tr><td>" + practice2[0] + "</td><td>" + practice2[1] + "</td></tr>",
-//   questions: [{prompt:"<p>Type a message to your partner:</p>", required: true}],
-//   post_trial_gap: 100,
-//   response_ends_trial: true,
-//   on_finish: function(){
-//       jsPsych.setProgressBar(13/31)
-//   }
-// };
+};
 
-// timeline.push(practice2test);
+timeline.push(practice1test);
 
-// var practice2wait =
-//   {
-//     type: 'html-keyboard-response',
-//     stimulus: matcher + ' is currently selecting...',
-//     choices: jsPsych.NO_KEYS,
-//     trial_duration: function(){
-//    return jsPsych.randomization.sampleWithReplacement([750, 1000, 1250, 1500, 1750, 2000, 2500, 3000], 1)[0];},
-//   on_finish: function() {
-//     jsPsych.setProgressBar(14/31);
-//   }
-//  };
+var practice1wait =
+  {
+    type: 'html-keyboard-response',
+    stimulus: matcher + ' is currently selecting...',
+    choices: jsPsych.NO_KEYS,
+    trial_duration: function(){
+   return jsPsych.randomization.sampleWithReplacement([750, 1000, 1250, 1500, 1750, 2000, 2500, 3000], 1)[0];},
+  on_finish: function() {
+    jsPsych.setProgressBar(12/31);
+  }
+ };
 
-//  timeline.push(practice2wait);
+ timeline.push(practice1wait);
 
 
-// var begin = {
-//   type: 'html-keyboard-response',
-//   stimulus: '<b>Press any key to begin the game.</b>',
-//   post_trial_gap: 200,
-//   on_finish: function(){
-//         jsPsych.setProgressBar(15/31);
-//     }
-//   };
 
-// timeline.push(begin);
+var practice2test = {
+  type: 'survey-text',
+  preamble: "<p>This is a practice round. Remember to tell the Matcher which object is in the<strong style='color:blue;'> blue square</strong>. </p>" +
+            "<tr><td>" + practice2[0] + "</td><td>" + practice2[1] + "</td></tr>",
+  questions: [{prompt:"<p>Type a message to your partner:</p>", required: true}],
+  post_trial_gap: 100,
+  response_ends_trial: true,
+  on_finish: function(){
+      jsPsych.setProgressBar(13/31)
+  }
+};
+
+timeline.push(practice2test);
+
+var practice2wait =
+  {
+    type: 'html-keyboard-response',
+    stimulus: matcher + ' is currently selecting...',
+    choices: jsPsych.NO_KEYS,
+    trial_duration: function(){
+   return jsPsych.randomization.sampleWithReplacement([750, 1000, 1250, 1500, 1750, 2000, 2500, 3000], 1)[0];},
+  on_finish: function() {
+    jsPsych.setProgressBar(14/31);
+  }
+ };
+
+ timeline.push(practice2wait);
+
+
+var begin = {
+  type: 'html-keyboard-response',
+  stimulus: '<b>Press any key to begin the game.</b>',
+  post_trial_gap: 200,
+  on_finish: function(){
+        jsPsych.setProgressBar(15/31);
+    }
+  };
+
+timeline.push(begin);
 
 
 
@@ -592,13 +590,6 @@ knownStim = [];
 unkStim = [];
 
 
-  for(i=0; i<8; i++){
-    leftpic = allKnown[i][0];
-    rightpic = allKnown[i][1];
-    knownStim.push([leftpic, rightpic]);
-    allStim.push({preamble: "<table align = 'center'><tr><td height = 200>" + leftpic + "</td><td width = 150></td><td height = 200>" + rightpic + "</td></tr></table>"});
-   };
-
 for(i=0; i<8; i++){
     leftpic = allUnk[i][0];
     rightpic = allUnk[i][1];
@@ -607,13 +598,19 @@ for(i=0; i<8; i++){
    };
 
 
+  for(i=0; i<8; i++){
+    leftpic = allKnown[i][0];
+    rightpic = allKnown[i][1];
+    knownStim.push([leftpic, rightpic]);
+    allStim.push({preamble: "<table align = 'center'><tr><td height = 200>" + leftpic + "</td><td width = 150></td><td height = 200>" + rightpic + "</td></tr></table>"});
+   };
 
 stimulusList = [];
 
   stimulusList.push(practice1);
   stimulusList.push(practice2);
-  stimulusList.push(knownStim);
   stimulusList.push(unkStim);
+  stimulusList.push(knownStim);
 
 
 
