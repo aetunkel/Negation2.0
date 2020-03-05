@@ -33,7 +33,7 @@ theme_set(theme_few(base_size = 12))
 ```
 
 Read hand-coded data
-```{r load_coded_data}
+```{r load_coded_data, eval = FALSE}
 pre_processed_data <- read_csv(here("data/pre-reg1/pre_processed_data.csv")) %>%
   select(-negation)
 
@@ -44,6 +44,11 @@ coded_data <- pre_processed_data %>%
                                         "trial", "response"))
 
 write_csv(coded_data, here("data/pre-reg1/coded_data.csv"))
+```
+
+```{r read_coded_data}
+coded_data <- read_csv(here("data/pre-reg1/coded_data.csv")) %>%
+  filter(!is.na(negation))
 ```
 
 ```{r summarise_data}
@@ -62,6 +67,20 @@ ggplot(mean_data, aes(x = switch, y = empirical_stat, color = experiment)) +
   scale_color_ptol() + 
   labs(y = "negation probability", x = "") + 
   theme(legend.position = c(.15,.8), aspect.ratio = 1)
+```
+
+
+
+```{r model}
+no_distractor_model <- glmer(negation ~  switch * experiment + order + trial +
+                 (1 | id) + (1 | target), 
+               family = "binomial", 
+               data = coded_data %>% filter(type == "unknown")) %>%
+  tidy() %>%
+  filter(effect == "fixed") %>%
+  select(-group, -effect)
+
+no_distractor_model
 ```
 
 ```{r models, eval = FALSE}
