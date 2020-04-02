@@ -1,0 +1,136 @@
+{
+ "production": [
+  {
+   "HIT": {
+    "HITId": "3JMQI2OLFZU6MSUZPTJ124RQBVQDNI",
+    "HITTypeId": "3F1QRTWYOP73MUUO34WHMDPT0W7YLJ",
+    "HITGroupId": "3AQRXQHVFF8CBBVG2OB9VFJ8OBXIFM",
+    "CreationTime": "2020-04-01T22:50:02.000Z",
+    "Title": "Communciation Game (5 mins)",
+    "Description": "view some objects and either describe to another turker or choose based on description",
+    "Question": "<ExternalQuestion xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd\">\n  <ExternalURL>https://callab.uchicago.edu/experiments/negation/combined2.html</ExternalURL>\n  <FrameHeight>700</FrameHeight>\n</ExternalQuestion>",
+    "Keywords": "game, communication, short",
+    "HITStatus": "Assignable",
+    "MaxAssignments": 9,
+    "Reward": "0.50",
+    "AutoApprovalDelayInSeconds": 300,
+    "Expiration": "2020-04-02T22:50:02.000Z",
+    "AssignmentDurationInSeconds": 3600,
+    "QualificationRequirements": [
+     {
+      "QualificationTypeId": "00000000000000000071",
+      "Comparator": "EqualTo",
+      "LocaleValues": [
+       {
+        "Country": "US"
+       }
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     },
+     {
+      "QualificationTypeId": "000000000000000000L0",
+      "Comparator": "GreaterThanOrEqualTo",
+      "IntegerValues": [
+       95
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     }
+    ],
+    "HITReviewStatus": "NotReviewed",
+    "NumberOfAssignmentsPending": 0,
+    "NumberOfAssignmentsAvailable": 9,
+    "NumberOfAssignmentsCompleted": 0
+   }
+  },
+  {
+   "HIT": {
+    "HITId": "31ODACBENU4XREQ92B671X8VH9NSQE",
+    "HITTypeId": "3F1QRTWYOP73MUUO34WHMDPT0W7YLJ",
+    "HITGroupId": "3AQRXQHVFF8CBBVG2OB9VFJ8OBXIFM",
+    "CreationTime": "2020-04-01T22:50:03.000Z",
+    "Title": "Communciation Game (5 mins)",
+    "Description": "view some objects and either describe to another turker or choose based on description",
+    "Question": "<ExternalQuestion xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd\">\n  <ExternalURL>https://callab.uchicago.edu/experiments/negation/combined2.html</ExternalURL>\n  <FrameHeight>700</FrameHeight>\n</ExternalQuestion>",
+    "Keywords": "game, communication, short",
+    "HITStatus": "Assignable",
+    "MaxAssignments": 9,
+    "Reward": "0.50",
+    "AutoApprovalDelayInSeconds": 300,
+    "Expiration": "2020-04-02T22:50:03.000Z",
+    "AssignmentDurationInSeconds": 3600,
+    "QualificationRequirements": [
+     {
+      "QualificationTypeId": "00000000000000000071",
+      "Comparator": "EqualTo",
+      "LocaleValues": [
+       {
+        "Country": "US"
+       }
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     },
+     {
+      "QualificationTypeId": "000000000000000000L0",
+      "Comparator": "GreaterThanOrEqualTo",
+      "IntegerValues": [
+       95
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     }
+    ],
+    "HITReviewStatus": "NotReviewed",
+    "NumberOfAssignmentsPending": 0,
+    "NumberOfAssignmentsAvailable": 9,
+    "NumberOfAssignmentsCompleted": 0
+   }
+  },
+  {
+   "HIT": {
+    "HITId": "3VADEH0UHCMCR2PU2YRI1SILCD1PSK",
+    "HITTypeId": "3F1QRTWYOP73MUUO34WHMDPT0W7YLJ",
+    "HITGroupId": "3AQRXQHVFF8CBBVG2OB9VFJ8OBXIFM",
+    "CreationTime": "2020-04-01T22:50:03.000Z",
+    "Title": "Communciation Game (5 mins)",
+    "Description": "view some objects and either describe to another turker or choose based on description",
+    "Question": "<ExternalQuestion xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd\">\n  <ExternalURL>https://callab.uchicago.edu/experiments/negation/combined2.html</ExternalURL>\n  <FrameHeight>700</FrameHeight>\n</ExternalQuestion>",
+    "Keywords": "game, communication, short",
+    "HITStatus": "Assignable",
+    "MaxAssignments": 2,
+    "Reward": "0.50",
+    "AutoApprovalDelayInSeconds": 300,
+    "Expiration": "2020-04-02T22:50:03.000Z",
+    "AssignmentDurationInSeconds": 3600,
+    "QualificationRequirements": [
+     {
+      "QualificationTypeId": "00000000000000000071",
+      "Comparator": "EqualTo",
+      "LocaleValues": [
+       {
+        "Country": "US"
+       }
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     },
+     {
+      "QualificationTypeId": "000000000000000000L0",
+      "Comparator": "GreaterThanOrEqualTo",
+      "IntegerValues": [
+       95
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     }
+    ],
+    "HITReviewStatus": "NotReviewed",
+    "NumberOfAssignmentsPending": 0,
+    "NumberOfAssignmentsAvailable": 2,
+    "NumberOfAssignmentsCompleted": 0
+   }
+  }
+ ]
+}

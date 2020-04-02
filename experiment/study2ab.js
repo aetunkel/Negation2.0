@@ -70,6 +70,7 @@ var unkArray1 = [ "1",        // possible unknown targets
 
 shuffle(unkArray1);
 
+
 for(i=0; i<unkArray1.length; i++){
   if (i%2 === 0) {
     unkArrayShuffle[i] = "<img src='img/" + unkArray1[i] + ".jpg' class='target'>"
@@ -78,80 +79,77 @@ for(i=0; i<unkArray1.length; i++){
   }
 };
 
-var allTrials = [];
-
 // block 1
-var trial1 = [unkArrayShuffle[0], unkArrayShuffle[1]]; // 
+var trial1 = [unkArrayShuffle[0], unkArrayShuffle[1]];
 shuffle(trial1);
-allTrials.push(trial1);
+allKnown.push(trial1);
 
-var trial2 = [unkArrayShuffle[2], unkArrayShuffle[3]]; // 
+var trial2 = [unkArrayShuffle[2], unkArrayShuffle[3]];
 shuffle(trial2);
-allTrials.push(trial2);
+allKnown.push(trial2);
 
 var trial3 = [unkArrayShuffle[4], unkArrayShuffle[5]];
 shuffle(trial3);
-allTrials.push(trial3);
+allKnown.push(trial3);
 
 var trial4 = [unkArrayShuffle[6], unkArrayShuffle[7]]; 
-allTrials.push(trial4);
+allKnown.push(trial4);
 
 
 var trial5 = [unkArrayShuffle[8], unkArrayShuffle[9]];
 shuffle(trial5);
-allTrials.push(trial5);
+allKnown.push(trial5);
 
 var trial6 = [unkArrayShuffle[8], unkArrayShuffle[11]];
 shuffle(trial6);
-allTrials.push(trial6);
+allKnown.push(trial6);
 
 var trial7 = [unkArrayShuffle[8], unkArrayShuffle[13]];
 shuffle(trial7);
-allTrials.push(trial7);
+allKnown.push(trial7);
 
 unkArrayShuffle[8] = "<img src='img/"+ unkArray1[8] + ".jpg' class='image'>";
 var trial8 = [unkArrayShuffle[8], unkArrayShuffle[10]];
 shuffle(trial8);
-allTrials.push(trial8);
+allKnown.push(trial8);
 
 
 // unknown trials
 
 // control
-var trial9 = [unkArrayShuffle[12], knownArrayShuffle[1]];
+var trial9 = [unkArrayShuffle[15], knownArrayShuffle[0]];
 shuffle(trial9);
-allTrials.push(trial9);
+allUnk.push(trial9);
 
-var trial10 = [unkArrayShuffle[15], knownArrayShuffle[0]];
+var trial10 = [unkArrayShuffle[12], knownArrayShuffle[1]];
 shuffle(trial10);
-allTrials.push(trial10);
+allUnk.push(trial10);
 
 var trial11 = [unkArrayShuffle[14], knownArrayShuffle[3]];
 shuffle(trial11);
-allTrials.push(trial11);
+allUnk.push(trial11);
 
 var trial12 = [unkArrayShuffle[17], knownArrayShuffle[2]]; 
 shuffle(trial12);
-allTrials.push(trial12);
+allUnk.push(trial12);
 
 // experimental
-var trial13 = [unkArrayShuffle[16], knownArrayShuffle[5]];
+var trial13 = [unkArrayShuffle[19], knownArrayShuffle[4]];
 shuffle(trial13);
-allTrials.push(trial13);
+allUnk.push(trial13);
 
-var trial14 = [unkArrayShuffle[16], knownArrayShuffle[7]];
+var trial14 = [unkArrayShuffle[21], knownArrayShuffle[4]];
 shuffle(trial14);
-allTrials.push(trial14);
+allUnk.push(trial14);
 
-var trial15 = [unkArrayShuffle[16], knownArrayShuffle[9]];
+var trial15 = [unkArrayShuffle[23], knownArrayShuffle[4]];
 shuffle(trial15);
-allTrials.push(trial15);
+allUnk.push(trial15);
 
-unkArrayShuffle[16] = "<img src='img/"+ unkArray1[16] + ".jpg' class='image'>";
+knownArrayShuffle[4] = "<img src='img/"+ knownArray1[4] + ".jpg' class='image'>";
 var trial16 = [unkArrayShuffle[16], knownArrayShuffle[4]];
 shuffle(trial16);
-allTrials.push(trial16);
-
+allUnk.push(trial16);
 
 // show slide function
 function showSlide(id) {
@@ -588,299 +586,47 @@ timeline.push(begin);
 
 trialnum = 15;
 
-stim = [];
+allStim = [];
+knownStim = [];
+unkStim = [];
 
 
-for(i=0; i<16; i++){
-    leftpic = allTrials[i][0];
-    rightpic = allTrials[i][1];
-    stim.push([leftpic, rightpic]);
+  for(i=0; i<8; i++){
+    leftpic = allKnown[i][0];
+    rightpic = allKnown[i][1];
+    knownStim.push([leftpic, rightpic]);
+    allStim.push({preamble: "<table align = 'center'><tr><td height = 200>" + leftpic + "</td><td width = 150></td><td height = 200>" + rightpic + "</td></tr></table>"});
    };
+
+for(i=0; i<8; i++){
+    leftpic = allUnk[i][0];
+    rightpic = allUnk[i][1];
+    unkStim.push([leftpic, rightpic]);
+     allStim.push({preamble: "<table align = 'center'><tr><td height = 200>" + leftpic + "</td><td width = 150></td><td height = 200>" + rightpic + "</td></tr></table>"});
+   };
+
 
 
 stimulusList = [];
 
   stimulusList.push(practice1);
   stimulusList.push(practice2);
-  stimulusList.push(stim);
+  stimulusList.push(knownStim);
+  stimulusList.push(unkStim);
 
 
-var pre1 = {
-  type: "html-keyboard-response",
-  stimulus: "<p><table align = 'center'><tr><td height = 200><img src='img/"+ unkArray1[0] + ".jpg' class='image'</td>" +
-            "<td height = 200><img src='img/" + unkArray1[1] + ".jpg' class='image'</td></tr></table></p>",
-     trial_duration: 3000,
-};
 
 
-var test1 = {
+var test = {
       type: 'survey-text',
-      preamble: "<table align = 'center'><tr><td height = 200>" + allTrials[0][0] + "</td></td><td height = 200>" + allTrials[0][1] + "</td></tr></table>",
+      preamble: jsPsych.timelineVariable('preamble'),
       questions: [{prompt:"Type a message to the Matcher:", required: true}],
       post_trial_gap: 100,
     on_finish: function(){
-        jsPsych.setProgressBar(16/31);
+      trialnum = trialnum + 1;
+        jsPsych.setProgressBar(trialnum/31);
       }
   };
-
-var pre2 = {
-  type: "html-keyboard-response",
-  stimulus: "<p><table align = 'center'><tr><td height = 200><img src='img/"+ unkArray1[2] + ".jpg' class='image'</td>" +
-            "<td height = 200><img src='img/" + unkArray1[3] + ".jpg' class='image'</td></tr></table></p>",
-     trial_duration: 3000,
-};
-
-var test2 = {
-      type: 'survey-text',
-      preamble: "<table align = 'center'><tr><td height = 200>" + allTrials[1][0] + "</td><td height = 200>" + allTrials[1][1] + "</td></tr></table>",
-      questions: [{prompt:"Type a message to the Matcher:", required: true}],
-      post_trial_gap: 100,
-    on_finish: function(){
-        jsPsych.setProgressBar(17/31);
-      }
-  };
-
-
-var pre3 = {
-  type: "html-keyboard-response",
-  stimulus: "<p><table align = 'center'><tr><td height = 200><img src='img/"+ unkArray1[5] + ".jpg' class='image'</td>" +
-            "<td height = 200><img src='img/" + unkArray1[4] + ".jpg' class='image'</td></tr></table></p>",
-     trial_duration: 3000,
-};
-
-var test3 = {
-      type: 'survey-text',
-      preamble: "<table align = 'center'><tr><td height = 200>" + allTrials[2][0] + "</td></td><td height = 200>" + allTrials[2][1] + "</td></tr></table>",
-      questions: [{prompt:"Type a message to the Matcher:", required: true}],
-      post_trial_gap: 100,
-    on_finish: function(){
-        jsPsych.setProgressBar(18/31);
-      }
-  };
-
-var pre4 = {
-  type: "html-keyboard-response",
-  stimulus: "<p><table align = 'center'><tr><td height = 200><img src='img/"+ unkArray1[6] + ".jpg' class='image'</td>" +
-            "<td height = 200><img src='img/" + unkArray1[7] + ".jpg' class='image'</td></tr></table></p>",
-     trial_duration: 3000,
-};
-
-var test4 = {
-      type: 'survey-text',
-      preamble: "<table align = 'center'><tr><td height = 200>" + allTrials[3][0] + "</td></td><td height = 200>" + allTrials[3][1] + "</td></tr></table>",
-      questions: [{prompt:"Type a message to the Matcher:", required: true}],
-      post_trial_gap: 100,
-    on_finish: function(){
-        jsPsych.setProgressBar(19/31);
-      }
-  };
-
-var pre5 = {
-  type: "html-keyboard-response",
-  stimulus: "<p><table align = 'center'><tr><td height = 200><img src='img/"+ unkArray1[9] + ".jpg' class='image'</td>" +
-            "<td height = 200><img src='img/" + unkArray1[8] + ".jpg' class='image'</td></tr></table></p>",
-     trial_duration: 3000,
-};
-
-var test5 = {
-      type: 'survey-text',
-      preamble: "<table align = 'center'><tr><td height = 200>" + allTrials[4][0] + "</td></td><td height = 200>" + allTrials[4][1] + "</td></tr></table>",
-      questions: [{prompt:"Type a message to the Matcher:", required: true}],
-      post_trial_gap: 100,
-    on_finish: function(){
-        jsPsych.setProgressBar(20/31);
-      }
-  };
-
-  var pre6 = {
-  type: "html-keyboard-response",
-  stimulus: "<p><table align = 'center'><tr><td height = 200><img src='img/"+ unkArray1[11] + ".jpg' class='image'</td>" +
-            "<td height = 200><img src='img/" + unkArray1[8] + ".jpg' class='image'</td></tr></table></p>",
-     trial_duration: 3000,
-};
-
-var test6 = {
-      type: 'survey-text',
-      preamble: "<table align = 'center'><tr><td height = 200>" + allTrials[5][0] + "</td></td><td height = 200>" + allTrials[5][1] + "</td></tr></table>",
-      questions: [{prompt:"Type a message to the Matcher:", required: true}],
-      post_trial_gap: 100,
-    on_finish: function(){
-        jsPsych.setProgressBar(21/31);
-      }
-  };
-
-  var pre7 = {
-  type: "html-keyboard-response",
-  stimulus: "<p><table align = 'center'><tr><td height = 200><img src='img/"+ unkArray1[13] + ".jpg' class='image'</td>" +
-            "<td height = 200><img src='img/" + unkArray1[8] + ".jpg' class='image'</td></tr></table></p>",
-     trial_duration: 3000,
-};
-
-var test7 = {
-      type: 'survey-text',
-      preamble: "<table align = 'center'><tr><td height = 200>" + allTrials[6][0] + "</td></td><td height = 200>" + allTrials[6][1] + "</td></tr></table>",
-      questions: [{prompt:"Type a message to the Matcher:", required: true}],
-      post_trial_gap: 100,
-    on_finish: function(){
-        jsPsych.setProgressBar(22/31);
-      }
-  };
-
-var pre8 = {
-  type: "html-keyboard-response",
-  stimulus: "<p><table align = 'center'><tr><td height = 200><img src='img/"+ unkArray1[8] + ".jpg' class='image'</td>" +
-            "<td height = 200><img src='img/" + unkArray1[10] + ".jpg' class='image'</td></tr></table></p>",
-     trial_duration: 3000,
-};
-
-var test8 = {
-      type: 'survey-text',
-      preamble: "<table align = 'center'><tr><td height = 200>" + allTrials[7][0] + "</td></td><td height = 200>" + allTrials[7][1] + "</td></tr></table>",
-      questions: [{prompt:"Type a message to the Matcher:", required: true}],
-      post_trial_gap: 100,
-    on_finish: function(){
-        jsPsych.setProgressBar(23/31);
-      }
-  };
-
-var pre9 = {
-  type: "html-keyboard-response",
-  stimulus: "<p><table align = 'center'><tr><td height = 200><img src='img/"+ unkArray1[12] + ".jpg' class='image'</td>" +
-            "<td height = 200><img src='img/" + knownArray1[1] + ".jpg' class='image'</td></tr></table></p>",
-     trial_duration: 3000,
-};
-
-var test9 = {
-      type: 'survey-text',
-      preamble: "<table align = 'center'><tr><td height = 200>" + allTrials[8][0] + "</td></td><td height = 200>" + allTrials[8][1] + "</td></tr></table>",
-      questions: [{prompt:"Type a message to the Matcher:", required: true}],
-      post_trial_gap: 100,
-    on_finish: function(){
-        jsPsych.setProgressBar(24/31);
-      }
-  };
-
-var pre10 = {
-  type: "html-keyboard-response",
-  stimulus: "<p><table align = 'center'><tr><td height = 200><img src='img/"+ knownArray1[0] + ".jpg' class='image'</td>" +
-            "<td height = 200><img src='img/" + unkArray1[15] + ".jpg' class='image'</td></tr></table></p>",
-     trial_duration: 3000,
-};
-
-var test10 = {
-      type: 'survey-text',
-      preamble: "<table align = 'center'><tr><td height = 200>" + allTrials[9][0] + "</td><td height = 200>" + allTrials[9][1] + "</td></tr></table>",
-      questions: [{prompt:"Type a message to the Matcher:", required: true}],
-      post_trial_gap: 100,
-    on_finish: function(){
-        jsPsych.setProgressBar(25/31);
-      }
-  };
-
-
-var pre11 = {
-  type: "html-keyboard-response",
-  stimulus: "<p><table align = 'center'><tr><td height = 200><img src='img/"+ unkArray1[14] + ".jpg' class='image'</td>" +
-            "<td height = 200><img src='img/" + knownArray1[3] + ".jpg' class='image'</td></tr></table></p>",
-     trial_duration: 3000,
-};
-
-var test11 = {
-      type: 'survey-text',
-      preamble: "<table align = 'center'><tr><td height = 200>" + allTrials[10][0] + "</td></td><td height = 200>" + allTrials[10][1] + "</td></tr></table>",
-      questions: [{prompt:"Type a message to the Matcher:", required: true}],
-      post_trial_gap: 100,
-    on_finish: function(){
-        jsPsych.setProgressBar(26/31);
-      }
-  };
-
-var pre12 = {
-  type: "html-keyboard-response",
-  stimulus: "<p><table align = 'center'><tr><td height = 200><img src='img/"+ unkArray1[17] + ".jpg' class='image'</td>" +
-            "<td height = 200><img src='img/" + knownArray1[2] + ".jpg' class='image'</td></tr></table></p>",
-     trial_duration: 3000,
-};
-
-var test12 = {
-      type: 'survey-text',
-      preamble: "<table align = 'center'><tr><td height = 200>" + allTrials[11][0] + "</td></td><td height = 200>" + allTrials[11][1] + "</td></tr></table>",
-      questions: [{prompt:"Type a message to the Matcher:", required: true}],
-      post_trial_gap: 100,
-    on_finish: function(){
-        jsPsych.setProgressBar(27/31);
-      }
-  };
-
-var pre13 = {
-  type: "html-keyboard-response",
-  stimulus: "<p><table align = 'center'><tr><td height = 200><img src='img/"+ unkArray1[16] + ".jpg' class='image'</td>" +
-            "<td height = 200><img src='img/" + knownArray1[5] + ".jpg' class='image'</td></tr></table></p>",
-     trial_duration: 3000,
-};
-
-var test13 = {
-      type: 'survey-text',
-      preamble: "<table align = 'center'><tr><td height = 200>" + allTrials[12][0] + "</td></td><td height = 200>" + allTrials[12][1] + "</td></tr></table>",
-      questions: [{prompt:"Type a message to the Matcher:", required: true}],
-      post_trial_gap: 100,
-    on_finish: function(){
-        jsPsych.setProgressBar(28/31);
-      }
-  };
-
-  var pre14 = {
-  type: "html-keyboard-response",
-  stimulus: "<p><table align = 'center'><tr><td height = 200><img src='img/"+ knownArray1[7] + ".jpg' class='image'</td>" +
-            "<td height = 200><img src='img/" + unkArray1[16] + ".jpg' class='image'</td></tr></table></p>",
-     trial_duration: 3000,
-};
-
-var test14 = {
-      type: 'survey-text',
-      preamble: "<table align = 'center'><tr><td height = 200>" + allTrials[13][0] + "</td></td><td height = 200>" + allTrials[13][1] + "</td></tr></table>",
-      questions: [{prompt:"Type a message to the Matcher:", required: true}],
-      post_trial_gap: 100,
-    on_finish: function(){
-        jsPsych.setProgressBar(29/31);
-      }
-  };
-
-  var pre15 = {
-  type: "html-keyboard-response",
-  stimulus: "<p><table align = 'center'><tr><td height = 200><img src='img/"+ knownArray1[9] + ".jpg' class='image'</td>" +
-            "<td height = 200><img src='img/" + unkArray1[16] + ".jpg' class='image'</td></tr></table></p>",
-     trial_duration: 3000,
-};
-
-var test15 = {
-      type: 'survey-text',
-      preamble: "<table align = 'center'><tr><td height = 200>" + allTrials[14][0] + "</td></td><td height = 200>" + allTrials[14][1] + "</td></tr></table>",
-      questions: [{prompt:"Type a message to the Matcher:", required: true}],
-      post_trial_gap: 100,
-    on_finish: function(){
-        jsPsych.setProgressBar(30/31);
-      }
-  };
-
-var pre16 = {
-  type: "html-keyboard-response",
-  stimulus: "<p><table align = 'center'><tr><td height = 200><img src='img/"+ knownArray1[4] + ".jpg' class='image'</td>" +
-            "<td height = 200><img src='img/" + unkArray1[16] + ".jpg' class='image'</td></tr></table></p>",
-     trial_duration: 3000,
-};
-
-var test16 = {
-      type: 'survey-text',
-      preamble: "<table align = 'center'><tr><td height = 200>" + allTrials[15][0] + "</td></td><td height = 200>" + allTrials[15][1] + "</td></tr></table>",
-      questions: [{prompt:"Type a message to the Matcher:", required: true}],
-      post_trial_gap: 100,
-    on_finish: function(){
-        jsPsych.setProgressBar(31/31);
-      }
-  };
-
-
 
 var fixation =
   {
@@ -899,39 +645,15 @@ var fixation =
 
  //  };
 
- timeline.push(pre1);
- timeline.push(test1);
- timeline.push(pre2);
- timeline.push(test2);
-  timeline.push(pre3);
- timeline.push(test3);
-  timeline.push(pre4);
- timeline.push(test4);
-  timeline.push(pre5);
- timeline.push(test5);
-  timeline.push(pre6);
- timeline.push(test6);
-  timeline.push(pre7);
- timeline.push(test7);
-  timeline.push(pre8);
- timeline.push(test8);
-  timeline.push(pre9);
- timeline.push(test9);
-  timeline.push(pre10);
- timeline.push(test10);
-  timeline.push(pre11);
- timeline.push(test11);
-  timeline.push(pre12);
- timeline.push(test12);
-  timeline.push(pre13);
- timeline.push(test13);
-  timeline.push(pre14);
- timeline.push(test14);
-  timeline.push(pre15);
- timeline.push(test15);
-  timeline.push(pre16);
- timeline.push(test16);
 
+
+
+  var test_procedure = {
+    timeline: [test, fixation],
+    timeline_variables: allStim
+  };
+
+  timeline.push(test_procedure);
 
   var endtest = {
     type: 'html-keyboard-response',
