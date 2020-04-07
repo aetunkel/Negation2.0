@@ -1,0 +1,93 @@
+{
+ "AssignmentId": "3C8HJ7UOP8J6TVCPVCY041GJS01ZMO",
+ "WorkerId": "0f9f3e637df4019d1a6e9522e855d886",
+ "HITId": "3L7SUC0TTUJ65Q851GG6AII78LV0M6",
+ "AssignmentStatus": "Approved",
+ "AutoApprovalTime": "2019-09-13T20:13:38.000Z",
+ "AcceptTime": "2019-09-13T19:49:26.000Z",
+ "SubmitTime": "2019-09-13T20:08:38.000Z",
+ "ApprovalTime": "2019-09-13T20:14:13.000Z",
+ "answers": {
+  "data": {
+   "responses": "\"rt\",\"responses\",\"trial_type\",\"trial_index\",\"time_elapsed\",\"internal_node_id\"\r\n\"12906\",\"{\"\"Q0\"\":\"\"it has feathers\"\"}\",\"survey-text\",\"3\",\"81346\",\"0.0-3.0\"\r\n\"12003\",\"{\"\"Q0\"\":\"\"odd shape vase\"\"}\",\"survey-text\",\"5\",\"96250\",\"0.0-5.0\"\r\n\"6840\",\"{\"\"Q0\"\":\"\"jay\"\"}\",\"survey-text\",\"7\",\"105198\",\"0.0-7.0\"\r\n\"23450\",\"{\"\"Q0\"\":\"\"it has eyes\"\"}\",\"survey-text\",\"10\",\"136652\",\"0.0-10.0\"\r\n\"7105\",\"{\"\"Q0\"\":\"\"flies\"\"}\",\"survey-text\",\"12\",\"145111\",\"0.0-12.0\"\r\n\"4645\",\"{\"\"Q0\"\":\"\"you eat with it\"\"}\",\"survey-text\",\"15\",\"154864\",\"0.0-15.0-0.0\"\r\n\"6730\",\"{\"\"Q0\"\":\"\"you write with it\"\"}\",\"survey-text\",\"17\",\"164697\",\"0.0-15.0-0.1\"\r\n\"4405\",\"{\"\"Q0\"\":\"\"it flies\"\"}\",\"survey-text\",\"19\",\"171207\",\"0.0-15.0-0.2\"\r\n\"5833\",\"{\"\"Q0\"\":\"\"you put it on foot\"\"}\",\"survey-text\",\"21\",\"177895\",\"0.0-15.0-0.3\"\r\n\"6309\",\"{\"\"Q0\"\":\"\"it comes from the ground\"\"}\",\"survey-text\",\"23\",\"185557\",\"0.0-15.0-0.4\"\r\n\"6025\",\"{\"\"Q0\"\":\"\"it smells good\"\"}\",\"survey-text\",\"25\",\"192686\",\"0.0-15.0-0.5\"\r\n\"5810\",\"{\"\"Q0\"\":\"\"it is round\"\"}\",\"survey-text\",\"27\",\"199599\",\"0.0-15.0-0.6\"\r\n\"4947\",\"{\"\"Q0\"\":\"\"you eat it\"\"}\",\"survey-text\",\"29\",\"205900\",\"0.0-15.0-0.7\"\r\n\"5477\",\"{\"\"Q0\"\":\"\"its smaller\"\"}\",\"survey-text\",\"31\",\"212481\",\"0.0-15.0-0.8\"\r\n\"7883\",\"{\"\"Q0\"\":\"\"x shaped\"\"}\",\"survey-text\",\"33\",\"221218\",\"0.0-15.0-0.9\"\r\n\"15197\",\"{\"\"Q0\"\":\"\"looks like bread\"\"}\",\"survey-text\",\"35\",\"238269\",\"0.0-15.0-0.10\"\r\n\"7330\",\"{\"\"Q0\"\":\"\"odd shaped item\"\"}\",\"survey-text\",\"37\",\"246453\",\"0.0-15.0-0.11\"\r\n\"12331\",\"{\"\"Q0\"\":\"\"looks like a tool for the toilet\"\"}\",\"survey-text\",\"39\",\"261887\",\"0.0-15.0-0.12\"\r\n\"5761\",\"{\"\"Q0\"\":\"\"it is round\"\"}\",\"survey-text\",\"41\",\"269504\",\"0.0-15.0-0.13\"\r\n\"5058\",\"{\"\"Q0\"\":\"\"it has a stick\"\"}\",\"survey-text\",\"43\",\"277164\",\"0.0-15.0-0.14\"\r\n\"6606\",\"{\"\"Q0\"\":\"\"very oddly shaped\"\"}\",\"survey-text\",\"45\",\"285124\",\"0.0-15.0-0.15\"\r\n",
+   "trial_info": [
+    [
+     "<img src = 'img/practiceTarget1.jpg' class='target'>",
+     "<img src='img/practiceDistractor1.jpg' class='image'>"
+    ],
+    [
+     "<img src='img/practiceDistractor2.jpg' class='image'>",
+     "<img src ='img/practiceTarget2.jpg' class='target'>"
+    ],
+    [
+     [
+      "<img src='img/G.jpg' class='target'>",
+      "<img src='img/H.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/E.jpg' class='image'>",
+      "<img src='img/D.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/J.jpg' class='image'>",
+      "<img src='img/K.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/C.jpg' class='target'>",
+      "<img src='img/F.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/F.jpg' class='image'>",
+      "<img src='img/L.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/I.jpg' class='image'>",
+      "<img src='img/L.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/L.jpg' class='target'>",
+      "<img src='img/B.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/L.jpg' class='image'>",
+      "<img src='img/A.jpg' class='target'>"
+     ]
+    ],
+    [
+     [
+      "<img src='img/6.jpg' class='target'>",
+      "<img src='img/5.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/11.jpg' class='target'>",
+      "<img src='img/12.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/9.jpg' class='image'>",
+      "<img src='img/3.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/8.jpg' class='image'>",
+      "<img src='img/7.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/8.jpg' class='image'>",
+      "<img src='img/10.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/10.jpg' class='target'>",
+      "<img src='img/4.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/10.jpg' class='target'>",
+      "<img src='img/2.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/10.jpg' class='image'>",
+      "<img src='img/1.jpg' class='target'>"
+     ]
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "AssignmentId": "3LOTDFNYA8OWTQF3Y2AGA72SANHWFW",
+ "WorkerId": "d5fdb483d5877f99aaf6606ad950972a",
+ "HITId": "32PT7WK7DM4ZIO1P7AZMTQTK21QD3Z",
+ "AssignmentStatus": "Approved",
+ "AutoApprovalTime": "2019-08-22T02:48:23.000Z",
+ "AcceptTime": "2019-08-22T01:50:20.000Z",
+ "SubmitTime": "2019-08-22T02:43:23.000Z",
+ "ApprovalTime": "2019-08-22T02:49:13.000Z",
+ "answers": {
+  "data": {
+   "responses": "\"rt\",\"responses\",\"trial_type\",\"trial_index\",\"time_elapsed\",\"internal_node_id\"\r\n\"20164.695000000167\",\"{\"\"Q0\"\":\"\"select the pigeon\"\"}\",\"survey-text\",\"3\",\"69262\",\"0.0-3.0\"\r\n\"7368.330000000002\",\"{\"\"Q0\"\":\"\"select the airplane\"\"}\",\"survey-text\",\"4\",\"76733\",\"0.0-4.0\"\r\n\"18400.889999999883\",\"{\"\"Q0\"\":\"\"select the air pump\"\"}\",\"survey-text\",\"5\",\"95237\",\"0.0-5.0-0.0\"\r\n\"10531.815000000046\",\"{\"\"Q0\"\":\"\"select the green and orange toy\"\"}\",\"survey-text\",\"6\",\"105877\",\"0.0-5.0-0.1\"\r\n\"34177.19000000009\",\"{\"\"Q0\"\":\"\"select the red object with the stubby ends\"\"}\",\"survey-text\",\"7\",\"140158\",\"0.0-5.0-0.2\"\r\n\"23855.284999999858\",\"{\"\"Q0\"\":\"\"select the grey plastic part with the rounded edges\"\"}\",\"survey-text\",\"8\",\"164118\",\"0.0-5.0-0.3\"\r\n\"24479.280000000028\",\"{\"\"Q0\"\":\"\"select the grey object with the umbrella-like piece on top\"\"}\",\"survey-text\",\"9\",\"188701\",\"0.0-5.0-0.4\"\r\n\"22047.149999999878\",\"{\"\"Q0\"\":\"\"select the grey object with the umbrella-like piece on top\"\"}\",\"survey-text\",\"10\",\"210854\",\"0.0-5.0-0.5\"\r\n\"17856.624999999884\",\"{\"\"Q0\"\":\"\"select the grey object with the umbrella-like piece on top\"\"}\",\"survey-text\",\"11\",\"228813\",\"0.0-5.0-0.6\"\r\n\"24464.604999999894\",\"{\"\"Q0\"\":\"\"select the black and white object that appears to be cracked\"\"}\",\"survey-text\",\"12\",\"253381\",\"0.0-5.0-0.7\"\r\n\"7232.240000000049\",\"{\"\"Q0\"\":\"\"select the black shoe\"\"}\",\"survey-text\",\"13\",\"260717\",\"0.0-5.0-0.8\"\r\n\"12342.009999999864\",\"{\"\"Q0\"\":\"\"select the die showing the \\\"\"6\\\"\"\"\"}\",\"survey-text\",\"14\",\"273165\",\"0.0-5.0-0.9\"\r\n\"12255.879999999946\",\"{\"\"Q0\"\":\"\"select the grey and white cat\"\"}\",\"survey-text\",\"15\",\"285525\",\"0.0-5.0-0.10\"\r\n\"12781.079999999958\",\"{\"\"Q0\"\":\"\"select the brown chair\"\"}\",\"survey-text\",\"16\",\"298413\",\"0.0-5.0-0.11\"\r\n\"6014.35500000004\",\"{\"\"Q0\"\":\"\"select the red apple\"\"}\",\"survey-text\",\"17\",\"304533\",\"0.0-5.0-0.12\"\r\n\"6208.149999999907\",\"{\"\"Q0\"\":\"\"select the red apple\"\"}\",\"survey-text\",\"18\",\"310846\",\"0.0-5.0-0.13\"\r\n\"6533.435000000056\",\"{\"\"Q0\"\":\"\"select the red apple\"\"}\",\"survey-text\",\"19\",\"317485\",\"0.0-5.0-0.14\"\r\n\"10384.885000000126\",\"{\"\"Q0\"\":\"\"select the compact silver car\"\"}\",\"survey-text\",\"20\",\"327973\",\"0.0-5.0-0.15\"\r\n",
+   "trial_info": [
+    [
+     "<img src = 'img/practiceTarget1.jpg' class='target'>",
+     "<img src='img/practiceDistractor1.jpg' class='image'>"
+    ],
+    [
+     "<img src='img/practiceDistractor2.jpg' class='image'>",
+     "<img src ='img/practiceTarget2.jpg' class='target'>"
+    ],
+    [
+     [
+      "<img src='img/3.jpg' class='image'>",
+      "<img src='img/10.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/1.jpg' class='image'>",
+      "<img src='img/9.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/11.jpg' class='target'>",
+      "<img src='img/7.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/5.jpg' class='image'>",
+      "<img src='img/6.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/12.jpg' class='target'>",
+      "<img src='img/5.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/12.jpg' class='target'>",
+      "<img src='img/4.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/2.jpg' class='image'>",
+      "<img src='img/12.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/8.jpg' class='target'>",
+      "<img src='img/12.jpg' class='image'>"
+     ]
+    ],
+    [
+     [
+      "<img src='img/C.jpg' class='target'>",
+      "<img src='img/J.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/H.jpg' class='target'>",
+      "<img src='img/D.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/L.jpg' class='image'>",
+      "<img src='img/B.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/E.jpg' class='target'>",
+      "<img src='img/G.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/G.jpg' class='image'>",
+      "<img src='img/A.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/K.jpg' class='image'>",
+      "<img src='img/A.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/F.jpg' class='image'>",
+      "<img src='img/A.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/A.jpg' class='image'>",
+      "<img src='img/I.jpg' class='target'>"
+     ]
+    ]
+   ]
+  }
+ }
+}

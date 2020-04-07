@@ -1,0 +1,93 @@
+{
+ "AssignmentId": "3NLZY2D53QED9LTD84E8DVPQJIKQLP",
+ "WorkerId": "7448dcfd2fb92f2397cae3d2b23157f6",
+ "HITId": "3T6EIBTM9LD142XYWFNUQXZKN8LAAQ",
+ "AssignmentStatus": "Approved",
+ "AutoApprovalTime": "2019-08-22T01:24:44.000Z",
+ "AcceptTime": "2019-08-22T01:13:11.000Z",
+ "SubmitTime": "2019-08-22T01:19:44.000Z",
+ "ApprovalTime": "2019-08-22T01:25:13.000Z",
+ "answers": {
+  "data": {
+   "responses": "\"rt\",\"responses\",\"trial_type\",\"trial_index\",\"time_elapsed\",\"internal_node_id\"\r\n\"20199.729999992996\",\"{\"\"Q0\"\":\"\"This object is a bird.  It has two stripes on it's back.\"\"}\",\"survey-text\",\"3\",\"50609\",\"0.0-3.0\"\r\n\"8296.180000004824\",\"{\"\"Q0\"\":\"\"This object is an airplane.\"\"}\",\"survey-text\",\"4\",\"59008\",\"0.0-4.0\"\r\n\"14798.39999997057\",\"{\"\"Q0\"\":\"\"This object looks like a buoy of some sorts.\"\"}\",\"survey-text\",\"5\",\"73910\",\"0.0-5.0-0.0\"\r\n\"24726.085000031162\",\"{\"\"Q0\"\":\"\"This object looks like a weight and is rainbow colored.\"\"}\",\"survey-text\",\"6\",\"98741\",\"0.0-5.0-0.1\"\r\n\"15562.460000044666\",\"{\"\"Q0\"\":\"\"This object is hard to describe it has bright pink colors.\"\"}\",\"survey-text\",\"7\",\"114407\",\"0.0-5.0-0.2\"\r\n\"8657.109999970999\",\"{\"\"Q0\"\":\"\"This object is green with two orange levers.\"\"}\",\"survey-text\",\"8\",\"123168\",\"0.0-5.0-0.3\"\r\n\"15552.075000014156\",\"{\"\"Q0\"\":\"\"This object looks like a dog chew toy.  It is orange and has spikes.\"\"}\",\"survey-text\",\"9\",\"138824\",\"0.0-5.0-0.4\"\r\n\"13904.364999965765\",\"{\"\"Q0\"\":\"\"This object looks like a dog chew toy.  It is orange and has spikes.\"\"}\",\"survey-text\",\"10\",\"152831\",\"0.0-5.0-0.5\"\r\n\"11378.71499999892\",\"{\"\"Q0\"\":\"\"This object looks like a dog chew toy it is orange and has spikes.\"\"}\",\"survey-text\",\"11\",\"164312\",\"0.0-5.0-0.6\"\r\n\"22410.035000008065\",\"{\"\"Q0\"\":\"\"This object looks like a squishy toy.  It is red and has many of the same shape jutting out from it.\"\"}\",\"survey-text\",\"12\",\"186825\",\"0.0-5.0-0.7\"\r\n\"5140.364999999292\",\"{\"\"Q0\"\":\"\"This object is a chair.\"\"}\",\"survey-text\",\"13\",\"192068\",\"0.0-5.0-0.8\"\r\n\"5440.660000022035\",\"{\"\"Q0\"\":\"\"This object is a butterfly.\"\"}\",\"survey-text\",\"14\",\"197612\",\"0.0-5.0-0.9\"\r\n\"6597.460000019055\",\"{\"\"Q0\"\":\"\"This object is a silver car.\"\"}\",\"survey-text\",\"15\",\"204314\",\"0.0-5.0-0.10\"\r\n\"4969.3500000284985\",\"{\"\"Q0\"\":\"\"This object is a tree.\"\"}\",\"survey-text\",\"16\",\"209386\",\"0.0-5.0-0.11\"\r\n\"5520.665000018198\",\"{\"\"Q0\"\":\"\"This object is a red apple.\"\"}\",\"survey-text\",\"17\",\"215010\",\"0.0-5.0-0.12\"\r\n\"9170.824999979232\",\"{\"\"Q0\"\":\"\"This object is a red apple.\"\"}\",\"survey-text\",\"18\",\"224285\",\"0.0-5.0-0.13\"\r\n\"5448.450000025332\",\"{\"\"Q0\"\":\"\"This object is a red apple.\"\"}\",\"survey-text\",\"19\",\"229837\",\"0.0-5.0-0.14\"\r\n\"4553.175000008196\",\"{\"\"Q0\"\":\"\"This object is a cat.\"\"}\",\"survey-text\",\"20\",\"234494\",\"0.0-5.0-0.15\"\r\n",
+   "trial_info": [
+    [
+     "<img src = 'img/practiceTarget1.jpg' class='target'>",
+     "<img src='img/practiceDistractor1.jpg' class='image'>"
+    ],
+    [
+     "<img src='img/practiceDistractor2.jpg' class='image'>",
+     "<img src ='img/practiceTarget2.jpg' class='target'>"
+    ],
+    [
+     [
+      "<img src='img/1.jpg' class='image'>",
+      "<img src='img/10.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/5.jpg' class='target'>",
+      "<img src='img/12.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/8.jpg' class='image'>",
+      "<img src='img/3.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/9.jpg' class='target'>",
+      "<img src='img/2.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/4.jpg' class='target'>",
+      "<img src='img/2.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/4.jpg' class='target'>",
+      "<img src='img/7.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/6.jpg' class='image'>",
+      "<img src='img/4.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/4.jpg' class='image'>",
+      "<img src='img/11.jpg' class='target'>"
+     ]
+    ],
+    [
+     [
+      "<img src='img/E.jpg' class='target'>",
+      "<img src='img/G.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/L.jpg' class='image'>",
+      "<img src='img/K.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/I.jpg' class='target'>",
+      "<img src='img/F.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/H.jpg' class='image'>",
+      "<img src='img/J.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/A.jpg' class='target'>",
+      "<img src='img/H.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/A.jpg' class='target'>",
+      "<img src='img/D.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/C.jpg' class='image'>",
+      "<img src='img/A.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/B.jpg' class='target'>",
+      "<img src='img/A.jpg' class='image'>"
+     ]
+    ]
+   ]
+  }
+ }
+}

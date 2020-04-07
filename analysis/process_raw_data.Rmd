@@ -22,7 +22,7 @@ library(jsonlite)
 
 Load all raw files and file-types
 ```{r get-files, message = FALSE, warn = FALSE}
-files <- list.files(here("raw_data/pre-reg1"), pattern = "*.json",
+files <- list.files(here("raw_data/combined pilot"), pattern = "*.json",
                     full.names = T, recursive = T) %>%
   enframe(name = NULL, value = "file") %>%
   filter(!str_detect(file, "settings.json"), 

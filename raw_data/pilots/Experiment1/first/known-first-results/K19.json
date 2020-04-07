@@ -1,0 +1,93 @@
+{
+ "AssignmentId": "3R2UR8A0IB55O3XM7APSZKPDBQ7XO5",
+ "WorkerId": "3c2974feb1c7be7511c4c90b860fe6fb",
+ "HITId": "3ZXNP4Z39RA0HJQ4M300PKD5GCE7LE",
+ "AssignmentStatus": "Approved",
+ "AutoApprovalTime": "2019-08-22T01:20:55.000Z",
+ "AcceptTime": "2019-08-22T01:12:30.000Z",
+ "SubmitTime": "2019-08-22T01:15:55.000Z",
+ "ApprovalTime": "2019-08-22T01:21:14.000Z",
+ "answers": {
+  "data": {
+   "responses": "\"rt\",\"responses\",\"trial_type\",\"trial_index\",\"time_elapsed\",\"internal_node_id\"\r\n\"11410.909999976866\",\"{\"\"Q0\"\":\"\"pigeon\"\"}\",\"survey-text\",\"3\",\"31037\",\"0.0-3.0\"\r\n\"3716.0900000017136\",\"{\"\"Q0\"\":\"\"plane\"\"}\",\"survey-text\",\"4\",\"34857\",\"0.0-4.0\"\r\n\"4872.7599999983795\",\"{\"\"Q0\"\":\"\"chair\"\"}\",\"survey-text\",\"5\",\"39833\",\"0.0-5.0-0.0\"\r\n\"3921.405000030063\",\"{\"\"Q0\"\":\"\"pen\"\"}\",\"survey-text\",\"6\",\"43857\",\"0.0-5.0-0.1\"\r\n\"6797.109999984968\",\"{\"\"Q0\"\":\"\"butterfly\"\"}\",\"survey-text\",\"7\",\"50756\",\"0.0-5.0-0.2\"\r\n\"2866.700000013225\",\"{\"\"Q0\"\":\"\"fork\"\"}\",\"survey-text\",\"8\",\"53726\",\"0.0-5.0-0.3\"\r\n\"2721.389999962412\",\"{\"\"Q0\"\":\"\"dice\"\"}\",\"survey-text\",\"9\",\"56551\",\"0.0-5.0-0.4\"\r\n\"2796.3999999919906\",\"{\"\"Q0\"\":\"\"dice\"\"}\",\"survey-text\",\"10\",\"59451\",\"0.0-5.0-0.5\"\r\n\"3389.610000012908\",\"{\"\"Q0\"\":\"\"dice\"\"}\",\"survey-text\",\"11\",\"62944\",\"0.0-5.0-0.6\"\r\n\"3588.690000004135\",\"{\"\"Q0\"\":\"\"flower\"\"}\",\"survey-text\",\"12\",\"66636\",\"0.0-5.0-0.7\"\r\n\"5632.370000006631\",\"{\"\"Q0\"\":\"\"red toy\"\"}\",\"survey-text\",\"13\",\"72380\",\"0.0-5.0-0.8\"\r\n\"8116.77000002237\",\"{\"\"Q0\"\":\"\"black clip\"\"}\",\"survey-text\",\"14\",\"80601\",\"0.0-5.0-0.9\"\r\n\"12680.525000032503\",\"{\"\"Q0\"\":\"\"blue \"\"}\",\"survey-text\",\"15\",\"93386\",\"0.0-5.0-0.10\"\r\n\"6008.554999949411\",\"{\"\"Q0\"\":\"\"black and red\"\"}\",\"survey-text\",\"16\",\"99498\",\"0.0-5.0-0.11\"\r\n\"3820.4750000149943\",\"{\"\"Q0\"\":\"\"red art\"\"}\",\"survey-text\",\"17\",\"103421\",\"0.0-5.0-0.12\"\r\n\"3737.604999972973\",\"{\"\"Q0\"\":\"\"red art\"\"}\",\"survey-text\",\"18\",\"107261\",\"0.0-5.0-0.13\"\r\n\"2661.5699999965727\",\"{\"\"Q0\"\":\"\"red art\"\"}\",\"survey-text\",\"19\",\"110026\",\"0.0-5.0-0.14\"\r\n\"5259.684999997262\",\"{\"\"Q0\"\":\"\"black and white \"\"}\",\"survey-text\",\"20\",\"115389\",\"0.0-5.0-0.15\"\r\n",
+   "trial_info": [
+    [
+     "<img src = 'img/practiceTarget1.jpg' class='target'>",
+     "<img src='img/practiceDistractor1.jpg' class='image'>"
+    ],
+    [
+     "<img src='img/practiceDistractor2.jpg' class='image'>",
+     "<img src ='img/practiceTarget2.jpg' class='target'>"
+    ],
+    [
+     [
+      "<img src='img/I.jpg' class='image'>",
+      "<img src='img/E.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/D.jpg' class='target'>",
+      "<img src='img/F.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/J.jpg' class='image'>",
+      "<img src='img/K.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/C.jpg' class='image'>",
+      "<img src='img/G.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/C.jpg' class='image'>",
+      "<img src='img/H.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/H.jpg' class='target'>",
+      "<img src='img/B.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/A.jpg' class='image'>",
+      "<img src='img/H.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/H.jpg' class='image'>",
+      "<img src='img/L.jpg' class='target'>"
+     ]
+    ],
+    [
+     [
+      "<img src='img/11.jpg' class='target'>",
+      "<img src='img/3.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/12.jpg' class='image'>",
+      "<img src='img/6.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/5.jpg' class='image'>",
+      "<img src='img/7.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/10.jpg' class='target'>",
+      "<img src='img/2.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/1.jpg' class='target'>",
+      "<img src='img/2.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/1.jpg' class='target'>",
+      "<img src='img/4.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/1.jpg' class='target'>",
+      "<img src='img/9.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/8.jpg' class='target'>",
+      "<img src='img/1.jpg' class='image'>"
+     ]
+    ]
+   ]
+  }
+ }
+}

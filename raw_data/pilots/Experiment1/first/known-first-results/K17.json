@@ -1,0 +1,93 @@
+{
+ "AssignmentId": "30BUDKLTXEKAAT0N7Q312P4FEPS5E0",
+ "WorkerId": "7c74572944e03fb5959528ad13997af1",
+ "HITId": "3XDJY5RK5SA6HMVFTJUUDVPE21H4UL",
+ "AssignmentStatus": "Approved",
+ "AutoApprovalTime": "2019-08-22T00:22:49.000Z",
+ "AcceptTime": "2019-08-22T00:13:31.000Z",
+ "SubmitTime": "2019-08-22T00:17:49.000Z",
+ "ApprovalTime": "2019-08-22T00:23:13.000Z",
+ "answers": {
+  "data": {
+   "responses": "\"rt\",\"responses\",\"trial_type\",\"trial_index\",\"time_elapsed\",\"internal_node_id\"\r\n\"21609.78000005707\",\"{\"\"Q0\"\":\"\"The bird is in the blue square.\"\"}\",\"survey-text\",\"3\",\"91581\",\"0.0-3.0\"\r\n\"6458.5100000258535\",\"{\"\"Q0\"\":\"\"The plane is in the blue square.\"\"}\",\"survey-text\",\"4\",\"98148\",\"0.0-4.0\"\r\n\"7114.974999800324\",\"{\"\"Q0\"\":\"\"the chair is in the blue square.\"\"}\",\"survey-text\",\"5\",\"105406\",\"0.0-5.0-0.0\"\r\n\"6407.300000078976\",\"{\"\"Q0\"\":\"\"The apple is in the blue square.\"\"}\",\"survey-text\",\"6\",\"111926\",\"0.0-5.0-0.1\"\r\n\"6976.529999868944\",\"{\"\"Q0\"\":\"\"The fork is in the blue square.\"\"}\",\"survey-text\",\"7\",\"119006\",\"0.0-5.0-0.2\"\r\n\"6650.204999838024\",\"{\"\"Q0\"\":\"\"The ring is in the blue square.\"\"}\",\"survey-text\",\"8\",\"125767\",\"0.0-5.0-0.3\"\r\n\"6021.769999992102\",\"{\"\"Q0\"\":\"\"The cat is in the blue square.\"\"}\",\"survey-text\",\"9\",\"131894\",\"0.0-5.0-0.4\"\r\n\"7188.49500012584\",\"{\"\"Q0\"\":\"\"The cat is in the blue square.\"\"}\",\"survey-text\",\"10\",\"139187\",\"0.0-5.0-0.5\"\r\n\"6839.394999900833\",\"{\"\"Q0\"\":\"\"The cat is in the blue square.\"\"}\",\"survey-text\",\"11\",\"146135\",\"0.0-5.0-0.6\"\r\n\"6931.080000009388\",\"{\"\"Q0\"\":\"\"The butterfly is in the blue square.\"\"}\",\"survey-text\",\"12\",\"153176\",\"0.0-5.0-0.7\"\r\n\"8965.360000031069\",\"{\"\"Q0\"\":\"\"The orange object is in the blue square.\"\"}\",\"survey-text\",\"13\",\"162253\",\"0.0-5.0-0.8\"\r\n\"7692.290000151843\",\"{\"\"Q0\"\":\"\"The black object is in the blue square.\"\"}\",\"survey-text\",\"14\",\"170054\",\"0.0-5.0-0.9\"\r\n\"14587.900000158697\",\"{\"\"Q0\"\":\"\"The black bulb with red tip is in the blue square.\"\"}\",\"survey-text\",\"15\",\"184751\",\"0.0-5.0-0.10\"\r\n\"9817.915000021458\",\"{\"\"Q0\"\":\"\"The silver object is in the blue square.\"\"}\",\"survey-text\",\"16\",\"194675\",\"0.0-5.0-0.11\"\r\n\"8666.904999874532\",\"{\"\"Q0\"\":\"\"The orange and green object is in the blue square.\"\"}\",\"survey-text\",\"17\",\"203447\",\"0.0-5.0-0.12\"\r\n\"22789.110000012442\",\"{\"\"Q0\"\":\"\"The orange and green object is in the blue square.\"\"}\",\"survey-text\",\"18\",\"226346\",\"0.0-5.0-0.13\"\r\n\"8718.735000118613\",\"{\"\"Q0\"\":\"\"The orange and green object is in the blue square.\"\"}\",\"survey-text\",\"19\",\"235179\",\"0.0-5.0-0.14\"\r\n\"8316.265000030398\",\"{\"\"Q0\"\":\"\"The red statue is in the blue square.\"\"}\",\"survey-text\",\"20\",\"243607\",\"0.0-5.0-0.15\"\r\n",
+   "trial_info": [
+    [
+     "<img src = 'img/practiceTarget1.jpg' class='target'>",
+     "<img src='img/practiceDistractor1.jpg' class='image'>"
+    ],
+    [
+     "<img src='img/practiceDistractor2.jpg' class='image'>",
+     "<img src ='img/practiceTarget2.jpg' class='target'>"
+    ],
+    [
+     [
+      "<img src='img/D.jpg' class='image'>",
+      "<img src='img/E.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/L.jpg' class='image'>",
+      "<img src='img/A.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/G.jpg' class='target'>",
+      "<img src='img/I.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/F.jpg' class='target'>",
+      "<img src='img/C.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/C.jpg' class='image'>",
+      "<img src='img/B.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/J.jpg' class='image'>",
+      "<img src='img/B.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/H.jpg' class='image'>",
+      "<img src='img/B.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/B.jpg' class='image'>",
+      "<img src='img/K.jpg' class='target'>"
+     ]
+    ],
+    [
+     [
+      "<img src='img/4.jpg' class='target'>",
+      "<img src='img/5.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/6.jpg' class='target'>",
+      "<img src='img/2.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/10.jpg' class='target'>",
+      "<img src='img/11.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/7.jpg' class='image'>",
+      "<img src='img/12.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/7.jpg' class='image'>",
+      "<img src='img/9.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/9.jpg' class='target'>",
+      "<img src='img/3.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/8.jpg' class='image'>",
+      "<img src='img/9.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/9.jpg' class='image'>",
+      "<img src='img/1.jpg' class='target'>"
+     ]
+    ]
+   ]
+  }
+ }
+}

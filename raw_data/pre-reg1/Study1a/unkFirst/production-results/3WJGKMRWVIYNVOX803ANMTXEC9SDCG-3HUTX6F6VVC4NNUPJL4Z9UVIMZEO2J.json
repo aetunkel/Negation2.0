@@ -1,0 +1,93 @@
+{
+ "AssignmentId": "3HUTX6F6VVC4NNUPJL4Z9UVIMZEO2J",
+ "WorkerId": "12faf23fb3cb5fab21c60dae64356bb1",
+ "HITId": "3WJGKMRWVIYNVOX803ANMTXEC9SDCG",
+ "AssignmentStatus": "Approved",
+ "AutoApprovalTime": "2020-03-04T00:03:19.000Z",
+ "AcceptTime": "2020-03-03T23:08:04.000Z",
+ "SubmitTime": "2020-03-03T23:58:19.000Z",
+ "ApprovalTime": "2020-03-04T00:04:13.000Z",
+ "answers": {
+  "data": {
+   "responses": "\"rt\",\"responses\",\"locator\",\"trial_type\",\"trial_index\",\"time_elapsed\",\"internal_node_id\"\r\n\"21316.950000007637\",\"{\"\"Q0\"\":\"\"bird\"\"}\",\"lookup-code-0\",\"survey-text\",\"3\",\"974573\",\"0.0-3.0-0.0-0.0\"\r\n\"17627.365000007558\",\"{\"\"Q0\"\":\"\"art\"\"}\",\"\",\"survey-text\",\"5\",\"1013434\",\"0.0-5.0-0.0-0.0\"\r\n\"7718.364999993355\",\"{\"\"Q0\"\":\"\"bali\"\"}\",\"\",\"survey-text\",\"7\",\"1026931\",\"0.0-7.0\"\r\n\"7467.219999991357\",\"{\"\"Q0\"\":\"\"pigeon\"\"}\",\"\",\"survey-text\",\"10\",\"1042406\",\"0.0-10.0\"\r\n\"7696.929999991087\",\"{\"\"Q0\"\":\"\"plane\"\"}\",\"\",\"survey-text\",\"12\",\"1052207\",\"0.0-12.0\"\r\n\"24756.804999997374\",\"{\"\"Q0\"\":\"\"black plastic device\"\"}\",\"\",\"survey-text\",\"15\",\"1081354\",\"0.0-15.0-0.0\"\r\n\"30465.509999994654\",\"{\"\"Q0\"\":\"\"white fluffy scrunchy surrounded by scrunchy white popsicles\"\"}\",\"\",\"survey-text\",\"17\",\"1113927\",\"0.0-15.0-0.1\"\r\n\"49041.42500000307\",\"{\"\"Q0\"\":\"\"sideways toilet brush older crossed with a mini barbell, with the bells scooped out\"\"}\",\"\",\"survey-text\",\"19\",\"1164572\",\"0.0-15.0-0.2\"\r\n\"34999.25999999675\",\"{\"\"Q0\"\":\"\"Camo Snowboard with a some kind of strap\"\"}\",\"\",\"survey-text\",\"21\",\"1201177\",\"0.0-15.0-0.3\"\r\n\"17974.100000006845\",\"{\"\"Q0\"\":\"\"Partially deflated chef's hat\"\"}\",\"\",\"survey-text\",\"23\",\"1221755\",\"0.0-15.0-0.4\"\r\n\"34113.31000000052\",\"{\"\"Q0\"\":\"\"Clear plastic hamster toy with round windows\"\"}\",\"\",\"survey-text\",\"25\",\"1258479\",\"0.0-15.0-0.5\"\r\n\"13457.260000010021\",\"{\"\"Q0\"\":\"\"clear plastic hamster toy with round windows\"\"}\",\"\",\"survey-text\",\"27\",\"1274042\",\"0.0-15.0-0.6\"\r\n\"22336.96000000043\",\"{\"\"Q0\"\":\"\"Dog chew toy dumb bell with white and black pegs\"\"}\",\"\",\"survey-text\",\"29\",\"1299484\",\"0.0-15.0-0.7\"\r\n\"17798.22499999148\",\"{\"\"Q0\"\":\"\"white and black pen with cap on end\"\"}\",\"\",\"survey-text\",\"31\",\"1320391\",\"0.0-15.0-0.8\"\r\n\"18090.86999999988\",\"{\"\"Q0\"\":\"\"ring with large jewel\"\"}\",\"\",\"survey-text\",\"33\",\"1340582\",\"0.0-15.0-0.9\"\r\n\"21735.799999994924\",\"{\"\"Q0\"\":\"\"die with 6 on top, 4 to the left, 5 to the right\"\"}\",\"\",\"survey-text\",\"35\",\"1363673\",\"0.0-15.0-0.10\"\r\n\"11908.725000001257\",\"{\"\"Q0\"\":\"\"fir tree\"\"}\",\"\",\"survey-text\",\"37\",\"1377186\",\"0.0-15.0-0.11\"\r\n\"37155.3949999942\",\"{\"\"Q0\"\":\"\"mostly white cat with brown splotches on the head, back and tail\"\"}\",\"\",\"survey-text\",\"39\",\"1416202\",\"0.0-15.0-0.12\"\r\n\"9870.655000006314\",\"{\"\"Q0\"\":\"\"white cat with brown splotches\"\"}\",\"\",\"survey-text\",\"41\",\"1427427\",\"0.0-15.0-0.13\"\r\n\"8744.984999997541\",\"{\"\"Q0\"\":\"\"white cat with brown splotches\"\"}\",\"\",\"survey-text\",\"43\",\"1438277\",\"0.0-15.0-0.14\"\r\n\"24950.670000005746\",\"{\"\"Q0\"\":\"\"4-door compact car\"\"}\",\"\",\"survey-text\",\"45\",\"1464832\",\"0.0-15.0-0.15\"\r\n",
+   "trial_info": [
+    [
+     "<img src = 'img/practiceTarget1.jpg' class='target'>",
+     "<img src='img/practiceDistractor1.jpg' class='image'>"
+    ],
+    [
+     "<img src='img/practiceDistractor2.jpg' class='image'>",
+     "<img src ='img/practiceTarget2.jpg' class='target'>"
+    ],
+    [
+     [
+      "<img src='img/6.jpg' class='target'>",
+      "<img src='img/8.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/4.jpg' class='target'>",
+      "<img src='img/5.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/9.jpg' class='image'>",
+      "<img src='img/15.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/7.jpg' class='image'>",
+      "<img src='img/16.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/3.jpg' class='image'>",
+      "<img src='img/2.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/2.jpg' class='target'>",
+      "<img src='img/10.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/2.jpg' class='target'>",
+      "<img src='img/11.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/1.jpg' class='target'>",
+      "<img src='img/2.jpg' class='image'>"
+     ]
+    ],
+    [
+     [
+      "<img src='img/D.jpg' class='target'>",
+      "<img src='img/A.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/F.jpg' class='target'>",
+      "<img src='img/N.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/H.jpg' class='image'>",
+      "<img src='img/E.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/J.jpg' class='target'>",
+      "<img src='img/M.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/B.jpg' class='target'>",
+      "<img src='img/K.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/L.jpg' class='image'>",
+      "<img src='img/B.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/G.jpg' class='image'>",
+      "<img src='img/B.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/B.jpg' class='image'>",
+      "<img src='img/I.jpg' class='target'>"
+     ]
+    ]
+   ]
+  }
+ }
+}

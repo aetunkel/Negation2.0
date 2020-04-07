@@ -1,0 +1,93 @@
+{
+ "AssignmentId": "3RYC5T2D74I3C7NBDBWFZ28FKEIPRI",
+ "WorkerId": "fa467d0c657e55c0a4f2c3770da7ddfa",
+ "HITId": "3XDJY5RK5SA6HMVFTJUUDVPE21H4UL",
+ "AssignmentStatus": "Approved",
+ "AutoApprovalTime": "2019-08-22T00:50:34.000Z",
+ "AcceptTime": "2019-08-22T00:30:28.000Z",
+ "SubmitTime": "2019-08-22T00:45:34.000Z",
+ "ApprovalTime": "2019-08-22T00:51:13.000Z",
+ "answers": {
+  "data": {
+   "responses": "\"rt\",\"responses\",\"trial_type\",\"trial_index\",\"time_elapsed\",\"internal_node_id\"\r\n\"28936.174999922514\",\"{\"\"Q0\"\":\"\"city bird\"\"}\",\"survey-text\",\"3\",\"172394\",\"0.0-3.0\"\r\n\"40364.92000008002\",\"{\"\"Q0\"\":\"\"air transportation\"\"}\",\"survey-text\",\"4\",\"212866\",\"0.0-4.0\"\r\n\"9817.670000251383\",\"{\"\"Q0\"\":\"\"eating utensil\"\"}\",\"survey-text\",\"5\",\"222787\",\"0.0-5.0-0.0\"\r\n\"39120.82500010729\",\"{\"\"Q0\"\":\"\"These make up a forest\"\"}\",\"survey-text\",\"6\",\"262012\",\"0.0-5.0-0.1\"\r\n\"73299.51000027359\",\"{\"\"Q0\"\":\"\"You can sit in it\"\"}\",\"survey-text\",\"7\",\"335420\",\"0.0-5.0-0.2\"\r\n\"15593.675000127405\",\"{\"\"Q0\"\":\"\"What most people drive\"\"}\",\"survey-text\",\"8\",\"351120\",\"0.0-5.0-0.3\"\r\n\"79498.83499974385\",\"{\"\"Q0\"\":\"\"likes mice\"\"}\",\"survey-text\",\"9\",\"430724\",\"0.0-5.0-0.4\"\r\n\"55767.245000228286\",\"{\"\"Q0\"\":\"\"Tom from Tom & Jerry\"\"}\",\"survey-text\",\"10\",\"486598\",\"0.0-5.0-0.5\"\r\n\"19919.204999692738\",\"{\"\"Q0\"\":\"\"usually a pet\"\"}\",\"survey-text\",\"11\",\"506620\",\"0.0-5.0-0.6\"\r\n\"18279.89500015974\",\"{\"\"Q0\"\":\"\"You use it to write\"\"}\",\"survey-text\",\"12\",\"525004\",\"0.0-5.0-0.7\"\r\n\"33494.91499969736\",\"{\"\"Q0\"\":\"\"Type of art\"\"}\",\"survey-text\",\"13\",\"558604\",\"0.0-5.0-0.8\"\r\n\"33073.880000039935\",\"{\"\"Q0\"\":\"\"Toy for Dogs\"\"}\",\"survey-text\",\"14\",\"591780\",\"0.0-5.0-0.9\"\r\n\"23663.51500013843\",\"{\"\"Q0\"\":\"\"Made of clay\"\"}\",\"survey-text\",\"15\",\"615550\",\"0.0-5.0-0.10\"\r\n\"55978.59499976039\",\"{\"\"Q0\"\":\"\"Another form of art\"\"}\",\"survey-text\",\"16\",\"671633\",\"0.0-5.0-0.11\"\r\n\"66300.82000000402\",\"{\"\"Q0\"\":\"\"like a fan\"\"}\",\"survey-text\",\"17\",\"738037\",\"0.0-5.0-0.12\"\r\n\"44198.57499981299\",\"{\"\"Q0\"\":\"\"similar to a pencil sharpener\"\"}\",\"survey-text\",\"18\",\"782343\",\"0.0-5.0-0.13\"\r\n\"26479.625000152737\",\"{\"\"Q0\"\":\"\"comes in a pair\"\"}\",\"survey-text\",\"19\",\"808926\",\"0.0-5.0-0.14\"\r\n\"35150.83499997854\",\"{\"\"Q0\"\":\"\"toy for pets\"\"}\",\"survey-text\",\"20\",\"844180\",\"0.0-5.0-0.15\"\r\n",
+   "trial_info": [
+    [
+     "<img src = 'img/practiceTarget1.jpg' class='target'>",
+     "<img src='img/practiceDistractor1.jpg' class='image'>"
+    ],
+    [
+     "<img src='img/practiceDistractor2.jpg' class='image'>",
+     "<img src ='img/practiceTarget2.jpg' class='target'>"
+    ],
+    [
+     [
+      "<img src='img/H.jpg' class='image'>",
+      "<img src='img/G.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/J.jpg' class='target'>",
+      "<img src='img/K.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/E.jpg' class='target'>",
+      "<img src='img/L.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/I.jpg' class='target'>",
+      "<img src='img/A.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/B.jpg' class='target'>",
+      "<img src='img/A.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/F.jpg' class='image'>",
+      "<img src='img/B.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/B.jpg' class='target'>",
+      "<img src='img/C.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/B.jpg' class='image'>",
+      "<img src='img/D.jpg' class='target'>"
+     ]
+    ],
+    [
+     [
+      "<img src='img/8.jpg' class='target'>",
+      "<img src='img/3.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/11.jpg' class='target'>",
+      "<img src='img/10.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/2.jpg' class='image'>",
+      "<img src='img/7.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/1.jpg' class='target'>",
+      "<img src='img/5.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/5.jpg' class='image'>",
+      "<img src='img/6.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/9.jpg' class='image'>",
+      "<img src='img/6.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/6.jpg' class='target'>",
+      "<img src='img/12.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/6.jpg' class='image'>",
+      "<img src='img/4.jpg' class='target'>"
+     ]
+    ]
+   ]
+  }
+ }
+}

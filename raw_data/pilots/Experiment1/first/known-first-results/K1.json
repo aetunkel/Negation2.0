@@ -1,0 +1,93 @@
+{
+ "AssignmentId": "3CFVK00FWMAKZ3ATTV0A7Q8ZJH3L6I",
+ "WorkerId": "1dae4326fd6973db714b89371dc42685",
+ "HITId": "3L1EFR8WWTUIVA41FPVM83ZRE6GF9T",
+ "AssignmentStatus": "Approved",
+ "AutoApprovalTime": "2019-08-22T00:31:52.000Z",
+ "AcceptTime": "2019-08-22T00:12:08.000Z",
+ "SubmitTime": "2019-08-22T00:26:52.000Z",
+ "ApprovalTime": "2019-08-22T00:32:13.000Z",
+ "answers": {
+  "data": {
+   "responses": "\"rt\",\"responses\",\"trial_type\",\"trial_index\",\"time_elapsed\",\"internal_node_id\"\r\n\"9795.799999963492\",\"{\"\"Q0\"\":\"\"Select the bird\"\"}\",\"survey-text\",\"3\",\"36673\",\"0.0-3.0\"\r\n\"5837.820000015199\",\"{\"\"Q0\"\":\"\"Choose the airplane\"\"}\",\"survey-text\",\"4\",\"42620\",\"0.0-4.0\"\r\n\"5452.144999988377\",\"{\"\"Q0\"\":\"\"Choose the tree\"\"}\",\"survey-text\",\"5\",\"48178\",\"0.0-5.0-0.0\"\r\n\"5783.94999995362\",\"{\"\"Q0\"\":\"\"Choose the car\"\"}\",\"survey-text\",\"6\",\"54068\",\"0.0-5.0-0.1\"\r\n\"6143.889999948442\",\"{\"\"Q0\"\":\"\"Choose the die\"\"}\",\"survey-text\",\"7\",\"60319\",\"0.0-5.0-0.2\"\r\n\"5941.149999969639\",\"{\"\"Q0\"\":\"\"Choose the shoe\"\"}\",\"survey-text\",\"8\",\"66368\",\"0.0-5.0-0.3\"\r\n\"4844.204999972135\",\"{\"\"Q0\"\":\"\"Choose the flower\"\"}\",\"survey-text\",\"9\",\"71318\",\"0.0-5.0-0.4\"\r\n\"5049.249999923632\",\"{\"\"Q0\"\":\"\"Choose the flower\"\"}\",\"survey-text\",\"10\",\"76475\",\"0.0-5.0-0.5\"\r\n\"6523.4850000124425\",\"{\"\"Q0\"\":\"\"Choose the flower\"\"}\",\"survey-text\",\"11\",\"83104\",\"0.0-5.0-0.6\"\r\n\"5225.209999945946\",\"{\"\"Q0\"\":\"\"Choose the fork\"\"}\",\"survey-text\",\"12\",\"88436\",\"0.0-5.0-0.7\"\r\n\"8290.730000007898\",\"{\"\"Q0\"\":\"\"Choose the pink object\"\"}\",\"survey-text\",\"13\",\"96834\",\"0.0-5.0-0.8\"\r\n\"17736.844999948516\",\"{\"\"Q0\"\":\"\"Choose the bulb object\"\"}\",\"survey-text\",\"14\",\"114707\",\"0.0-5.0-0.9\"\r\n\"7998.130000079982\",\"{\"\"Q0\"\":\"\"Choose the yellow object\"\"}\",\"survey-text\",\"15\",\"122811\",\"0.0-5.0-0.10\"\r\n\"8517.705000005662\",\"{\"\"Q0\"\":\"\"Choose the colorful object\"\"}\",\"survey-text\",\"16\",\"131434\",\"0.0-5.0-0.11\"\r\n\"10514.835000038147\",\"{\"\"Q0\"\":\"\"Choose the red object\"\"}\",\"survey-text\",\"17\",\"142054\",\"0.0-5.0-0.12\"\r\n\"10226.939999964088\",\"{\"\"Q0\"\":\"\"Choose the red object\"\"}\",\"survey-text\",\"18\",\"152387\",\"0.0-5.0-0.13\"\r\n\"5885.144999949262\",\"{\"\"Q0\"\":\"\"Choose the red object\"\"}\",\"survey-text\",\"19\",\"158380\",\"0.0-5.0-0.14\"\r\n\"6523.184999939986\",\"{\"\"Q0\"\":\"\"Choose the toy\"\"}\",\"survey-text\",\"20\",\"165010\",\"0.0-5.0-0.15\"\r\n",
+   "trial_info": [
+    [
+     "<img src = 'img/practiceTarget1.jpg' class='target'>",
+     "<img src='img/practiceDistractor1.jpg' class='image'>"
+    ],
+    [
+     "<img src='img/practiceDistractor2.jpg' class='image'>",
+     "<img src ='img/practiceTarget2.jpg' class='target'>"
+    ],
+    [
+     [
+      "<img src='img/B.jpg' class='image'>",
+      "<img src='img/J.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/F.jpg' class='image'>",
+      "<img src='img/I.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/H.jpg' class='target'>",
+      "<img src='img/D.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/A.jpg' class='image'>",
+      "<img src='img/C.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/A.jpg' class='image'>",
+      "<img src='img/L.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/K.jpg' class='image'>",
+      "<img src='img/L.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/E.jpg' class='image'>",
+      "<img src='img/L.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/L.jpg' class='image'>",
+      "<img src='img/G.jpg' class='target'>"
+     ]
+    ],
+    [
+     [
+      "<img src='img/3.jpg' class='target'>",
+      "<img src='img/7.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/10.jpg' class='target'>",
+      "<img src='img/6.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/2.jpg' class='target'>",
+      "<img src='img/8.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/5.jpg' class='target'>",
+      "<img src='img/12.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/1.jpg' class='target'>",
+      "<img src='img/12.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/1.jpg' class='target'>",
+      "<img src='img/4.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/9.jpg' class='image'>",
+      "<img src='img/1.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/1.jpg' class='image'>",
+      "<img src='img/11.jpg' class='target'>"
+     ]
+    ]
+   ]
+  }
+ }
+}

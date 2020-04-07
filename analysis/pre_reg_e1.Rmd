@@ -53,7 +53,7 @@ coded_data <- read_csv(here("data/pre-reg1/coded_data.csv")) %>%
 
 ```{r summarise_data}
 mean_data <- coded_data %>% 
-  group_by(experiment, type, switch, id) %>%
+  group_by(experiment, order, type, switch, id) %>%
   summarise(negation = mean(negation)) %>%
   tidyboot_mean(negation) %>%
   mutate(empirical_stat = empirical_stat)
@@ -61,7 +61,7 @@ mean_data <- coded_data %>%
 
 ```{r plot_negation}
 ggplot(mean_data, aes(x = switch, y = empirical_stat, color = experiment)) + 
-  facet_wrap(~ type) +
+  facet_grid(order ~ type) +
   geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper), 
                   position = position_dodge(.5)) + 
   scale_color_ptol() + 
@@ -81,6 +81,18 @@ no_distractor_model <- glmer(negation ~  switch * experiment + order + trial +
   select(-group, -effect)
 
 no_distractor_model
+```
+
+```{r interaction-model}
+interaction_model <- glmer(negation ~  switch * order * experiment + 
+                 (1 | id), 
+               family = "binomial", 
+               data = coded_data %>% filter(type == "unknown")) %>%
+  tidy() %>%
+  filter(effect == "fixed") %>%
+  select(-group, -effect)
+
+interaction_model
 ```
 
 ```{r models, eval = FALSE}

@@ -1,0 +1,93 @@
+{
+ "AssignmentId": "3FE7TXL1LJC78Z75YYW3YZQHDIOQ2V",
+ "WorkerId": "dbbc12007f9ff3afd8c68da4280f51fd",
+ "HITId": "3L1EFR8WWTUIVA41FPVM83ZRE6GF9T",
+ "AssignmentStatus": "Approved",
+ "AutoApprovalTime": "2019-08-22T01:09:25.000Z",
+ "AcceptTime": "2019-08-22T00:28:24.000Z",
+ "SubmitTime": "2019-08-22T01:04:25.000Z",
+ "ApprovalTime": "2019-08-22T01:10:13.000Z",
+ "answers": {
+  "data": {
+   "responses": "\"rt\",\"responses\",\"trial_type\",\"trial_index\",\"time_elapsed\",\"internal_node_id\"\r\n\"9530.030000001716\",\"{\"\"Q0\"\":\"\"pigeon\"\"}\",\"survey-text\",\"3\",\"65441\",\"0.0-3.0\"\r\n\"17583.580000005895\",\"{\"\"Q0\"\":\"\"the object in the blue square is an airplane\"\"}\",\"survey-text\",\"4\",\"83131\",\"0.0-4.0\"\r\n\"10166.834999996354\",\"{\"\"Q0\"\":\"\"object in blue square is a die\"\"}\",\"survey-text\",\"5\",\"93409\",\"0.0-5.0-0.0\"\r\n\"9219.819999998435\",\"{\"\"Q0\"\":\"\"object in blue square is a fork\"\"}\",\"survey-text\",\"6\",\"102736\",\"0.0-5.0-0.1\"\r\n\"19492.85499999678\",\"{\"\"Q0\"\":\"\"object in blue square is a fir tree\"\"}\",\"survey-text\",\"7\",\"122336\",\"0.0-5.0-0.2\"\r\n\"7013.655000002473\",\"{\"\"Q0\"\":\"\"object in blue square is a yellow butterfly\"\"}\",\"survey-text\",\"8\",\"129456\",\"0.0-5.0-0.3\"\r\n\"9649.474999998347\",\"{\"\"Q0\"\":\"\"object in blue square is a cat sitting down\"\"}\",\"survey-text\",\"9\",\"139212\",\"0.0-5.0-0.4\"\r\n\"5709.510000000591\",\"{\"\"Q0\"\":\"\"object in blue square is a cat sitting down\"\"}\",\"survey-text\",\"10\",\"145032\",\"0.0-5.0-0.5\"\r\n\"5697.084999999788\",\"{\"\"Q0\"\":\"\"object in blue square is a cat sitting down\"\"}\",\"survey-text\",\"11\",\"150836\",\"0.0-5.0-0.6\"\r\n\"8486.045000005106\",\"{\"\"Q0\"\":\"\"object in blue square is a black men's dress shoe\"\"}\",\"survey-text\",\"12\",\"159428\",\"0.0-5.0-0.7\"\r\n\"37810.129999998026\",\"{\"\"Q0\"\":\"\"object in blue square is a red rubber dog toy with two x shapes intersecting each other\"\"}\",\"survey-text\",\"13\",\"197350\",\"0.0-5.0-0.8\"\r\n\"40474.590000005264\",\"{\"\"Q0\"\":\"\"object in blue squareis a 7-pointed 3d object that is silver and black and seems to be made of a reflective surface\"\"}\",\"survey-text\",\"14\",\"237936\",\"0.0-5.0-0.9\"\r\n\"21128.394999999728\",\"{\"\"Q0\"\":\"\"object in blue square is an orange rubber dog toy covered in spikes shaped like the letter Y\"\"}\",\"survey-text\",\"15\",\"259174\",\"0.0-5.0-0.10\"\r\n\"41146.73000000039\",\"{\"\"Q0\"\":\"\"object in blue square is a blue plastic snowboard-shape with two arms forming an oval shape above it\"\"}\",\"survey-text\",\"16\",\"300432\",\"0.0-5.0-0.11\"\r\n\"90923.90499999601\",\"{\"\"Q0\"\":\"\"object in blue square is a yellow hollow glass object shaped like  sideways snowman (only made of two balls)\"\"}\",\"survey-text\",\"17\",\"391466\",\"0.0-5.0-0.12\"\r\n\"40073.199999998906\",\"{\"\"Q0\"\":\"\"object in blue square is a yellow, hollow plastic or glass shaped like a sideways snowman made of two snowballs\"\"}\",\"survey-text\",\"18\",\"431655\",\"0.0-5.0-0.13\"\r\n\"31418.90499999863\",\"{\"\"Q0\"\":\"\"object in blue square is a yellow glass shape hollow and shaped like a sideways snowman\"\"}\",\"survey-text\",\"19\",\"463193\",\"0.0-5.0-0.14\"\r\n\"53623.679999996966\",\"{\"\"Q0\"\":\"\"object in blue square is a multicolored rubber rod with three upside down Y shapes on each end\"\"}\",\"survey-text\",\"20\",\"516931\",\"0.0-5.0-0.15\"\r\n",
+   "trial_info": [
+    [
+     "<img src = 'img/practiceTarget1.jpg' class='target'>",
+     "<img src='img/practiceDistractor1.jpg' class='image'>"
+    ],
+    [
+     "<img src='img/practiceDistractor2.jpg' class='image'>",
+     "<img src ='img/practiceTarget2.jpg' class='target'>"
+    ],
+    [
+     [
+      "<img src='img/H.jpg' class='target'>",
+      "<img src='img/I.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/G.jpg' class='target'>",
+      "<img src='img/A.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/J.jpg' class='target'>",
+      "<img src='img/E.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/K.jpg' class='target'>",
+      "<img src='img/F.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/B.jpg' class='target'>",
+      "<img src='img/F.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/B.jpg' class='target'>",
+      "<img src='img/D.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/B.jpg' class='target'>",
+      "<img src='img/L.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/B.jpg' class='image'>",
+      "<img src='img/C.jpg' class='target'>"
+     ]
+    ],
+    [
+     [
+      "<img src='img/11.jpg' class='target'>",
+      "<img src='img/3.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/8.jpg' class='target'>",
+      "<img src='img/6.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/1.jpg' class='image'>",
+      "<img src='img/4.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/12.jpg' class='image'>",
+      "<img src='img/7.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/2.jpg' class='target'>",
+      "<img src='img/12.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/9.jpg' class='image'>",
+      "<img src='img/2.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/2.jpg' class='target'>",
+      "<img src='img/10.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/5.jpg' class='target'>",
+      "<img src='img/2.jpg' class='image'>"
+     ]
+    ]
+   ]
+  }
+ }
+}

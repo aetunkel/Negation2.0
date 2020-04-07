@@ -1,0 +1,93 @@
+{
+ "AssignmentId": "3483FV8BEF8EYHOLJPI5SU9QDHD26B",
+ "WorkerId": "dd01e29f0d968318972ad6f49ac36cb7",
+ "HITId": "3XDJY5RK5SA6HMVFTJUUDVPE21H4UL",
+ "AssignmentStatus": "Approved",
+ "AutoApprovalTime": "2019-08-22T00:46:56.000Z",
+ "AcceptTime": "2019-08-22T00:12:07.000Z",
+ "SubmitTime": "2019-08-22T00:41:56.000Z",
+ "ApprovalTime": "2019-08-22T00:47:13.000Z",
+ "answers": {
+  "data": {
+   "responses": "\"rt\",\"responses\",\"trial_type\",\"trial_index\",\"time_elapsed\",\"internal_node_id\"\r\n\"41946.5649999911\",\"{\"\"Q0\"\":\"\"the pigeon\"\"}\",\"survey-text\",\"3\",\"84819\",\"0.0-3.0\"\r\n\"10584.025000003749\",\"{\"\"Q0\"\":\"\"it's an airplane\"\"}\",\"survey-text\",\"4\",\"95610\",\"0.0-4.0\"\r\n\"8539.925000004587\",\"{\"\"Q0\"\":\"\"the yellow flower\"\"}\",\"survey-text\",\"5\",\"104363\",\"0.0-5.0-0.0\"\r\n\"8514.125000001513\",\"{\"\"Q0\"\":\"\"a die, like from a game\"\"}\",\"survey-text\",\"6\",\"113003\",\"0.0-5.0-0.1\"\r\n\"20774.044999998296\",\"{\"\"Q0\"\":\"\"a wooden chair with a fabric seat\"\"}\",\"survey-text\",\"7\",\"134038\",\"0.0-5.0-0.2\"\r\n\"8552.154999997583\",\"{\"\"Q0\"\":\"\"a black laceup shoe\"\"}\",\"survey-text\",\"8\",\"142775\",\"0.0-5.0-0.3\"\r\n\"3924.200000008568\",\"{\"\"Q0\"\":\"\"a fork\"\"}\",\"survey-text\",\"9\",\"146975\",\"0.0-5.0-0.4\"\r\n\"6392.514999999548\",\"{\"\"Q0\"\":\"\"a fork\"\"}\",\"survey-text\",\"10\",\"153527\",\"0.0-5.0-0.5\"\r\n\"2608.634999996866\",\"{\"\"Q0\"\":\"\"a fork\"\"}\",\"survey-text\",\"11\",\"156249\",\"0.0-5.0-0.6\"\r\n\"2502.9000000067754\",\"{\"\"Q0\"\":\"\"a fork\"\"}\",\"survey-text\",\"12\",\"158919\",\"0.0-5.0-0.7\"\r\n\"11968.695000003208\",\"{\"\"Q0\"\":\"\"a red sculpture, shiny\"\"}\",\"survey-text\",\"13\",\"171056\",\"0.0-5.0-0.8\"\r\n\"15639.960000000428\",\"{\"\"Q0\"\":\"\"a red oblect with protrusions sticking out\"\"}\",\"survey-text\",\"14\",\"186919\",\"0.0-5.0-0.9\"\r\n\"21000.935000003665\",\"{\"\"Q0\"\":\"\"a bumpy orange thing with three branches, looks like a dog toy\"\"}\",\"survey-text\",\"15\",\"208040\",\"0.0-5.0-0.10\"\r\n\"20776.540000006207\",\"{\"\"Q0\"\":\"\"a green plastic thing with orange arms\"\"}\",\"survey-text\",\"16\",\"228999\",\"0.0-5.0-0.11\"\r\n\"23368.80999999994\",\"{\"\"Q0\"\":\"\"a thing with swirly pink color like a rooster's comb\"\"}\",\"survey-text\",\"17\",\"252486\",\"0.0-5.0-0.12\"\r\n\"28108.739999996033\",\"{\"\"Q0\"\":\"\"a multicolor long thing with ends that rest on the floor\"\"}\",\"survey-text\",\"18\",\"280728\",\"0.0-5.0-0.13\"\r\n\"17558.639999988372\",\"{\"\"Q0\"\":\"\"a multicolor thing, long, with sides that rest on the floor\"\"}\",\"survey-text\",\"19\",\"298402\",\"0.0-5.0-0.14\"\r\n\"9385.150000001886\",\"{\"\"Q0\"\":\"\"a long multicolor thing\"\"}\",\"survey-text\",\"20\",\"307909\",\"0.0-5.0-0.15\"\r\n",
+   "trial_info": [
+    [
+     "<img src = 'img/practiceTarget1.jpg' class='target'>",
+     "<img src='img/practiceDistractor1.jpg' class='image'>"
+    ],
+    [
+     "<img src='img/practiceDistractor2.jpg' class='image'>",
+     "<img src ='img/practiceTarget2.jpg' class='target'>"
+    ],
+    [
+     [
+      "<img src='img/L.jpg' class='target'>",
+      "<img src='img/K.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/H.jpg' class='image'>",
+      "<img src='img/A.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/E.jpg' class='target'>",
+      "<img src='img/J.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/C.jpg' class='target'>",
+      "<img src='img/D.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/G.jpg' class='target'>",
+      "<img src='img/D.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/I.jpg' class='image'>",
+      "<img src='img/G.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/G.jpg' class='target'>",
+      "<img src='img/B.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/G.jpg' class='image'>",
+      "<img src='img/F.jpg' class='target'>"
+     ]
+    ],
+    [
+     [
+      "<img src='img/1.jpg' class='image'>",
+      "<img src='img/8.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/11.jpg' class='image'>",
+      "<img src='img/7.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/4.jpg' class='target'>",
+      "<img src='img/6.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/9.jpg' class='target'>",
+      "<img src='img/3.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/3.jpg' class='image'>",
+      "<img src='img/5.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/12.jpg' class='image'>",
+      "<img src='img/5.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/5.jpg' class='target'>",
+      "<img src='img/10.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/5.jpg' class='image'>",
+      "<img src='img/2.jpg' class='target'>"
+     ]
+    ]
+   ]
+  }
+ }
+}
