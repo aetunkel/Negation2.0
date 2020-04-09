@@ -27,7 +27,7 @@ known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,11,has five holes,FA
 known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,12,spiky,FALSE
 known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,13,looks like two hands in the air,FALSE
 known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,14,darker in color,FALSE
-known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,15,no slots,FALSE
+known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,15,no slots,TRUE
 known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,16,lighter in color,FALSE
 known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,17,not spiky,TRUE
 known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,18,darker in color,FALSE
@@ -127,7 +127,7 @@ known repeated,mixed first,911a67eafd2fc4e82a03a7dd7b78fc1f,15,three legged,FALS
 known repeated,mixed first,911a67eafd2fc4e82a03a7dd7b78fc1f,16,three legged,FALSE
 known repeated,mixed first,911a67eafd2fc4e82a03a7dd7b78fc1f,17,three leg,FALSE
 known repeated,mixed first,911a67eafd2fc4e82a03a7dd7b78fc1f,18,blimp,FALSE
-known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,3,not a spoon but,TRUE
+known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,3,not a spoon but,FALSE
 known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,4,weird shape,FALSE
 known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,5,weird seaweed,FALSE
 known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,6,jewelry,FALSE
@@ -547,7 +547,7 @@ known repeated,unknown first,be835b45298480b01b8f0c417261df2b,3,blocks,FALSE
 known repeated,unknown first,be835b45298480b01b8f0c417261df2b,4,airplane,FALSE
 known repeated,unknown first,be835b45298480b01b8f0c417261df2b,5,looks like it can spin,FALSE
 known repeated,unknown first,be835b45298480b01b8f0c417261df2b,6,multiple holes in it,FALSE
-known repeated,unknown first,be835b45298480b01b8f0c417261df2b,7,hand looking things NOT clasped,FALSE
+known repeated,unknown first,be835b45298480b01b8f0c417261df2b,7,hand looking things NOT clasped,TRUE
 known repeated,unknown first,be835b45298480b01b8f0c417261df2b,8,looks like hands clasped,FALSE
 known repeated,unknown first,be835b45298480b01b8f0c417261df2b,9,looks like hands clasped,FALSE
 known repeated,unknown first,be835b45298480b01b8f0c417261df2b,10,looks like jar on its side,FALSE
