@@ -1,0 +1,157 @@
+---
+title: "Preregistered analyses for E1"
+author: "Alex Tunkel and Dan Yurovsky"
+date: '`r Sys.Date()`'
+output: 
+  html_document:
+  toc: false
+number_sections: false
+theme: lumen
+toc_float: false
+code_folding: hide
+---
+  
+```{r load-libraries, message=FALSE, warning=FALSE, show = F}
+library(forcats)
+library(knitr)
+library(tidyboot)
+library(stringr)
+library(here)
+library(lme4)
+library(lmerTest)
+library(broom)
+library(broom.mixed)
+library(ggthemes)
+library(tidyverse)
+
+
+opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, 
+               error = FALSE, cache = TRUE, tidy = FALSE)
+
+
+theme_set(theme_few(base_size = 12))
+```
+
+Read hand-coded data
+```{r load_coded_data, eval = FALSE}
+coded_data <- read_csv(here("data/combined/pre_processed_data.csv"))
+# 
+# manually_coded_data <- read_csv(here("data/pre-reg1/pre_processed_data.csv")) 
+# 
+# coded_data <- pre_processed_data %>%
+#   left_join(manually_coded_data, by = c("experiment", "id", 
+#                                         "trial", "response"))
+
+write_csv(coded_data, here("data/pre-reg1/coded_data.csv"))
+```
+
+```{r read_coded_data}
+coded_data <- read_csv(here("data/pre-reg1/coded_data.csv")) %>%
+  filter(!is.na(negation))
+```
+
+```{r summarise_data}
+mean_data <- coded_data %>% 
+  mutate(block = if_else(trial >= 11, 2, 1),
+         block_type = case_when(order == "mixed first" & block == 2 ~ 
+                                  "all unknown",
+                              order == "unknown first" & block == 1 ~ 
+                                "all unknown",
+                              T ~ mixed_repeated)) %>%
+  group_by(mixed_repeated, order, target_type, distractor_type, switch, id) %>%
+  summarise(negation = mean(negation, na.rm = T)) %>%
+  tidyboot_mean(negation) %>%
+  ungroup() %>%
+  mutate(target_type = factor(target_type, levels = c("known", "unknown"), 
+                           labels = c("known target", "unknown target")),
+         distractor_type = factor(distractor_type, levels = c("known", "unknown"), 
+                           labels = c("known distractor", "unknown distractor")))
+```
+
+```{r plot_negation}
+ggplot(mean_data %>% filter(target_type == "unknown target"),
+       aes(x = switch, y = empirical_stat, color = distractor_type)) + 
+  facet_grid(order ~ mixed_repeated) +
+  geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper), 
+                  position = position_dodge(.5)) + 
+  scale_color_ptol() + 
+  labs(y = "negation probability", x = "") + 
+  theme(legend.position = "bottom")
+```
+
+
+```{r model}
+no_distractor_model <- glmer(negation ~  switch * experiment + order + trial +
+                 (1 | id) + (1 | target), 
+               family = "binomial", 
+               data = coded_data %>% filter(type == "unknown")) %>%
+  tidy() %>%
+  filter(effect == "fixed") %>%
+  select(-group, -effect)
+
+no_distractor_model
+```
+
+```{r interaction-model}
+interaction_model <- glmer(negation ~  switch * order * experiment + 
+                 (1 | id), 
+               family = "binomial", 
+               data = coded_data %>% filter(type == "unknown")) %>%
+  tidy() %>%
+  filter(effect == "fixed") %>%
+  select(-group, -effect)
+
+interaction_model
+```
+
+```{r models, eval = FALSE}
+# Will try maximal model first, and then subsequent models sequentially 
+# until a model converges withou any error messages or warnings
+maximal_model <- glmer(negation ~  switch * experiment + order + trial +
+                 (switch + trial | id) + (1 | target) + (1 | distractor), 
+               family = "binomial", 
+               data = coded_data %>% filter(type == "unknown")) %>%
+  tidy() %>%
+  filter(effect == "fixed") %>%
+  select(-group, -effect)
+
+no_trial_slope_model <- glmer(negation ~  switch * experiment + order + trial +
+                 (switch | id) + (1 | target) + (1 | distractor), 
+               family = "binomial", 
+               data = coded_data %>% filter(type == "unknown")) %>%
+  tidy() %>%
+  filter(effect == "fixed") %>%
+  select(-group, -effect)
+
+no_slope_model <- glmer(negation ~  switch * experiment + order + trial +
+                 (1 | id) + (1 | target) + (1 | distractor), 
+               family = "binomial", 
+               data = coded_data %>% filter(type == "unknown")) %>%
+  tidy() %>%
+  filter(effect == "fixed") %>%
+  select(-group, -effect)
+
+no_distractor_model <- glmer(negation ~  switch * experiment + order + trial +
+                 (1 | id) + (1 | target), 
+               family = "binomial", 
+               data = coded_data %>% filter(type == "unknown")) %>%
+  tidy() %>%
+  filter(effect == "fixed") %>%
+  select(-group, -effect)
+
+no_trial_model <- glmer(negation ~  switch * experiment + order +
+                 (1 | id) + (1 | target), 
+               family = "binomial", 
+               data = coded_data %>% filter(type == "unknown")) %>%
+  tidy() %>%
+  filter(effect == "fixed") %>%
+  select(-group, -effect)
+
+simplest_model <- glmer(negation ~  switch * experiment +
+                 (1 | id) + (1 | target), 
+               family = "binomial", 
+               data = coded_data %>% filter(type == "unknown")) %>%
+  tidy() %>%
+  filter(effect == "fixed") %>%
+  select(-group, -effect)
+```

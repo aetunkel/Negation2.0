@@ -69,7 +69,7 @@ read_file <- function(file) {
     select(-value, -name) %>%
     mutate(trial = as.numeric(gsub("[^0-9]", "", pic))) %>%
     spread(type, pic) %>%
-    mutate(type = "practice") %>%
+    mutate(target_type = "practice", distractor_type = "practice") %>%
     rename(distractor = image)
   
   # Ge content of test trials
@@ -92,7 +92,10 @@ read_file <- function(file) {
     ungroup() %>%
     mutate(trial = trial + nrow(practice)) %>%
     select(-type) %>%
-    left_join(trial_types, by = c("target" = "image"))
+    left_join(trial_types, by = c("target" = "image")) %>%
+    rename(target_type = type) %>%
+    left_join(trial_types, by = c("distractor" = "image")) %>%
+    rename(distractor_type = type)
   
   responses %>%
     left_join(bind_rows(practice, test), by = "trial") %>%
@@ -106,33 +109,48 @@ read_file <- function(file) {
 Load in all files
 ```{r read-files}
 raw_data <- map_df(files, read_file) %>%
-  mutate(order = if_else(str_detect(file, "unkFirst"), "unknown first", "known first"),
-         experiment = if_else(str_detect(file, "Study1a"), "1a", "1b")) %>%
-  select(experiment, order, id, trial, type, response, time_elapsed, target, distractor)
+  mutate(order = if_else(str_detect(file, "combined pilot/1") | str_detect(file, "combined pilot/3"), 
+                         "unknown first", "mixed first"),
+         mixed_repeated = if_else(str_detect(file, "combined pilot/3") | str_detect(file, "combined pilot/4"), 
+                         "known repeated", "unknown repeated")) %>%
+  select(mixed_repeated, order, id, trial, target_type, distractor_type, response, time_elapsed, target, distractor, file, time_elapsed)
+```
+
+
+```{r times, eval = FALSE}
+raw_data %>%
+  group_by(mixed_repeated, order, id, file) %>%
+  summarise(time_elapsed = sum(time_elapsed)/10000/60) %>%
+  filter(time_elapsed >= 80)
+
+  pull(time_elapsed) %>%
+  hist()
+  
 ```
 
 
 Detect "not" in responses to prepare for manual coding
 ```{r pre-process}
 pre_processed_data <- raw_data %>%
-  filter(type != "practice") %>%
-  arrange(id, trial) %>%
-  group_by(id, target) %>%
+  filter(target_type != "practice") %>%
+  arrange(mixed_repeated, order, id, trial) %>%
+  group_by(mixed_repeated, order, id, target) %>%
   mutate(occurrence = 1:n()) %>%
-  group_by(id) %>%
+  group_by(mixed_repeated, order, id) %>%
   mutate(switch = lag(occurrence == 3, default = FALSE),
          switch = factor(switch, levels = c(FALSE, TRUE), 
                          labels = c("standard", "switch")),
          response = if_else(is.na(response), "", response)) %>%
   ungroup() %>%
-  mutate(negation = str_detect(response, "not"))
+  mutate(negation = str_detect(response, "not")) %>%
+  arrange(mixed_repeated, order, id, trial)
 
-write_csv(pre_processed_data, here("data/pre-reg1/pre_processed_data.csv"))
+write_csv(pre_processed_data, here("data/combined/pre_processed_data.csv"))
 
 to_code_data <- pre_processed_data %>%
-  select(experiment, id, trial, response, negation)
+  select(mixed_repeated, order, id, trial, response, negation)
 
-write_csv(to_code_data, here("data/pre-reg1/to_code_data.csv"))
+write_csv(to_code_data, here("data/combined/to_code_data.csv"))
 ```
 
 
