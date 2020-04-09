@@ -1,20 +1,4 @@
 mixed_repeated,order,id,trial,response,negation
-known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,3,flower,FALSE
-known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,4,art,FALSE
-known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,5,hart,FALSE
-known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,6,cup,FALSE
-known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,7,apple,FALSE
-known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,8,apple,FALSE
-known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,9,wire,FALSE
-known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,10,art,FALSE
-known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,11,art,FALSE
-known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,12,art,FALSE
-known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,13,band,FALSE
-known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,14,doll,FALSE
-known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,15,art,FALSE
-known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,16,art,FALSE
-known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,17,art,FALSE
-known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,18,art,FALSE
 known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,3,fruit,FALSE
 known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,4,not a shoe,TRUE
 known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,5,not a pen,TRUE
@@ -335,22 +319,6 @@ known repeated,unknown first,0049c58b3fc386ce388a724bb0cf41b8,15,a cup,FALSE
 known repeated,unknown first,0049c58b3fc386ce388a724bb0cf41b8,16,a cup,FALSE
 known repeated,unknown first,0049c58b3fc386ce388a724bb0cf41b8,17,a cup,FALSE
 known repeated,unknown first,0049c58b3fc386ce388a724bb0cf41b8,18,a figure,FALSE
-known repeated,unknown first,0cfc1094dff57fde74852117e762b131,3,paddle,FALSE
-known repeated,unknown first,0cfc1094dff57fde74852117e762b131,4,Right object,FALSE
-known repeated,unknown first,0cfc1094dff57fde74852117e762b131,5,right object again,FALSE
-known repeated,unknown first,0cfc1094dff57fde74852117e762b131,6,right,FALSE
-known repeated,unknown first,0cfc1094dff57fde74852117e762b131,7,right air pump,FALSE
-known repeated,unknown first,0cfc1094dff57fde74852117e762b131,8,right,FALSE
-known repeated,unknown first,0cfc1094dff57fde74852117e762b131,9,right,FALSE
-known repeated,unknown first,0cfc1094dff57fde74852117e762b131,10,left,FALSE
-known repeated,unknown first,0cfc1094dff57fde74852117e762b131,11,apple,FALSE
-known repeated,unknown first,0cfc1094dff57fde74852117e762b131,12,right,FALSE
-known repeated,unknown first,0cfc1094dff57fde74852117e762b131,13,left,FALSE
-known repeated,unknown first,0cfc1094dff57fde74852117e762b131,14,butterfly,FALSE
-known repeated,unknown first,0cfc1094dff57fde74852117e762b131,15,sunflower,FALSE
-known repeated,unknown first,0cfc1094dff57fde74852117e762b131,16,sunflower,FALSE
-known repeated,unknown first,0cfc1094dff57fde74852117e762b131,17,sunflower,FALSE
-known repeated,unknown first,0cfc1094dff57fde74852117e762b131,18,right,FALSE
 known repeated,unknown first,2c27f6e6a5175dd6a8983cbfd06c0435,3,top,FALSE
 known repeated,unknown first,2c27f6e6a5175dd6a8983cbfd06c0435,4,not bell,TRUE
 known repeated,unknown first,2c27f6e6a5175dd6a8983cbfd06c0435,5,white color,FALSE
@@ -591,22 +559,6 @@ known repeated,unknown first,dff4c0c7122dbfea8367f25b5a633f4b,15,shoe,FALSE
 known repeated,unknown first,dff4c0c7122dbfea8367f25b5a633f4b,16,shoe,FALSE
 known repeated,unknown first,dff4c0c7122dbfea8367f25b5a633f4b,17,shoe,FALSE
 known repeated,unknown first,dff4c0c7122dbfea8367f25b5a633f4b,18,roadblock thing,FALSE
-known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,3,toy,FALSE
-known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,4,toy,FALSE
-known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,5,toy,FALSE
-known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,6,toy,FALSE
-known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,7,toy,FALSE
-known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,8,toy,FALSE
-known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,9,toy,FALSE
-known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,10,toy,FALSE
-known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,11,toy,FALSE
-known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,12,head set,FALSE
-known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,13,toy,FALSE
-known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,14,ring,FALSE
-known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,15,car,FALSE
-known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,16,car,FALSE
-known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,17,car,FALSE
-known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,18,toy,FALSE
 known repeated,unknown first,f025fe0afa96693f67d9008ab79841eb,3,snowflake,FALSE
 known repeated,unknown first,f025fe0afa96693f67d9008ab79841eb,4,doughnut,FALSE
 known repeated,unknown first,f025fe0afa96693f67d9008ab79841eb,5,circle,FALSE
@@ -895,22 +847,6 @@ unknown repeated,mixed first,c8d839a935260547e10d1d1f690e240b,15,spiky,FALSE
 unknown repeated,mixed first,c8d839a935260547e10d1d1f690e240b,16,spiky,FALSE
 unknown repeated,mixed first,c8d839a935260547e10d1d1f690e240b,17,spiky,FALSE
 unknown repeated,mixed first,c8d839a935260547e10d1d1f690e240b,18,not spiky,TRUE
-unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,3,bread,FALSE
-unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,4,ring,FALSE
-unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,5,toy,FALSE
-unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,6,Toy,FALSE
-unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,7,Toy,FALSE
-unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,8,Toy,FALSE
-unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,9,Toy,FALSE
-unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,10,pen,FALSE
-unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,11,Toy,FALSE
-unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,12,Head set,FALSE
-unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,13,Toy,FALSE
-unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,14,Toy,FALSE
-unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,15,Toy,FALSE
-unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,16,Toy,FALSE
-unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,17,Toy,FALSE
-unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,18,Toy,FALSE
 unknown repeated,mixed first,e6676ad318698e0d511d982a6e096beb,3,snowshoe,FALSE
 unknown repeated,mixed first,e6676ad318698e0d511d982a6e096beb,4,fork,FALSE
 unknown repeated,mixed first,e6676ad318698e0d511d982a6e096beb,5,flob,FALSE
@@ -975,22 +911,6 @@ unknown repeated,unknown first,02832ada0da95184bd09d4b74ad2db35,15,paddle,FALSE
 unknown repeated,unknown first,02832ada0da95184bd09d4b74ad2db35,16,paddle,FALSE
 unknown repeated,unknown first,02832ada0da95184bd09d4b74ad2db35,17,paddle,FALSE
 unknown repeated,unknown first,02832ada0da95184bd09d4b74ad2db35,18,sunflower,FALSE
-unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,3,art,FALSE
-unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,4,art,FALSE
-unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,5,art,FALSE
-unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,6,art,FALSE
-unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,7,art,FALSE
-unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,8,art,FALSE
-unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,9,art,FALSE
-unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,10,art,FALSE
-unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,11,tools,FALSE
-unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,12,art,FALSE
-unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,13,art,FALSE
-unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,14,ring,FALSE
-unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,15,art,FALSE
-unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,16,art,FALSE
-unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,17,art,FALSE
-unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,18,art,FALSE
 unknown repeated,unknown first,15a9b0eb69cc551b52819754fdc32ad0,3,waves,FALSE
 unknown repeated,unknown first,15a9b0eb69cc551b52819754fdc32ad0,4,circles,FALSE
 unknown repeated,unknown first,15a9b0eb69cc551b52819754fdc32ad0,5,ring,FALSE
