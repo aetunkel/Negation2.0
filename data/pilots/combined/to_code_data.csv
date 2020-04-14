@@ -1,0 +1,1281 @@
+mixed_repeated,order,id,trial,response,negation
+known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,3,flower,FALSE
+known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,4,art,FALSE
+known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,5,hart,FALSE
+known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,6,cup,FALSE
+known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,7,apple,FALSE
+known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,8,apple,FALSE
+known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,9,wire,FALSE
+known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,10,art,FALSE
+known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,11,art,FALSE
+known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,12,art,FALSE
+known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,13,band,FALSE
+known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,14,doll,FALSE
+known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,15,art,FALSE
+known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,16,art,FALSE
+known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,17,art,FALSE
+known repeated,mixed first,0afc96f5dafa9dc7878b1c99aef0f9c5,18,art,FALSE
+known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,3,fruit,FALSE
+known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,4,not a shoe,TRUE
+known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,5,not a pen,TRUE
+known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,6,cat,FALSE
+known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,7,fork,FALSE
+known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,8,fork,FALSE
+known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,9,fork,FALSE
+known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,10,not a fork,TRUE
+known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,11,has five holes,FALSE
+known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,12,spiky,FALSE
+known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,13,looks like two hands in the air,FALSE
+known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,14,darker in color,FALSE
+known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,15,no slots,FALSE
+known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,16,lighter in color,FALSE
+known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,17,not spiky,TRUE
+known repeated,mixed first,1bf8fcc64c6df01e907c1ddc5c97db81,18,darker in color,FALSE
+known repeated,mixed first,24f5593323876399b22e73f1f0098372,3,ring,FALSE
+known repeated,mixed first,24f5593323876399b22e73f1f0098372,4,5 holes,FALSE
+known repeated,mixed first,24f5593323876399b22e73f1f0098372,5,plastic,FALSE
+known repeated,mixed first,24f5593323876399b22e73f1f0098372,6,shoe,FALSE
+known repeated,mixed first,24f5593323876399b22e73f1f0098372,7,chair,FALSE
+known repeated,mixed first,24f5593323876399b22e73f1f0098372,8,chair,FALSE
+known repeated,mixed first,24f5593323876399b22e73f1f0098372,9,chair,FALSE
+known repeated,mixed first,24f5593323876399b22e73f1f0098372,10,cloth,FALSE
+known repeated,mixed first,24f5593323876399b22e73f1f0098372,11,one circle,FALSE
+known repeated,mixed first,24f5593323876399b22e73f1f0098372,12,arms together,FALSE
+known repeated,mixed first,24f5593323876399b22e73f1f0098372,13,not circle,TRUE
+known repeated,mixed first,24f5593323876399b22e73f1f0098372,14,symmetrical object,FALSE
+known repeated,mixed first,24f5593323876399b22e73f1f0098372,15,dark object,FALSE
+known repeated,mixed first,24f5593323876399b22e73f1f0098372,16,dark object,FALSE
+known repeated,mixed first,24f5593323876399b22e73f1f0098372,17,bell shaped,FALSE
+known repeated,mixed first,24f5593323876399b22e73f1f0098372,18,the lighter object,FALSE
+known repeated,mixed first,3acaef572d8344eb44c01194ff73908b,3,flower,FALSE
+known repeated,mixed first,3acaef572d8344eb44c01194ff73908b,4,art,FALSE
+known repeated,mixed first,3acaef572d8344eb44c01194ff73908b,5,fork,FALSE
+known repeated,mixed first,3acaef572d8344eb44c01194ff73908b,6,ring,FALSE
+known repeated,mixed first,3acaef572d8344eb44c01194ff73908b,7,tree,FALSE
+known repeated,mixed first,3acaef572d8344eb44c01194ff73908b,8,tree,FALSE
+known repeated,mixed first,3acaef572d8344eb44c01194ff73908b,9,tree,FALSE
+known repeated,mixed first,3acaef572d8344eb44c01194ff73908b,10,hat,FALSE
+known repeated,mixed first,3acaef572d8344eb44c01194ff73908b,11,top,FALSE
+known repeated,mixed first,3acaef572d8344eb44c01194ff73908b,12,balls,FALSE
+known repeated,mixed first,3acaef572d8344eb44c01194ff73908b,13,plug,FALSE
+known repeated,mixed first,3acaef572d8344eb44c01194ff73908b,14,hanger,FALSE
+known repeated,mixed first,3acaef572d8344eb44c01194ff73908b,15,tool,FALSE
+known repeated,mixed first,3acaef572d8344eb44c01194ff73908b,16,tool,FALSE
+known repeated,mixed first,3acaef572d8344eb44c01194ff73908b,17,tool,FALSE
+known repeated,mixed first,3acaef572d8344eb44c01194ff73908b,18,weight,FALSE
+known repeated,mixed first,4b2cf7ec49c3fe8020e2953b7fa2ecb2,3,flower,FALSE
+known repeated,mixed first,4b2cf7ec49c3fe8020e2953b7fa2ecb2,4,fork,FALSE
+known repeated,mixed first,4b2cf7ec49c3fe8020e2953b7fa2ecb2,5,puzzle,FALSE
+known repeated,mixed first,4b2cf7ec49c3fe8020e2953b7fa2ecb2,6,car,FALSE
+known repeated,mixed first,4b2cf7ec49c3fe8020e2953b7fa2ecb2,7,butterfly,FALSE
+known repeated,mixed first,4b2cf7ec49c3fe8020e2953b7fa2ecb2,8,butterfly,FALSE
+known repeated,mixed first,4b2cf7ec49c3fe8020e2953b7fa2ecb2,9,butterfly,FALSE
+known repeated,mixed first,4b2cf7ec49c3fe8020e2953b7fa2ecb2,10,butterfly,FALSE
+known repeated,mixed first,4b2cf7ec49c3fe8020e2953b7fa2ecb2,11,rope,FALSE
+known repeated,mixed first,4b2cf7ec49c3fe8020e2953b7fa2ecb2,12,helmet,FALSE
+known repeated,mixed first,4b2cf7ec49c3fe8020e2953b7fa2ecb2,13,pump,FALSE
+known repeated,mixed first,4b2cf7ec49c3fe8020e2953b7fa2ecb2,14,hook,FALSE
+known repeated,mixed first,4b2cf7ec49c3fe8020e2953b7fa2ecb2,15,tap,FALSE
+known repeated,mixed first,4b2cf7ec49c3fe8020e2953b7fa2ecb2,16,tap,FALSE
+known repeated,mixed first,4b2cf7ec49c3fe8020e2953b7fa2ecb2,17,tap,FALSE
+known repeated,mixed first,4b2cf7ec49c3fe8020e2953b7fa2ecb2,18,plane,FALSE
+known repeated,mixed first,58a00a156c39e2fd43f93197646fe4bf,3,cat,FALSE
+known repeated,mixed first,58a00a156c39e2fd43f93197646fe4bf,4,rubber guard with circular shape on sides,FALSE
+known repeated,mixed first,58a00a156c39e2fd43f93197646fe4bf,5,blocks,FALSE
+known repeated,mixed first,58a00a156c39e2fd43f93197646fe4bf,6,fork,FALSE
+known repeated,mixed first,58a00a156c39e2fd43f93197646fe4bf,7,apple,FALSE
+known repeated,mixed first,58a00a156c39e2fd43f93197646fe4bf,8,apple,FALSE
+known repeated,mixed first,58a00a156c39e2fd43f93197646fe4bf,9,apple,FALSE
+known repeated,mixed first,58a00a156c39e2fd43f93197646fe4bf,10,squeeze pump,FALSE
+known repeated,mixed first,58a00a156c39e2fd43f93197646fe4bf,11,sand dollar looking thing attached to sides with two longer pieces,FALSE
+known repeated,mixed first,58a00a156c39e2fd43f93197646fe4bf,12,bell shaped object,FALSE
+known repeated,mixed first,58a00a156c39e2fd43f93197646fe4bf,13,plastic looking guard with three oval holes on top and square holes on the side,FALSE
+known repeated,mixed first,58a00a156c39e2fd43f93197646fe4bf,14,circular item with spikelike things on it looks a bit like  vertebra,FALSE
+known repeated,mixed first,58a00a156c39e2fd43f93197646fe4bf,15,looks like two conoraviruses attached to each other waiting to kill us all,FALSE
+known repeated,mixed first,58a00a156c39e2fd43f93197646fe4bf,16,again two conoraviruses attached to one another,TRUE
+known repeated,mixed first,58a00a156c39e2fd43f93197646fe4bf,17,its coronavirus again this time I spelled it right sorry,FALSE
+known repeated,mixed first,58a00a156c39e2fd43f93197646fe4bf,18,This is a spindly monster ball of worms,FALSE
+known repeated,mixed first,6448cca9988f17c85050f5a2ebd76feb,3,dice,FALSE
+known repeated,mixed first,6448cca9988f17c85050f5a2ebd76feb,4,joystrick,FALSE
+known repeated,mixed first,6448cca9988f17c85050f5a2ebd76feb,5,monoplane,FALSE
+known repeated,mixed first,6448cca9988f17c85050f5a2ebd76feb,6,leather shoe,FALSE
+known repeated,mixed first,6448cca9988f17c85050f5a2ebd76feb,7,fork,FALSE
+known repeated,mixed first,6448cca9988f17c85050f5a2ebd76feb,8,fork,FALSE
+known repeated,mixed first,6448cca9988f17c85050f5a2ebd76feb,9,fork,FALSE
+known repeated,mixed first,6448cca9988f17c85050f5a2ebd76feb,10,surfing,FALSE
+known repeated,mixed first,6448cca9988f17c85050f5a2ebd76feb,11,paddle,FALSE
+known repeated,mixed first,6448cca9988f17c85050f5a2ebd76feb,12,bronze sculpture,FALSE
+known repeated,mixed first,6448cca9988f17c85050f5a2ebd76feb,13,gun barrel,FALSE
+known repeated,mixed first,6448cca9988f17c85050f5a2ebd76feb,14,sphere,FALSE
+known repeated,mixed first,6448cca9988f17c85050f5a2ebd76feb,15,reptile,FALSE
+known repeated,mixed first,6448cca9988f17c85050f5a2ebd76feb,16,reptile,FALSE
+known repeated,mixed first,6448cca9988f17c85050f5a2ebd76feb,17,reptile,FALSE
+known repeated,mixed first,6448cca9988f17c85050f5a2ebd76feb,18,rearview mirror,FALSE
+known repeated,mixed first,911a67eafd2fc4e82a03a7dd7b78fc1f,3,nature,FALSE
+known repeated,mixed first,911a67eafd2fc4e82a03a7dd7b78fc1f,4,plastic bubble,FALSE
+known repeated,mixed first,911a67eafd2fc4e82a03a7dd7b78fc1f,5,cloud shaped metal,FALSE
+known repeated,mixed first,911a67eafd2fc4e82a03a7dd7b78fc1f,6,writing,FALSE
+known repeated,mixed first,911a67eafd2fc4e82a03a7dd7b78fc1f,7,wings,FALSE
+known repeated,mixed first,911a67eafd2fc4e82a03a7dd7b78fc1f,8,wings,FALSE
+known repeated,mixed first,911a67eafd2fc4e82a03a7dd7b78fc1f,9,wings,FALSE
+known repeated,mixed first,911a67eafd2fc4e82a03a7dd7b78fc1f,10,donut tree,FALSE
+known repeated,mixed first,911a67eafd2fc4e82a03a7dd7b78fc1f,11,round with hole,FALSE
+known repeated,mixed first,911a67eafd2fc4e82a03a7dd7b78fc1f,12,pole with bell,FALSE
+known repeated,mixed first,911a67eafd2fc4e82a03a7dd7b78fc1f,13,bell,FALSE
+known repeated,mixed first,911a67eafd2fc4e82a03a7dd7b78fc1f,14,poky thing,FALSE
+known repeated,mixed first,911a67eafd2fc4e82a03a7dd7b78fc1f,15,three legged,FALSE
+known repeated,mixed first,911a67eafd2fc4e82a03a7dd7b78fc1f,16,three legged,FALSE
+known repeated,mixed first,911a67eafd2fc4e82a03a7dd7b78fc1f,17,three leg,FALSE
+known repeated,mixed first,911a67eafd2fc4e82a03a7dd7b78fc1f,18,blimp,FALSE
+known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,3,not a spoon but,TRUE
+known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,4,weird shape,FALSE
+known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,5,weird seaweed,FALSE
+known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,6,jewelry,FALSE
+known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,7,used in games,FALSE
+known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,8,used in games,FALSE
+known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,9,used in games,FALSE
+known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,10,has holes,FALSE
+known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,11,flip plop,FALSE
+known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,12,flower shape,FALSE
+known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,13,candle with hands,FALSE
+known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,14,has two legs,FALSE
+known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,15,its round,FALSE
+known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,16,has only 3 legs,FALSE
+known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,17,has three legs,FALSE
+known repeated,mixed first,9756f4ba08aa1a40ee0b3975266aebb9,18,two balls with spikes,FALSE
+known repeated,mixed first,a5bfa9eb582a36b34321dbc4debc028b,3,ring,FALSE
+known repeated,mixed first,a5bfa9eb582a36b34321dbc4debc028b,4,devic,FALSE
+known repeated,mixed first,a5bfa9eb582a36b34321dbc4debc028b,5,weight,FALSE
+known repeated,mixed first,a5bfa9eb582a36b34321dbc4debc028b,6,flower,FALSE
+known repeated,mixed first,a5bfa9eb582a36b34321dbc4debc028b,7,mug,FALSE
+known repeated,mixed first,a5bfa9eb582a36b34321dbc4debc028b,8,mug,FALSE
+known repeated,mixed first,a5bfa9eb582a36b34321dbc4debc028b,9,cup,FALSE
+known repeated,mixed first,a5bfa9eb582a36b34321dbc4debc028b,10,vase,FALSE
+known repeated,mixed first,a5bfa9eb582a36b34321dbc4debc028b,11,star shaped toy,FALSE
+known repeated,mixed first,a5bfa9eb582a36b34321dbc4debc028b,12,solar system diagram,FALSE
+known repeated,mixed first,a5bfa9eb582a36b34321dbc4debc028b,13,toy,FALSE
+known repeated,mixed first,a5bfa9eb582a36b34321dbc4debc028b,14,blocks,FALSE
+known repeated,mixed first,a5bfa9eb582a36b34321dbc4debc028b,15,top,FALSE
+known repeated,mixed first,a5bfa9eb582a36b34321dbc4debc028b,16,top,FALSE
+known repeated,mixed first,a5bfa9eb582a36b34321dbc4debc028b,17,top,FALSE
+known repeated,mixed first,a5bfa9eb582a36b34321dbc4debc028b,18,bell,FALSE
+known repeated,mixed first,adaad38e42be88c293d49eb9d0b9dec4,3,tree,FALSE
+known repeated,mixed first,adaad38e42be88c293d49eb9d0b9dec4,4,not cat,TRUE
+known repeated,mixed first,adaad38e42be88c293d49eb9d0b9dec4,5,not ring,TRUE
+known repeated,mixed first,adaad38e42be88c293d49eb9d0b9dec4,6,flower,FALSE
+known repeated,mixed first,adaad38e42be88c293d49eb9d0b9dec4,7,cup,FALSE
+known repeated,mixed first,adaad38e42be88c293d49eb9d0b9dec4,8,cup,FALSE
+known repeated,mixed first,adaad38e42be88c293d49eb9d0b9dec4,9,cup,FALSE
+known repeated,mixed first,adaad38e42be88c293d49eb9d0b9dec4,10,not cup,TRUE
+known repeated,mixed first,adaad38e42be88c293d49eb9d0b9dec4,11,round,FALSE
+known repeated,mixed first,adaad38e42be88c293d49eb9d0b9dec4,12,long with holes,FALSE
+known repeated,mixed first,adaad38e42be88c293d49eb9d0b9dec4,13,dumbbell,FALSE
+known repeated,mixed first,adaad38e42be88c293d49eb9d0b9dec4,14,bell like,FALSE
+known repeated,mixed first,adaad38e42be88c293d49eb9d0b9dec4,15,connected circles,FALSE
+known repeated,mixed first,adaad38e42be88c293d49eb9d0b9dec4,16,connected circles,FALSE
+known repeated,mixed first,adaad38e42be88c293d49eb9d0b9dec4,17,connected circles,FALSE
+known repeated,mixed first,adaad38e42be88c293d49eb9d0b9dec4,18,squeeze,FALSE
+known repeated,mixed first,b3d91b6f5108d55a5ca1a8e816beed07,3,spoon,FALSE
+known repeated,mixed first,b3d91b6f5108d55a5ca1a8e816beed07,4,top,FALSE
+known repeated,mixed first,b3d91b6f5108d55a5ca1a8e816beed07,5,holder,FALSE
+known repeated,mixed first,b3d91b6f5108d55a5ca1a8e816beed07,6,ring,FALSE
+known repeated,mixed first,b3d91b6f5108d55a5ca1a8e816beed07,7,flower,FALSE
+known repeated,mixed first,b3d91b6f5108d55a5ca1a8e816beed07,8,flower,FALSE
+known repeated,mixed first,b3d91b6f5108d55a5ca1a8e816beed07,9,flower,FALSE
+known repeated,mixed first,b3d91b6f5108d55a5ca1a8e816beed07,10,dress organizer,FALSE
+known repeated,mixed first,b3d91b6f5108d55a5ca1a8e816beed07,11,feature cap,FALSE
+known repeated,mixed first,b3d91b6f5108d55a5ca1a8e816beed07,12,calling bell,FALSE
+known repeated,mixed first,b3d91b6f5108d55a5ca1a8e816beed07,13,art,FALSE
+known repeated,mixed first,b3d91b6f5108d55a5ca1a8e816beed07,14,black woooden art,FALSE
+known repeated,mixed first,b3d91b6f5108d55a5ca1a8e816beed07,15,ring,FALSE
+known repeated,mixed first,b3d91b6f5108d55a5ca1a8e816beed07,16,ring,FALSE
+known repeated,mixed first,b3d91b6f5108d55a5ca1a8e816beed07,17,ring,FALSE
+known repeated,mixed first,b3d91b6f5108d55a5ca1a8e816beed07,18,bell shaped art,FALSE
+known repeated,mixed first,b4f6bf61981a06aa87879e9717d74c72,3,cat,FALSE
+known repeated,mixed first,b4f6bf61981a06aa87879e9717d74c72,4,crumbled paper,FALSE
+known repeated,mixed first,b4f6bf61981a06aa87879e9717d74c72,5,submarine,FALSE
+known repeated,mixed first,b4f6bf61981a06aa87879e9717d74c72,6,shoe,FALSE
+known repeated,mixed first,b4f6bf61981a06aa87879e9717d74c72,7,crab,FALSE
+known repeated,mixed first,b4f6bf61981a06aa87879e9717d74c72,8,crab,FALSE
+known repeated,mixed first,b4f6bf61981a06aa87879e9717d74c72,9,crab,FALSE
+known repeated,mixed first,b4f6bf61981a06aa87879e9717d74c72,10,white object with 3 gray objects attached,FALSE
+known repeated,mixed first,b4f6bf61981a06aa87879e9717d74c72,11,5 circles,FALSE
+known repeated,mixed first,b4f6bf61981a06aa87879e9717d74c72,12,lot  of different wires mushed together,FALSE
+known repeated,mixed first,b4f6bf61981a06aa87879e9717d74c72,13,black ball,FALSE
+known repeated,mixed first,b4f6bf61981a06aa87879e9717d74c72,14,black knob,FALSE
+known repeated,mixed first,b4f6bf61981a06aa87879e9717d74c72,15,two legs,FALSE
+known repeated,mixed first,b4f6bf61981a06aa87879e9717d74c72,16,two legs,FALSE
+known repeated,mixed first,b4f6bf61981a06aa87879e9717d74c72,17,two legs,FALSE
+known repeated,mixed first,b4f6bf61981a06aa87879e9717d74c72,18,broken object,FALSE
+known repeated,mixed first,ba6871e302a9d255ace9f7ac34957a4f,3,chair,FALSE
+known repeated,mixed first,ba6871e302a9d255ace9f7ac34957a4f,4,prickly thing,FALSE
+known repeated,mixed first,ba6871e302a9d255ace9f7ac34957a4f,5,not the pen,TRUE
+known repeated,mixed first,ba6871e302a9d255ace9f7ac34957a4f,6,butterfly,FALSE
+known repeated,mixed first,ba6871e302a9d255ace9f7ac34957a4f,7,car,FALSE
+known repeated,mixed first,ba6871e302a9d255ace9f7ac34957a4f,8,car,FALSE
+known repeated,mixed first,ba6871e302a9d255ace9f7ac34957a4f,9,car,FALSE
+known repeated,mixed first,ba6871e302a9d255ace9f7ac34957a4f,10,not the car,TRUE
+known repeated,mixed first,ba6871e302a9d255ace9f7ac34957a4f,11,top,FALSE
+known repeated,mixed first,ba6871e302a9d255ace9f7ac34957a4f,12,chainsaw,FALSE
+known repeated,mixed first,ba6871e302a9d255ace9f7ac34957a4f,13,waves,FALSE
+known repeated,mixed first,ba6871e302a9d255ace9f7ac34957a4f,14,spout,FALSE
+known repeated,mixed first,ba6871e302a9d255ace9f7ac34957a4f,15,tool,FALSE
+known repeated,mixed first,ba6871e302a9d255ace9f7ac34957a4f,16,tool,FALSE
+known repeated,mixed first,ba6871e302a9d255ace9f7ac34957a4f,17,tool,FALSE
+known repeated,mixed first,ba6871e302a9d255ace9f7ac34957a4f,18,art,FALSE
+known repeated,mixed first,bbf1d36863f856274ce7c50be64e3459,3,apple,FALSE
+known repeated,mixed first,bbf1d36863f856274ce7c50be64e3459,4,building blocks,FALSE
+known repeated,mixed first,bbf1d36863f856274ce7c50be64e3459,5,air flow thing,FALSE
+known repeated,mixed first,bbf1d36863f856274ce7c50be64e3459,6,cat,FALSE
+known repeated,mixed first,bbf1d36863f856274ce7c50be64e3459,7,dice,FALSE
+known repeated,mixed first,bbf1d36863f856274ce7c50be64e3459,8,dice,FALSE
+known repeated,mixed first,bbf1d36863f856274ce7c50be64e3459,9,dice,FALSE
+known repeated,mixed first,bbf1d36863f856274ce7c50be64e3459,10,glacier looking thing,FALSE
+known repeated,mixed first,bbf1d36863f856274ce7c50be64e3459,11,handheld vacuum,FALSE
+known repeated,mixed first,bbf1d36863f856274ce7c50be64e3459,12,toy,FALSE
+known repeated,mixed first,bbf1d36863f856274ce7c50be64e3459,13,human anatomical unit,FALSE
+known repeated,mixed first,bbf1d36863f856274ce7c50be64e3459,14,potato peeler,FALSE
+known repeated,mixed first,bbf1d36863f856274ce7c50be64e3459,15,donut,FALSE
+known repeated,mixed first,bbf1d36863f856274ce7c50be64e3459,16,donut,FALSE
+known repeated,mixed first,bbf1d36863f856274ce7c50be64e3459,17,donut,FALSE
+known repeated,mixed first,bbf1d36863f856274ce7c50be64e3459,18,galaxy,FALSE
+known repeated,mixed first,d2973fd030b579ddc28987b2a5909399,3,cat,FALSE
+known repeated,mixed first,d2973fd030b579ddc28987b2a5909399,4,stone,FALSE
+known repeated,mixed first,d2973fd030b579ddc28987b2a5909399,5,plastic,FALSE
+known repeated,mixed first,d2973fd030b579ddc28987b2a5909399,6,dice game,FALSE
+known repeated,mixed first,d2973fd030b579ddc28987b2a5909399,7,chair,FALSE
+known repeated,mixed first,d2973fd030b579ddc28987b2a5909399,8,chair,FALSE
+known repeated,mixed first,d2973fd030b579ddc28987b2a5909399,9,chair,FALSE
+known repeated,mixed first,d2973fd030b579ddc28987b2a5909399,10,sitting,FALSE
+known repeated,mixed first,d2973fd030b579ddc28987b2a5909399,11,impatiens,FALSE
+known repeated,mixed first,d2973fd030b579ddc28987b2a5909399,12,dumbbell,FALSE
+known repeated,mixed first,d2973fd030b579ddc28987b2a5909399,13,bolt cutter,FALSE
+known repeated,mixed first,d2973fd030b579ddc28987b2a5909399,14,Circular saw,FALSE
+known repeated,mixed first,d2973fd030b579ddc28987b2a5909399,15,Surfing,FALSE
+known repeated,mixed first,d2973fd030b579ddc28987b2a5909399,16,Surfing,FALSE
+known repeated,mixed first,d2973fd030b579ddc28987b2a5909399,17,Surfing,FALSE
+known repeated,mixed first,d2973fd030b579ddc28987b2a5909399,18,Gun barrel,FALSE
+known repeated,mixed first,d5338f0449123f834b17f6f7fc80d634,3,cae,FALSE
+known repeated,mixed first,d5338f0449123f834b17f6f7fc80d634,4,tri,FALSE
+known repeated,mixed first,d5338f0449123f834b17f6f7fc80d634,5,wide,FALSE
+known repeated,mixed first,d5338f0449123f834b17f6f7fc80d634,6,crab,FALSE
+known repeated,mixed first,d5338f0449123f834b17f6f7fc80d634,7,fly,FALSE
+known repeated,mixed first,d5338f0449123f834b17f6f7fc80d634,8,fly,FALSE
+known repeated,mixed first,d5338f0449123f834b17f6f7fc80d634,9,fly,FALSE
+known repeated,mixed first,d5338f0449123f834b17f6f7fc80d634,10,not fly,TRUE
+known repeated,mixed first,d5338f0449123f834b17f6f7fc80d634,11,wheel,FALSE
+known repeated,mixed first,d5338f0449123f834b17f6f7fc80d634,12,flower,FALSE
+known repeated,mixed first,d5338f0449123f834b17f6f7fc80d634,13,spoon,FALSE
+known repeated,mixed first,d5338f0449123f834b17f6f7fc80d634,14,antenna,FALSE
+known repeated,mixed first,d5338f0449123f834b17f6f7fc80d634,15,cube,FALSE
+known repeated,mixed first,d5338f0449123f834b17f6f7fc80d634,16,box,FALSE
+known repeated,mixed first,d5338f0449123f834b17f6f7fc80d634,17,box,FALSE
+known repeated,mixed first,d5338f0449123f834b17f6f7fc80d634,18,box,FALSE
+known repeated,mixed first,e631b6048f6ae4a87e63df3d900d35eb,3,butterfly,FALSE
+known repeated,mixed first,e631b6048f6ae4a87e63df3d900d35eb,4,bead,FALSE
+known repeated,mixed first,e631b6048f6ae4a87e63df3d900d35eb,5,paddle,FALSE
+known repeated,mixed first,e631b6048f6ae4a87e63df3d900d35eb,6,sunflower,FALSE
+known repeated,mixed first,e631b6048f6ae4a87e63df3d900d35eb,7,fiddler crab,FALSE
+known repeated,mixed first,e631b6048f6ae4a87e63df3d900d35eb,8,fiddler crab,FALSE
+known repeated,mixed first,e631b6048f6ae4a87e63df3d900d35eb,9,fiddler crab,FALSE
+known repeated,mixed first,e631b6048f6ae4a87e63df3d900d35eb,10,Cnidaria,FALSE
+known repeated,mixed first,e631b6048f6ae4a87e63df3d900d35eb,11,rearview mirror,FALSE
+known repeated,mixed first,e631b6048f6ae4a87e63df3d900d35eb,12,joystick,FALSE
+known repeated,mixed first,e631b6048f6ae4a87e63df3d900d35eb,13,monoplane,FALSE
+known repeated,mixed first,e631b6048f6ae4a87e63df3d900d35eb,14,metal,FALSE
+known repeated,mixed first,e631b6048f6ae4a87e63df3d900d35eb,15,gun barrel,FALSE
+known repeated,mixed first,e631b6048f6ae4a87e63df3d900d35eb,16,gun barrel,FALSE
+known repeated,mixed first,e631b6048f6ae4a87e63df3d900d35eb,17,gun barrel,FALSE
+known repeated,mixed first,e631b6048f6ae4a87e63df3d900d35eb,18,dumbbell,FALSE
+known repeated,mixed first,e7891a1666c3d45ff624c7acb2f59282,3,ring,FALSE
+known repeated,mixed first,e7891a1666c3d45ff624c7acb2f59282,4,heart slinky,FALSE
+known repeated,mixed first,e7891a1666c3d45ff624c7acb2f59282,5,galaxy,FALSE
+known repeated,mixed first,e7891a1666c3d45ff624c7acb2f59282,6,tree,FALSE
+known repeated,mixed first,e7891a1666c3d45ff624c7acb2f59282,7,crab,FALSE
+known repeated,mixed first,e7891a1666c3d45ff624c7acb2f59282,8,crab,FALSE
+known repeated,mixed first,e7891a1666c3d45ff624c7acb2f59282,9,crab,FALSE
+known repeated,mixed first,e7891a1666c3d45ff624c7acb2f59282,10,electronic device,FALSE
+known repeated,mixed first,e7891a1666c3d45ff624c7acb2f59282,11,2 sides are triangular,FALSE
+known repeated,mixed first,e7891a1666c3d45ff624c7acb2f59282,12,interconnected pieces,FALSE
+known repeated,mixed first,e7891a1666c3d45ff624c7acb2f59282,13,container,FALSE
+known repeated,mixed first,e7891a1666c3d45ff624c7acb2f59282,14,balls with spikes,FALSE
+known repeated,mixed first,e7891a1666c3d45ff624c7acb2f59282,15,submarine,FALSE
+known repeated,mixed first,e7891a1666c3d45ff624c7acb2f59282,16,submarine,FALSE
+known repeated,mixed first,e7891a1666c3d45ff624c7acb2f59282,17,submarine,FALSE
+known repeated,mixed first,e7891a1666c3d45ff624c7acb2f59282,18,8 sided square,FALSE
+known repeated,mixed first,fb01ef9ca391f3aff232eeecec938f92,3,apple,FALSE
+known repeated,mixed first,fb01ef9ca391f3aff232eeecec938f92,4,scoop,FALSE
+known repeated,mixed first,fb01ef9ca391f3aff232eeecec938f92,5,flower ring,FALSE
+known repeated,mixed first,fb01ef9ca391f3aff232eeecec938f92,6,fork,FALSE
+known repeated,mixed first,fb01ef9ca391f3aff232eeecec938f92,7,shoe,FALSE
+known repeated,mixed first,fb01ef9ca391f3aff232eeecec938f92,8,shoe,FALSE
+known repeated,mixed first,fb01ef9ca391f3aff232eeecec938f92,9,shoe,FALSE
+known repeated,mixed first,fb01ef9ca391f3aff232eeecec938f92,10,puzzles,FALSE
+known repeated,mixed first,fb01ef9ca391f3aff232eeecec938f92,11,cricle,FALSE
+known repeated,mixed first,fb01ef9ca391f3aff232eeecec938f92,12,gaping hole,FALSE
+known repeated,mixed first,fb01ef9ca391f3aff232eeecec938f92,13,foam roller,FALSE
+known repeated,mixed first,fb01ef9ca391f3aff232eeecec938f92,14,child toy,FALSE
+known repeated,mixed first,fb01ef9ca391f3aff232eeecec938f92,15,fork light,FALSE
+known repeated,mixed first,fb01ef9ca391f3aff232eeecec938f92,16,fork light,FALSE
+known repeated,mixed first,fb01ef9ca391f3aff232eeecec938f92,17,split wrench,FALSE
+known repeated,mixed first,fb01ef9ca391f3aff232eeecec938f92,18,desk bell,FALSE
+known repeated,unknown first,0049c58b3fc386ce388a724bb0cf41b8,3,Triangular shaped object,FALSE
+known repeated,unknown first,0049c58b3fc386ce388a724bb0cf41b8,4,Catching basket,FALSE
+known repeated,unknown first,0049c58b3fc386ce388a724bb0cf41b8,5,Noise maker,FALSE
+known repeated,unknown first,0049c58b3fc386ce388a724bb0cf41b8,6,spinner,FALSE
+known repeated,unknown first,0049c58b3fc386ce388a724bb0cf41b8,7,decoration,FALSE
+known repeated,unknown first,0049c58b3fc386ce388a724bb0cf41b8,8,molded decoration,FALSE
+known repeated,unknown first,0049c58b3fc386ce388a724bb0cf41b8,9,molded decoration,FALSE
+known repeated,unknown first,0049c58b3fc386ce388a724bb0cf41b8,10,paddle,FALSE
+known repeated,unknown first,0049c58b3fc386ce388a724bb0cf41b8,11,a fork,FALSE
+known repeated,unknown first,0049c58b3fc386ce388a724bb0cf41b8,12,insect looking item,FALSE
+known repeated,unknown first,0049c58b3fc386ce388a724bb0cf41b8,13,A weird shape,FALSE
+known repeated,unknown first,0049c58b3fc386ce388a724bb0cf41b8,14,butterfly,FALSE
+known repeated,unknown first,0049c58b3fc386ce388a724bb0cf41b8,15,a cup,FALSE
+known repeated,unknown first,0049c58b3fc386ce388a724bb0cf41b8,16,a cup,FALSE
+known repeated,unknown first,0049c58b3fc386ce388a724bb0cf41b8,17,a cup,FALSE
+known repeated,unknown first,0049c58b3fc386ce388a724bb0cf41b8,18,a figure,FALSE
+known repeated,unknown first,0cfc1094dff57fde74852117e762b131,3,paddle,FALSE
+known repeated,unknown first,0cfc1094dff57fde74852117e762b131,4,Right object,FALSE
+known repeated,unknown first,0cfc1094dff57fde74852117e762b131,5,right object again,FALSE
+known repeated,unknown first,0cfc1094dff57fde74852117e762b131,6,right,FALSE
+known repeated,unknown first,0cfc1094dff57fde74852117e762b131,7,right air pump,FALSE
+known repeated,unknown first,0cfc1094dff57fde74852117e762b131,8,right,FALSE
+known repeated,unknown first,0cfc1094dff57fde74852117e762b131,9,right,FALSE
+known repeated,unknown first,0cfc1094dff57fde74852117e762b131,10,left,FALSE
+known repeated,unknown first,0cfc1094dff57fde74852117e762b131,11,apple,FALSE
+known repeated,unknown first,0cfc1094dff57fde74852117e762b131,12,right,FALSE
+known repeated,unknown first,0cfc1094dff57fde74852117e762b131,13,left,FALSE
+known repeated,unknown first,0cfc1094dff57fde74852117e762b131,14,butterfly,FALSE
+known repeated,unknown first,0cfc1094dff57fde74852117e762b131,15,sunflower,FALSE
+known repeated,unknown first,0cfc1094dff57fde74852117e762b131,16,sunflower,FALSE
+known repeated,unknown first,0cfc1094dff57fde74852117e762b131,17,sunflower,FALSE
+known repeated,unknown first,0cfc1094dff57fde74852117e762b131,18,right,FALSE
+known repeated,unknown first,2c27f6e6a5175dd6a8983cbfd06c0435,3,top,FALSE
+known repeated,unknown first,2c27f6e6a5175dd6a8983cbfd06c0435,4,not bell,TRUE
+known repeated,unknown first,2c27f6e6a5175dd6a8983cbfd06c0435,5,white color,FALSE
+known repeated,unknown first,2c27f6e6a5175dd6a8983cbfd06c0435,6,circle,FALSE
+known repeated,unknown first,2c27f6e6a5175dd6a8983cbfd06c0435,7,not blimp,TRUE
+known repeated,unknown first,2c27f6e6a5175dd6a8983cbfd06c0435,8,vase,FALSE
+known repeated,unknown first,2c27f6e6a5175dd6a8983cbfd06c0435,9,vase,FALSE
+known repeated,unknown first,2c27f6e6a5175dd6a8983cbfd06c0435,10,donut with sticks,FALSE
+known repeated,unknown first,2c27f6e6a5175dd6a8983cbfd06c0435,11,ring,FALSE
+known repeated,unknown first,2c27f6e6a5175dd6a8983cbfd06c0435,12,not spider,TRUE
+known repeated,unknown first,2c27f6e6a5175dd6a8983cbfd06c0435,13,not shoe,TRUE
+known repeated,unknown first,2c27f6e6a5175dd6a8983cbfd06c0435,14,dice,FALSE
+known repeated,unknown first,2c27f6e6a5175dd6a8983cbfd06c0435,15,tree,FALSE
+known repeated,unknown first,2c27f6e6a5175dd6a8983cbfd06c0435,16,tree,FALSE
+known repeated,unknown first,2c27f6e6a5175dd6a8983cbfd06c0435,17,tree,FALSE
+known repeated,unknown first,2c27f6e6a5175dd6a8983cbfd06c0435,18,not tree,TRUE
+known repeated,unknown first,2f5f92a503862a71de6db25cf77a7a39,3,looks like a male organ,FALSE
+known repeated,unknown first,2f5f92a503862a71de6db25cf77a7a39,4,bricklike,FALSE
+known repeated,unknown first,2f5f92a503862a71de6db25cf77a7a39,5,white art,FALSE
+known repeated,unknown first,2f5f92a503862a71de6db25cf77a7a39,6,molecule model,FALSE
+known repeated,unknown first,2f5f92a503862a71de6db25cf77a7a39,7,black object,FALSE
+known repeated,unknown first,2f5f92a503862a71de6db25cf77a7a39,8,black object,FALSE
+known repeated,unknown first,2f5f92a503862a71de6db25cf77a7a39,9,black object,FALSE
+known repeated,unknown first,2f5f92a503862a71de6db25cf77a7a39,10,Inverted chalice,FALSE
+known repeated,unknown first,2f5f92a503862a71de6db25cf77a7a39,11,cat,FALSE
+known repeated,unknown first,2f5f92a503862a71de6db25cf77a7a39,12,white fluffy,FALSE
+known repeated,unknown first,2f5f92a503862a71de6db25cf77a7a39,13,black substance,FALSE
+known repeated,unknown first,2f5f92a503862a71de6db25cf77a7a39,14,car,FALSE
+known repeated,unknown first,2f5f92a503862a71de6db25cf77a7a39,15,apple,FALSE
+known repeated,unknown first,2f5f92a503862a71de6db25cf77a7a39,16,apple,FALSE
+known repeated,unknown first,2f5f92a503862a71de6db25cf77a7a39,17,apple,FALSE
+known repeated,unknown first,2f5f92a503862a71de6db25cf77a7a39,18,Round plastic,FALSE
+known repeated,unknown first,30916952ec1191ecf87a3ce540dc9d1f,3,roket,FALSE
+known repeated,unknown first,30916952ec1191ecf87a3ce540dc9d1f,4,bolt cutter,FALSE
+known repeated,unknown first,30916952ec1191ecf87a3ce540dc9d1f,5,sprocket para xr 400,FALSE
+known repeated,unknown first,30916952ec1191ecf87a3ce540dc9d1f,6,sprocket para xr 400,FALSE
+known repeated,unknown first,30916952ec1191ecf87a3ce540dc9d1f,7,rearview mirro,FALSE
+known repeated,unknown first,30916952ec1191ecf87a3ce540dc9d1f,8,rearview mirror,FALSE
+known repeated,unknown first,30916952ec1191ecf87a3ce540dc9d1f,9,rearview mirrorr,FALSE
+known repeated,unknown first,30916952ec1191ecf87a3ce540dc9d1f,10,wire,FALSE
+known repeated,unknown first,30916952ec1191ecf87a3ce540dc9d1f,11,fork,FALSE
+known repeated,unknown first,30916952ec1191ecf87a3ce540dc9d1f,12,oval,FALSE
+known repeated,unknown first,30916952ec1191ecf87a3ce540dc9d1f,13,paddle,FALSE
+known repeated,unknown first,30916952ec1191ecf87a3ce540dc9d1f,14,mug,FALSE
+known repeated,unknown first,30916952ec1191ecf87a3ce540dc9d1f,15,fiddler crab,FALSE
+known repeated,unknown first,30916952ec1191ecf87a3ce540dc9d1f,16,fiddler crab,FALSE
+known repeated,unknown first,30916952ec1191ecf87a3ce540dc9d1f,17,fiddler crab,FALSE
+known repeated,unknown first,30916952ec1191ecf87a3ce540dc9d1f,18,metal,FALSE
+known repeated,unknown first,508df18e00ca82f7bda45e3126c5e60b,3,two round circle with point,FALSE
+known repeated,unknown first,508df18e00ca82f7bda45e3126c5e60b,4,round spiky donut wheel,FALSE
+known repeated,unknown first,508df18e00ca82f7bda45e3126c5e60b,5,spherical object with a hole on top left,FALSE
+known repeated,unknown first,508df18e00ca82f7bda45e3126c5e60b,6,balloon with a long tip,FALSE
+known repeated,unknown first,508df18e00ca82f7bda45e3126c5e60b,7,heart with long spikes coming out of it,FALSE
+known repeated,unknown first,508df18e00ca82f7bda45e3126c5e60b,8,heart with a long spikes coming out of it,FALSE
+known repeated,unknown first,508df18e00ca82f7bda45e3126c5e60b,9,heart with long spikes coming out of it,FALSE
+known repeated,unknown first,508df18e00ca82f7bda45e3126c5e60b,10,a white hat with 4 flaps on top,FALSE
+known repeated,unknown first,508df18e00ca82f7bda45e3126c5e60b,11,tree,FALSE
+known repeated,unknown first,508df18e00ca82f7bda45e3126c5e60b,12,object with two legs and an upside down cup on top,FALSE
+known repeated,unknown first,508df18e00ca82f7bda45e3126c5e60b,13,period pad with sides touching together,FALSE
+known repeated,unknown first,508df18e00ca82f7bda45e3126c5e60b,14,chair,FALSE
+known repeated,unknown first,508df18e00ca82f7bda45e3126c5e60b,15,dice with 6 on top,FALSE
+known repeated,unknown first,508df18e00ca82f7bda45e3126c5e60b,16,dice with 6 on top,FALSE
+known repeated,unknown first,508df18e00ca82f7bda45e3126c5e60b,17,dice with 6 on top,FALSE
+known repeated,unknown first,508df18e00ca82f7bda45e3126c5e60b,18,white fluffy donut with 4 long tails coming out from the top,FALSE
+known repeated,unknown first,5a7e7f873717b19723ea59c57c38e102,3,long thing,FALSE
+known repeated,unknown first,5a7e7f873717b19723ea59c57c38e102,4,dryer balls,FALSE
+known repeated,unknown first,5a7e7f873717b19723ea59c57c38e102,5,O thingie,FALSE
+known repeated,unknown first,5a7e7f873717b19723ea59c57c38e102,6,dumbell,FALSE
+known repeated,unknown first,5a7e7f873717b19723ea59c57c38e102,7,austrailia thing,FALSE
+known repeated,unknown first,5a7e7f873717b19723ea59c57c38e102,8,austrailia thing,FALSE
+known repeated,unknown first,5a7e7f873717b19723ea59c57c38e102,9,austrailia thing,FALSE
+known repeated,unknown first,5a7e7f873717b19723ea59c57c38e102,10,bubble tube,FALSE
+known repeated,unknown first,5a7e7f873717b19723ea59c57c38e102,11,apple,FALSE
+known repeated,unknown first,5a7e7f873717b19723ea59c57c38e102,12,top,FALSE
+known repeated,unknown first,5a7e7f873717b19723ea59c57c38e102,13,toy,FALSE
+known repeated,unknown first,5a7e7f873717b19723ea59c57c38e102,14,fork,FALSE
+known repeated,unknown first,5a7e7f873717b19723ea59c57c38e102,15,tree,FALSE
+known repeated,unknown first,5a7e7f873717b19723ea59c57c38e102,16,tree,FALSE
+known repeated,unknown first,5a7e7f873717b19723ea59c57c38e102,17,tree,FALSE
+known repeated,unknown first,5a7e7f873717b19723ea59c57c38e102,18,kong,FALSE
+known repeated,unknown first,7c74572944e03fb5959528ad13997af1,3,two balls,FALSE
+known repeated,unknown first,7c74572944e03fb5959528ad13997af1,4,snowflakes,FALSE
+known repeated,unknown first,7c74572944e03fb5959528ad13997af1,5,plastic clip,FALSE
+known repeated,unknown first,7c74572944e03fb5959528ad13997af1,6,blimp,FALSE
+known repeated,unknown first,7c74572944e03fb5959528ad13997af1,7,floppy thing,FALSE
+known repeated,unknown first,7c74572944e03fb5959528ad13997af1,8,floppy thing,FALSE
+known repeated,unknown first,7c74572944e03fb5959528ad13997af1,9,floppy thing,FALSE
+known repeated,unknown first,7c74572944e03fb5959528ad13997af1,10,ring,FALSE
+known repeated,unknown first,7c74572944e03fb5959528ad13997af1,11,fork,FALSE
+known repeated,unknown first,7c74572944e03fb5959528ad13997af1,12,ufo,FALSE
+known repeated,unknown first,7c74572944e03fb5959528ad13997af1,13,globe,FALSE
+known repeated,unknown first,7c74572944e03fb5959528ad13997af1,14,car,FALSE
+known repeated,unknown first,7c74572944e03fb5959528ad13997af1,15,butterfly,FALSE
+known repeated,unknown first,7c74572944e03fb5959528ad13997af1,16,butterfly,FALSE
+known repeated,unknown first,7c74572944e03fb5959528ad13997af1,17,butterfly,FALSE
+known repeated,unknown first,7c74572944e03fb5959528ad13997af1,18,spaceship,FALSE
+known repeated,unknown first,7f0fed2caceb0322c6754d733206ccb1,3,statue,FALSE
+known repeated,unknown first,7f0fed2caceb0322c6754d733206ccb1,4,box,FALSE
+known repeated,unknown first,7f0fed2caceb0322c6754d733206ccb1,5,toys,FALSE
+known repeated,unknown first,7f0fed2caceb0322c6754d733206ccb1,6,bolls,FALSE
+known repeated,unknown first,7f0fed2caceb0322c6754d733206ccb1,7,art,FALSE
+known repeated,unknown first,7f0fed2caceb0322c6754d733206ccb1,8,art,FALSE
+known repeated,unknown first,7f0fed2caceb0322c6754d733206ccb1,9,art,FALSE
+known repeated,unknown first,7f0fed2caceb0322c6754d733206ccb1,10,wood,FALSE
+known repeated,unknown first,7f0fed2caceb0322c6754d733206ccb1,11,Fiddler crab,FALSE
+known repeated,unknown first,7f0fed2caceb0322c6754d733206ccb1,12,part,FALSE
+known repeated,unknown first,7f0fed2caceb0322c6754d733206ccb1,13,toy,FALSE
+known repeated,unknown first,7f0fed2caceb0322c6754d733206ccb1,14,butterfully,FALSE
+known repeated,unknown first,7f0fed2caceb0322c6754d733206ccb1,15,shose,FALSE
+known repeated,unknown first,7f0fed2caceb0322c6754d733206ccb1,16,sgose,FALSE
+known repeated,unknown first,7f0fed2caceb0322c6754d733206ccb1,17,shose,FALSE
+known repeated,unknown first,7f0fed2caceb0322c6754d733206ccb1,18,toy,FALSE
+known repeated,unknown first,92a3a161fa67fe7296d427c35dbe580a,3,saturn looking shape,FALSE
+known repeated,unknown first,92a3a161fa67fe7296d427c35dbe580a,4,cymbal,FALSE
+known repeated,unknown first,92a3a161fa67fe7296d427c35dbe580a,5,weird jar,FALSE
+known repeated,unknown first,92a3a161fa67fe7296d427c35dbe580a,6,highlight scoop,FALSE
+known repeated,unknown first,92a3a161fa67fe7296d427c35dbe580a,7,spikey ring,FALSE
+known repeated,unknown first,92a3a161fa67fe7296d427c35dbe580a,8,spikey ring,FALSE
+known repeated,unknown first,92a3a161fa67fe7296d427c35dbe580a,9,spikey ring,FALSE
+known repeated,unknown first,92a3a161fa67fe7296d427c35dbe580a,10,not the spikey ring,TRUE
+known repeated,unknown first,92a3a161fa67fe7296d427c35dbe580a,11,cup,FALSE
+known repeated,unknown first,92a3a161fa67fe7296d427c35dbe580a,12,bell looking thing,FALSE
+known repeated,unknown first,92a3a161fa67fe7296d427c35dbe580a,13,toliet brush sculpture,FALSE
+known repeated,unknown first,92a3a161fa67fe7296d427c35dbe580a,14,cat,FALSE
+known repeated,unknown first,92a3a161fa67fe7296d427c35dbe580a,15,apple,FALSE
+known repeated,unknown first,92a3a161fa67fe7296d427c35dbe580a,16,apple,FALSE
+known repeated,unknown first,92a3a161fa67fe7296d427c35dbe580a,17,apple,FALSE
+known repeated,unknown first,92a3a161fa67fe7296d427c35dbe580a,18,toy,FALSE
+known repeated,unknown first,9ca97f7b9d27e868e0f1cf84893bf117,3,planet,FALSE
+known repeated,unknown first,9ca97f7b9d27e868e0f1cf84893bf117,4,holey,FALSE
+known repeated,unknown first,9ca97f7b9d27e868e0f1cf84893bf117,5,ALIEN,FALSE
+known repeated,unknown first,9ca97f7b9d27e868e0f1cf84893bf117,6,DONUT,FALSE
+known repeated,unknown first,9ca97f7b9d27e868e0f1cf84893bf117,7,scribbles,FALSE
+known repeated,unknown first,9ca97f7b9d27e868e0f1cf84893bf117,8,wires,FALSE
+known repeated,unknown first,9ca97f7b9d27e868e0f1cf84893bf117,9,wired,FALSE
+known repeated,unknown first,9ca97f7b9d27e868e0f1cf84893bf117,10,holes,FALSE
+known repeated,unknown first,9ca97f7b9d27e868e0f1cf84893bf117,11,foot,FALSE
+known repeated,unknown first,9ca97f7b9d27e868e0f1cf84893bf117,12,bomb,FALSE
+known repeated,unknown first,9ca97f7b9d27e868e0f1cf84893bf117,13,disease,FALSE
+known repeated,unknown first,9ca97f7b9d27e868e0f1cf84893bf117,14,writing,FALSE
+known repeated,unknown first,9ca97f7b9d27e868e0f1cf84893bf117,15,insect,FALSE
+known repeated,unknown first,9ca97f7b9d27e868e0f1cf84893bf117,16,spring,FALSE
+known repeated,unknown first,9ca97f7b9d27e868e0f1cf84893bf117,17,winged,FALSE
+known repeated,unknown first,9ca97f7b9d27e868e0f1cf84893bf117,18,handheld,FALSE
+known repeated,unknown first,9fa0ee8ffe4877b5d7e9de67ff4017d8,3,spider thing,FALSE
+known repeated,unknown first,9fa0ee8ffe4877b5d7e9de67ff4017d8,4,chefs hat,FALSE
+known repeated,unknown first,9fa0ee8ffe4877b5d7e9de67ff4017d8,5,pump,FALSE
+known repeated,unknown first,9fa0ee8ffe4877b5d7e9de67ff4017d8,6,weight rack,FALSE
+known repeated,unknown first,9fa0ee8ffe4877b5d7e9de67ff4017d8,7,umbrella stand,FALSE
+known repeated,unknown first,9fa0ee8ffe4877b5d7e9de67ff4017d8,8,umbrella stand,FALSE
+known repeated,unknown first,9fa0ee8ffe4877b5d7e9de67ff4017d8,9,umbrella stand,FALSE
+known repeated,unknown first,9fa0ee8ffe4877b5d7e9de67ff4017d8,10,umbrella stand,FALSE
+known repeated,unknown first,9fa0ee8ffe4877b5d7e9de67ff4017d8,11,ring,FALSE
+known repeated,unknown first,9fa0ee8ffe4877b5d7e9de67ff4017d8,12,three holes,FALSE
+known repeated,unknown first,9fa0ee8ffe4877b5d7e9de67ff4017d8,13,not apple,TRUE
+known repeated,unknown first,9fa0ee8ffe4877b5d7e9de67ff4017d8,14,spider,FALSE
+known repeated,unknown first,9fa0ee8ffe4877b5d7e9de67ff4017d8,15,cat,FALSE
+known repeated,unknown first,9fa0ee8ffe4877b5d7e9de67ff4017d8,16,cat,FALSE
+known repeated,unknown first,9fa0ee8ffe4877b5d7e9de67ff4017d8,17,cat,FALSE
+known repeated,unknown first,9fa0ee8ffe4877b5d7e9de67ff4017d8,18,clear jug,FALSE
+known repeated,unknown first,b32735e5e4c94f86502c0c6866cc050a,3,art,FALSE
+known repeated,unknown first,b32735e5e4c94f86502c0c6866cc050a,4,plunger looking thing,FALSE
+known repeated,unknown first,b32735e5e4c94f86502c0c6866cc050a,5,heart shaped slinky,FALSE
+known repeated,unknown first,b32735e5e4c94f86502c0c6866cc050a,6,ball with flat spikes,FALSE
+known repeated,unknown first,b32735e5e4c94f86502c0c6866cc050a,7,not the circle thing,TRUE
+known repeated,unknown first,b32735e5e4c94f86502c0c6866cc050a,8,spiky thing,FALSE
+known repeated,unknown first,b32735e5e4c94f86502c0c6866cc050a,9,spiky thing,FALSE
+known repeated,unknown first,b32735e5e4c94f86502c0c6866cc050a,10,handle with a cup on top,FALSE
+known repeated,unknown first,b32735e5e4c94f86502c0c6866cc050a,11,dice,FALSE
+known repeated,unknown first,b32735e5e4c94f86502c0c6866cc050a,12,top,FALSE
+known repeated,unknown first,b32735e5e4c94f86502c0c6866cc050a,13,blocks,FALSE
+known repeated,unknown first,b32735e5e4c94f86502c0c6866cc050a,14,pen,FALSE
+known repeated,unknown first,b32735e5e4c94f86502c0c6866cc050a,15,car,FALSE
+known repeated,unknown first,b32735e5e4c94f86502c0c6866cc050a,16,car,FALSE
+known repeated,unknown first,b32735e5e4c94f86502c0c6866cc050a,17,car,FALSE
+known repeated,unknown first,b32735e5e4c94f86502c0c6866cc050a,18,not the car,TRUE
+known repeated,unknown first,b954c5317d3535d27a105e4c4f5ba794,3,pom pom,FALSE
+known repeated,unknown first,b954c5317d3535d27a105e4c4f5ba794,4,bronze sculpture,FALSE
+known repeated,unknown first,b954c5317d3535d27a105e4c4f5ba794,5,paddle,FALSE
+known repeated,unknown first,b954c5317d3535d27a105e4c4f5ba794,6,bearing,FALSE
+known repeated,unknown first,b954c5317d3535d27a105e4c4f5ba794,7,monoplane,FALSE
+known repeated,unknown first,b954c5317d3535d27a105e4c4f5ba794,8,monoplane,FALSE
+known repeated,unknown first,b954c5317d3535d27a105e4c4f5ba794,9,monoplane,FALSE
+known repeated,unknown first,b954c5317d3535d27a105e4c4f5ba794,10,bolt cutter,FALSE
+known repeated,unknown first,b954c5317d3535d27a105e4c4f5ba794,11,white pine,FALSE
+known repeated,unknown first,b954c5317d3535d27a105e4c4f5ba794,12,impatiens,FALSE
+known repeated,unknown first,b954c5317d3535d27a105e4c4f5ba794,13,sphere,FALSE
+known repeated,unknown first,b954c5317d3535d27a105e4c4f5ba794,14,dice,FALSE
+known repeated,unknown first,b954c5317d3535d27a105e4c4f5ba794,15,sunflower,FALSE
+known repeated,unknown first,b954c5317d3535d27a105e4c4f5ba794,16,sunflower,FALSE
+known repeated,unknown first,b954c5317d3535d27a105e4c4f5ba794,17,sunflower,FALSE
+known repeated,unknown first,b954c5317d3535d27a105e4c4f5ba794,18,band,FALSE
+known repeated,unknown first,be835b45298480b01b8f0c417261df2b,3,blocks,FALSE
+known repeated,unknown first,be835b45298480b01b8f0c417261df2b,4,airplane,FALSE
+known repeated,unknown first,be835b45298480b01b8f0c417261df2b,5,looks like it can spin,FALSE
+known repeated,unknown first,be835b45298480b01b8f0c417261df2b,6,multiple holes in it,FALSE
+known repeated,unknown first,be835b45298480b01b8f0c417261df2b,7,hand looking things NOT clasped,FALSE
+known repeated,unknown first,be835b45298480b01b8f0c417261df2b,8,looks like hands clasped,FALSE
+known repeated,unknown first,be835b45298480b01b8f0c417261df2b,9,looks like hands clasped,FALSE
+known repeated,unknown first,be835b45298480b01b8f0c417261df2b,10,looks like jar on its side,FALSE
+known repeated,unknown first,be835b45298480b01b8f0c417261df2b,11,look like crab,FALSE
+known repeated,unknown first,be835b45298480b01b8f0c417261df2b,12,lots of spikes,FALSE
+known repeated,unknown first,be835b45298480b01b8f0c417261df2b,13,clumped all together,FALSE
+known repeated,unknown first,be835b45298480b01b8f0c417261df2b,14,apple,FALSE
+known repeated,unknown first,be835b45298480b01b8f0c417261df2b,15,shoe,FALSE
+known repeated,unknown first,be835b45298480b01b8f0c417261df2b,16,shoe,FALSE
+known repeated,unknown first,be835b45298480b01b8f0c417261df2b,17,shoe,FALSE
+known repeated,unknown first,be835b45298480b01b8f0c417261df2b,18,balloon thing on end,FALSE
+known repeated,unknown first,d175003589a0f1e1b4687381d68991ad,3,weird dumbbell,FALSE
+known repeated,unknown first,d175003589a0f1e1b4687381d68991ad,4,chew toy,FALSE
+known repeated,unknown first,d175003589a0f1e1b4687381d68991ad,5,weird hinge thing,FALSE
+known repeated,unknown first,d175003589a0f1e1b4687381d68991ad,6,long utensil,FALSE
+known repeated,unknown first,d175003589a0f1e1b4687381d68991ad,7,sea urchin thing,FALSE
+known repeated,unknown first,d175003589a0f1e1b4687381d68991ad,8,sea urchin thing,FALSE
+known repeated,unknown first,d175003589a0f1e1b4687381d68991ad,9,sea urchin thing,FALSE
+known repeated,unknown first,d175003589a0f1e1b4687381d68991ad,10,flying saucertop,FALSE
+known repeated,unknown first,d175003589a0f1e1b4687381d68991ad,11,butterfly,FALSE
+known repeated,unknown first,d175003589a0f1e1b4687381d68991ad,12,loofa sponge thing,FALSE
+known repeated,unknown first,d175003589a0f1e1b4687381d68991ad,13,gyroscope toy,FALSE
+known repeated,unknown first,d175003589a0f1e1b4687381d68991ad,14,car,FALSE
+known repeated,unknown first,d175003589a0f1e1b4687381d68991ad,15,cat,FALSE
+known repeated,unknown first,d175003589a0f1e1b4687381d68991ad,16,cat,FALSE
+known repeated,unknown first,d175003589a0f1e1b4687381d68991ad,17,cat,FALSE
+known repeated,unknown first,d175003589a0f1e1b4687381d68991ad,18,white sheet,FALSE
+known repeated,unknown first,dff4c0c7122dbfea8367f25b5a633f4b,3,chef hat,FALSE
+known repeated,unknown first,dff4c0c7122dbfea8367f25b5a633f4b,4,rattle,FALSE
+known repeated,unknown first,dff4c0c7122dbfea8367f25b5a633f4b,5,blocks,FALSE
+known repeated,unknown first,dff4c0c7122dbfea8367f25b5a633f4b,6,jello thing,FALSE
+known repeated,unknown first,dff4c0c7122dbfea8367f25b5a633f4b,7,circular thing,FALSE
+known repeated,unknown first,dff4c0c7122dbfea8367f25b5a633f4b,8,circular thing,FALSE
+known repeated,unknown first,dff4c0c7122dbfea8367f25b5a633f4b,9,circular thing,FALSE
+known repeated,unknown first,dff4c0c7122dbfea8367f25b5a633f4b,10,jagged circular thing,FALSE
+known repeated,unknown first,dff4c0c7122dbfea8367f25b5a633f4b,11,cat,FALSE
+known repeated,unknown first,dff4c0c7122dbfea8367f25b5a633f4b,12,germ looking thing,FALSE
+known repeated,unknown first,dff4c0c7122dbfea8367f25b5a633f4b,13,ball with a hole on it,FALSE
+known repeated,unknown first,dff4c0c7122dbfea8367f25b5a633f4b,14,ring,FALSE
+known repeated,unknown first,dff4c0c7122dbfea8367f25b5a633f4b,15,shoe,FALSE
+known repeated,unknown first,dff4c0c7122dbfea8367f25b5a633f4b,16,shoe,FALSE
+known repeated,unknown first,dff4c0c7122dbfea8367f25b5a633f4b,17,shoe,FALSE
+known repeated,unknown first,dff4c0c7122dbfea8367f25b5a633f4b,18,roadblock thing,FALSE
+known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,3,toy,FALSE
+known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,4,toy,FALSE
+known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,5,toy,FALSE
+known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,6,toy,FALSE
+known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,7,toy,FALSE
+known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,8,toy,FALSE
+known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,9,toy,FALSE
+known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,10,toy,FALSE
+known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,11,toy,FALSE
+known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,12,head set,FALSE
+known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,13,toy,FALSE
+known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,14,ring,FALSE
+known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,15,car,FALSE
+known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,16,car,FALSE
+known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,17,car,FALSE
+known repeated,unknown first,e3240b292a6dcc87a385550791ba156c,18,toy,FALSE
+known repeated,unknown first,f025fe0afa96693f67d9008ab79841eb,3,snowflake,FALSE
+known repeated,unknown first,f025fe0afa96693f67d9008ab79841eb,4,doughnut,FALSE
+known repeated,unknown first,f025fe0afa96693f67d9008ab79841eb,5,circle,FALSE
+known repeated,unknown first,f025fe0afa96693f67d9008ab79841eb,6,sponge,FALSE
+known repeated,unknown first,f025fe0afa96693f67d9008ab79841eb,7,cylinder,FALSE
+known repeated,unknown first,f025fe0afa96693f67d9008ab79841eb,8,cylinder,FALSE
+known repeated,unknown first,f025fe0afa96693f67d9008ab79841eb,9,cylinder,FALSE
+known repeated,unknown first,f025fe0afa96693f67d9008ab79841eb,10,helmet,FALSE
+known repeated,unknown first,f025fe0afa96693f67d9008ab79841eb,11,butterfly,FALSE
+known repeated,unknown first,f025fe0afa96693f67d9008ab79841eb,12,top,FALSE
+known repeated,unknown first,f025fe0afa96693f67d9008ab79841eb,13,bowl,FALSE
+known repeated,unknown first,f025fe0afa96693f67d9008ab79841eb,14,tree,FALSE
+known repeated,unknown first,f025fe0afa96693f67d9008ab79841eb,15,dice,FALSE
+known repeated,unknown first,f025fe0afa96693f67d9008ab79841eb,16,dice,FALSE
+known repeated,unknown first,f025fe0afa96693f67d9008ab79841eb,17,dice,FALSE
+known repeated,unknown first,f025fe0afa96693f67d9008ab79841eb,18,art,FALSE
+known repeated,unknown first,f81d98de4a6cbe477fc3b327cd5ccae0,3,globe,FALSE
+known repeated,unknown first,f81d98de4a6cbe477fc3b327cd5ccae0,4,Bead,FALSE
+known repeated,unknown first,f81d98de4a6cbe477fc3b327cd5ccae0,5,Monochrome,FALSE
+known repeated,unknown first,f81d98de4a6cbe477fc3b327cd5ccae0,6,Wire,FALSE
+known repeated,unknown first,f81d98de4a6cbe477fc3b327cd5ccae0,7,Bronze sculpture,FALSE
+known repeated,unknown first,f81d98de4a6cbe477fc3b327cd5ccae0,8,Bronze sculpture,FALSE
+known repeated,unknown first,f81d98de4a6cbe477fc3b327cd5ccae0,9,Bronze sculpture,FALSE
+known repeated,unknown first,f81d98de4a6cbe477fc3b327cd5ccae0,10,Reptile,FALSE
+known repeated,unknown first,f81d98de4a6cbe477fc3b327cd5ccae0,11,car,FALSE
+known repeated,unknown first,f81d98de4a6cbe477fc3b327cd5ccae0,12,squarer,FALSE
+known repeated,unknown first,f81d98de4a6cbe477fc3b327cd5ccae0,13,doll,FALSE
+known repeated,unknown first,f81d98de4a6cbe477fc3b327cd5ccae0,14,tree,FALSE
+known repeated,unknown first,f81d98de4a6cbe477fc3b327cd5ccae0,15,fork,FALSE
+known repeated,unknown first,f81d98de4a6cbe477fc3b327cd5ccae0,16,fork,FALSE
+known repeated,unknown first,f81d98de4a6cbe477fc3b327cd5ccae0,17,fork,FALSE
+known repeated,unknown first,f81d98de4a6cbe477fc3b327cd5ccae0,18,tool,FALSE
+unknown repeated,mixed first,061b5843fc6d4e4115c2862d2b4eb138,3,not the ring,TRUE
+unknown repeated,mixed first,061b5843fc6d4e4115c2862d2b4eb138,4,apple,FALSE
+unknown repeated,mixed first,061b5843fc6d4e4115c2862d2b4eb138,5,not the cat,TRUE
+unknown repeated,mixed first,061b5843fc6d4e4115c2862d2b4eb138,6,flower,FALSE
+unknown repeated,mixed first,061b5843fc6d4e4115c2862d2b4eb138,7,not the tree,TRUE
+unknown repeated,mixed first,061b5843fc6d4e4115c2862d2b4eb138,8,not the fork,TRUE
+unknown repeated,mixed first,061b5843fc6d4e4115c2862d2b4eb138,9,not the chair,TRUE
+unknown repeated,mixed first,061b5843fc6d4e4115c2862d2b4eb138,10,automobile,FALSE
+unknown repeated,mixed first,061b5843fc6d4e4115c2862d2b4eb138,11,blocks,FALSE
+unknown repeated,mixed first,061b5843fc6d4e4115c2862d2b4eb138,12,the one with the moving handle,FALSE
+unknown repeated,mixed first,061b5843fc6d4e4115c2862d2b4eb138,13,not the wire sculpture,TRUE
+unknown repeated,mixed first,061b5843fc6d4e4115c2862d2b4eb138,14,paddle with holes,FALSE
+unknown repeated,mixed first,061b5843fc6d4e4115c2862d2b4eb138,15,not the plastic dome,TRUE
+unknown repeated,mixed first,061b5843fc6d4e4115c2862d2b4eb138,16,the one with 5 knobs on it,FALSE
+unknown repeated,mixed first,061b5843fc6d4e4115c2862d2b4eb138,17,the thing with 5 knobs on it,FALSE
+unknown repeated,mixed first,061b5843fc6d4e4115c2862d2b4eb138,18,not the thing with 5 knobs on it,TRUE
+unknown repeated,mixed first,093d9ef3dd55122e6a7ed64e87749c36,3,slinky,FALSE
+unknown repeated,mixed first,093d9ef3dd55122e6a7ed64e87749c36,4,spider crab,FALSE
+unknown repeated,mixed first,093d9ef3dd55122e6a7ed64e87749c36,5,airplane toy,FALSE
+unknown repeated,mixed first,093d9ef3dd55122e6a7ed64e87749c36,6,dice,FALSE
+unknown repeated,mixed first,093d9ef3dd55122e6a7ed64e87749c36,7,paddle,FALSE
+unknown repeated,mixed first,093d9ef3dd55122e6a7ed64e87749c36,8,paddle,FALSE
+unknown repeated,mixed first,093d9ef3dd55122e6a7ed64e87749c36,9,paddle,FALSE
+unknown repeated,mixed first,093d9ef3dd55122e6a7ed64e87749c36,10,mug,FALSE
+unknown repeated,mixed first,093d9ef3dd55122e6a7ed64e87749c36,11,fat turkey baster,FALSE
+unknown repeated,mixed first,093d9ef3dd55122e6a7ed64e87749c36,12,spiky cube,FALSE
+unknown repeated,mixed first,093d9ef3dd55122e6a7ed64e87749c36,13,light,FALSE
+unknown repeated,mixed first,093d9ef3dd55122e6a7ed64e87749c36,14,board with handles,FALSE
+unknown repeated,mixed first,093d9ef3dd55122e6a7ed64e87749c36,15,white smushed hat,FALSE
+unknown repeated,mixed first,093d9ef3dd55122e6a7ed64e87749c36,16,white smushed hat,FALSE
+unknown repeated,mixed first,093d9ef3dd55122e6a7ed64e87749c36,17,white smushed hat,FALSE
+unknown repeated,mixed first,093d9ef3dd55122e6a7ed64e87749c36,18,tubes,FALSE
+unknown repeated,mixed first,0f9f3e637df4019d1a6e9522e855d886,3,not shoe,TRUE
+unknown repeated,mixed first,0f9f3e637df4019d1a6e9522e855d886,4,cat,FALSE
+unknown repeated,mixed first,0f9f3e637df4019d1a6e9522e855d886,5,not chair,TRUE
+unknown repeated,mixed first,0f9f3e637df4019d1a6e9522e855d886,6,pen,FALSE
+unknown repeated,mixed first,0f9f3e637df4019d1a6e9522e855d886,7,toy,FALSE
+unknown repeated,mixed first,0f9f3e637df4019d1a6e9522e855d886,8,toy,FALSE
+unknown repeated,mixed first,0f9f3e637df4019d1a6e9522e855d886,9,toy,FALSE
+unknown repeated,mixed first,0f9f3e637df4019d1a6e9522e855d886,10,cup,FALSE
+unknown repeated,mixed first,0f9f3e637df4019d1a6e9522e855d886,11,long legos,FALSE
+unknown repeated,mixed first,0f9f3e637df4019d1a6e9522e855d886,12,rectangle,FALSE
+unknown repeated,mixed first,0f9f3e637df4019d1a6e9522e855d886,13,four sticks on top,FALSE
+unknown repeated,mixed first,0f9f3e637df4019d1a6e9522e855d886,14,circles,FALSE
+unknown repeated,mixed first,0f9f3e637df4019d1a6e9522e855d886,15,plunger,FALSE
+unknown repeated,mixed first,0f9f3e637df4019d1a6e9522e855d886,16,plunger,FALSE
+unknown repeated,mixed first,0f9f3e637df4019d1a6e9522e855d886,17,plunger,FALSE
+unknown repeated,mixed first,0f9f3e637df4019d1a6e9522e855d886,18,circles,FALSE
+unknown repeated,mixed first,283973b619b0409ea63bc7bebc551814,3,has a hole in it,FALSE
+unknown repeated,mixed first,283973b619b0409ea63bc7bebc551814,4,apple,FALSE
+unknown repeated,mixed first,283973b619b0409ea63bc7bebc551814,5,spikes,FALSE
+unknown repeated,mixed first,283973b619b0409ea63bc7bebc551814,6,chair,FALSE
+unknown repeated,mixed first,283973b619b0409ea63bc7bebc551814,7,hearts,FALSE
+unknown repeated,mixed first,283973b619b0409ea63bc7bebc551814,8,hearts,FALSE
+unknown repeated,mixed first,283973b619b0409ea63bc7bebc551814,9,hearts,FALSE
+unknown repeated,mixed first,283973b619b0409ea63bc7bebc551814,10,fork,FALSE
+unknown repeated,mixed first,283973b619b0409ea63bc7bebc551814,11,black,FALSE
+unknown repeated,mixed first,283973b619b0409ea63bc7bebc551814,12,knobby,FALSE
+unknown repeated,mixed first,283973b619b0409ea63bc7bebc551814,13,blocks,FALSE
+unknown repeated,mixed first,283973b619b0409ea63bc7bebc551814,14,holes in it,FALSE
+unknown repeated,mixed first,283973b619b0409ea63bc7bebc551814,15,donut with antenna,FALSE
+unknown repeated,mixed first,283973b619b0409ea63bc7bebc551814,16,donut with antenna,FALSE
+unknown repeated,mixed first,283973b619b0409ea63bc7bebc551814,17,donut with antenna,FALSE
+unknown repeated,mixed first,283973b619b0409ea63bc7bebc551814,18,black knobby ball,FALSE
+unknown repeated,mixed first,5444449b0f474d2246899fbfef2ee443,3,not cat,TRUE
+unknown repeated,mixed first,5444449b0f474d2246899fbfef2ee443,4,butterfly,FALSE
+unknown repeated,mixed first,5444449b0f474d2246899fbfef2ee443,5,not flower,TRUE
+unknown repeated,mixed first,5444449b0f474d2246899fbfef2ee443,6,shoe,FALSE
+unknown repeated,mixed first,5444449b0f474d2246899fbfef2ee443,7,wood thing with holes,FALSE
+unknown repeated,mixed first,5444449b0f474d2246899fbfef2ee443,8,wood thing with holes,FALSE
+unknown repeated,mixed first,5444449b0f474d2246899fbfef2ee443,9,wood thing with holes,FALSE
+unknown repeated,mixed first,5444449b0f474d2246899fbfef2ee443,10,fork,FALSE
+unknown repeated,mixed first,5444449b0f474d2246899fbfef2ee443,11,spiky hoop thing,FALSE
+unknown repeated,mixed first,5444449b0f474d2246899fbfef2ee443,12,blimpshaped thing,FALSE
+unknown repeated,mixed first,5444449b0f474d2246899fbfef2ee443,13,smooth round thing with hole,FALSE
+unknown repeated,mixed first,5444449b0f474d2246899fbfef2ee443,14,two spiky orbs,FALSE
+unknown repeated,mixed first,5444449b0f474d2246899fbfef2ee443,15,smooth round thing,FALSE
+unknown repeated,mixed first,5444449b0f474d2246899fbfef2ee443,16,smooth rounded thing,FALSE
+unknown repeated,mixed first,5444449b0f474d2246899fbfef2ee443,17,smooth round thing,FALSE
+unknown repeated,mixed first,5444449b0f474d2246899fbfef2ee443,18,white thing with flat base,FALSE
+unknown repeated,mixed first,583a8e4d23d7286e12c711f76ccd873f,3,not apple,TRUE
+unknown repeated,mixed first,583a8e4d23d7286e12c711f76ccd873f,4,pen,FALSE
+unknown repeated,mixed first,583a8e4d23d7286e12c711f76ccd873f,5,not car,TRUE
+unknown repeated,mixed first,583a8e4d23d7286e12c711f76ccd873f,6,tree,FALSE
+unknown repeated,mixed first,583a8e4d23d7286e12c711f76ccd873f,7,not flower,TRUE
+unknown repeated,mixed first,583a8e4d23d7286e12c711f76ccd873f,8,not ring,TRUE
+unknown repeated,mixed first,583a8e4d23d7286e12c711f76ccd873f,9,not chair,TRUE
+unknown repeated,mixed first,583a8e4d23d7286e12c711f76ccd873f,10,fork,FALSE
+unknown repeated,mixed first,583a8e4d23d7286e12c711f76ccd873f,11,darker object,FALSE
+unknown repeated,mixed first,583a8e4d23d7286e12c711f76ccd873f,12,syringe thing,FALSE
+unknown repeated,mixed first,583a8e4d23d7286e12c711f76ccd873f,13,solid object,FALSE
+unknown repeated,mixed first,583a8e4d23d7286e12c711f76ccd873f,14,blocks,FALSE
+unknown repeated,mixed first,583a8e4d23d7286e12c711f76ccd873f,15,spiky thing,FALSE
+unknown repeated,mixed first,583a8e4d23d7286e12c711f76ccd873f,16,spiky thing,FALSE
+unknown repeated,mixed first,583a8e4d23d7286e12c711f76ccd873f,17,spiky thing,FALSE
+unknown repeated,mixed first,583a8e4d23d7286e12c711f76ccd873f,18,amoeba thing,FALSE
+unknown repeated,mixed first,66f8808fcbbc963e511931928ca32c39,3,shape,FALSE
+unknown repeated,mixed first,66f8808fcbbc963e511931928ca32c39,4,cup,FALSE
+unknown repeated,mixed first,66f8808fcbbc963e511931928ca32c39,5,heart,FALSE
+unknown repeated,mixed first,66f8808fcbbc963e511931928ca32c39,6,car,FALSE
+unknown repeated,mixed first,66f8808fcbbc963e511931928ca32c39,7,stone,FALSE
+unknown repeated,mixed first,66f8808fcbbc963e511931928ca32c39,8,stone,FALSE
+unknown repeated,mixed first,66f8808fcbbc963e511931928ca32c39,9,stone,FALSE
+unknown repeated,mixed first,66f8808fcbbc963e511931928ca32c39,10,dice,FALSE
+unknown repeated,mixed first,66f8808fcbbc963e511931928ca32c39,11,round,FALSE
+unknown repeated,mixed first,66f8808fcbbc963e511931928ca32c39,12,space ship,FALSE
+unknown repeated,mixed first,66f8808fcbbc963e511931928ca32c39,13,tilted,FALSE
+unknown repeated,mixed first,66f8808fcbbc963e511931928ca32c39,14,white,FALSE
+unknown repeated,mixed first,66f8808fcbbc963e511931928ca32c39,15,black,FALSE
+unknown repeated,mixed first,66f8808fcbbc963e511931928ca32c39,16,black,FALSE
+unknown repeated,mixed first,66f8808fcbbc963e511931928ca32c39,17,black,FALSE
+unknown repeated,mixed first,66f8808fcbbc963e511931928ca32c39,18,tube,FALSE
+unknown repeated,mixed first,6ca21ec20fccbc7deef5de63484e43d9,3,anker,FALSE
+unknown repeated,mixed first,6ca21ec20fccbc7deef5de63484e43d9,4,fiddler crab,FALSE
+unknown repeated,mixed first,6ca21ec20fccbc7deef5de63484e43d9,5,cnidaria,FALSE
+unknown repeated,mixed first,6ca21ec20fccbc7deef5de63484e43d9,6,butterfly,FALSE
+unknown repeated,mixed first,6ca21ec20fccbc7deef5de63484e43d9,7,paddle,FALSE
+unknown repeated,mixed first,6ca21ec20fccbc7deef5de63484e43d9,8,paddle,FALSE
+unknown repeated,mixed first,6ca21ec20fccbc7deef5de63484e43d9,9,paddle,FALSE
+unknown repeated,mixed first,6ca21ec20fccbc7deef5de63484e43d9,10,christmas tree,FALSE
+unknown repeated,mixed first,6ca21ec20fccbc7deef5de63484e43d9,11,spring,FALSE
+unknown repeated,mixed first,6ca21ec20fccbc7deef5de63484e43d9,12,shaving set,FALSE
+unknown repeated,mixed first,6ca21ec20fccbc7deef5de63484e43d9,13,mirror,FALSE
+unknown repeated,mixed first,6ca21ec20fccbc7deef5de63484e43d9,14,slipper,FALSE
+unknown repeated,mixed first,6ca21ec20fccbc7deef5de63484e43d9,15,metal,FALSE
+unknown repeated,mixed first,6ca21ec20fccbc7deef5de63484e43d9,16,metal,FALSE
+unknown repeated,mixed first,6ca21ec20fccbc7deef5de63484e43d9,17,metal,FALSE
+unknown repeated,mixed first,6ca21ec20fccbc7deef5de63484e43d9,18,sphere,FALSE
+unknown repeated,mixed first,741270e2f8ebb43e10bd258761c78010,3,sculpture,FALSE
+unknown repeated,mixed first,741270e2f8ebb43e10bd258761c78010,4,shoe,FALSE
+unknown repeated,mixed first,741270e2f8ebb43e10bd258761c78010,5,toy,FALSE
+unknown repeated,mixed first,741270e2f8ebb43e10bd258761c78010,6,apple,FALSE
+unknown repeated,mixed first,741270e2f8ebb43e10bd258761c78010,7,suction,FALSE
+unknown repeated,mixed first,741270e2f8ebb43e10bd258761c78010,8,suction,FALSE
+unknown repeated,mixed first,741270e2f8ebb43e10bd258761c78010,9,suction,FALSE
+unknown repeated,mixed first,741270e2f8ebb43e10bd258761c78010,10,pen,FALSE
+unknown repeated,mixed first,741270e2f8ebb43e10bd258761c78010,11,ball,FALSE
+unknown repeated,mixed first,741270e2f8ebb43e10bd258761c78010,12,fork thing,FALSE
+unknown repeated,mixed first,741270e2f8ebb43e10bd258761c78010,13,circle,FALSE
+unknown repeated,mixed first,741270e2f8ebb43e10bd258761c78010,14,squiggle toy,FALSE
+unknown repeated,mixed first,741270e2f8ebb43e10bd258761c78010,15,barbell,FALSE
+unknown repeated,mixed first,741270e2f8ebb43e10bd258761c78010,16,barbell toy,FALSE
+unknown repeated,mixed first,741270e2f8ebb43e10bd258761c78010,17,barbell squeek toy,FALSE
+unknown repeated,mixed first,741270e2f8ebb43e10bd258761c78010,18,square like toy,FALSE
+unknown repeated,mixed first,7b6d00e84f2b60223c971b6fb503181e,3,gears,FALSE
+unknown repeated,mixed first,7b6d00e84f2b60223c971b6fb503181e,4,crab,FALSE
+unknown repeated,mixed first,7b6d00e84f2b60223c971b6fb503181e,5,not apple,TRUE
+unknown repeated,mixed first,7b6d00e84f2b60223c971b6fb503181e,6,chair,FALSE
+unknown repeated,mixed first,7b6d00e84f2b60223c971b6fb503181e,7,art,FALSE
+unknown repeated,mixed first,7b6d00e84f2b60223c971b6fb503181e,8,art,FALSE
+unknown repeated,mixed first,7b6d00e84f2b60223c971b6fb503181e,9,art,FALSE
+unknown repeated,mixed first,7b6d00e84f2b60223c971b6fb503181e,10,car,FALSE
+unknown repeated,mixed first,7b6d00e84f2b60223c971b6fb503181e,11,claw,FALSE
+unknown repeated,mixed first,7b6d00e84f2b60223c971b6fb503181e,12,foam,FALSE
+unknown repeated,mixed first,7b6d00e84f2b60223c971b6fb503181e,13,slinky,FALSE
+unknown repeated,mixed first,7b6d00e84f2b60223c971b6fb503181e,14,sling,FALSE
+unknown repeated,mixed first,7b6d00e84f2b60223c971b6fb503181e,15,knob,FALSE
+unknown repeated,mixed first,7b6d00e84f2b60223c971b6fb503181e,16,knob,FALSE
+unknown repeated,mixed first,7b6d00e84f2b60223c971b6fb503181e,17,black,FALSE
+unknown repeated,mixed first,7b6d00e84f2b60223c971b6fb503181e,18,square,FALSE
+unknown repeated,mixed first,7e4d2e2864a6e6a4e851896d3dbb0cdc,3,thing that looks like a retarded pokeball  not the ring,TRUE
+unknown repeated,mixed first,7e4d2e2864a6e6a4e851896d3dbb0cdc,4,chair,FALSE
+unknown repeated,mixed first,7e4d2e2864a6e6a4e851896d3dbb0cdc,5,spiky,FALSE
+unknown repeated,mixed first,7e4d2e2864a6e6a4e851896d3dbb0cdc,6,meow,FALSE
+unknown repeated,mixed first,7e4d2e2864a6e6a4e851896d3dbb0cdc,7,not fruit,TRUE
+unknown repeated,mixed first,7e4d2e2864a6e6a4e851896d3dbb0cdc,8,not the dice,TRUE
+unknown repeated,mixed first,7e4d2e2864a6e6a4e851896d3dbb0cdc,9,not the crab,TRUE
+unknown repeated,mixed first,7e4d2e2864a6e6a4e851896d3dbb0cdc,10,Christmas tree,FALSE
+unknown repeated,mixed first,7e4d2e2864a6e6a4e851896d3dbb0cdc,11,the thing with 3 holes in the middle,FALSE
+unknown repeated,mixed first,7e4d2e2864a6e6a4e851896d3dbb0cdc,12,looks like a fish fin,FALSE
+unknown repeated,mixed first,7e4d2e2864a6e6a4e851896d3dbb0cdc,13,looks like a screw,FALSE
+unknown repeated,mixed first,7e4d2e2864a6e6a4e851896d3dbb0cdc,14,looks like a claw,FALSE
+unknown repeated,mixed first,7e4d2e2864a6e6a4e851896d3dbb0cdc,15,looks like a donut,FALSE
+unknown repeated,mixed first,7e4d2e2864a6e6a4e851896d3dbb0cdc,16,donut one again,FALSE
+unknown repeated,mixed first,7e4d2e2864a6e6a4e851896d3dbb0cdc,17,mmm donuts,FALSE
+unknown repeated,mixed first,7e4d2e2864a6e6a4e851896d3dbb0cdc,18,the thing that looks like a space shuttle,FALSE
+unknown repeated,mixed first,850fb4c14c487a9abceea96332e02f9e,3,art,FALSE
+unknown repeated,mixed first,850fb4c14c487a9abceea96332e02f9e,4,chair,FALSE
+unknown repeated,mixed first,850fb4c14c487a9abceea96332e02f9e,5,metal,FALSE
+unknown repeated,mixed first,850fb4c14c487a9abceea96332e02f9e,6,cat,FALSE
+unknown repeated,mixed first,850fb4c14c487a9abceea96332e02f9e,7,toy,FALSE
+unknown repeated,mixed first,850fb4c14c487a9abceea96332e02f9e,8,toy,FALSE
+unknown repeated,mixed first,850fb4c14c487a9abceea96332e02f9e,9,toy,FALSE
+unknown repeated,mixed first,850fb4c14c487a9abceea96332e02f9e,10,crab,FALSE
+unknown repeated,mixed first,850fb4c14c487a9abceea96332e02f9e,11,tool,FALSE
+unknown repeated,mixed first,850fb4c14c487a9abceea96332e02f9e,12,metal,FALSE
+unknown repeated,mixed first,850fb4c14c487a9abceea96332e02f9e,13,corona,FALSE
+unknown repeated,mixed first,850fb4c14c487a9abceea96332e02f9e,14,toy,FALSE
+unknown repeated,mixed first,850fb4c14c487a9abceea96332e02f9e,15,wood,FALSE
+unknown repeated,mixed first,850fb4c14c487a9abceea96332e02f9e,16,wood,FALSE
+unknown repeated,mixed first,850fb4c14c487a9abceea96332e02f9e,17,wood,FALSE
+unknown repeated,mixed first,850fb4c14c487a9abceea96332e02f9e,18,plastic,FALSE
+unknown repeated,mixed first,8e661b44acabd8d4a85e90353c4a42df,3,ball of string,FALSE
+unknown repeated,mixed first,8e661b44acabd8d4a85e90353c4a42df,4,fork,FALSE
+unknown repeated,mixed first,8e661b44acabd8d4a85e90353c4a42df,5,object with hole in the middle,FALSE
+unknown repeated,mixed first,8e661b44acabd8d4a85e90353c4a42df,6,pen,FALSE
+unknown repeated,mixed first,8e661b44acabd8d4a85e90353c4a42df,7,black item,FALSE
+unknown repeated,mixed first,8e661b44acabd8d4a85e90353c4a42df,8,black item,FALSE
+unknown repeated,mixed first,8e661b44acabd8d4a85e90353c4a42df,9,black item,FALSE
+unknown repeated,mixed first,8e661b44acabd8d4a85e90353c4a42df,10,car,FALSE
+unknown repeated,mixed first,8e661b44acabd8d4a85e90353c4a42df,11,donut like object,FALSE
+unknown repeated,mixed first,8e661b44acabd8d4a85e90353c4a42df,12,blocks,FALSE
+unknown repeated,mixed first,8e661b44acabd8d4a85e90353c4a42df,13,wheel,FALSE
+unknown repeated,mixed first,8e661b44acabd8d4a85e90353c4a42df,14,long plank like object,FALSE
+unknown repeated,mixed first,8e661b44acabd8d4a85e90353c4a42df,15,sphere,FALSE
+unknown repeated,mixed first,8e661b44acabd8d4a85e90353c4a42df,16,sphere,FALSE
+unknown repeated,mixed first,8e661b44acabd8d4a85e90353c4a42df,17,sphere,FALSE
+unknown repeated,mixed first,8e661b44acabd8d4a85e90353c4a42df,18,coat rack,FALSE
+unknown repeated,mixed first,ae4d98b4a51c64efd718038fb4221d16,3,not crab,TRUE
+unknown repeated,mixed first,ae4d98b4a51c64efd718038fb4221d16,4,cup,FALSE
+unknown repeated,mixed first,ae4d98b4a51c64efd718038fb4221d16,5,fly,FALSE
+unknown repeated,mixed first,ae4d98b4a51c64efd718038fb4221d16,6,car,FALSE
+unknown repeated,mixed first,ae4d98b4a51c64efd718038fb4221d16,7,not tree,TRUE
+unknown repeated,mixed first,ae4d98b4a51c64efd718038fb4221d16,8,not flower,TRUE
+unknown repeated,mixed first,ae4d98b4a51c64efd718038fb4221d16,9,not shoe,TRUE
+unknown repeated,mixed first,ae4d98b4a51c64efd718038fb4221d16,10,butterfly,FALSE
+unknown repeated,mixed first,ae4d98b4a51c64efd718038fb4221d16,11,white,FALSE
+unknown repeated,mixed first,ae4d98b4a51c64efd718038fb4221d16,12,bubbly,FALSE
+unknown repeated,mixed first,ae4d98b4a51c64efd718038fb4221d16,13,spikes,FALSE
+unknown repeated,mixed first,ae4d98b4a51c64efd718038fb4221d16,14,straight,FALSE
+unknown repeated,mixed first,ae4d98b4a51c64efd718038fb4221d16,15,not circle,TRUE
+unknown repeated,mixed first,ae4d98b4a51c64efd718038fb4221d16,16,thicker,FALSE
+unknown repeated,mixed first,ae4d98b4a51c64efd718038fb4221d16,17,same as previous one,FALSE
+unknown repeated,mixed first,ae4d98b4a51c64efd718038fb4221d16,18,not the same as previous one,TRUE
+unknown repeated,mixed first,b134a7f1988ad24bf655a8f6af638062,3,toy,FALSE
+unknown repeated,mixed first,b134a7f1988ad24bf655a8f6af638062,4,drink from,FALSE
+unknown repeated,mixed first,b134a7f1988ad24bf655a8f6af638062,5,nature,FALSE
+unknown repeated,mixed first,b134a7f1988ad24bf655a8f6af638062,6,write,FALSE
+unknown repeated,mixed first,b134a7f1988ad24bf655a8f6af638062,7,wear,FALSE
+unknown repeated,mixed first,b134a7f1988ad24bf655a8f6af638062,8,toy,FALSE
+unknown repeated,mixed first,b134a7f1988ad24bf655a8f6af638062,9,toy,FALSE
+unknown repeated,mixed first,b134a7f1988ad24bf655a8f6af638062,10,nature,FALSE
+unknown repeated,mixed first,b134a7f1988ad24bf655a8f6af638062,11,dog toy,FALSE
+unknown repeated,mixed first,b134a7f1988ad24bf655a8f6af638062,12,feet,FALSE
+unknown repeated,mixed first,b134a7f1988ad24bf655a8f6af638062,13,wave,FALSE
+unknown repeated,mixed first,b134a7f1988ad24bf655a8f6af638062,14,wands,FALSE
+unknown repeated,mixed first,b134a7f1988ad24bf655a8f6af638062,15,bulb,FALSE
+unknown repeated,mixed first,b134a7f1988ad24bf655a8f6af638062,16,bulb,FALSE
+unknown repeated,mixed first,b134a7f1988ad24bf655a8f6af638062,17,bulb,FALSE
+unknown repeated,mixed first,b134a7f1988ad24bf655a8f6af638062,18,slinky,FALSE
+unknown repeated,mixed first,c8d839a935260547e10d1d1f690e240b,3,not shoes,TRUE
+unknown repeated,mixed first,c8d839a935260547e10d1d1f690e240b,4,mug,FALSE
+unknown repeated,mixed first,c8d839a935260547e10d1d1f690e240b,5,not crab,TRUE
+unknown repeated,mixed first,c8d839a935260547e10d1d1f690e240b,6,ring,FALSE
+unknown repeated,mixed first,c8d839a935260547e10d1d1f690e240b,7,not butterfly,TRUE
+unknown repeated,mixed first,c8d839a935260547e10d1d1f690e240b,8,not chair,TRUE
+unknown repeated,mixed first,c8d839a935260547e10d1d1f690e240b,9,not tree,TRUE
+unknown repeated,mixed first,c8d839a935260547e10d1d1f690e240b,10,dice,FALSE
+unknown repeated,mixed first,c8d839a935260547e10d1d1f690e240b,11,rounder item,FALSE
+unknown repeated,mixed first,c8d839a935260547e10d1d1f690e240b,12,long skinny item,FALSE
+unknown repeated,mixed first,c8d839a935260547e10d1d1f690e240b,13,smooth oval,FALSE
+unknown repeated,mixed first,c8d839a935260547e10d1d1f690e240b,14,ring shape,FALSE
+unknown repeated,mixed first,c8d839a935260547e10d1d1f690e240b,15,spiky,FALSE
+unknown repeated,mixed first,c8d839a935260547e10d1d1f690e240b,16,spiky,FALSE
+unknown repeated,mixed first,c8d839a935260547e10d1d1f690e240b,17,spiky,FALSE
+unknown repeated,mixed first,c8d839a935260547e10d1d1f690e240b,18,not spiky,TRUE
+unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,3,bread,FALSE
+unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,4,ring,FALSE
+unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,5,toy,FALSE
+unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,6,Toy,FALSE
+unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,7,Toy,FALSE
+unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,8,Toy,FALSE
+unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,9,Toy,FALSE
+unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,10,pen,FALSE
+unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,11,Toy,FALSE
+unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,12,Head set,FALSE
+unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,13,Toy,FALSE
+unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,14,Toy,FALSE
+unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,15,Toy,FALSE
+unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,16,Toy,FALSE
+unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,17,Toy,FALSE
+unknown repeated,mixed first,e3240b292a6dcc87a385550791ba156c,18,Toy,FALSE
+unknown repeated,mixed first,e6676ad318698e0d511d982a6e096beb,3,snowshoe,FALSE
+unknown repeated,mixed first,e6676ad318698e0d511d982a6e096beb,4,fork,FALSE
+unknown repeated,mixed first,e6676ad318698e0d511d982a6e096beb,5,flob,FALSE
+unknown repeated,mixed first,e6676ad318698e0d511d982a6e096beb,6,car,FALSE
+unknown repeated,mixed first,e6676ad318698e0d511d982a6e096beb,7,bell,FALSE
+unknown repeated,mixed first,e6676ad318698e0d511d982a6e096beb,8,bell,FALSE
+unknown repeated,mixed first,e6676ad318698e0d511d982a6e096beb,9,bell,FALSE
+unknown repeated,mixed first,e6676ad318698e0d511d982a6e096beb,10,shoe,FALSE
+unknown repeated,mixed first,e6676ad318698e0d511d982a6e096beb,11,blimp,FALSE
+unknown repeated,mixed first,e6676ad318698e0d511d982a6e096beb,12,jack,FALSE
+unknown repeated,mixed first,e6676ad318698e0d511d982a6e096beb,13,slinky,FALSE
+unknown repeated,mixed first,e6676ad318698e0d511d982a6e096beb,14,plunger,FALSE
+unknown repeated,mixed first,e6676ad318698e0d511d982a6e096beb,15,container,FALSE
+unknown repeated,mixed first,e6676ad318698e0d511d982a6e096beb,16,container,FALSE
+unknown repeated,mixed first,e6676ad318698e0d511d982a6e096beb,17,container,FALSE
+unknown repeated,mixed first,e6676ad318698e0d511d982a6e096beb,18,sandal,FALSE
+unknown repeated,mixed first,f72f07580e554a3c4078dc5de3173de7,3,not the tree,TRUE
+unknown repeated,mixed first,f72f07580e554a3c4078dc5de3173de7,4,cat,FALSE
+unknown repeated,mixed first,f72f07580e554a3c4078dc5de3173de7,5,not the apple,TRUE
+unknown repeated,mixed first,f72f07580e554a3c4078dc5de3173de7,6,crab,FALSE
+unknown repeated,mixed first,f72f07580e554a3c4078dc5de3173de7,7,not the ring,TRUE
+unknown repeated,mixed first,f72f07580e554a3c4078dc5de3173de7,8,not the car,TRUE
+unknown repeated,mixed first,f72f07580e554a3c4078dc5de3173de7,9,not the die,TRUE
+unknown repeated,mixed first,f72f07580e554a3c4078dc5de3173de7,10,butterfly,FALSE
+unknown repeated,mixed first,f72f07580e554a3c4078dc5de3173de7,11,it has circles and is darker,FALSE
+unknown repeated,mixed first,f72f07580e554a3c4078dc5de3173de7,12,darker and looks kind of like a seashell,FALSE
+unknown repeated,mixed first,f72f07580e554a3c4078dc5de3173de7,13,the one with longer fingerlike endings,FALSE
+unknown repeated,mixed first,f72f07580e554a3c4078dc5de3173de7,14,has a hole in it,FALSE
+unknown repeated,mixed first,f72f07580e554a3c4078dc5de3173de7,15,looks like a bell,FALSE
+unknown repeated,mixed first,f72f07580e554a3c4078dc5de3173de7,16,looks like a bell,FALSE
+unknown repeated,mixed first,f72f07580e554a3c4078dc5de3173de7,17,looks like a bell,FALSE
+unknown repeated,mixed first,f72f07580e554a3c4078dc5de3173de7,18,not the one that looks like a bell,TRUE
+unknown repeated,mixed first,fb31788730b3ba5c31fbb84a4f54b5fa,3,multiple white heart shaped items,FALSE
+unknown repeated,mixed first,fb31788730b3ba5c31fbb84a4f54b5fa,4,clear glass mug,FALSE
+unknown repeated,mixed first,fb31788730b3ba5c31fbb84a4f54b5fa,5,beads on wires,FALSE
+unknown repeated,mixed first,fb31788730b3ba5c31fbb84a4f54b5fa,6,fork,FALSE
+unknown repeated,mixed first,fb31788730b3ba5c31fbb84a4f54b5fa,7,white rocket shape with fins,FALSE
+unknown repeated,mixed first,fb31788730b3ba5c31fbb84a4f54b5fa,8,white rocket with three squares on each side,FALSE
+unknown repeated,mixed first,fb31788730b3ba5c31fbb84a4f54b5fa,9,white blimp shape with fins,FALSE
+unknown repeated,mixed first,fb31788730b3ba5c31fbb84a4f54b5fa,10,cat,FALSE
+unknown repeated,mixed first,fb31788730b3ba5c31fbb84a4f54b5fa,11,white sculpture with 4 peaks,FALSE
+unknown repeated,mixed first,fb31788730b3ba5c31fbb84a4f54b5fa,12,spaghetti measuring tool with 5 holes,FALSE
+unknown repeated,mixed first,fb31788730b3ba5c31fbb84a4f54b5fa,13,spiky bracelet,FALSE
+unknown repeated,mixed first,fb31788730b3ba5c31fbb84a4f54b5fa,14,bell shaped item with wheel on top,FALSE
+unknown repeated,mixed first,fb31788730b3ba5c31fbb84a4f54b5fa,15,fluffy donut shape with 4 small fluffballs on sticks,FALSE
+unknown repeated,mixed first,fb31788730b3ba5c31fbb84a4f54b5fa,16,round swiffer material item with 4 attachments,FALSE
+unknown repeated,mixed first,fb31788730b3ba5c31fbb84a4f54b5fa,17,dandelion puffs,FALSE
+unknown repeated,mixed first,fb31788730b3ba5c31fbb84a4f54b5fa,18,cap on 2 legs,FALSE
+unknown repeated,unknown first,02832ada0da95184bd09d4b74ad2db35,3,corkscrew,FALSE
+unknown repeated,unknown first,02832ada0da95184bd09d4b74ad2db35,4,wirepin,FALSE
+unknown repeated,unknown first,02832ada0da95184bd09d4b74ad2db35,5,bellknob,FALSE
+unknown repeated,unknown first,02832ada0da95184bd09d4b74ad2db35,6,breadmold,FALSE
+unknown repeated,unknown first,02832ada0da95184bd09d4b74ad2db35,7,child lever toy,FALSE
+unknown repeated,unknown first,02832ada0da95184bd09d4b74ad2db35,8,child lever toy,FALSE
+unknown repeated,unknown first,02832ada0da95184bd09d4b74ad2db35,9,child lever toy,FALSE
+unknown repeated,unknown first,02832ada0da95184bd09d4b74ad2db35,10,donut stick,FALSE
+unknown repeated,unknown first,02832ada0da95184bd09d4b74ad2db35,11,wreath,FALSE
+unknown repeated,unknown first,02832ada0da95184bd09d4b74ad2db35,12,apple,FALSE
+unknown repeated,unknown first,02832ada0da95184bd09d4b74ad2db35,13,cardboard cannon,FALSE
+unknown repeated,unknown first,02832ada0da95184bd09d4b74ad2db35,14,ring,FALSE
+unknown repeated,unknown first,02832ada0da95184bd09d4b74ad2db35,15,paddle,FALSE
+unknown repeated,unknown first,02832ada0da95184bd09d4b74ad2db35,16,paddle,FALSE
+unknown repeated,unknown first,02832ada0da95184bd09d4b74ad2db35,17,paddle,FALSE
+unknown repeated,unknown first,02832ada0da95184bd09d4b74ad2db35,18,sunflower,FALSE
+unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,3,art,FALSE
+unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,4,art,FALSE
+unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,5,art,FALSE
+unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,6,art,FALSE
+unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,7,art,FALSE
+unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,8,art,FALSE
+unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,9,art,FALSE
+unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,10,art,FALSE
+unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,11,tools,FALSE
+unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,12,art,FALSE
+unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,13,art,FALSE
+unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,14,ring,FALSE
+unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,15,art,FALSE
+unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,16,art,FALSE
+unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,17,art,FALSE
+unknown repeated,unknown first,08d34e8fd06c6832fc7ca06a630a7301,18,art,FALSE
+unknown repeated,unknown first,15a9b0eb69cc551b52819754fdc32ad0,3,waves,FALSE
+unknown repeated,unknown first,15a9b0eb69cc551b52819754fdc32ad0,4,circles,FALSE
+unknown repeated,unknown first,15a9b0eb69cc551b52819754fdc32ad0,5,ring,FALSE
+unknown repeated,unknown first,15a9b0eb69cc551b52819754fdc32ad0,6,bop it,FALSE
+unknown repeated,unknown first,15a9b0eb69cc551b52819754fdc32ad0,7,wheel,FALSE
+unknown repeated,unknown first,15a9b0eb69cc551b52819754fdc32ad0,8,bellshape,FALSE
+unknown repeated,unknown first,15a9b0eb69cc551b52819754fdc32ad0,9,bell,FALSE
+unknown repeated,unknown first,15a9b0eb69cc551b52819754fdc32ad0,10,points,FALSE
+unknown repeated,unknown first,15a9b0eb69cc551b52819754fdc32ad0,11,toy,FALSE
+unknown repeated,unknown first,15a9b0eb69cc551b52819754fdc32ad0,12,pen,FALSE
+unknown repeated,unknown first,15a9b0eb69cc551b52819754fdc32ad0,13,lines,FALSE
+unknown repeated,unknown first,15a9b0eb69cc551b52819754fdc32ad0,14,car,FALSE
+unknown repeated,unknown first,15a9b0eb69cc551b52819754fdc32ad0,15,hole,FALSE
+unknown repeated,unknown first,15a9b0eb69cc551b52819754fdc32ad0,16,hole,FALSE
+unknown repeated,unknown first,15a9b0eb69cc551b52819754fdc32ad0,17,hole,FALSE
+unknown repeated,unknown first,15a9b0eb69cc551b52819754fdc32ad0,18,shoe,FALSE
+unknown repeated,unknown first,18a883fed99d9f8e006d2ca9ab57341f,3,virus,FALSE
+unknown repeated,unknown first,18a883fed99d9f8e006d2ca9ab57341f,4,hole,FALSE
+unknown repeated,unknown first,18a883fed99d9f8e006d2ca9ab57341f,5,flaps up,FALSE
+unknown repeated,unknown first,18a883fed99d9f8e006d2ca9ab57341f,6,four attenae,FALSE
+unknown repeated,unknown first,18a883fed99d9f8e006d2ca9ab57341f,7,hat,FALSE
+unknown repeated,unknown first,18a883fed99d9f8e006d2ca9ab57341f,8,hat,FALSE
+unknown repeated,unknown first,18a883fed99d9f8e006d2ca9ab57341f,9,hat,FALSE
+unknown repeated,unknown first,18a883fed99d9f8e006d2ca9ab57341f,10,virus,FALSE
+unknown repeated,unknown first,18a883fed99d9f8e006d2ca9ab57341f,11,flower,FALSE
+unknown repeated,unknown first,18a883fed99d9f8e006d2ca9ab57341f,12,apple,FALSE
+unknown repeated,unknown first,18a883fed99d9f8e006d2ca9ab57341f,13,plane,FALSE
+unknown repeated,unknown first,18a883fed99d9f8e006d2ca9ab57341f,14,cup,FALSE
+unknown repeated,unknown first,18a883fed99d9f8e006d2ca9ab57341f,15,flying saucer,FALSE
+unknown repeated,unknown first,18a883fed99d9f8e006d2ca9ab57341f,16,flying saucer,FALSE
+unknown repeated,unknown first,18a883fed99d9f8e006d2ca9ab57341f,17,flying saucer,FALSE
+unknown repeated,unknown first,18a883fed99d9f8e006d2ca9ab57341f,18,crab,FALSE
+unknown repeated,unknown first,330c5be90b8bdf57ddfe5d9c27b84438,3,funny shape,FALSE
+unknown repeated,unknown first,330c5be90b8bdf57ddfe5d9c27b84438,4,spiky ball,FALSE
+unknown repeated,unknown first,330c5be90b8bdf57ddfe5d9c27b84438,5,glass,FALSE
+unknown repeated,unknown first,330c5be90b8bdf57ddfe5d9c27b84438,6,spin top thing,FALSE
+unknown repeated,unknown first,330c5be90b8bdf57ddfe5d9c27b84438,7,weird plunger,FALSE
+unknown repeated,unknown first,330c5be90b8bdf57ddfe5d9c27b84438,8,weird plunger,FALSE
+unknown repeated,unknown first,330c5be90b8bdf57ddfe5d9c27b84438,9,weird plunger,FALSE
+unknown repeated,unknown first,330c5be90b8bdf57ddfe5d9c27b84438,10,funny stress ball,FALSE
+unknown repeated,unknown first,330c5be90b8bdf57ddfe5d9c27b84438,11,planet art,FALSE
+unknown repeated,unknown first,330c5be90b8bdf57ddfe5d9c27b84438,12,dice,FALSE
+unknown repeated,unknown first,330c5be90b8bdf57ddfe5d9c27b84438,13,trash,FALSE
+unknown repeated,unknown first,330c5be90b8bdf57ddfe5d9c27b84438,14,flower,FALSE
+unknown repeated,unknown first,330c5be90b8bdf57ddfe5d9c27b84438,15,tool,FALSE
+unknown repeated,unknown first,330c5be90b8bdf57ddfe5d9c27b84438,16,tool,FALSE
+unknown repeated,unknown first,330c5be90b8bdf57ddfe5d9c27b84438,17,tool,FALSE
+unknown repeated,unknown first,330c5be90b8bdf57ddfe5d9c27b84438,18,ring,FALSE
+unknown repeated,unknown first,69c560fb95b92edc151fabf58983c20c,3,weird thing,FALSE
+unknown repeated,unknown first,69c560fb95b92edc151fabf58983c20c,4,weird item,FALSE
+unknown repeated,unknown first,69c560fb95b92edc151fabf58983c20c,5,metal thing,FALSE
+unknown repeated,unknown first,69c560fb95b92edc151fabf58983c20c,6,metal,FALSE
+unknown repeated,unknown first,69c560fb95b92edc151fabf58983c20c,7,weird shsaped thing,FALSE
+unknown repeated,unknown first,69c560fb95b92edc151fabf58983c20c,8,binocular thing,FALSE
+unknown repeated,unknown first,69c560fb95b92edc151fabf58983c20c,9,circle thing,FALSE
+unknown repeated,unknown first,69c560fb95b92edc151fabf58983c20c,10,bell,FALSE
+unknown repeated,unknown first,69c560fb95b92edc151fabf58983c20c,11,world thing,FALSE
+unknown repeated,unknown first,69c560fb95b92edc151fabf58983c20c,12,flower shaped,FALSE
+unknown repeated,unknown first,69c560fb95b92edc151fabf58983c20c,13,legs spread,FALSE
+unknown repeated,unknown first,69c560fb95b92edc151fabf58983c20c,14,apple,FALSE
+unknown repeated,unknown first,69c560fb95b92edc151fabf58983c20c,15,baloon,FALSE
+unknown repeated,unknown first,69c560fb95b92edc151fabf58983c20c,16,weird shaped plane thing,FALSE
+unknown repeated,unknown first,69c560fb95b92edc151fabf58983c20c,17,weird shaped thing again,FALSE
+unknown repeated,unknown first,69c560fb95b92edc151fabf58983c20c,18,cat,FALSE
+unknown repeated,unknown first,7d13a62a5981d7a33bdab61c39e653c1,3,black and white,FALSE
+unknown repeated,unknown first,7d13a62a5981d7a33bdab61c39e653c1,4,circular,FALSE
+unknown repeated,unknown first,7d13a62a5981d7a33bdab61c39e653c1,5,only one hole,FALSE
+unknown repeated,unknown first,7d13a62a5981d7a33bdab61c39e653c1,6,one hole smooth,FALSE
+unknown repeated,unknown first,7d13a62a5981d7a33bdab61c39e653c1,7,circle,FALSE
+unknown repeated,unknown first,7d13a62a5981d7a33bdab61c39e653c1,8,hoop,FALSE
+unknown repeated,unknown first,7d13a62a5981d7a33bdab61c39e653c1,9,hoop AGAIN,FALSE
+unknown repeated,unknown first,7d13a62a5981d7a33bdab61c39e653c1,10,rocket,FALSE
+unknown repeated,unknown first,7d13a62a5981d7a33bdab61c39e653c1,11,bat w holes,FALSE
+unknown repeated,unknown first,7d13a62a5981d7a33bdab61c39e653c1,12,ring,FALSE
+unknown repeated,unknown first,7d13a62a5981d7a33bdab61c39e653c1,13,not a pen,TRUE
+unknown repeated,unknown first,7d13a62a5981d7a33bdab61c39e653c1,14,car,FALSE
+unknown repeated,unknown first,7d13a62a5981d7a33bdab61c39e653c1,15,not dice,TRUE
+unknown repeated,unknown first,7d13a62a5981d7a33bdab61c39e653c1,16,not shoe,TRUE
+unknown repeated,unknown first,7d13a62a5981d7a33bdab61c39e653c1,17,not tree,TRUE
+unknown repeated,unknown first,7d13a62a5981d7a33bdab61c39e653c1,18,butterfly,FALSE
+unknown repeated,unknown first,8aa6a455a6b209d12ed1d08111d1583f,3,pom pom,FALSE
+unknown repeated,unknown first,8aa6a455a6b209d12ed1d08111d1583f,4,cndria,FALSE
+unknown repeated,unknown first,8aa6a455a6b209d12ed1d08111d1583f,5,circular saw,FALSE
+unknown repeated,unknown first,8aa6a455a6b209d12ed1d08111d1583f,6,Surfing,FALSE
+unknown repeated,unknown first,8aa6a455a6b209d12ed1d08111d1583f,7,paddle,FALSE
+unknown repeated,unknown first,8aa6a455a6b209d12ed1d08111d1583f,8,padle,FALSE
+unknown repeated,unknown first,8aa6a455a6b209d12ed1d08111d1583f,9,Paddle,FALSE
+unknown repeated,unknown first,8aa6a455a6b209d12ed1d08111d1583f,10,monoplane,FALSE
+unknown repeated,unknown first,8aa6a455a6b209d12ed1d08111d1583f,11,bead,FALSE
+unknown repeated,unknown first,8aa6a455a6b209d12ed1d08111d1583f,12,pen,FALSE
+unknown repeated,unknown first,8aa6a455a6b209d12ed1d08111d1583f,13,monochrome,FALSE
+unknown repeated,unknown first,8aa6a455a6b209d12ed1d08111d1583f,14,Preengagement ring,FALSE
+unknown repeated,unknown first,8aa6a455a6b209d12ed1d08111d1583f,15,gun barrel,FALSE
+unknown repeated,unknown first,8aa6a455a6b209d12ed1d08111d1583f,16,gun barrel,FALSE
+unknown repeated,unknown first,8aa6a455a6b209d12ed1d08111d1583f,17,gun barreel,FALSE
+unknown repeated,unknown first,8aa6a455a6b209d12ed1d08111d1583f,18,Fidder cab,FALSE
+unknown repeated,unknown first,ab8c2fb9aabf4fde90d4d812f77ee64d,3,lines,FALSE
+unknown repeated,unknown first,ab8c2fb9aabf4fde90d4d812f77ee64d,4,bricks,FALSE
+unknown repeated,unknown first,ab8c2fb9aabf4fde90d4d812f77ee64d,5,top,FALSE
+unknown repeated,unknown first,ab8c2fb9aabf4fde90d4d812f77ee64d,6,attachment,FALSE
+unknown repeated,unknown first,ab8c2fb9aabf4fde90d4d812f77ee64d,7,spikes,FALSE
+unknown repeated,unknown first,ab8c2fb9aabf4fde90d4d812f77ee64d,8,spikes,FALSE
+unknown repeated,unknown first,ab8c2fb9aabf4fde90d4d812f77ee64d,9,spikes,FALSE
+unknown repeated,unknown first,ab8c2fb9aabf4fde90d4d812f77ee64d,10,trees,FALSE
+unknown repeated,unknown first,ab8c2fb9aabf4fde90d4d812f77ee64d,11,handle,FALSE
+unknown repeated,unknown first,ab8c2fb9aabf4fde90d4d812f77ee64d,12,apple,FALSE
+unknown repeated,unknown first,ab8c2fb9aabf4fde90d4d812f77ee64d,13,bell,FALSE
+unknown repeated,unknown first,ab8c2fb9aabf4fde90d4d812f77ee64d,14,flower,FALSE
+unknown repeated,unknown first,ab8c2fb9aabf4fde90d4d812f77ee64d,15,hook,FALSE
+unknown repeated,unknown first,ab8c2fb9aabf4fde90d4d812f77ee64d,16,hook,FALSE
+unknown repeated,unknown first,ab8c2fb9aabf4fde90d4d812f77ee64d,17,hook,FALSE
+unknown repeated,unknown first,ab8c2fb9aabf4fde90d4d812f77ee64d,18,pen,FALSE
+unknown repeated,unknown first,ad902a3dd6e57fc89b8b7c3c94722162,3,circle,FALSE
+unknown repeated,unknown first,ad902a3dd6e57fc89b8b7c3c94722162,4,oval,FALSE
+unknown repeated,unknown first,ad902a3dd6e57fc89b8b7c3c94722162,5,gripper,FALSE
+unknown repeated,unknown first,ad902a3dd6e57fc89b8b7c3c94722162,6,bell,FALSE
+unknown repeated,unknown first,ad902a3dd6e57fc89b8b7c3c94722162,7,bubble,FALSE
+unknown repeated,unknown first,ad902a3dd6e57fc89b8b7c3c94722162,8,bubble,FALSE
+unknown repeated,unknown first,ad902a3dd6e57fc89b8b7c3c94722162,9,bubble,FALSE
+unknown repeated,unknown first,ad902a3dd6e57fc89b8b7c3c94722162,10,doughnut with sticks,FALSE
+unknown repeated,unknown first,ad902a3dd6e57fc89b8b7c3c94722162,11,bacteria,FALSE
+unknown repeated,unknown first,ad902a3dd6e57fc89b8b7c3c94722162,12,apple,FALSE
+unknown repeated,unknown first,ad902a3dd6e57fc89b8b7c3c94722162,13,origami,FALSE
+unknown repeated,unknown first,ad902a3dd6e57fc89b8b7c3c94722162,14,cat,FALSE
+unknown repeated,unknown first,ad902a3dd6e57fc89b8b7c3c94722162,15,toy,FALSE
+unknown repeated,unknown first,ad902a3dd6e57fc89b8b7c3c94722162,16,toy,FALSE
+unknown repeated,unknown first,ad902a3dd6e57fc89b8b7c3c94722162,17,toy,FALSE
+unknown repeated,unknown first,ad902a3dd6e57fc89b8b7c3c94722162,18,shoe,FALSE
+unknown repeated,unknown first,bb3162b6ce084583b6ad104923154a6b,3,wood blocks,FALSE
+unknown repeated,unknown first,bb3162b6ce084583b6ad104923154a6b,4,plastic heart,FALSE
+unknown repeated,unknown first,bb3162b6ce084583b6ad104923154a6b,5,glass vase,FALSE
+unknown repeated,unknown first,bb3162b6ce084583b6ad104923154a6b,6,prickly,FALSE
+unknown repeated,unknown first,bb3162b6ce084583b6ad104923154a6b,7,legs,FALSE
+unknown repeated,unknown first,bb3162b6ce084583b6ad104923154a6b,8,legs,FALSE
+unknown repeated,unknown first,bb3162b6ce084583b6ad104923154a6b,9,legs,FALSE
+unknown repeated,unknown first,bb3162b6ce084583b6ad104923154a6b,10,fuzzy,FALSE
+unknown repeated,unknown first,bb3162b6ce084583b6ad104923154a6b,11,squeeze,FALSE
+unknown repeated,unknown first,bb3162b6ce084583b6ad104923154a6b,12,chair,FALSE
+unknown repeated,unknown first,bb3162b6ce084583b6ad104923154a6b,13,spin top,FALSE
+unknown repeated,unknown first,bb3162b6ce084583b6ad104923154a6b,14,ring,FALSE
+unknown repeated,unknown first,bb3162b6ce084583b6ad104923154a6b,15,bell,FALSE
+unknown repeated,unknown first,bb3162b6ce084583b6ad104923154a6b,16,bell,FALSE
+unknown repeated,unknown first,bb3162b6ce084583b6ad104923154a6b,17,bell,FALSE
+unknown repeated,unknown first,bb3162b6ce084583b6ad104923154a6b,18,car,FALSE
+unknown repeated,unknown first,c8519b0f43b7ea3f01c56998e368baf5,3,drum,FALSE
+unknown repeated,unknown first,c8519b0f43b7ea3f01c56998e368baf5,4,ring,FALSE
+unknown repeated,unknown first,c8519b0f43b7ea3f01c56998e368baf5,5,holes,FALSE
+unknown repeated,unknown first,c8519b0f43b7ea3f01c56998e368baf5,6,brush,FALSE
+unknown repeated,unknown first,c8519b0f43b7ea3f01c56998e368baf5,7,holes,FALSE
+unknown repeated,unknown first,c8519b0f43b7ea3f01c56998e368baf5,8,flatter,FALSE
+unknown repeated,unknown first,c8519b0f43b7ea3f01c56998e368baf5,9,flat with holes,FALSE
+unknown repeated,unknown first,c8519b0f43b7ea3f01c56998e368baf5,10,spiky,FALSE
+unknown repeated,unknown first,c8519b0f43b7ea3f01c56998e368baf5,11,toy,FALSE
+unknown repeated,unknown first,c8519b0f43b7ea3f01c56998e368baf5,12,car,FALSE
+unknown repeated,unknown first,c8519b0f43b7ea3f01c56998e368baf5,13,not the crab,TRUE
+unknown repeated,unknown first,c8519b0f43b7ea3f01c56998e368baf5,14,cat,FALSE
+unknown repeated,unknown first,c8519b0f43b7ea3f01c56998e368baf5,15,spiky,FALSE
+unknown repeated,unknown first,c8519b0f43b7ea3f01c56998e368baf5,16,spiky toy,FALSE
+unknown repeated,unknown first,c8519b0f43b7ea3f01c56998e368baf5,17,spiky toy,FALSE
+unknown repeated,unknown first,c8519b0f43b7ea3f01c56998e368baf5,18,ring,FALSE
+unknown repeated,unknown first,c8d502c521d5003fcaaacf10afe32ac0,3,three appendages,FALSE
+unknown repeated,unknown first,c8d502c521d5003fcaaacf10afe32ac0,4,clear,FALSE
+unknown repeated,unknown first,c8d502c521d5003fcaaacf10afe32ac0,5,blocks,FALSE
+unknown repeated,unknown first,c8d502c521d5003fcaaacf10afe32ac0,6,one hole,FALSE
+unknown repeated,unknown first,c8d502c521d5003fcaaacf10afe32ac0,7,shamrock,FALSE
+unknown repeated,unknown first,c8d502c521d5003fcaaacf10afe32ac0,8,shamrock,FALSE
+unknown repeated,unknown first,c8d502c521d5003fcaaacf10afe32ac0,9,shamrock,FALSE
+unknown repeated,unknown first,c8d502c521d5003fcaaacf10afe32ac0,10,waves,FALSE
+unknown repeated,unknown first,c8d502c521d5003fcaaacf10afe32ac0,11,sprockets,FALSE
+unknown repeated,unknown first,c8d502c521d5003fcaaacf10afe32ac0,12,butterfly,FALSE
+unknown repeated,unknown first,c8d502c521d5003fcaaacf10afe32ac0,13,cymbals,FALSE
+unknown repeated,unknown first,c8d502c521d5003fcaaacf10afe32ac0,14,car,FALSE
+unknown repeated,unknown first,c8d502c521d5003fcaaacf10afe32ac0,15,handles,FALSE
+unknown repeated,unknown first,c8d502c521d5003fcaaacf10afe32ac0,16,handles,FALSE
+unknown repeated,unknown first,c8d502c521d5003fcaaacf10afe32ac0,17,circle,FALSE
+unknown repeated,unknown first,c8d502c521d5003fcaaacf10afe32ac0,18,ring,FALSE
+unknown repeated,unknown first,dd01e29f0d968318972ad6f49ac36cb7,3,saturn,FALSE
+unknown repeated,unknown first,dd01e29f0d968318972ad6f49ac36cb7,4,stalks on a donut,FALSE
+unknown repeated,unknown first,dd01e29f0d968318972ad6f49ac36cb7,5,not the holey one,TRUE
+unknown repeated,unknown first,dd01e29f0d968318972ad6f49ac36cb7,6,long with stands,FALSE
+unknown repeated,unknown first,dd01e29f0d968318972ad6f49ac36cb7,7,not the ring,TRUE
+unknown repeated,unknown first,dd01e29f0d968318972ad6f49ac36cb7,8,same as last one,FALSE
+unknown repeated,unknown first,dd01e29f0d968318972ad6f49ac36cb7,9,same again,FALSE
+unknown repeated,unknown first,dd01e29f0d968318972ad6f49ac36cb7,10,interlocked disks,FALSE
+unknown repeated,unknown first,dd01e29f0d968318972ad6f49ac36cb7,11,not the mug,TRUE
+unknown repeated,unknown first,dd01e29f0d968318972ad6f49ac36cb7,12,apple,FALSE
+unknown repeated,unknown first,dd01e29f0d968318972ad6f49ac36cb7,13,not butterfly,TRUE
+unknown repeated,unknown first,dd01e29f0d968318972ad6f49ac36cb7,14,crab,FALSE
+unknown repeated,unknown first,dd01e29f0d968318972ad6f49ac36cb7,15,not chair,TRUE
+unknown repeated,unknown first,dd01e29f0d968318972ad6f49ac36cb7,16,not the ring,TRUE
+unknown repeated,unknown first,dd01e29f0d968318972ad6f49ac36cb7,17,not xmas tree,TRUE
+unknown repeated,unknown first,dd01e29f0d968318972ad6f49ac36cb7,18,shoe,FALSE
+unknown repeated,unknown first,df633c6994038b4158a5ee041d415eac,3,2 arms,FALSE
+unknown repeated,unknown first,df633c6994038b4158a5ee041d415eac,4,curved vase,FALSE
+unknown repeated,unknown first,df633c6994038b4158a5ee041d415eac,5,2 circles on side,FALSE
+unknown repeated,unknown first,df633c6994038b4158a5ee041d415eac,6,2 round parts,FALSE
+unknown repeated,unknown first,df633c6994038b4158a5ee041d415eac,7,white chefs hat,FALSE
+unknown repeated,unknown first,df633c6994038b4158a5ee041d415eac,8,weird white chefs hat,FALSE
+unknown repeated,unknown first,df633c6994038b4158a5ee041d415eac,9,weird white chefs hat,FALSE
+unknown repeated,unknown first,df633c6994038b4158a5ee041d415eac,10,has a circle in it,FALSE
+unknown repeated,unknown first,df633c6994038b4158a5ee041d415eac,11,fish bobber,FALSE
+unknown repeated,unknown first,df633c6994038b4158a5ee041d415eac,12,fork,FALSE
+unknown repeated,unknown first,df633c6994038b4158a5ee041d415eac,13,2 arms touching,FALSE
+unknown repeated,unknown first,df633c6994038b4158a5ee041d415eac,14,shoe,FALSE
+unknown repeated,unknown first,df633c6994038b4158a5ee041d415eac,15,weird top toy,FALSE
+unknown repeated,unknown first,df633c6994038b4158a5ee041d415eac,16,weird top toy,FALSE
+unknown repeated,unknown first,df633c6994038b4158a5ee041d415eac,17,weird top toy,FALSE
+unknown repeated,unknown first,df633c6994038b4158a5ee041d415eac,18,flower,FALSE
+unknown repeated,unknown first,e4adac6ecb95cbaa5a5db9337e7720ae,3,ratchet,FALSE
+unknown repeated,unknown first,e4adac6ecb95cbaa5a5db9337e7720ae,4,stamp,FALSE
+unknown repeated,unknown first,e4adac6ecb95cbaa5a5db9337e7720ae,5,only 2 prongs,FALSE
+unknown repeated,unknown first,e4adac6ecb95cbaa5a5db9337e7720ae,6,chefs hat,FALSE
+unknown repeated,unknown first,e4adac6ecb95cbaa5a5db9337e7720ae,7,circle with teeth,FALSE
+unknown repeated,unknown first,e4adac6ecb95cbaa5a5db9337e7720ae,8,circle with teeth,FALSE
+unknown repeated,unknown first,e4adac6ecb95cbaa5a5db9337e7720ae,9,circle with teeth,FALSE
+unknown repeated,unknown first,e4adac6ecb95cbaa5a5db9337e7720ae,10,door knob,FALSE
+unknown repeated,unknown first,e4adac6ecb95cbaa5a5db9337e7720ae,11,blimp,FALSE
+unknown repeated,unknown first,e4adac6ecb95cbaa5a5db9337e7720ae,12,crab,FALSE
+unknown repeated,unknown first,e4adac6ecb95cbaa5a5db9337e7720ae,13,wires,FALSE
+unknown repeated,unknown first,e4adac6ecb95cbaa5a5db9337e7720ae,14,butterfly,FALSE
+unknown repeated,unknown first,e4adac6ecb95cbaa5a5db9337e7720ae,15,balls,FALSE
+unknown repeated,unknown first,e4adac6ecb95cbaa5a5db9337e7720ae,16,spiked ball,FALSE
+unknown repeated,unknown first,e4adac6ecb95cbaa5a5db9337e7720ae,17,two spiked balls,FALSE
+unknown repeated,unknown first,e4adac6ecb95cbaa5a5db9337e7720ae,18,shoe,FALSE
+unknown repeated,unknown first,ed5715e30b0305a765fc982947184599,3,mental,FALSE
+unknown repeated,unknown first,ed5715e30b0305a765fc982947184599,4,steel,FALSE
+unknown repeated,unknown first,ed5715e30b0305a765fc982947184599,5,global art,FALSE
+unknown repeated,unknown first,ed5715e30b0305a765fc982947184599,6,air lamp,FALSE
+unknown repeated,unknown first,ed5715e30b0305a765fc982947184599,7,handle,FALSE
+unknown repeated,unknown first,ed5715e30b0305a765fc982947184599,8,handle,FALSE
+unknown repeated,unknown first,ed5715e30b0305a765fc982947184599,9,handle,FALSE
+unknown repeated,unknown first,ed5715e30b0305a765fc982947184599,10,climp,FALSE
+unknown repeated,unknown first,ed5715e30b0305a765fc982947184599,11,bead,FALSE
+unknown repeated,unknown first,ed5715e30b0305a765fc982947184599,12,flower,FALSE
+unknown repeated,unknown first,ed5715e30b0305a765fc982947184599,13,Monochrome,FALSE
+unknown repeated,unknown first,ed5715e30b0305a765fc982947184599,14,pine tree,FALSE
+unknown repeated,unknown first,ed5715e30b0305a765fc982947184599,15,bowl,FALSE
+unknown repeated,unknown first,ed5715e30b0305a765fc982947184599,16,bowl,FALSE
+unknown repeated,unknown first,ed5715e30b0305a765fc982947184599,17,bowl,FALSE
+unknown repeated,unknown first,ed5715e30b0305a765fc982947184599,18,ring,FALSE
+unknown repeated,unknown first,f5889a5d4dd82b22ec2e592d809129da,3,black rubber piece,FALSE
+unknown repeated,unknown first,f5889a5d4dd82b22ec2e592d809129da,4,blocks,FALSE
+unknown repeated,unknown first,f5889a5d4dd82b22ec2e592d809129da,5,black bottle,FALSE
+unknown repeated,unknown first,f5889a5d4dd82b22ec2e592d809129da,6,plastic ring,FALSE
+unknown repeated,unknown first,f5889a5d4dd82b22ec2e592d809129da,7,plastic tool,FALSE
+unknown repeated,unknown first,f5889a5d4dd82b22ec2e592d809129da,8,plastic tool with handle,FALSE
+unknown repeated,unknown first,f5889a5d4dd82b22ec2e592d809129da,9,plastic tool with handle and thing sticking out of top,FALSE
+unknown repeated,unknown first,f5889a5d4dd82b22ec2e592d809129da,10,BLack dog bone,FALSE
+unknown repeated,unknown first,f5889a5d4dd82b22ec2e592d809129da,11,paperweight,FALSE
+unknown repeated,unknown first,f5889a5d4dd82b22ec2e592d809129da,12,chair,FALSE
+unknown repeated,unknown first,f5889a5d4dd82b22ec2e592d809129da,13,floor fan,FALSE
+unknown repeated,unknown first,f5889a5d4dd82b22ec2e592d809129da,14,shoe,FALSE
+unknown repeated,unknown first,f5889a5d4dd82b22ec2e592d809129da,15,upside down vase,FALSE
+unknown repeated,unknown first,f5889a5d4dd82b22ec2e592d809129da,16,upside down vase,FALSE
+unknown repeated,unknown first,f5889a5d4dd82b22ec2e592d809129da,17,upside down vase,FALSE
+unknown repeated,unknown first,f5889a5d4dd82b22ec2e592d809129da,18,dice,FALSE
+unknown repeated,unknown first,fc50a0f06bb77f320c1b4fb3f273fdd9,3,moon rock,FALSE
+unknown repeated,unknown first,fc50a0f06bb77f320c1b4fb3f273fdd9,4,gears,FALSE
+unknown repeated,unknown first,fc50a0f06bb77f320c1b4fb3f273fdd9,5,UFO,FALSE
+unknown repeated,unknown first,fc50a0f06bb77f320c1b4fb3f273fdd9,6,cloud ring,FALSE
+unknown repeated,unknown first,fc50a0f06bb77f320c1b4fb3f273fdd9,7,crystal,FALSE
+unknown repeated,unknown first,fc50a0f06bb77f320c1b4fb3f273fdd9,8,crystal,FALSE
+unknown repeated,unknown first,fc50a0f06bb77f320c1b4fb3f273fdd9,9,crystal,FALSE
+unknown repeated,unknown first,fc50a0f06bb77f320c1b4fb3f273fdd9,10,steel ring,FALSE
+unknown repeated,unknown first,fc50a0f06bb77f320c1b4fb3f273fdd9,11,track,FALSE
+unknown repeated,unknown first,fc50a0f06bb77f320c1b4fb3f273fdd9,12,apple,FALSE
+unknown repeated,unknown first,fc50a0f06bb77f320c1b4fb3f273fdd9,13,squeeze,FALSE
+unknown repeated,unknown first,fc50a0f06bb77f320c1b4fb3f273fdd9,14,ring,FALSE
+unknown repeated,unknown first,fc50a0f06bb77f320c1b4fb3f273fdd9,15,yarn,FALSE
+unknown repeated,unknown first,fc50a0f06bb77f320c1b4fb3f273fdd9,16,yarn,FALSE
+unknown repeated,unknown first,fc50a0f06bb77f320c1b4fb3f273fdd9,17,yarn,FALSE
+unknown repeated,unknown first,fc50a0f06bb77f320c1b4fb3f273fdd9,18,pen,FALSE
+unknown repeated,unknown first,fe5f513cd51b8a01e407528060589dd7,3,donut,FALSE
+unknown repeated,unknown first,fe5f513cd51b8a01e407528060589dd7,4,round,FALSE
+unknown repeated,unknown first,fe5f513cd51b8a01e407528060589dd7,5,spongy,FALSE
+unknown repeated,unknown first,fe5f513cd51b8a01e407528060589dd7,6,lampshade,FALSE
+unknown repeated,unknown first,fe5f513cd51b8a01e407528060589dd7,7,plunger,FALSE
+unknown repeated,unknown first,fe5f513cd51b8a01e407528060589dd7,8,rubber,FALSE
+unknown repeated,unknown first,fe5f513cd51b8a01e407528060589dd7,9,rubber,FALSE
+unknown repeated,unknown first,fe5f513cd51b8a01e407528060589dd7,10,toilet,FALSE
+unknown repeated,unknown first,fe5f513cd51b8a01e407528060589dd7,11,rounded,FALSE
+unknown repeated,unknown first,fe5f513cd51b8a01e407528060589dd7,12,flutters,FALSE
+unknown repeated,unknown first,fe5f513cd51b8a01e407528060589dd7,13,flipflop,FALSE
+unknown repeated,unknown first,fe5f513cd51b8a01e407528060589dd7,14,utensil,FALSE
+unknown repeated,unknown first,fe5f513cd51b8a01e407528060589dd7,15,walking,FALSE
+unknown repeated,unknown first,fe5f513cd51b8a01e407528060589dd7,16,raised,FALSE
+unknown repeated,unknown first,fe5f513cd51b8a01e407528060589dd7,17,waving,FALSE
+unknown repeated,unknown first,fe5f513cd51b8a01e407528060589dd7,18,wood,FALSE

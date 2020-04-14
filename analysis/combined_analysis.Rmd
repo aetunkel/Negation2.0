@@ -34,43 +34,49 @@ theme_set(theme_few(base_size = 12))
 
 Read hand-coded data
 ```{r load_coded_data, eval = FALSE}
-coded_data <- read_csv(here("data/combined/pre_processed_data.csv"))
-# 
-# manually_coded_data <- read_csv(here("data/pre-reg1/pre_processed_data.csv")) 
-# 
-# coded_data <- pre_processed_data %>%
-#   left_join(manually_coded_data, by = c("experiment", "id", 
-#                                         "trial", "response"))
+pre_processed_data <- read_csv(here("data/pilots/combined/pre_processed_data.csv"))
 
-write_csv(coded_data, here("data/pre-reg1/coded_data.csv"))
+manually_coded_data <- read_csv(here("data/pilots/combined/manually_coded_data.csv"))
+
+coded_data <- pre_processed_data %>%
+  select(-negation) %>%
+  left_join(manually_coded_data, by = c("mixed_repeated", "order", "id",
+                                        "trial", "response"))
+
+excluded_ps <- coded_data %>%
+  filter(is.na(negation)) %>%
+  distinct(id) %>%
+  pull()
+
+write_csv(coded_data, here("data/pilots/combined/coded_data.csv"))
 ```
 
 ```{r read_coded_data}
-coded_data <- read_csv(here("data/pre-reg1/coded_data.csv")) %>%
-  filter(!is.na(negation))
+coded_data <- read_csv(here("data/pilots/combined/coded_data.csv")) %>%
+  filter(!is.na(negation)) %>%
+  mutate(block = if_else(trial >= 11, 2, 1),
+         block_type =  case_when(
+           order == "mixed first" & block == 2 ~ "all unknown",
+           order == "unknown first" & block == 1 ~ "all unknown",
+           T ~ mixed_repeated),
+         target_type = factor(target_type, levels = c("known", "unknown"), 
+                           labels = c("known target", "unknown target")),
+         distractor_type = factor(distractor_type, 
+                                  levels = c("known", "unknown"), 
+                           labels = c("known distractor", 
+                                      "unknown distractor")))
 ```
 
 ```{r summarise_data}
 mean_data <- coded_data %>% 
-  mutate(block = if_else(trial >= 11, 2, 1),
-         block_type = case_when(order == "mixed first" & block == 2 ~ 
-                                  "all unknown",
-                              order == "unknown first" & block == 1 ~ 
-                                "all unknown",
-                              T ~ mixed_repeated)) %>%
   group_by(mixed_repeated, order, target_type, distractor_type, switch, id) %>%
   summarise(negation = mean(negation, na.rm = T)) %>%
-  tidyboot_mean(negation) %>%
-  ungroup() %>%
-  mutate(target_type = factor(target_type, levels = c("known", "unknown"), 
-                           labels = c("known target", "unknown target")),
-         distractor_type = factor(distractor_type, levels = c("known", "unknown"), 
-                           labels = c("known distractor", "unknown distractor")))
+  tidyboot_mean(negation)
 ```
 
 ```{r plot_negation}
 ggplot(mean_data %>% filter(target_type == "unknown target"),
-       aes(x = switch, y = empirical_stat, color = distractor_type)) + 
+       aes(x = switch, y = empirical_mean, color = distractor_type)) + 
   facet_grid(order ~ mixed_repeated) +
   geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper), 
                   position = position_dodge(.5)) + 
@@ -81,10 +87,10 @@ ggplot(mean_data %>% filter(target_type == "unknown target"),
 
 
 ```{r model}
-no_distractor_model <- glmer(negation ~  switch * experiment + order + trial +
-                 (1 | id) + (1 | target), 
+no_distractor_model <- glmer(negation ~ switch * distractor_type * order +
+                 (1 | id) , 
                family = "binomial", 
-               data = coded_data %>% filter(type == "unknown")) %>%
+               data = coded_data %>% filter(target_type == "unknown target")) %>%
   tidy() %>%
   filter(effect == "fixed") %>%
   select(-group, -effect)
