@@ -58,30 +58,53 @@ coded_data <- read_csv(here("data/pilots/combined/coded_data.csv")) %>%
          block_type =  case_when(
            order == "mixed first" & block == 2 ~ "all unknown",
            order == "unknown first" & block == 1 ~ "all unknown",
-           T ~ mixed_repeated),
+           T ~ "mixed"),
          target_type = factor(target_type, levels = c("known", "unknown"), 
                            labels = c("known target", "unknown target")),
          distractor_type = factor(distractor_type, 
                                   levels = c("known", "unknown"), 
                            labels = c("known distractor", 
-                                      "unknown distractor")),
-         block_type = factor(block_type, 
-                             levels = c("unknown first", "mixed first")))
+                                      "unknown distractor")))
+         
+         # ,
+         # block_type = factor(block_type, 
+         #                     levels = c("unknown first", "mixed first")))
 
 unknown_data <- filter(coded_data, target_type == "unknown target")
 ```
 
+```{r}
+coded_data %>%
+  filter(target_type == "unknown target", distractor_type == "known distractor",
+         switch == "switch") %>%
+  group_by(order, mixed_repeated) %>%
+  count()
+```
+
 ```{r summarise_data}
 mean_data <- coded_data %>% 
-  group_by(mixed_repeated, order, target_type, distractor_type, switch, id) %>%
+  group_by(block_type, order, target_type, distractor_type, switch, id) %>%
   summarise(negation = mean(negation, na.rm = T)) %>%
   tidyboot_mean(negation)
 ```
 
 ```{r plot_negation}
+ggplot(mean_data,
+       aes(x = switch, y = empirical_mean, color = target_type, 
+           shape = distractor_type)) + 
+  facet_grid(order ~ block_type) +
+  geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper), 
+                  position = position_dodge(.5)) + 
+  scale_color_ptol() + 
+  labs(y = "negation probability", x = "") + 
+  theme(legend.position = "bottom")
+```
+
+Predicted three way interaction between trial type, order, and distractor type 
+```{r plot_unknown_negation} 
 ggplot(mean_data %>% filter(target_type == "unknown target"),
-       aes(x = switch, y = empirical_mean, color = distractor_type)) + 
-  facet_grid(order ~ mixed_repeated) +
+       aes(x = switch, y = empirical_mean, color = distractor_type, 
+           shape = order)) + 
   geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper), 
                   position = position_dodge(.5)) + 
   scale_color_ptol() + 
