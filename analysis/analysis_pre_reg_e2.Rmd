@@ -1,5 +1,5 @@
 ---
-title: "Preregistered analyses for E1"
+title: "Preregistered analyses for E2"
 author: "Alex Tunkel and Dan Yurovsky"
 date: '`r Sys.Date()`'
 output: 
@@ -34,9 +34,9 @@ theme_set(theme_few(base_size = 12))
 
 Read hand-coded data
 ```{r load_coded_data, eval = FALSE}
-pre_processed_data <- read_csv(here("data/pilots/combined/pre_processed_data.csv"))
+pre_processed_data <- read_csv(here("data/pre-reg2/pre_processed_data.csv"))
 
-manually_coded_data <- read_csv(here("data/pilots/combined/manually_coded_data.csv"))
+manually_coded_data <- read_csv(here("data/pre-reg2/manually_coded_data.csv"))
 
 coded_data <- pre_processed_data %>%
   select(-negation) %>%
@@ -48,11 +48,11 @@ excluded_ps <- coded_data %>%
   distinct(id) %>%
   pull()
 
-write_csv(coded_data, here("data/pilots/combined/coded_data.csv"))
+write_csv(coded_data, here("data/pre-reg2/coded_data.csv"))
 ```
 
 ```{r read_coded_data, message = FALSE, warning= FALSE}
-coded_data <- read_csv(here("data/pilots/combined/coded_data.csv")) %>%
+coded_data <- read_csv(here("data/pre-reg2/coded_data.csv")) %>%
   filter(!is.na(negation)) %>%
   mutate(block = if_else(trial >= 11, 2, 1),
          block_type =  case_when(
