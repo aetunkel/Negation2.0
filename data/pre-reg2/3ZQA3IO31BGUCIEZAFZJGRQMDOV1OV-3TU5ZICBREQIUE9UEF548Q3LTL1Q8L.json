@@ -1,0 +1,91 @@
+{
+ "AssignmentId": "3TU5ZICBREQIUE9UEF548Q3LTL1Q8L",
+ "WorkerId": "9207714cf746dabe94d2abc4f15c8865",
+ "HITId": "3ZQA3IO31BGUCIEZAFZJGRQMDOV1OV",
+ "AssignmentStatus": "Approved",
+ "AutoApprovalTime": "2020-04-22T20:22:43.000Z",
+ "AcceptTime": "2020-04-22T20:07:16.000Z",
+ "SubmitTime": "2020-04-22T20:17:43.000Z",
+ "ApprovalTime": "2020-04-22T20:23:20.000Z",
+ "answers": {
+  "data": {
+   "responses": "\"rt\",\"responses\",\"locator\",\"trial_type\",\"trial_index\",\"time_elapsed\",\"internal_node_id\"\r\n\"7225.780000007944\",\"{\"\"Q0\"\":\"\"bird\"\"}\",\"lookup-code-0\",\"survey-text\",\"3\",\"38281\",\"0.0-3.0-0.0-0.0\"\r\n\"10105.790000001434\",\"{\"\"Q0\"\":\"\"art\"\"}\",\"\",\"survey-text\",\"5\",\"52922\",\"0.0-5.0-0.0-0.0\"\r\n\"5991.234999994049\",\"{\"\"Q0\"\":\"\"Jess\"\"}\",\"\",\"survey-text\",\"7\",\"62064\",\"0.0-7.0\"\r\n\"4833.220000000438\",\"{\"\"Q0\"\":\"\"bird\"\"}\",\"\",\"survey-text\",\"10\",\"74918\",\"0.0-10.0\"\r\n\"6244.285000007949\",\"{\"\"Q0\"\":\"\"airplane\"\"}\",\"\",\"survey-text\",\"12\",\"82530\",\"0.0-12.0\"\r\n\"14966.874999998254\",\"{\"\"Q0\"\":\"\"something you would wear on your wrist\"\"}\",\"\",\"survey-text\",\"16\",\"103587\",\"0.0-16.0\"\r\n\"9595.769999999902\",\"{\"\"Q0\"\":\"\"kind looks like a vegetable peeler\"\"}\",\"\",\"survey-text\",\"19\",\"118800\",\"0.0-19.0\"\r\n\"13016.029999998864\",\"{\"\"Q0\"\":\"\"black with a lot of oval attachments\"\"}\",\"\",\"survey-text\",\"22\",\"137432\",\"0.0-22.0\"\r\n\"5187.275000003865\",\"{\"\"Q0\"\":\"\"odd shaped vase\"\"}\",\"\",\"survey-text\",\"25\",\"148237\",\"0.0-25.0\"\r\n\"11034.279999992577\",\"{\"\"Q0\"\":\"\"looks like a donut with 4 sticks coming out of it\"\"}\",\"\",\"survey-text\",\"28\",\"164137\",\"0.0-28.0\"\r\n\"8592.344999997295\",\"{\"\"Q0\"\":\"\"donut with 4 sticks coming out\"\"}\",\"\",\"survey-text\",\"31\",\"178849\",\"0.0-31.0\"\r\n\"5797.040000004927\",\"{\"\"Q0\"\":\"\"donut with four sticks coming out\"\"}\",\"\",\"survey-text\",\"34\",\"190765\",\"0.0-34.0\"\r\n\"22282.560000006924\",\"{\"\"Q0\"\":\"\"long board with two parts in the middle coming up like a cirlce\"\"}\",\"\",\"survey-text\",\"37\",\"217413\",\"0.0-37.0\"\r\n\"3657.774999999674\",\"{\"\"Q0\"\":\"\"ring\"\"}\",\"\",\"survey-text\",\"40\",\"226694\",\"0.0-40.0\"\r\n\"16727.624999999534\",\"{\"\"Q0\"\":\"\"weird shaped, black and white\"\"}\",\"\",\"survey-text\",\"43\",\"248039\",\"0.0-43.0\"\r\n\"7996.799999993527\",\"{\"\"Q0\"\":\"\"kind looks like a spinner\"\"}\",\"\",\"survey-text\",\"46\",\"262152\",\"0.0-46.0\"\r\n\"3290.760000003502\",\"{\"\"Q0\"\":\"\"crab\"\"}\",\"\",\"survey-text\",\"49\",\"270313\",\"0.0-49.0\"\r\n\"1679.6750000066822\",\"{\"\"Q0\"\":\"\"fork\"\"}\",\"\",\"survey-text\",\"52\",\"275860\",\"0.0-52.0\"\r\n\"1734.4449999945937\",\"{\"\"Q0\"\":\"\"fork\"\"}\",\"\",\"survey-text\",\"55\",\"281464\",\"0.0-55.0\"\r\n\"1637.044999995851\",\"{\"\"Q0\"\":\"\"fork\"\"}\",\"\",\"survey-text\",\"58\",\"286968\",\"0.0-58.0\"\r\n\"20270.280000011553\",\"{\"\"Q0\"\":\"\"circular, evenly shaped sections\"\"}\",\"\",\"survey-text\",\"61\",\"313354\",\"0.0-61.0\"\r\n",
+   "trial_info": [
+    [
+     "<img src = 'img/practiceTarget1.jpg' class='target'>",
+     "<img src='img/practiceDistractor1.jpg' class='image'>"
+    ],
+    [
+     "<img src='img/practiceDistractor2.jpg' class='image'>",
+     "<img src ='img/practiceTarget2.jpg' class='target'>"
+    ],
+    [
+     [
+      "<img src='img/22.jpg' class='target'>",
+      "<img src='img/9.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/25.jpg' class='target'>",
+      "<img src='img/3.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/11.jpg' class='target'>",
+      "<img src='img/21.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/27.jpg' class='image'>",
+      "<img src='img/2.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/4.jpg' class='target'>",
+      "<img src='img/23.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/4.jpg' class='target'>",
+      "<img src='img/20.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/4.jpg' class='target'>",
+      "<img src='img/10.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/4.jpg' class='image'>",
+      "<img src='img/7.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/F.jpg' class='target'>",
+      "<img src='img/26.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/8.jpg' class='target'>",
+      "<img src='img/C.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/E.jpg' class='image'>",
+      "<img src='img/12.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/5.jpg' class='image'>",
+      "<img src='img/N.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/G.jpg' class='target'>",
+      "<img src='img/6.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/15.jpg' class='image'>",
+      "<img src='img/G.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/24.jpg' class='image'>",
+      "<img src='img/G.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/17.jpg' class='target'>",
+      "<img src='img/G.jpg' class='image'>"
+     ]
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "AssignmentId": "3WEV0KO0ONH6OPKYNR5PPIWNM0IDS2",
+ "WorkerId": "f6a4229c173754237dd1765e04ab6544",
+ "HITId": "34O39PNDK6XYMTO7449CGY80AN6BRX",
+ "AssignmentStatus": "Approved",
+ "AutoApprovalTime": "2020-04-22T21:04:22.000Z",
+ "AcceptTime": "2020-04-22T20:49:02.000Z",
+ "SubmitTime": "2020-04-22T20:59:22.000Z",
+ "ApprovalTime": "2020-04-22T21:05:20.000Z",
+ "answers": {
+  "data": {
+   "responses": "\"rt\",\"responses\",\"locator\",\"trial_type\",\"trial_index\",\"time_elapsed\",\"internal_node_id\"\r\n\"8015.820000029635\",\"{\"\"Q0\"\":\"\"bird\"\"}\",\"lookup-code-0\",\"survey-text\",\"3\",\"61183\",\"0.0-3.0-0.0-0.0\"\r\n\"12311.945000023115\",\"{\"\"Q0\"\":\"\"art\"\"}\",\"\",\"survey-text\",\"5\",\"75710\",\"0.0-5.0-0.0-0.0\"\r\n\"9946.779999998398\",\"{\"\"Q0\"\":\"\"Hope\"\"}\",\"\",\"survey-text\",\"7\",\"87356\",\"0.0-7.0\"\r\n\"7050.700000021607\",\"{\"\"Q0\"\":\"\"Bird\"\"}\",\"\",\"survey-text\",\"10\",\"102429\",\"0.0-10.0\"\r\n\"8796.77499999525\",\"{\"\"Q0\"\":\"\"Aeroplane\"\"}\",\"\",\"survey-text\",\"12\",\"112837\",\"0.0-12.0\"\r\n\"4449.919999984559\",\"{\"\"Q0\"\":\"\"Fork\"\"}\",\"\",\"survey-text\",\"16\",\"123195\",\"0.0-16.0\"\r\n\"19134.655000001658\",\"{\"\"Q0\"\":\"\"Inflated missile\"\"}\",\"\",\"survey-text\",\"19\",\"146192\",\"0.0-19.0\"\r\n\"27230.98499997286\",\"{\"\"Q0\"\":\"\"Inflated shower head\"\"}\",\"\",\"survey-text\",\"22\",\"177297\",\"0.0-22.0\"\r\n\"3666.0099999862723\",\"{\"\"Q0\"\":\"\"Cat\"\"}\",\"\",\"survey-text\",\"25\",\"185328\",\"0.0-25.0\"\r\n\"3078.525000018999\",\"{\"\"Q0\"\":\"\"Chair\"\"}\",\"\",\"survey-text\",\"28\",\"193290\",\"0.0-28.0\"\r\n\"3751.44999998156\",\"{\"\"Q0\"\":\"\"Chair\"\"}\",\"\",\"survey-text\",\"31\",\"202662\",\"0.0-31.0\"\r\n\"2948.3650000183843\",\"{\"\"Q0\"\":\"\"Chair\"\"}\",\"\",\"survey-text\",\"34\",\"209771\",\"0.0-34.0\"\r\n\"16242.819999984931\",\"{\"\"Q0\"\":\"\"Connecting blocks\"\"}\",\"\",\"survey-text\",\"37\",\"230405\",\"0.0-37.0\"\r\n\"22044.204999983776\",\"{\"\"Q0\"\":\"\"Rubber with holes\"\"}\",\"\",\"survey-text\",\"40\",\"258563\",\"0.0-40.0\"\r\n\"17507.6199999894\",\"{\"\"Q0\"\":\"\"Bread like item\"\"}\",\"\",\"survey-text\",\"43\",\"280187\",\"0.0-43.0\"\r\n\"14471.01500001736\",\"{\"\"Q0\"\":\"\"Covid 19 shape\"\"}\",\"\",\"survey-text\",\"46\",\"299272\",\"0.0-46.0\"\r\n\"23336.35499997763\",\"{\"\"Q0\"\":\"\"Affixable part with holes\"\"}\",\"\",\"survey-text\",\"49\",\"328729\",\"0.0-49.0\"\r\n\"10569.239999982528\",\"{\"\"Q0\"\":\"\"Round bottle\"\"}\",\"\",\"survey-text\",\"52\",\"343416\",\"0.0-52.0\"\r\n\"5302.864999976009\",\"{\"\"Q0\"\":\"\"Round bottle\"\"}\",\"\",\"survey-text\",\"55\",\"353336\",\"0.0-55.0\"\r\n\"4255.000000004657\",\"{\"\"Q0\"\":\"\"Round bottle\"\"}\",\"\",\"survey-text\",\"58\",\"362705\",\"0.0-58.0\"\r\n\"24553.160000010394\",\"{\"\"Q0\"\":\"\"Coat hanger like item\"\"}\",\"\",\"survey-text\",\"61\",\"393381\",\"0.0-61.0\"\r\n",
+   "trial_info": [
+    [
+     "<img src = 'img/practiceTarget1.jpg' class='target'>",
+     "<img src='img/practiceDistractor1.jpg' class='image'>"
+    ],
+    [
+     "<img src='img/practiceDistractor2.jpg' class='image'>",
+     "<img src ='img/practiceTarget2.jpg' class='target'>"
+    ],
+    [
+     [
+      "<img src='img/17.jpg' class='image'>",
+      "<img src='img/G.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/N.jpg' class='image'>",
+      "<img src='img/16.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/H.jpg' class='image'>",
+      "<img src='img/12.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/B.jpg' class='target'>",
+      "<img src='img/26.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/7.jpg' class='image'>",
+      "<img src='img/E.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/27.jpg' class='image'>",
+      "<img src='img/E.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/E.jpg' class='target'>",
+      "<img src='img/20.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/E.jpg' class='image'>",
+      "<img src='img/15.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/9.jpg' class='image'>",
+      "<img src='img/18.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/24.jpg' class='image'>",
+      "<img src='img/3.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/21.jpg' class='image'>",
+      "<img src='img/1.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/6.jpg' class='target'>",
+      "<img src='img/10.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/2.jpg' class='target'>",
+      "<img src='img/19.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/2.jpg' class='target'>",
+      "<img src='img/23.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/22.jpg' class='image'>",
+      "<img src='img/2.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/25.jpg' class='target'>",
+      "<img src='img/2.jpg' class='image'>"
+     ]
+    ]
+   ]
+  }
+ }
+}

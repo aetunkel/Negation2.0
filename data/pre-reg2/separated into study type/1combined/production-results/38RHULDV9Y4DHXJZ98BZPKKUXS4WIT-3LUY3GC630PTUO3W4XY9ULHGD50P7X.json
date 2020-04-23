@@ -1,0 +1,91 @@
+{
+ "AssignmentId": "3LUY3GC630PTUO3W4XY9ULHGD50P7X",
+ "WorkerId": "83240b020ca3a9150dc546d0b2a0d996",
+ "HITId": "38RHULDV9Y4DHXJZ98BZPKKUXS4WIT",
+ "AssignmentStatus": "Approved",
+ "AutoApprovalTime": "2020-04-22T18:41:00.000Z",
+ "AcceptTime": "2020-04-22T18:24:24.000Z",
+ "SubmitTime": "2020-04-22T18:36:00.000Z",
+ "ApprovalTime": "2020-04-22T18:41:20.000Z",
+ "answers": {
+  "data": {
+   "responses": "\"rt\",\"responses\",\"locator\",\"trial_type\",\"trial_index\",\"time_elapsed\",\"internal_node_id\"\r\n\"13670.10499999924\",\"{\"\"Q0\"\":\"\"It is something living\"\"}\",\"lookup-code-0\",\"survey-text\",\"3\",\"71974\",\"0.0-3.0-0.0-0.0\"\r\n\"5734.694999999192\",\"{\"\"Q0\"\":\"\"bird\"\"}\",\"lookup-code-0\",\"survey-text\",\"4\",\"80479\",\"0.0-3.0-0.1-0.1\"\r\n\"13092.545000001337\",\"{\"\"Q0\"\":\"\"art\"\"}\",\"\",\"survey-text\",\"6\",\"100324\",\"0.0-5.0-0.0-0.0\"\r\n\"7232.5849999997445\",\"{\"\"Q0\"\":\"\"Julie\"\"}\",\"\",\"survey-text\",\"8\",\"111990\",\"0.0-7.0\"\r\n\"5718.530000000101\",\"{\"\"Q0\"\":\"\"bird\"\"}\",\"\",\"survey-text\",\"11\",\"125716\",\"0.0-10.0\"\r\n\"8671.339999998978\",\"{\"\"Q0\"\":\"\"airplane\"\"}\",\"\",\"survey-text\",\"13\",\"135492\",\"0.0-12.0\"\r\n\"8710.61499999999\",\"{\"\"Q0\"\":\"\"circle\"\"}\",\"\",\"survey-text\",\"17\",\"152333\",\"0.0-16.0\"\r\n\"24606.205000000045\",\"{\"\"Q0\"\":\"\"has holes in it\"\"}\",\"\",\"survey-text\",\"20\",\"182551\",\"0.0-19.0\"\r\n\"10451.535000000149\",\"{\"\"Q0\"\":\"\"It's shaped like a fork\"\"}\",\"\",\"survey-text\",\"23\",\"198110\",\"0.0-22.0\"\r\n\"26245.039999999775\",\"{\"\"Q0\"\":\"\"It looks kind of like an airplane\"\"}\",\"\",\"survey-text\",\"26\",\"229959\",\"0.0-25.0\"\r\n\"34089.219999999856\",\"{\"\"Q0\"\":\"\"It looks like a rolling pin with two circles sticking out of it.\"\"}\",\"\",\"survey-text\",\"29\",\"269661\",\"0.0-28.0\"\r\n\"17615.81500000105\",\"{\"\"Q0\"\":\"\"It looks like a rolling pin with two circles sticking out of it.\"\"}\",\"\",\"survey-text\",\"32\",\"292386\",\"0.0-31.0\"\r\n\"16420.05000000063\",\"{\"\"Q0\"\":\"\"It looks like a rolling pin with two circles sticking out of it.\"\"}\",\"\",\"survey-text\",\"35\",\"313919\",\"0.0-34.0\"\r\n\"17419.30499999947\",\"{\"\"Q0\"\":\"\"Two prickly ball shapes\"\"}\",\"\",\"survey-text\",\"38\",\"336194\",\"0.0-37.0\"\r\n\"11857.665000001376\",\"{\"\"Q0\"\":\"\"A spinning top\"\"}\",\"\",\"survey-text\",\"41\",\"353159\",\"0.0-40.0\"\r\n\"9447.399999999092\",\"{\"\"Q0\"\":\"\"Dice\"\"}\",\"\",\"survey-text\",\"44\",\"367717\",\"0.0-43.0\"\r\n\"10660.240000001097\",\"{\"\"Q0\"\":\"\"Not the cat\"\"}\",\"\",\"survey-text\",\"47\",\"382736\",\"0.0-46.0\"\r\n\"5527.979999998934\",\"{\"\"Q0\"\":\"\"Butterfly\"\"}\",\"\",\"survey-text\",\"50\",\"392377\",\"0.0-49.0\"\r\n\"23864.84500000009\",\"{\"\"Q0\"\":\"\"A paddle with 5 holes.\"\"}\",\"\",\"survey-text\",\"53\",\"421853\",\"0.0-52.0\"\r\n\"10470.29499999911\",\"{\"\"Q0\"\":\"\"A paddle with 5 holes\"\"}\",\"\",\"survey-text\",\"56\",\"436433\",\"0.0-55.0\"\r\n\"11275.87499999936\",\"{\"\"Q0\"\":\"\"A paddle with 5 holes.\"\"}\",\"\",\"survey-text\",\"59\",\"452318\",\"0.0-58.0\"\r\n\"5246.8300000000745\",\"{\"\"Q0\"\":\"\"Flower\"\"}\",\"\",\"survey-text\",\"62\",\"463174\",\"0.0-61.0\"\r\n",
+   "trial_info": [
+    [
+     "<img src = 'img/practiceTarget1.jpg' class='target'>",
+     "<img src='img/practiceDistractor1.jpg' class='image'>"
+    ],
+    [
+     "<img src='img/practiceDistractor2.jpg' class='image'>",
+     "<img src ='img/practiceTarget2.jpg' class='target'>"
+    ],
+    [
+     [
+      "<img src='img/22.jpg' class='target'>",
+      "<img src='img/5.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/6.jpg' class='target'>",
+      "<img src='img/11.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/3.jpg' class='image'>",
+      "<img src='img/25.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/8.jpg' class='image'>",
+      "<img src='img/23.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/4.jpg' class='image'>",
+      "<img src='img/9.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/26.jpg' class='image'>",
+      "<img src='img/9.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/19.jpg' class='image'>",
+      "<img src='img/9.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/9.jpg' class='image'>",
+      "<img src='img/1.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/12.jpg' class='target'>",
+      "<img src='img/G.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/H.jpg' class='target'>",
+      "<img src='img/15.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/B.jpg' class='image'>",
+      "<img src='img/21.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/K.jpg' class='target'>",
+      "<img src='img/7.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/24.jpg' class='target'>",
+      "<img src='img/C.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/J.jpg' class='image'>",
+      "<img src='img/24.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/24.jpg' class='target'>",
+      "<img src='img/I.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/L.jpg' class='target'>",
+      "<img src='img/24.jpg' class='image'>"
+     ]
+    ]
+   ]
+  }
+ }
+}

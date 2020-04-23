@@ -1,0 +1,91 @@
+{
+ "AssignmentId": "3CCZ6YKWR88TFX96ZFNFAB35HVO594",
+ "WorkerId": "81c01fabe385e3fd2bf263e73d29983f",
+ "HITId": "3S4TINXCC0CVPGWRCCS8M33VZ0MBOO",
+ "AssignmentStatus": "Approved",
+ "AutoApprovalTime": "2020-04-22T18:41:44.000Z",
+ "AcceptTime": "2020-04-22T18:28:45.000Z",
+ "SubmitTime": "2020-04-22T18:36:44.000Z",
+ "ApprovalTime": "2020-04-22T18:42:20.000Z",
+ "answers": {
+  "data": {
+   "responses": "\"rt\",\"responses\",\"locator\",\"trial_type\",\"trial_index\",\"time_elapsed\",\"internal_node_id\"\r\n\"12909\",\"{\"\"Q0\"\":\"\"bird\"\"}\",\"lookup-code-0\",\"survey-text\",\"3\",\"73859\",\"0.0-3.0-0.0-0.0\"\r\n\"16456\",\"{\"\"Q0\"\":\"\"art\"\"}\",\"\",\"survey-text\",\"5\",\"93691\",\"0.0-5.0-0.0-0.0\"\r\n\"9212\",\"{\"\"Q0\"\":\"\"Mercy\"\"}\",\"\",\"survey-text\",\"7\",\"105602\",\"0.0-7.0\"\r\n\"8691\",\"{\"\"Q0\"\":\"\"bird\"\"}\",\"\",\"survey-text\",\"10\",\"122303\",\"0.0-10.0\"\r\n\"9183\",\"{\"\"Q0\"\":\"\"airplane\"\"}\",\"\",\"survey-text\",\"12\",\"132349\",\"0.0-12.0\"\r\n\"30459\",\"{\"\"Q0\"\":\"\"slotted wheel thing\"\"}\",\"\",\"survey-text\",\"16\",\"169244\",\"0.0-16.0\"\r\n\"14418\",\"{\"\"Q0\"\":\"\"heart-shaped slinky\"\"}\",\"\",\"survey-text\",\"19\",\"188528\",\"0.0-19.0\"\r\n\"18654\",\"{\"\"Q0\"\":\"\"s shaped blocks\"\"}\",\"\",\"survey-text\",\"22\",\"213296\",\"0.0-22.0\"\r\n\"27742\",\"{\"\"Q0\"\":\"\"wrench guy with a glass on his head\"\"}\",\"\",\"survey-text\",\"25\",\"245911\",\"0.0-25.0\"\r\n\"20297\",\"{\"\"Q0\"\":\"\"weird catcher's mask\"\"}\",\"\",\"survey-text\",\"28\",\"270320\",\"0.0-28.0\"\r\n\"8189\",\"{\"\"Q0\"\":\"\"weird catcher's mask\"\"}\",\"\",\"survey-text\",\"31\",\"284122\",\"0.0-31.0\"\r\n\"6519\",\"{\"\"Q0\"\":\"\"weird catcher's mask\"\"}\",\"\",\"survey-text\",\"34\",\"295756\",\"0.0-34.0\"\r\n\"19872\",\"{\"\"Q0\"\":\"\"sculpture made out of cups\"\"}\",\"\",\"survey-text\",\"37\",\"319993\",\"0.0-37.0\"\r\n\"5758\",\"{\"\"Q0\"\":\"\"pen\"\"}\",\"\",\"survey-text\",\"40\",\"329867\",\"0.0-40.0\"\r\n\"18706\",\"{\"\"Q0\"\":\"\"UFO\"\"}\",\"\",\"survey-text\",\"43\",\"354191\",\"0.0-43.0\"\r\n\"16932\",\"{\"\"Q0\"\":\"\"weird looking shoehorn\"\"}\",\"\",\"survey-text\",\"46\",\"375734\",\"0.0-46.0\"\r\n\"5631\",\"{\"\"Q0\"\":\"\"fork\"\"}\",\"\",\"survey-text\",\"49\",\"387480\",\"0.0-49.0\"\r\n\"7961\",\"{\"\"Q0\"\":\"\"cat\"\"}\",\"\",\"survey-text\",\"52\",\"400304\",\"0.0-52.0\"\r\n\"7203\",\"{\"\"Q0\"\":\"\"cat\"\"}\",\"\",\"survey-text\",\"55\",\"413124\",\"0.0-55.0\"\r\n\"7568\",\"{\"\"Q0\"\":\"\"cat\"\"}\",\"\",\"survey-text\",\"58\",\"424553\",\"0.0-58.0\"\r\n\"8295\",\"{\"\"Q0\"\":\"\"white blimp\"\"}\",\"\",\"survey-text\",\"61\",\"436963\",\"0.0-61.0\"\r\n",
+   "trial_info": [
+    [
+     "<img src = 'img/practiceTarget1.jpg' class='target'>",
+     "<img src='img/practiceDistractor1.jpg' class='image'>"
+    ],
+    [
+     "<img src='img/practiceDistractor2.jpg' class='image'>",
+     "<img src ='img/practiceTarget2.jpg' class='target'>"
+    ],
+    [
+     [
+      "<img src='img/23.jpg' class='target'>",
+      "<img src='img/6.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/17.jpg' class='target'>",
+      "<img src='img/2.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/1.jpg' class='image'>",
+      "<img src='img/15.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/4.jpg' class='image'>",
+      "<img src='img/25.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/9.jpg' class='image'>",
+      "<img src='img/18.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/19.jpg' class='image'>",
+      "<img src='img/18.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/21.jpg' class='image'>",
+      "<img src='img/18.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/11.jpg' class='target'>",
+      "<img src='img/18.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/D.jpg' class='target'>",
+      "<img src='img/22.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/12.jpg' class='target'>",
+      "<img src='img/C.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/I.jpg' class='image'>",
+      "<img src='img/7.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/G.jpg' class='target'>",
+      "<img src='img/3.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/B.jpg' class='target'>",
+      "<img src='img/8.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/B.jpg' class='target'>",
+      "<img src='img/20.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/B.jpg' class='target'>",
+      "<img src='img/5.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/B.jpg' class='image'>",
+      "<img src='img/16.jpg' class='target'>"
+     ]
+    ]
+   ]
+  }
+ }
+}

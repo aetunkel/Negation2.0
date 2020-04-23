@@ -1,0 +1,91 @@
+{
+ "AssignmentId": "3N1FSUEFL6PNM4INXQ97RFGH8K74DE",
+ "WorkerId": "34024b3bd076ffc4ab2f28b2915dbf22",
+ "HITId": "3APP19WN7131RRYYS2YS6E81UDK6GB",
+ "AssignmentStatus": "Approved",
+ "AutoApprovalTime": "2020-04-22T18:31:45.000Z",
+ "AcceptTime": "2020-04-22T18:22:10.000Z",
+ "SubmitTime": "2020-04-22T18:26:45.000Z",
+ "ApprovalTime": "2020-04-22T18:32:20.000Z",
+ "answers": {
+  "data": {
+   "responses": "\"rt\",\"responses\",\"locator\",\"trial_type\",\"trial_index\",\"time_elapsed\",\"internal_node_id\"\r\n\"5630.099999998492\",\"{\"\"Q0\"\":\"\"bird\"\"}\",\"lookup-code-0\",\"survey-text\",\"3\",\"26567\",\"0.0-3.0-0.0-0.0\"\r\n\"2988.9100000000326\",\"{\"\"Q0\"\":\"\"art\"\"}\",\"\",\"survey-text\",\"5\",\"32375\",\"0.0-5.0-0.0-0.0\"\r\n\"4003.469999999652\",\"{\"\"Q0\"\":\"\"g ron\"\"}\",\"\",\"survey-text\",\"7\",\"39471\",\"0.0-7.0\"\r\n\"3153.729999998177\",\"{\"\"Q0\"\":\"\"bird\"\"}\",\"\",\"survey-text\",\"10\",\"50632\",\"0.0-10.0\"\r\n\"2296.235000001616\",\"{\"\"Q0\"\":\"\"plane\"\"}\",\"\",\"survey-text\",\"12\",\"54783\",\"0.0-12.0\"\r\n\"9459.610000001703\",\"{\"\"Q0\"\":\"\"ball with hole in it?\"\"}\",\"\",\"survey-text\",\"16\",\"71232\",\"0.0-16.0\"\r\n\"5430.974999999307\",\"{\"\"Q0\"\":\"\"crumpled paper\"\"}\",\"\",\"survey-text\",\"19\",\"82272\",\"0.0-19.0\"\r\n\"8469.709999997576\",\"{\"\"Q0\"\":\"\"aerodynamic beat stick\"\"}\",\"\",\"survey-text\",\"22\",\"94848\",\"0.0-22.0\"\r\n\"4223.5299999993\",\"{\"\"Q0\"\":\"\"snowflake stick\"\"}\",\"\",\"survey-text\",\"25\",\"102928\",\"0.0-25.0\"\r\n\"6268.359999998211\",\"{\"\"Q0\"\":\"\"spaceship drumsnare\"\"}\",\"\",\"survey-text\",\"28\",\"115304\",\"0.0-28.0\"\r\n\"5126.475000000937\",\"{\"\"Q0\"\":\"\"spaceship drum snare\"\"}\",\"\",\"survey-text\",\"31\",\"124288\",\"0.0-31.0\"\r\n\"4854.175000000396\",\"{\"\"Q0\"\":\"\"spaceship drum snare\"\"}\",\"\",\"survey-text\",\"34\",\"135248\",\"0.0-34.0\"\r\n\"13385.309999997844\",\"{\"\"Q0\"\":\"\"thing with holes\"\"}\",\"\",\"survey-text\",\"37\",\"154240\",\"0.0-37.0\"\r\n\"2024.1100000021106\",\"{\"\"Q0\"\":\"\"pen\"\"}\",\"\",\"survey-text\",\"40\",\"161120\",\"0.0-40.0\"\r\n\"2923.815000001923\",\"{\"\"Q0\"\":\"\"bulb\"\"}\",\"\",\"survey-text\",\"43\",\"168399\",\"0.0-43.0\"\r\n\"3958.940000000439\",\"{\"\"Q0\"\":\"\"alien doughnut\"\"}\",\"\",\"survey-text\",\"46\",\"178464\",\"0.0-46.0\"\r\n\"2421.4299999985087\",\"{\"\"Q0\"\":\"\"butterfly\"\"}\",\"\",\"survey-text\",\"49\",\"186992\",\"0.0-49.0\"\r\n\"1536.8600000001607\",\"{\"\"Q0\"\":\"\"ring\"\"}\",\"\",\"survey-text\",\"52\",\"194136\",\"0.0-52.0\"\r\n\"1198.8100000016857\",\"{\"\"Q0\"\":\"\"ring\"\"}\",\"\",\"survey-text\",\"55\",\"200192\",\"0.0-55.0\"\r\n\"1317.0200000022305\",\"{\"\"Q0\"\":\"\"ring\"\"}\",\"\",\"survey-text\",\"58\",\"206616\",\"0.0-58.0\"\r\n\"10936.260000002221\",\"{\"\"Q0\"\":\"\"if it was flat it would be a plus sign\"\"}\",\"\",\"survey-text\",\"61\",\"222159\",\"0.0-61.0\"\r\n",
+   "trial_info": [
+    [
+     "<img src = 'img/practiceTarget1.jpg' class='target'>",
+     "<img src='img/practiceDistractor1.jpg' class='image'>"
+    ],
+    [
+     "<img src='img/practiceDistractor2.jpg' class='image'>",
+     "<img src ='img/practiceTarget2.jpg' class='target'>"
+    ],
+    [
+     [
+      "<img src='img/26.jpg' class='target'>",
+      "<img src='img/22.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/8.jpg' class='target'>",
+      "<img src='img/27.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/24.jpg' class='target'>",
+      "<img src='img/25.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/16.jpg' class='image'>",
+      "<img src='img/23.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/12.jpg' class='target'>",
+      "<img src='img/11.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/18.jpg' class='image'>",
+      "<img src='img/12.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/5.jpg' class='image'>",
+      "<img src='img/12.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/6.jpg' class='target'>",
+      "<img src='img/12.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/17.jpg' class='image'>",
+      "<img src='img/D.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/G.jpg' class='image'>",
+      "<img src='img/10.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/4.jpg' class='target'>",
+      "<img src='img/L.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/K.jpg' class='target'>",
+      "<img src='img/19.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/3.jpg' class='image'>",
+      "<img src='img/F.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/F.jpg' class='target'>",
+      "<img src='img/20.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/F.jpg' class='target'>",
+      "<img src='img/21.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/F.jpg' class='image'>",
+      "<img src='img/7.jpg' class='target'>"
+     ]
+    ]
+   ]
+  }
+ }
+}

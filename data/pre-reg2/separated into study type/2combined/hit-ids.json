@@ -1,0 +1,532 @@
+{
+ "production": [
+  {
+   "HIT": {
+    "HITId": "3D7VY91L65M7PDBFZWDVUZEQ407BM9",
+    "HITTypeId": "379YH0H8TLIQVXZJJZV1C6CQYJVSZS",
+    "HITGroupId": "3PR0UJAG0Q6SKI6SFWK9A19UO4WHJE",
+    "CreationTime": "2020-04-22T18:21:44.000Z",
+    "Title": "Communication Game (5 mins)",
+    "Description": "view some objects and either describe to another turker or choose based on description",
+    "Question": "<ExternalQuestion xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd\">\n  <ExternalURL>https://callab.uchicago.edu/experiments/negation/combined2.html</ExternalURL>\n  <FrameHeight>700</FrameHeight>\n</ExternalQuestion>",
+    "Keywords": "game, communication, short",
+    "HITStatus": "Assignable",
+    "MaxAssignments": 9,
+    "Reward": "0.50",
+    "AutoApprovalDelayInSeconds": 300,
+    "Expiration": "2020-04-25T18:21:44.000Z",
+    "AssignmentDurationInSeconds": 3600,
+    "QualificationRequirements": [
+     {
+      "QualificationTypeId": "00000000000000000071",
+      "Comparator": "EqualTo",
+      "LocaleValues": [
+       {
+        "Country": "US"
+       }
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     },
+     {
+      "QualificationTypeId": "000000000000000000L0",
+      "Comparator": "GreaterThanOrEqualTo",
+      "IntegerValues": [
+       95
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     }
+    ],
+    "HITReviewStatus": "NotReviewed",
+    "NumberOfAssignmentsPending": 0,
+    "NumberOfAssignmentsAvailable": 9,
+    "NumberOfAssignmentsCompleted": 0
+   }
+  },
+  {
+   "HIT": {
+    "HITId": "3EQPA8A374LD638A2DG60PTCR9XZJY",
+    "HITTypeId": "379YH0H8TLIQVXZJJZV1C6CQYJVSZS",
+    "HITGroupId": "3PR0UJAG0Q6SKI6SFWK9A19UO4WHJE",
+    "CreationTime": "2020-04-22T18:21:45.000Z",
+    "Title": "Communication Game (5 mins)",
+    "Description": "view some objects and either describe to another turker or choose based on description",
+    "Question": "<ExternalQuestion xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd\">\n  <ExternalURL>https://callab.uchicago.edu/experiments/negation/combined2.html</ExternalURL>\n  <FrameHeight>700</FrameHeight>\n</ExternalQuestion>",
+    "Keywords": "game, communication, short",
+    "HITStatus": "Assignable",
+    "MaxAssignments": 9,
+    "Reward": "0.50",
+    "AutoApprovalDelayInSeconds": 300,
+    "Expiration": "2020-04-25T18:21:45.000Z",
+    "AssignmentDurationInSeconds": 3600,
+    "QualificationRequirements": [
+     {
+      "QualificationTypeId": "00000000000000000071",
+      "Comparator": "EqualTo",
+      "LocaleValues": [
+       {
+        "Country": "US"
+       }
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     },
+     {
+      "QualificationTypeId": "000000000000000000L0",
+      "Comparator": "GreaterThanOrEqualTo",
+      "IntegerValues": [
+       95
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     }
+    ],
+    "HITReviewStatus": "NotReviewed",
+    "NumberOfAssignmentsPending": 0,
+    "NumberOfAssignmentsAvailable": 9,
+    "NumberOfAssignmentsCompleted": 0
+   }
+  },
+  {
+   "HIT": {
+    "HITId": "3WA2XVDZEM637D27M7846BNPHX56EU",
+    "HITTypeId": "379YH0H8TLIQVXZJJZV1C6CQYJVSZS",
+    "HITGroupId": "3PR0UJAG0Q6SKI6SFWK9A19UO4WHJE",
+    "CreationTime": "2020-04-22T18:21:46.000Z",
+    "Title": "Communication Game (5 mins)",
+    "Description": "view some objects and either describe to another turker or choose based on description",
+    "Question": "<ExternalQuestion xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd\">\n  <ExternalURL>https://callab.uchicago.edu/experiments/negation/combined2.html</ExternalURL>\n  <FrameHeight>700</FrameHeight>\n</ExternalQuestion>",
+    "Keywords": "game, communication, short",
+    "HITStatus": "Assignable",
+    "MaxAssignments": 9,
+    "Reward": "0.50",
+    "AutoApprovalDelayInSeconds": 300,
+    "Expiration": "2020-04-25T18:21:46.000Z",
+    "AssignmentDurationInSeconds": 3600,
+    "QualificationRequirements": [
+     {
+      "QualificationTypeId": "00000000000000000071",
+      "Comparator": "EqualTo",
+      "LocaleValues": [
+       {
+        "Country": "US"
+       }
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     },
+     {
+      "QualificationTypeId": "000000000000000000L0",
+      "Comparator": "GreaterThanOrEqualTo",
+      "IntegerValues": [
+       95
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     }
+    ],
+    "HITReviewStatus": "NotReviewed",
+    "NumberOfAssignmentsPending": 0,
+    "NumberOfAssignmentsAvailable": 9,
+    "NumberOfAssignmentsCompleted": 0
+   }
+  },
+  {
+   "HIT": {
+    "HITId": "3SV8KD29L4H8HNESKYGI14TP6YXZKX",
+    "HITTypeId": "379YH0H8TLIQVXZJJZV1C6CQYJVSZS",
+    "HITGroupId": "3PR0UJAG0Q6SKI6SFWK9A19UO4WHJE",
+    "CreationTime": "2020-04-22T18:21:46.000Z",
+    "Title": "Communication Game (5 mins)",
+    "Description": "view some objects and either describe to another turker or choose based on description",
+    "Question": "<ExternalQuestion xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd\">\n  <ExternalURL>https://callab.uchicago.edu/experiments/negation/combined2.html</ExternalURL>\n  <FrameHeight>700</FrameHeight>\n</ExternalQuestion>",
+    "Keywords": "game, communication, short",
+    "HITStatus": "Assignable",
+    "MaxAssignments": 9,
+    "Reward": "0.50",
+    "AutoApprovalDelayInSeconds": 300,
+    "Expiration": "2020-04-25T18:21:46.000Z",
+    "AssignmentDurationInSeconds": 3600,
+    "QualificationRequirements": [
+     {
+      "QualificationTypeId": "00000000000000000071",
+      "Comparator": "EqualTo",
+      "LocaleValues": [
+       {
+        "Country": "US"
+       }
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     },
+     {
+      "QualificationTypeId": "000000000000000000L0",
+      "Comparator": "GreaterThanOrEqualTo",
+      "IntegerValues": [
+       95
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     }
+    ],
+    "HITReviewStatus": "NotReviewed",
+    "NumberOfAssignmentsPending": 0,
+    "NumberOfAssignmentsAvailable": 9,
+    "NumberOfAssignmentsCompleted": 0
+   }
+  },
+  {
+   "HIT": {
+    "HITId": "3E6L1VR4XWBVDR23HISAOT8PTYK6FC",
+    "HITTypeId": "379YH0H8TLIQVXZJJZV1C6CQYJVSZS",
+    "HITGroupId": "3PR0UJAG0Q6SKI6SFWK9A19UO4WHJE",
+    "CreationTime": "2020-04-22T18:21:47.000Z",
+    "Title": "Communication Game (5 mins)",
+    "Description": "view some objects and either describe to another turker or choose based on description",
+    "Question": "<ExternalQuestion xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd\">\n  <ExternalURL>https://callab.uchicago.edu/experiments/negation/combined2.html</ExternalURL>\n  <FrameHeight>700</FrameHeight>\n</ExternalQuestion>",
+    "Keywords": "game, communication, short",
+    "HITStatus": "Assignable",
+    "MaxAssignments": 9,
+    "Reward": "0.50",
+    "AutoApprovalDelayInSeconds": 300,
+    "Expiration": "2020-04-25T18:21:47.000Z",
+    "AssignmentDurationInSeconds": 3600,
+    "QualificationRequirements": [
+     {
+      "QualificationTypeId": "00000000000000000071",
+      "Comparator": "EqualTo",
+      "LocaleValues": [
+       {
+        "Country": "US"
+       }
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     },
+     {
+      "QualificationTypeId": "000000000000000000L0",
+      "Comparator": "GreaterThanOrEqualTo",
+      "IntegerValues": [
+       95
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     }
+    ],
+    "HITReviewStatus": "NotReviewed",
+    "NumberOfAssignmentsPending": 0,
+    "NumberOfAssignmentsAvailable": 9,
+    "NumberOfAssignmentsCompleted": 0
+   }
+  },
+  {
+   "HIT": {
+    "HITId": "38LRF35D5LLLZQCBT5PB3QX8TUWU3S",
+    "HITTypeId": "379YH0H8TLIQVXZJJZV1C6CQYJVSZS",
+    "HITGroupId": "3PR0UJAG0Q6SKI6SFWK9A19UO4WHJE",
+    "CreationTime": "2020-04-22T18:21:48.000Z",
+    "Title": "Communication Game (5 mins)",
+    "Description": "view some objects and either describe to another turker or choose based on description",
+    "Question": "<ExternalQuestion xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd\">\n  <ExternalURL>https://callab.uchicago.edu/experiments/negation/combined2.html</ExternalURL>\n  <FrameHeight>700</FrameHeight>\n</ExternalQuestion>",
+    "Keywords": "game, communication, short",
+    "HITStatus": "Assignable",
+    "MaxAssignments": 9,
+    "Reward": "0.50",
+    "AutoApprovalDelayInSeconds": 300,
+    "Expiration": "2020-04-25T18:21:48.000Z",
+    "AssignmentDurationInSeconds": 3600,
+    "QualificationRequirements": [
+     {
+      "QualificationTypeId": "00000000000000000071",
+      "Comparator": "EqualTo",
+      "LocaleValues": [
+       {
+        "Country": "US"
+       }
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     },
+     {
+      "QualificationTypeId": "000000000000000000L0",
+      "Comparator": "GreaterThanOrEqualTo",
+      "IntegerValues": [
+       95
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     }
+    ],
+    "HITReviewStatus": "NotReviewed",
+    "NumberOfAssignmentsPending": 0,
+    "NumberOfAssignmentsAvailable": 9,
+    "NumberOfAssignmentsCompleted": 0
+   }
+  },
+  {
+   "HIT": {
+    "HITId": "32TZXEA1OL9Q8P4HRVKA2TKHWXV41O",
+    "HITTypeId": "379YH0H8TLIQVXZJJZV1C6CQYJVSZS",
+    "HITGroupId": "3PR0UJAG0Q6SKI6SFWK9A19UO4WHJE",
+    "CreationTime": "2020-04-22T18:21:48.000Z",
+    "Title": "Communication Game (5 mins)",
+    "Description": "view some objects and either describe to another turker or choose based on description",
+    "Question": "<ExternalQuestion xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd\">\n  <ExternalURL>https://callab.uchicago.edu/experiments/negation/combined2.html</ExternalURL>\n  <FrameHeight>700</FrameHeight>\n</ExternalQuestion>",
+    "Keywords": "game, communication, short",
+    "HITStatus": "Assignable",
+    "MaxAssignments": 9,
+    "Reward": "0.50",
+    "AutoApprovalDelayInSeconds": 300,
+    "Expiration": "2020-04-25T18:21:48.000Z",
+    "AssignmentDurationInSeconds": 3600,
+    "QualificationRequirements": [
+     {
+      "QualificationTypeId": "00000000000000000071",
+      "Comparator": "EqualTo",
+      "LocaleValues": [
+       {
+        "Country": "US"
+       }
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     },
+     {
+      "QualificationTypeId": "000000000000000000L0",
+      "Comparator": "GreaterThanOrEqualTo",
+      "IntegerValues": [
+       95
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     }
+    ],
+    "HITReviewStatus": "NotReviewed",
+    "NumberOfAssignmentsPending": 0,
+    "NumberOfAssignmentsAvailable": 9,
+    "NumberOfAssignmentsCompleted": 0
+   }
+  },
+  {
+   "HIT": {
+    "HITId": "3ODOP6T3AS9XXAMDAZKO7CUMO39425",
+    "HITTypeId": "379YH0H8TLIQVXZJJZV1C6CQYJVSZS",
+    "HITGroupId": "3PR0UJAG0Q6SKI6SFWK9A19UO4WHJE",
+    "CreationTime": "2020-04-22T18:21:49.000Z",
+    "Title": "Communication Game (5 mins)",
+    "Description": "view some objects and either describe to another turker or choose based on description",
+    "Question": "<ExternalQuestion xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd\">\n  <ExternalURL>https://callab.uchicago.edu/experiments/negation/combined2.html</ExternalURL>\n  <FrameHeight>700</FrameHeight>\n</ExternalQuestion>",
+    "Keywords": "game, communication, short",
+    "HITStatus": "Assignable",
+    "MaxAssignments": 9,
+    "Reward": "0.50",
+    "AutoApprovalDelayInSeconds": 300,
+    "Expiration": "2020-04-25T18:21:49.000Z",
+    "AssignmentDurationInSeconds": 3600,
+    "QualificationRequirements": [
+     {
+      "QualificationTypeId": "00000000000000000071",
+      "Comparator": "EqualTo",
+      "LocaleValues": [
+       {
+        "Country": "US"
+       }
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     },
+     {
+      "QualificationTypeId": "000000000000000000L0",
+      "Comparator": "GreaterThanOrEqualTo",
+      "IntegerValues": [
+       95
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     }
+    ],
+    "HITReviewStatus": "NotReviewed",
+    "NumberOfAssignmentsPending": 0,
+    "NumberOfAssignmentsAvailable": 9,
+    "NumberOfAssignmentsCompleted": 0
+   }
+  },
+  {
+   "HIT": {
+    "HITId": "3TTPFEFXCT9FRNT9C8GAREK29DX6HA",
+    "HITTypeId": "379YH0H8TLIQVXZJJZV1C6CQYJVSZS",
+    "HITGroupId": "3PR0UJAG0Q6SKI6SFWK9A19UO4WHJE",
+    "CreationTime": "2020-04-22T18:21:50.000Z",
+    "Title": "Communication Game (5 mins)",
+    "Description": "view some objects and either describe to another turker or choose based on description",
+    "Question": "<ExternalQuestion xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd\">\n  <ExternalURL>https://callab.uchicago.edu/experiments/negation/combined2.html</ExternalURL>\n  <FrameHeight>700</FrameHeight>\n</ExternalQuestion>",
+    "Keywords": "game, communication, short",
+    "HITStatus": "Assignable",
+    "MaxAssignments": 9,
+    "Reward": "0.50",
+    "AutoApprovalDelayInSeconds": 300,
+    "Expiration": "2020-04-25T18:21:50.000Z",
+    "AssignmentDurationInSeconds": 3600,
+    "QualificationRequirements": [
+     {
+      "QualificationTypeId": "00000000000000000071",
+      "Comparator": "EqualTo",
+      "LocaleValues": [
+       {
+        "Country": "US"
+       }
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     },
+     {
+      "QualificationTypeId": "000000000000000000L0",
+      "Comparator": "GreaterThanOrEqualTo",
+      "IntegerValues": [
+       95
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     }
+    ],
+    "HITReviewStatus": "NotReviewed",
+    "NumberOfAssignmentsPending": 0,
+    "NumberOfAssignmentsAvailable": 9,
+    "NumberOfAssignmentsCompleted": 0
+   }
+  },
+  {
+   "HIT": {
+    "HITId": "3TZDZ3Y0JSVR5VAT8QG1J1VXIP991P",
+    "HITTypeId": "379YH0H8TLIQVXZJJZV1C6CQYJVSZS",
+    "HITGroupId": "3PR0UJAG0Q6SKI6SFWK9A19UO4WHJE",
+    "CreationTime": "2020-04-22T18:21:51.000Z",
+    "Title": "Communication Game (5 mins)",
+    "Description": "view some objects and either describe to another turker or choose based on description",
+    "Question": "<ExternalQuestion xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd\">\n  <ExternalURL>https://callab.uchicago.edu/experiments/negation/combined2.html</ExternalURL>\n  <FrameHeight>700</FrameHeight>\n</ExternalQuestion>",
+    "Keywords": "game, communication, short",
+    "HITStatus": "Assignable",
+    "MaxAssignments": 9,
+    "Reward": "0.50",
+    "AutoApprovalDelayInSeconds": 300,
+    "Expiration": "2020-04-25T18:21:51.000Z",
+    "AssignmentDurationInSeconds": 3600,
+    "QualificationRequirements": [
+     {
+      "QualificationTypeId": "00000000000000000071",
+      "Comparator": "EqualTo",
+      "LocaleValues": [
+       {
+        "Country": "US"
+       }
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     },
+     {
+      "QualificationTypeId": "000000000000000000L0",
+      "Comparator": "GreaterThanOrEqualTo",
+      "IntegerValues": [
+       95
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     }
+    ],
+    "HITReviewStatus": "NotReviewed",
+    "NumberOfAssignmentsPending": 0,
+    "NumberOfAssignmentsAvailable": 9,
+    "NumberOfAssignmentsCompleted": 0
+   }
+  },
+  {
+   "HIT": {
+    "HITId": "385MDVINFC49C835RQWZ1LZUA7TWJ5",
+    "HITTypeId": "379YH0H8TLIQVXZJJZV1C6CQYJVSZS",
+    "HITGroupId": "3PR0UJAG0Q6SKI6SFWK9A19UO4WHJE",
+    "CreationTime": "2020-04-22T18:21:51.000Z",
+    "Title": "Communication Game (5 mins)",
+    "Description": "view some objects and either describe to another turker or choose based on description",
+    "Question": "<ExternalQuestion xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd\">\n  <ExternalURL>https://callab.uchicago.edu/experiments/negation/combined2.html</ExternalURL>\n  <FrameHeight>700</FrameHeight>\n</ExternalQuestion>",
+    "Keywords": "game, communication, short",
+    "HITStatus": "Assignable",
+    "MaxAssignments": 9,
+    "Reward": "0.50",
+    "AutoApprovalDelayInSeconds": 300,
+    "Expiration": "2020-04-25T18:21:51.000Z",
+    "AssignmentDurationInSeconds": 3600,
+    "QualificationRequirements": [
+     {
+      "QualificationTypeId": "00000000000000000071",
+      "Comparator": "EqualTo",
+      "LocaleValues": [
+       {
+        "Country": "US"
+       }
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     },
+     {
+      "QualificationTypeId": "000000000000000000L0",
+      "Comparator": "GreaterThanOrEqualTo",
+      "IntegerValues": [
+       95
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     }
+    ],
+    "HITReviewStatus": "NotReviewed",
+    "NumberOfAssignmentsPending": 0,
+    "NumberOfAssignmentsAvailable": 9,
+    "NumberOfAssignmentsCompleted": 0
+   }
+  },
+  {
+   "HIT": {
+    "HITId": "3PMR2DOWOOQPW750SIMM5JXY8D0456",
+    "HITTypeId": "379YH0H8TLIQVXZJJZV1C6CQYJVSZS",
+    "HITGroupId": "3PR0UJAG0Q6SKI6SFWK9A19UO4WHJE",
+    "CreationTime": "2020-04-22T18:21:52.000Z",
+    "Title": "Communication Game (5 mins)",
+    "Description": "view some objects and either describe to another turker or choose based on description",
+    "Question": "<ExternalQuestion xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd\">\n  <ExternalURL>https://callab.uchicago.edu/experiments/negation/combined2.html</ExternalURL>\n  <FrameHeight>700</FrameHeight>\n</ExternalQuestion>",
+    "Keywords": "game, communication, short",
+    "HITStatus": "Assignable",
+    "MaxAssignments": 1,
+    "Reward": "0.50",
+    "AutoApprovalDelayInSeconds": 300,
+    "Expiration": "2020-04-25T18:21:52.000Z",
+    "AssignmentDurationInSeconds": 3600,
+    "QualificationRequirements": [
+     {
+      "QualificationTypeId": "00000000000000000071",
+      "Comparator": "EqualTo",
+      "LocaleValues": [
+       {
+        "Country": "US"
+       }
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     },
+     {
+      "QualificationTypeId": "000000000000000000L0",
+      "Comparator": "GreaterThanOrEqualTo",
+      "IntegerValues": [
+       95
+      ],
+      "RequiredToPreview": false,
+      "ActionsGuarded": "Accept"
+     }
+    ],
+    "HITReviewStatus": "NotReviewed",
+    "NumberOfAssignmentsPending": 0,
+    "NumberOfAssignmentsAvailable": 1,
+    "NumberOfAssignmentsCompleted": 0
+   }
+  }
+ ]
+}

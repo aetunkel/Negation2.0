@@ -1,0 +1,91 @@
+{
+ "AssignmentId": "358UUM7WR0SE61JBHP2YZGHVENX7RG",
+ "WorkerId": "1eca80e82586fc4c6f7565bb955a6782",
+ "HITId": "3HO4MYYR12DKW9ZTC7N9AT9S3LYU6Y",
+ "AssignmentStatus": "Approved",
+ "AutoApprovalTime": "2020-04-22T20:43:00.000Z",
+ "AcceptTime": "2020-04-22T20:01:18.000Z",
+ "SubmitTime": "2020-04-22T20:38:00.000Z",
+ "ApprovalTime": "2020-04-22T20:43:20.000Z",
+ "answers": {
+  "data": {
+   "responses": "\"rt\",\"responses\",\"locator\",\"trial_type\",\"trial_index\",\"time_elapsed\",\"internal_node_id\"\r\n\"7424.549999996088\",\"{\"\"Q0\"\":\"\"bird\"\"}\",\"lookup-code-0\",\"survey-text\",\"3\",\"42078\",\"0.0-3.0-0.0-0.0\"\r\n\"13843.829999910668\",\"{\"\"Q0\"\":\"\"art\"\"}\",\"\",\"survey-text\",\"5\",\"59461\",\"0.0-5.0-0.0-0.0\"\r\n\"10566.310000023805\",\"{\"\"Q0\"\":\"\"tugboatjim\"\"}\",\"\",\"survey-text\",\"7\",\"74965\",\"0.0-7.0\"\r\n\"7737.164999940433\",\"{\"\"Q0\"\":\"\"bird\"\"}\",\"\",\"survey-text\",\"10\",\"90709\",\"0.0-10.0\"\r\n\"6284.40500004217\",\"{\"\"Q0\"\":\"\"airplane\"\"}\",\"\",\"survey-text\",\"12\",\"98349\",\"0.0-12.0\"\r\n\"11325.070000020787\",\"{\"\"Q0\"\":\"\"flower (daisy/sunflower)\"\"}\",\"\",\"survey-text\",\"16\",\"117853\",\"0.0-16.0\"\r\n\"11774.440000066534\",\"{\"\"Q0\"\":\"\"not the apple\"\"}\",\"\",\"survey-text\",\"19\",\"133485\",\"0.0-19.0\"\r\n\"8013.969999970868\",\"{\"\"Q0\"\":\"\"paddle with holes in it\"\"}\",\"\",\"survey-text\",\"22\",\"145358\",\"0.0-22.0\"\r\n\"4050.9999999776483\",\"{\"\"Q0\"\":\"\"black shoe\"\"}\",\"\",\"survey-text\",\"25\",\"153765\",\"0.0-25.0\"\r\n\"5120.405000052415\",\"{\"\"Q0\"\":\"\"dice\"\"}\",\"\",\"survey-text\",\"28\",\"164493\",\"0.0-28.0\"\r\n\"3380.5949999950826\",\"{\"\"Q0\"\":\"\"dice\"\"}\",\"\",\"survey-text\",\"31\",\"172229\",\"0.0-31.0\"\r\n\"3141.4349999977276\",\"{\"\"Q0\"\":\"\"dice\"\"}\",\"\",\"survey-text\",\"34\",\"180477\",\"0.0-34.0\"\r\n\"15682.520000031218\",\"{\"\"Q0\"\":\"\"statue thing with feet (on its side) (not the dice)\"\"}\",\"\",\"survey-text\",\"37\",\"202277\",\"0.0-37.0\"\r\n\"7741.875000065193\",\"{\"\"Q0\"\":\"\"blimp with holes in it\"\"}\",\"\",\"survey-text\",\"40\",\"216125\",\"0.0-40.0\"\r\n\"14414.800000027753\",\"{\"\"Q0\"\":\"\"looks like gumby with his arms up and a cup on his head\"\"}\",\"\",\"survey-text\",\"43\",\"234397\",\"0.0-43.0\"\r\n\"22509.08500002697\",\"{\"\"Q0\"\":\"\"snowboard wrapped around another snowboard\"\"}\",\"\",\"survey-text\",\"46\",\"263013\",\"0.0-46.0\"\r\n\"18362.94999998063\",\"{\"\"Q0\"\":\"\"bunch of barrels stuck together forming an almost square\"\"}\",\"\",\"survey-text\",\"49\",\"287485\",\"0.0-49.0\"\r\n\"17283.909999998286\",\"{\"\"Q0\"\":\"\"cup and handle with a stick with a ball shape on either end \"\"}\",\"\",\"survey-text\",\"52\",\"308877\",\"0.0-52.0\"\r\n\"12319.299999973737\",\"{\"\"Q0\"\":\"\"cup and handle with stick that has ball shapes on either end\"\"}\",\"\",\"survey-text\",\"55\",\"326301\",\"0.0-55.0\"\r\n\"12881.894999998622\",\"{\"\"Q0\"\":\"\"cup and handle with stick that has ball shapes on either end\"\"}\",\"\",\"survey-text\",\"58\",\"343789\",\"0.0-58.0\"\r\n\"15879.34999994468\",\"{\"\"Q0\"\":\"\"looks like a nasty looking virus shape or ball so spaghetti \"\"}\",\"\",\"survey-text\",\"61\",\"363525\",\"0.0-61.0\"\r\n",
+   "trial_info": [
+    [
+     "<img src = 'img/practiceTarget1.jpg' class='target'>",
+     "<img src='img/practiceDistractor1.jpg' class='image'>"
+    ],
+    [
+     "<img src='img/practiceDistractor2.jpg' class='image'>",
+     "<img src ='img/practiceTarget2.jpg' class='target'>"
+    ],
+    [
+     [
+      "<img src='img/L.jpg' class='target'>",
+      "<img src='img/3.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/A.jpg' class='image'>",
+      "<img src='img/20.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/24.jpg' class='target'>",
+      "<img src='img/N.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/C.jpg' class='target'>",
+      "<img src='img/23.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/H.jpg' class='target'>",
+      "<img src='img/4.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/H.jpg' class='target'>",
+      "<img src='img/27.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/H.jpg' class='target'>",
+      "<img src='img/26.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/H.jpg' class='image'>",
+      "<img src='img/5.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/6.jpg' class='image'>",
+      "<img src='img/16.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/25.jpg' class='target'>",
+      "<img src='img/8.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/15.jpg' class='image'>",
+      "<img src='img/7.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/21.jpg' class='image'>",
+      "<img src='img/11.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/17.jpg' class='image'>",
+      "<img src='img/9.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/2.jpg' class='image'>",
+      "<img src='img/9.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/9.jpg' class='target'>",
+      "<img src='img/1.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/19.jpg' class='target'>",
+      "<img src='img/9.jpg' class='image'>"
+     ]
+    ]
+   ]
+  }
+ }
+}

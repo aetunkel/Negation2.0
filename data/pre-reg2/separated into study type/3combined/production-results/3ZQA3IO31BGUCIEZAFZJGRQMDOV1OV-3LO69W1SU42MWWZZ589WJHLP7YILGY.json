@@ -1,0 +1,91 @@
+{
+ "AssignmentId": "3LO69W1SU42MWWZZ589WJHLP7YILGY",
+ "WorkerId": "b4f6bf61981a06aa87879e9717d74c72",
+ "HITId": "3ZQA3IO31BGUCIEZAFZJGRQMDOV1OV",
+ "AssignmentStatus": "Approved",
+ "AutoApprovalTime": "2020-04-22T19:03:21.000Z",
+ "AcceptTime": "2020-04-22T18:22:23.000Z",
+ "SubmitTime": "2020-04-22T18:58:21.000Z",
+ "ApprovalTime": "2020-04-22T19:04:20.000Z",
+ "answers": {
+  "data": {
+   "responses": "\"rt\",\"responses\",\"locator\",\"trial_type\",\"trial_index\",\"time_elapsed\",\"internal_node_id\"\r\n\"4178.820000000087\",\"{\"\"Q0\"\":\"\"bird\"\"}\",\"lookup-code-0\",\"survey-text\",\"3\",\"48923\",\"0.0-3.0-0.0-0.0\"\r\n\"19736.32499999985\",\"{\"\"Q0\"\":\"\"unique shaped figure\"\"}\",\"\",\"survey-text\",\"5\",\"71270\",\"0.0-5.0-0.0-0.0\"\r\n\"5344.210000000196\",\"{\"\"Q0\"\":\"\"art\"\"}\",\"\",\"survey-text\",\"6\",\"79707\",\"0.0-5.0-0.1-0.1\"\r\n\"5045.470000000016\",\"{\"\"Q0\"\":\"\"dyl\"\"}\",\"\",\"survey-text\",\"8\",\"86664\",\"0.0-7.0\"\r\n\"4409.959999999948\",\"{\"\"Q0\"\":\"\"bird\"\"}\",\"\",\"survey-text\",\"11\",\"99086\",\"0.0-10.0\"\r\n\"3949.435000000449\",\"{\"\"Q0\"\":\"\"plane\"\"}\",\"\",\"survey-text\",\"13\",\"104146\",\"0.0-12.0\"\r\n\"5155.285000000731\",\"{\"\"Q0\"\":\"\"blimp\"\"}\",\"\",\"survey-text\",\"17\",\"115218\",\"0.0-16.0\"\r\n\"2972.5700000008073\",\"{\"\"Q0\"\":\"\"two legs\"\"}\",\"\",\"survey-text\",\"20\",\"122804\",\"0.0-19.0\"\r\n\"11206.304999999717\",\"{\"\"Q0\"\":\"\"long shape with two hands\"\"}\",\"\",\"survey-text\",\"23\",\"138118\",\"0.0-22.0\"\r\n\"21167.449999999924\",\"{\"\"Q0\"\":\"\"handle with a circular shape at the end\"\"}\",\"\",\"survey-text\",\"26\",\"163393\",\"0.0-25.0\"\r\n\"14728.315000000293\",\"{\"\"Q0\"\":\"\"long shape with two objects touching at the top\"\"}\",\"\",\"survey-text\",\"29\",\"182233\",\"0.0-28.0\"\r\n\"12654.469999999477\",\"{\"\"Q0\"\":\"\"long shape with two hands meeting at the top\"\"}\",\"\",\"survey-text\",\"32\",\"199519\",\"0.0-31.0\"\r\n\"16551.590000000026\",\"{\"\"Q0\"\":\"\"long shape with two hands forming a circle\"\"}\",\"\",\"survey-text\",\"35\",\"220185\",\"0.0-34.0\"\r\n\"5786.12999999951\",\"{\"\"Q0\"\":\"\"plane\"\"}\",\"\",\"survey-text\",\"38\",\"231081\",\"0.0-37.0\"\r\n\"2461.629999999801\",\"{\"\"Q0\"\":\"\"dice\"\"}\",\"\",\"survey-text\",\"41\",\"239154\",\"0.0-40.0\"\r\n\"5832.58000000022\",\"{\"\"Q0\"\":\"\"not the cat\"\"}\",\"\",\"survey-text\",\"44\",\"250093\",\"0.0-43.0\"\r\n\"4985.9500000002445\",\"{\"\"Q0\"\":\"\"not the tree\"\"}\",\"\",\"survey-text\",\"47\",\"261187\",\"0.0-46.0\"\r\n\"7560.354999999632\",\"{\"\"Q0\"\":\"\"butterfly\"\"}\",\"\",\"survey-text\",\"50\",\"273107\",\"0.0-49.0\"\r\n\"2680.110000000277\",\"{\"\"Q0\"\":\"\"fork\"\"}\",\"\",\"survey-text\",\"53\",\"279645\",\"0.0-52.0\"\r\n\"3736.1749999999884\",\"{\"\"Q0\"\":\"\"fork\"\"}\",\"\",\"survey-text\",\"56\",\"287492\",\"0.0-55.0\"\r\n\"4606.939999999711\",\"{\"\"Q0\"\":\"\"fork\"\"}\",\"\",\"survey-text\",\"59\",\"296959\",\"0.0-58.0\"\r\n\"5763.635000000242\",\"{\"\"Q0\"\":\"\"not the fork\"\"}\",\"\",\"survey-text\",\"62\",\"308333\",\"0.0-61.0\"\r\n",
+   "trial_info": [
+    [
+     "<img src = 'img/practiceTarget1.jpg' class='target'>",
+     "<img src='img/practiceDistractor1.jpg' class='image'>"
+    ],
+    [
+     "<img src='img/practiceDistractor2.jpg' class='image'>",
+     "<img src ='img/practiceTarget2.jpg' class='target'>"
+    ],
+    [
+     [
+      "<img src='img/16.jpg' class='target'>",
+      "<img src='img/6.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/27.jpg' class='target'>",
+      "<img src='img/8.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/2.jpg' class='image'>",
+      "<img src='img/25.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/10.jpg' class='target'>",
+      "<img src='img/23.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/21.jpg' class='image'>",
+      "<img src='img/7.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/9.jpg' class='image'>",
+      "<img src='img/7.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/7.jpg' class='target'>",
+      "<img src='img/12.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/7.jpg' class='image'>",
+      "<img src='img/5.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/H.jpg' class='target'>",
+      "<img src='img/11.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/B.jpg' class='image'>",
+      "<img src='img/4.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/J.jpg' class='image'>",
+      "<img src='img/19.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/1.jpg' class='image'>",
+      "<img src='img/K.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/24.jpg' class='image'>",
+      "<img src='img/G.jpg' class='target'>"
+     ],
+     [
+      "<img src='img/G.jpg' class='target'>",
+      "<img src='img/15.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/G.jpg' class='target'>",
+      "<img src='img/17.jpg' class='image'>"
+     ],
+     [
+      "<img src='img/G.jpg' class='image'>",
+      "<img src='img/3.jpg' class='target'>"
+     ]
+    ]
+   ]
+  }
+ }
+}
