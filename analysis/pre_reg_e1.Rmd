@@ -59,7 +59,7 @@ mean_data <- coded_data %>%
   mutate(empirical_stat = empirical_stat)
 ```
 
-```{r plot_negation}
+```{r plot_negation_all}
 ggplot(mean_data, aes(x = switch, y = empirical_stat, color = experiment)) + 
   facet_grid(order ~ type) +
   geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper), 
@@ -69,79 +69,64 @@ ggplot(mean_data, aes(x = switch, y = empirical_stat, color = experiment)) +
   theme(legend.position = c(.15,.8), aspect.ratio = 1)
 ```
 
-
-
-```{r model}
-no_distractor_model <- glmer(negation ~  switch * experiment + order + trial +
-                 (1 | id) + (1 | target), 
-               family = "binomial", 
-               data = coded_data %>% filter(type == "unknown")) %>%
-  tidy() %>%
-  filter(effect == "fixed") %>%
-  select(-group, -effect)
-
-no_distractor_model
+Predicted three way interaction between trial type, order, and distractor type 
+```{r plot_negation_unknown}
+ggplot(mean_data, aes(x = switch, y = empirical_stat, color = experiment)) + 
+  facet_grid(order ~ type) +
+  geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper), 
+                  position = position_dodge(.5)) + 
+  scale_color_ptol() + 
+  labs(y = "negation probability", x = "") + 
+  theme(legend.position = c(.15,.8), aspect.ratio = 1)
 ```
 
-```{r interaction-model}
-interaction_model <- glmer(negation ~  switch * order * experiment + 
-                 (1 | id), 
-               family = "binomial", 
-               data = coded_data %>% filter(type == "unknown")) %>%
+```{r simplest_model}
+simplest_model <- glmer(negation ~ switch * distractor_type * order + 
+                          (1 |  id), family = "binomial", 
+                        data = unknown_data) %>%
   tidy() %>%
   filter(effect == "fixed") %>%
   select(-group, -effect)
-
-interaction_model
 ```
 
 ```{r models, eval = FALSE}
 # Will try maximal model first, and then subsequent models sequentially 
 # until a model converges withou any error messages or warnings
-maximal_model <- glmer(negation ~  switch * experiment + order + trial +
-                 (switch + trial | id) + (1 | target) + (1 | distractor), 
-               family = "binomial", 
-               data = coded_data %>% filter(type == "unknown")) %>%
+maximal_model <- glmer(negation ~ switch * distractor_type * order + 
+                         (switch * distractor_type | id) + (1 | target) + 
+                         (1 | distractor),  family = "binomial", 
+                       data = unknown_data) %>%
   tidy() %>%
   filter(effect == "fixed") %>%
   select(-group, -effect)
 
-no_trial_slope_model <- glmer(negation ~  switch * experiment + order + trial +
-                 (switch | id) + (1 | target) + (1 | distractor), 
-               family = "binomial", 
-               data = coded_data %>% filter(type == "unknown")) %>%
+no_interaction_slope_model <- glmer(negation ~ switch * distractor_type * 
+                                      order + (switch + distractor_type | id) + 
+                                      (1 | target) + (1 | distractor), 
+                                    family = "binomial", 
+                                    data = unknown_data) %>%
   tidy() %>%
   filter(effect == "fixed") %>%
   select(-group, -effect)
 
-no_slope_model <- glmer(negation ~  switch * experiment + order + trial +
-                 (1 | id) + (1 | target) + (1 | distractor), 
-               family = "binomial", 
-               data = coded_data %>% filter(type == "unknown")) %>%
+no_slope_model <- glmer(negation ~ switch * distractor_type * order + 
+                          (1 | id) + (1 | target) + (1 | distractor), 
+                        family = "binomial", 
+                        data = unknown_data) %>%
   tidy() %>%
   filter(effect == "fixed") %>%
   select(-group, -effect)
 
-no_distractor_model <- glmer(negation ~  switch * experiment + order + trial +
-                 (1 | id) + (1 | target), 
-               family = "binomial", 
-               data = coded_data %>% filter(type == "unknown")) %>%
+no_distractor_model <- glmer(negation ~ switch * distractor_type * order + 
+                               (1 |  id) + (1 | target), family = "binomial", 
+                             data = unknown_data) %>%
   tidy() %>%
   filter(effect == "fixed") %>%
   select(-group, -effect)
 
-no_trial_model <- glmer(negation ~  switch * experiment + order +
-                 (1 | id) + (1 | target), 
-               family = "binomial", 
-               data = coded_data %>% filter(type == "unknown")) %>%
-  tidy() %>%
-  filter(effect == "fixed") %>%
-  select(-group, -effect)
-
-simplest_model <- glmer(negation ~  switch * experiment +
-                 (1 | id) + (1 | target), 
-               family = "binomial", 
-               data = coded_data %>% filter(type == "unknown")) %>%
+no_target_model <- glmer(negation ~ switch * distractor_type * order + 
+                          (1 |  id) , family = "binomial", 
+                        data = unknown_data) %>%
   tidy() %>%
   filter(effect == "fixed") %>%
   select(-group, -effect)

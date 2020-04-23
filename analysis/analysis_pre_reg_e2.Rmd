@@ -52,21 +52,19 @@ write_csv(coded_data, here("data/pre-reg2/coded_data.csv"))
 ```
 
 ```{r read_coded_data, message = FALSE, warning= FALSE}
-coded_data <- read_csv(here("data/pre-reg2/coded_data.csv")) %>%
+coded_data <- read_csv(here("data/pilots/combined/coded_data.csv")) %>%
   filter(!is.na(negation)) %>%
   mutate(block = if_else(trial >= 11, 2, 1),
          block_type =  case_when(
            order == "mixed first" & block == 2 ~ "all unknown",
            order == "unknown first" & block == 1 ~ "all unknown",
-           T ~ mixed_repeated),
+           T ~ "mixed"),
          target_type = factor(target_type, levels = c("known", "unknown"), 
                            labels = c("known target", "unknown target")),
          distractor_type = factor(distractor_type, 
                                   levels = c("known", "unknown"), 
                            labels = c("known distractor", 
-                                      "unknown distractor")),
-         block_type = factor(block_type, 
-                             levels = c("unknown first", "mixed first")))
+                                      "unknown distractor")))
 
 unknown_data <- filter(coded_data, target_type == "unknown target")
 ```
@@ -89,7 +87,19 @@ ggplot(mean_data %>% filter(target_type == "unknown target"),
   theme(legend.position = "bottom")
 ```
 
+Predicted three way interaction between trial type, order, and distractor type 
+```{r plot_unknown_negation} 
+ggplot(mean_data %>% filter(target_type == "unknown target"),
+       aes(x = switch, y = empirical_mean, color = distractor_type, 
+           shape = order)) + 
+  geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper), 
+                  position = position_dodge(.5)) + 
+  scale_color_ptol() + 
+  labs(y = "negation probability", x = "") + 
+  theme(legend.position = "bottom")
+```
 
+Simplest model for testing
 ```{r model}
 simplest_model <- glmer(negation ~ switch * distractor_type * order + 
                           (1 |  id), family = "binomial", 
@@ -99,9 +109,8 @@ simplest_model <- glmer(negation ~ switch * distractor_type * order +
   select(-group, -effect)
 ```
 
+Will try maximal model first, and then subsequent models sequentially until a model converges without any error messages or warnings
 ```{r models, eval = FALSE}
-# Will try maximal model first, and then subsequent models sequentially 
-# until a model converges withou any error messages or warnings
 maximal_model <- glmer(negation ~ switch * distractor_type * order + 
                          (switch * distractor_type | id) + (1 | target) + 
                          (1 | distractor),  family = "binomial", 
