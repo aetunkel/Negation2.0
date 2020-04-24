@@ -42,7 +42,9 @@ coded_data <- pre_processed_data %>%
   select(-negation) %>%
   left_join(manually_coded_data, by = c("mixed_repeated", "order", "id",
                                         "trial", "response"))
+
 coded_data <- read_csv(here("data/pre-reg2/pre_processed_data.csv"))
+
 excluded_ps <- coded_data %>%
   filter(is.na(negation)) %>%
   distinct(id) %>%
@@ -52,7 +54,7 @@ write_csv(coded_data, here("data/pre-reg2/coded_data.csv"))
 ```
 
 ```{r read_coded_data, message = FALSE, warning= FALSE}
-coded_data <- read_csv(here("data/pre-reg2/pre_processed_data.csv")) %>%
+coded_data <- read_csv(here("data/pre-reg2/coded_data.csv")) %>%
   filter(!is.na(negation)) %>%
   mutate(block = if_else(trial >= 11, 2, 1),
          block_type =  case_when(
@@ -79,7 +81,7 @@ mean_data <- coded_data %>%
 ```{r plot_negation}
 ggplot(mean_data,
        aes(x = switch, y = empirical_mean, color = distractor_type)) + 
-  facet_grid(order ~ mixed_repeated) +
+  facet_grid(order ~ target_type) +
   geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper), 
                   position = position_dodge(.5)) + 
   scale_color_ptol() + 
